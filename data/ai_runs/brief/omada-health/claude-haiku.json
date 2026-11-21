@@ -1,0 +1,533 @@
+{
+ "account": "Omada Health",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "aea847e79e9ffba4",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:56:25+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Omada Health had 23 open roles on its public job board on 2026-11-20. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s0ff4d9c534",
+   "title": "Director of Engineering, Eligibility & Revenue Systems",
+   "excerpt": "Director of Engineering, Eligibility & Revenue Systems",
+   "posted": "2026-11-11",
+   "posting_id": "greenhouse:omadahealth:8355741",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sc8792b6a97",
+   "title": "Senior Manager, Revenue Operations",
+   "excerpt": "Senior Manager, Revenue Operations",
+   "posted": "2026-08-25",
+   "posting_id": "greenhouse:omadahealth:8114215",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s843196aaad",
+   "title": "Chief Revenue Officer",
+   "excerpt": "Chief Revenue Officer",
+   "posted": "2026-04-17",
+   "posting_id": "greenhouse:omadahealth:7816243",
+   "family": "leadership"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s410efdfe7b",
+   "title": "Marketing Operations Associate, Direct Mail",
+   "excerpt": "Experience with marketing tools such as Asana and SFDC, plus data manipulation and analysis in spreadsheets.",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:omadahealth:8367734",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s57b2fa6e32",
+   "title": "Marketing Operations Associate, Direct Mail",
+   "excerpt": "3+ years of hands-on experience working in a marketing automation platform for direct mail operations (Marketo, Braze, Pardot, etc.).",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:omadahealth:8367734",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "sac97af7fe8",
+   "title": "Marketing Operations Associate, Direct Mail",
+   "excerpt": "3+ years of hands-on experience working in a marketing automation platform for direct mail operations (Marketo, Braze, Pardot, etc.).",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:omadahealth:8367734",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s04cacc5f96",
+   "title": "Regional Vice President, GLP-1 Sales",
+   "excerpt": "Regional Vice President, GLP-1 Sales",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:omadahealth:8383833",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s9bb96565a6",
+   "title": "Regional Vice President, Enterprise Sales",
+   "excerpt": "Regional Vice President, Enterprise Sales",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:omadahealth:8367730",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s89326472f8",
+   "title": "Regional Vice President, Mid Market Sales",
+   "excerpt": "Regional Vice President, Mid Market Sales",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:omadahealth:8356273",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The board lists three sales openings published from 2026-11-10 to 2026-11-18, all within the last 30 days [7][8][9].\"}, {\"text\": \"The \\\"Director of Engineering, Eligibility & Revenue Systems\\\" posting went up on 2026-11-11 [1].\"}, {\"text\": \"The \\\"Senior Manager, Revenue Operations\\\" posting went up on 2026-08-25 [2].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work shown in the \\\"Revenue Operations\\\" title [2], the \\\"Revenue Systems\\\" title [1], and three sales roles titled \\\"Regional Vice President\\\" [7][8][9].\"}, \"questions\": [\"Which of the three sales teams is hiring most actively right now?\", \"Who owns the \\\"Senior Manager, Revenue Operations\\\" work on your side?\", \"Which systems does your revenue team use day to day?\"], \"unknowns\": [\"Which systems the revenue team uses today\", \"Whether the sales roles are new or backfills\", \"Who leads revenue operations today\"], \"first_touch\": {\"subject\": \"Your revenue operations and sales hiring\", \"body\": \"Hi {first_name},\\n\\nI was reading your public job board. In November you posted \\\"Director of Engineering, Eligibility & Revenue Systems.\\\" In August you posted \\\"Senior Manager, Revenue Operations.\\\" You also have three open \\\"Regional Vice President\\\" roles across GLP-1, enterprise, and mid market sales.\\n\\nWho on your team leads the revenue operations work?\\n\\n{sender_name}\", \"cites\": [1, 2, 7, 8, 9]}}",
+   "meta": {
+    "ms": 41083,
+    "input_tokens": 2,
+    "output_tokens": 9380,
+    "cache_write_tokens": 5532,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.005812059999999999
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The board lists three sales openings published from 2026-11-10 to 2026-11-18, all within the last 30 days [7][8][9]."
+     },
+     {
+      "text": "The \"Director of Engineering, Eligibility & Revenue Systems\" posting went up on 2026-11-11 [1]."
+     },
+     {
+      "text": "The \"Senior Manager, Revenue Operations\" posting went up on 2026-08-25 [2]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work shown in the \"Revenue Operations\" title [2], the \"Revenue Systems\" title [1], and three sales roles titled \"Regional Vice President\" [7][8][9]."
+    },
+    "questions": [
+     "Which of the three sales teams is hiring most actively right now?",
+     "Who owns the \"Senior Manager, Revenue Operations\" work on your side?",
+     "Which systems does your revenue team use day to day?"
+    ],
+    "unknowns": [
+     "Which systems the revenue team uses today",
+     "Whether the sales roles are new or backfills",
+     "Who leads revenue operations today"
+    ],
+    "first_touch": {
+     "subject": "Your revenue operations and sales hiring",
+     "body": "Hi {first_name},\n\nI was reading your public job board. In November you posted \"Director of Engineering, Eligibility & Revenue Systems.\" In August you posted \"Senior Manager, Revenue Operations.\" You also have three open \"Regional Vice President\" roles across GLP-1, enterprise, and mid market sales.\n\nWho on your team leads the revenue operations work?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The board lists three sales openings published from 2026-11-10 to 2026-11-18, all within the last 30 days [7][8][9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": [
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Director of Engineering, Eligibility & Revenue Systems\" posting went up on 2026-11-11 [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Senior Manager, Revenue Operations\" posting went up on 2026-08-25 [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work shown in the \"Revenue Operations\" title [2], the \"Revenue Systems\" title [1], and three sales roles titled \"Regional Vice President\" [7][8][9].",
+      "cites": [
+       2,
+       1,
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of the three sales teams is hiring most actively right now?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the \"Senior Manager, Revenue Operations\" work on your side?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems does your revenue team use day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which systems the revenue team uses today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the sales roles are new or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who leads revenue operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI was reading your public job board. In November you posted \"Director of Engineering, Eligibility & Revenue Systems.\" In August you posted \"Senior Manager, Revenue Operations.\" You also have three open \"Regional Vice President\" roles across GLP-1, enterprise, and mid market sales.\n\nWho on your team leads the revenue operations work?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"All three sales openings published between 2026-11-10 and 2026-11-18 fall within the last 30 days [7][8][9].\"}, {\"text\": \"The \\\"Director of Engineering, Eligibility & Revenue Systems\\\" posting went up on 2026-11-11 [1].\"}, {\"text\": \"The \\\"Senior Manager, Revenue Operations\\\" posting went up on 2026-08-25 [2].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work named in the \\\"Senior Manager, Revenue Operations\\\" posting [2], the \\\"Director of Engineering, Eligibility & Revenue Systems\\\" posting [1], and the sales roles titled \\\"Regional Vice President\\\" [7][8][9].\"}, \"questions\": [\"Which of the three sales teams is hiring most actively right now?\", \"Who owns the \\\"Senior Manager, Revenue Operations\\\" work on your side?\", \"Which systems does your revenue team use day to day?\"], \"unknowns\": [\"Which systems the revenue team uses today\", \"Whether the sales roles are new or backfills\", \"Who leads revenue operations today\"], \"first_touch\": {\"subject\": \"Your revenue operations and sales hiring\", \"body\": \"Hi {first_name},\\n\\nI was reading your public job board. In November you posted \\\"Director of Engineering, Eligibility & Revenue Systems.\\\" In August you posted \\\"Senior Manager, Revenue Operations.\\\" You also have three open \\\"Regional Vice President\\\" roles across GLP-1, enterprise, and mid market sales.\\n\\nWho on your team leads the revenue operations work?\\n\\n{sender_name}\", \"cites\": [0, 1, 2, 7, 8, 9]}}",
+   "meta": {
+    "ms": 16877,
+    "input_tokens": 2,
+    "output_tokens": 3891,
+    "cache_write_tokens": 6193,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0031997600000000003
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "All three sales openings published between 2026-11-10 and 2026-11-18 fall within the last 30 days [7][8][9]."
+     },
+     {
+      "text": "The \"Director of Engineering, Eligibility & Revenue Systems\" posting went up on 2026-11-11 [1]."
+     },
+     {
+      "text": "The \"Senior Manager, Revenue Operations\" posting went up on 2026-08-25 [2]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work named in the \"Senior Manager, Revenue Operations\" posting [2], the \"Director of Engineering, Eligibility & Revenue Systems\" posting [1], and the sales roles titled \"Regional Vice President\" [7][8][9]."
+    },
+    "questions": [
+     "Which of the three sales teams is hiring most actively right now?",
+     "Who owns the \"Senior Manager, Revenue Operations\" work on your side?",
+     "Which systems does your revenue team use day to day?"
+    ],
+    "unknowns": [
+     "Which systems the revenue team uses today",
+     "Whether the sales roles are new or backfills",
+     "Who leads revenue operations today"
+    ],
+    "first_touch": {
+     "subject": "Your revenue operations and sales hiring",
+     "body": "Hi {first_name},\n\nI was reading your public job board. In November you posted \"Director of Engineering, Eligibility & Revenue Systems.\" In August you posted \"Senior Manager, Revenue Operations.\" You also have three open \"Regional Vice President\" roles across GLP-1, enterprise, and mid market sales.\n\nWho on your team leads the revenue operations work?\n\n{sender_name}",
+     "cites": [
+      0,
+      1,
+      2,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "All three sales openings published between 2026-11-10 and 2026-11-18 fall within the last 30 days [7][8][9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Director of Engineering, Eligibility & Revenue Systems\" posting went up on 2026-11-11 [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Senior Manager, Revenue Operations\" posting went up on 2026-08-25 [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work named in the \"Senior Manager, Revenue Operations\" posting [2], the \"Director of Engineering, Eligibility & Revenue Systems\" posting [1], and the sales roles titled \"Regional Vice President\" [7][8][9].",
+      "cites": [
+       2,
+       1,
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of the three sales teams is hiring most actively right now?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the \"Senior Manager, Revenue Operations\" work on your side?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems does your revenue team use day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which systems the revenue team uses today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the sales roles are new or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who leads revenue operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI was reading your public job board. In November you posted \"Director of Engineering, Eligibility & Revenue Systems.\" In August you posted \"Senior Manager, Revenue Operations.\" You also have three open \"Regional Vice President\" roles across GLP-1, enterprise, and mid market sales.\n\nWho on your team leads the revenue operations work?\n\n{sender_name}",
+      "cites": [
+       0,
+       1,
+       2,
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "All three sales openings published between 2026-11-10 and 2026-11-18 fall within the last 30 days [7][8][9]."
+    },
+    {
+     "text": "The \"Director of Engineering, Eligibility & Revenue Systems\" posting went up on 2026-11-11 [1]."
+    },
+    {
+     "text": "The \"Senior Manager, Revenue Operations\" posting went up on 2026-08-25 [2]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the revenue work named in the \"Senior Manager, Revenue Operations\" posting [2], the \"Director of Engineering, Eligibility & Revenue Systems\" posting [1], and the sales roles titled \"Regional Vice President\" [7][8][9]."
+   },
+   "questions": [
+    "Which of the three sales teams is hiring most actively right now?",
+    "Who owns the \"Senior Manager, Revenue Operations\" work on your side?",
+    "Which systems does your revenue team use day to day?"
+   ],
+   "unknowns": [
+    "Which systems the revenue team uses today",
+    "Whether the sales roles are new or backfills",
+    "Who leads revenue operations today"
+   ],
+   "first_touch": {
+    "subject": "Your revenue operations and sales hiring",
+    "body": "Hi {first_name},\n\nI was reading your public job board. In November you posted \"Director of Engineering, Eligibility & Revenue Systems.\" In August you posted \"Senior Manager, Revenue Operations.\" You also have three open \"Regional Vice President\" roles across GLP-1, enterprise, and mid market sales.\n\nWho on your team leads the revenue operations work?\n\n{sender_name}",
+    "cites": [
+     0,
+     1,
+     2,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "All three sales openings published between 2026-11-10 and 2026-11-18 fall within the last 30 days [7][8][9].",
+     "cites": [
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Director of Engineering, Eligibility & Revenue Systems\" posting went up on 2026-11-11 [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Senior Manager, Revenue Operations\" posting went up on 2026-08-25 [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the revenue work named in the \"Senior Manager, Revenue Operations\" posting [2], the \"Director of Engineering, Eligibility & Revenue Systems\" posting [1], and the sales roles titled \"Regional Vice President\" [7][8][9].",
+     "cites": [
+      2,
+      1,
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which of the three sales teams is hiring most actively right now?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns the \"Senior Manager, Revenue Operations\" work on your side?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which systems does your revenue team use day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which systems the revenue team uses today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the sales roles are new or backfills",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who leads revenue operations today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI was reading your public job board. In November you posted \"Director of Engineering, Eligibility & Revenue Systems.\" In August you posted \"Senior Manager, Revenue Operations.\" You also have three open \"Regional Vice President\" roles across GLP-1, enterprise, and mid market sales.\n\nWho on your team leads the revenue operations work?\n\n{sender_name}",
+     "cites": [
+      0,
+      1,
+      2,
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.009012,
+ "ms": 57960
+}

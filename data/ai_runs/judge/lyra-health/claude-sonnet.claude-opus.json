@@ -1,0 +1,61 @@
+{
+ "account": "Lyra Health",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "329c1380684db07f",
+ "input_hash": "82f6c0981c5a3fe0",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:04:31+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 9307,
+    "input_tokens": 2,
+    "output_tokens": 779,
+    "cache_write_tokens": 23108,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.2006126
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The title and the 2026-11-13 creation date match source [1]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Both quoted phrases appear in the responsibility line that source [2] quotes from the posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [5] gives the title and the 2026-09-15 date, and the posting's preferred qualifications name Salesforce, Outreach and Zoominfo."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "The CRM tooling work is one responsibility among many in a posting whose stated initial focus is channel partnerships, so it doesn't show this is the account's priority."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The title, the November 2026-11-13 date and the description of working with Systems teams on CRM (Salesforce) and tooling enhancements match the posting behind [1][2]."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.200613,
+ "ms": 9307
+}

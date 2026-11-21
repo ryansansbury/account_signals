@@ -1,0 +1,128 @@
+{
+  "note": "The signal rules. Title families read the job title. Phrase families read the text of postings whose title matches read_titles and not skip_titles, and only_titles narrows a family further. Every pattern is a case-insensitive regular expression unless the family says otherwise. Points are what one fresh signal is worth before the decay (engine/score.py). Tuned once on the real snapshot, never per company, with every change after seeing data recorded in docs/DECISIONS.md. Tuning pass 1 on 11/9, after a sample of the real snapshot showed weak precision in the phrase families (forecasting about 3 of 8, a new territory about 1 of 8, a CRM move about 2 of 12, a first hire 2 of 4): a sentence about the candidate is skipped (skip_context), forecasting needs a sales word in the same sentence (context) and a sales or revenue title, a new territory means the company expanding, and a CRM move needs a move verb tied to the CRM. Recorded in docs/DECISIONS.md. Tuning pass 2 on 11/10, after the dev briefs' sources showed \"is expanding\" right about 6 of 17 times: the company expanding a team, an organization, its efforts or its offerings, or expanding with nothing after it, isn't a new territory. Recorded in docs/DECISIONS.md.",
+  "read_titles": "sales|revenue|\\brev ?ops\\b|\\bgtm\\b|go[- ]to[- ]market|marketing|growth|customer success|account (?:manager|executive|director)|business development|partnership|alliances|operations|\\bops\\b|finance|\\bfp&a\\b|controller|accounting|\\bdata\\b|analytics|analyst|business systems|\\bcrm\\b|salesforce|hubspot|enablement|strategy|bizops|chief|\\bvp\\b|vice president|head of|director|commercial|channel|founding",
+  "skip_titles": "nurse|\\brn\\b|clinical|physician|therapist|pharmac|medical assistant|warehouse|driver|technician|mechanic|welder|machinist|assembl|forklift|\\bcdl\\b|picker|packer|store associate|retail associate|barista|\\bchef\\b|\\bcook\\b|teacher|tutor|caregiver|security officer|software engineer|backend|frontend|front end|full[- ]stack|devops|site reliability|firmware|hardware engineer|mechanical engineer|electrical engineer",
+  "pace_titles": "\\bsales\\b|account executive|account manager|business development|\\bsdr\\b|\\bbdr\\b|\\brevenue\\b|\\brev ?ops\\b|customer success|partnership|\\bmarketing\\b|\\bgtm\\b|go[- ]to[- ]market|enablement|\\bcommercial\\b",
+  "families": {
+    "revops": {
+      "label": "Revenue operations role",
+      "where": "title",
+      "points": 40,
+      "patterns": [
+        "\\brev(?:enue)?\\s*ops\\b",
+        "\\brevenue (?:operations|systems|strategy (?:and|&) operations)\\b",
+        "\\bgo[- ]to[- ]market (?:operations|systems|engineer(?:ing)?)\\b",
+        "\\bgtm (?:operations|ops|systems|engineer(?:ing)?|strategy)\\b"
+      ]
+    },
+    "salesops": {
+      "label": "Sales operations role",
+      "where": "title",
+      "points": 30,
+      "patterns": [
+        "\\bsales (?:operations|ops|strategy (?:and|&) operations|systems|planning|compensation|comp)\\b",
+        "\\bdeal desk\\b",
+        "\\bcommercial operations\\b",
+        "\\bsales (?:strategy|insights)\\b"
+      ]
+    },
+    "crm": {
+      "label": "CRM role",
+      "where": "title",
+      "points": 30,
+      "patterns": [
+        "\\b(?:salesforce|hubspot|dynamics(?: 365)?)\\b.{0,30}\\b(?:admin(?:istrator)?|developer|architect|engineer|analyst|lead|manager|specialist|consultant)\\b",
+        "\\bcrm (?:admin(?:istrator)?|developer|architect|engineer|systems|operations|platform)\\b",
+        "\\b(?:admin(?:istrator)?|architect|developer)\\b.{0,15}\\b(?:salesforce|hubspot|crm)\\b"
+      ],
+      "not": "marketing|lifecycle|retention|e-?mail|loyalty"
+    },
+    "analytics": {
+      "label": "Analytics engineering role",
+      "where": "title",
+      "points": 20,
+      "patterns": [
+        "\\banalytics engineer(?:ing)?\\b",
+        "\\b(?:revenue|sales|gtm|go[- ]to[- ]market|commercial|pipeline) (?:analytics|analyst|data|insights)\\b",
+        "\\bbusiness intelligence (?:engineer|developer|analyst|manager)\\b"
+      ]
+    },
+    "leadership": {
+      "label": "Sales leadership role",
+      "where": "title",
+      "points": 25,
+      "patterns": [
+        "\\bchief (?:revenue|sales|commercial|growth) officer\\b",
+        "\\bCRO\\b",
+        "\\b(?:svp|evp|vp|vice president|head)(?:,| of)? (?:global |worldwide |us |north america(?:n)? |americas )?(?:sales|revenue|commercial|go[- ]to[- ]market|gtm)\\b"
+      ],
+      "not": "operations|\\bops\\b|enablement|engineer"
+    },
+    "first_hire": {
+      "label": "A first hire",
+      "where": "title_or_text",
+      "points": 30,
+      "title_patterns": [
+        "\\bfounding (?:account executive|\\bae\\b|sales|gtm|go[- ]to[- ]market|revenue|growth|revops|operations)"
+      ],
+      "patterns": [
+        "\\b(?:our |the )?first (?:dedicated |full[- ]time )?(?:revenue operations|revops|rev ops|sales operations|sales ops|gtm|go[- ]to[- ]market|crm|analytics|sales|marketing operations) (?:hire|person|role|leader|team member|employee)\\b",
+        "\\bbuild(?:ing)? (?:out )?(?:the|our|a|this) (?:revenue operations|revops|sales operations|sales|gtm|go[- ]to[- ]market|operations) (?:function|team|org(?:anization)?|engine)\\b[^.]{0,40}\\bfrom (?:scratch|the ground up|zero)\\b",
+        "\\bfrom (?:scratch|the ground up)\\b[^.]{0,40}\\b(?:revenue operations|revops|sales operations|sales team|gtm|go[- ]to[- ]market)\\b"
+      ]
+    },
+    "crm_move": {
+      "label": "A CRM move",
+      "where": "text",
+      "points": 35,
+      "patterns": [
+        "\\b(?:migrat\\w*|transition\\w*|mov(?:e|ing)|switch\\w*|consolidat\\w*)\\b(?:\\s+\\w+){0,4}?\\s+(?:from|off|to|onto|into)\\s+(?:\\w+\\s+){0,3}?(?:salesforce|hubspot|dynamics(?: 365)?|crm)\\b",
+        "\\b(?:salesforce|hubspot|dynamics 365|crm)\\s+(?:migration|consolidation|cutover|replacement|re-?implementation|transition|rebuild|overhaul)\\b",
+        "\\b(?:implement|roll(?:ing)?[- ]?out|launch|stand(?:ing)? up|deploy|select)\\w*\\s+(?:a\\s+|our\\s+|the\\s+)?new\\s+(?:crm|salesforce|hubspot)\\b",
+        "\\b(?:new|single|unified) crm\\b",
+        "\\boff (?:of )?spreadsheets\\b",
+        "\\broll(?:ing)? out\\b[^.]{0,40}\\bcrm\\b",
+        "\\b(?:implementation|rollout|roll-out|migration|adoption) of (?:our |the |a )?(?:new )?(?:salesforce|hubspot|dynamics 365|crm)\\b",
+        "\\b(?:implement|implementing|deploy|deploying|adopt|adopting) (?:our |the |a )?(?:new )?(?:salesforce|hubspot|dynamics 365|crm)\\b"
+      ]
+    },
+    "forecasting": {
+      "label": "A forecasting project",
+      "where": "text",
+      "points": 25,
+      "only_titles": "revenue|\\brev ?ops\\b|\\bgtm\\b|go[- ]to[- ]market|sales operations|sales ops|sales strategy|deal desk|commercial operations|strategy (?:&|and) operations|bizops|business operations|chief revenue|\\bvp\\b(?:,| of)? sales|head of sales|sales analyt|revenue analyt",
+      "patterns": [
+        "\\b(?:build|own|lead|improve|stand up|create|develop|rebuild|design|establish|implement|overhaul)\\w*\\b[^.]{0,50}\\bforecast\\w*",
+        "\\bforecast(?:ing)? (?:process|model|models|accuracy|cadence|methodology|framework)\\b",
+        "\\b(?:pipeline|revenue|bookings|sales) forecast(?:ing|s)?\\b"
+      ],
+      "context": "\\b(?:pipeline|revenue|bookings|sales|quota|deals?|win rates?|commit|arr)\\b",
+      "context_titles": "revenue|\\brev ?ops\\b|\\bgtm\\b|go[- ]to[- ]market|sales operations|sales ops|deal desk|commercial operations"
+    },
+    "territory": {
+      "label": "A new territory",
+      "where": "text",
+      "points": 20,
+      "patterns": [
+        "\\b(?:we(?:'re| are)|the company is|is) (?:rapidly |actively |quickly |now )?expanding\\b(?!\\s*[.!?—–-])(?!\\s+(?:its|our|the|this|their)\\s+(?:[\\w'’-]+\\s+){0,3}(?:teams?|organization|org|efforts?|offerings?|function|department|capabilit\\w*)\\b)(?!\\s+into an? (?:[\\w'’-]+\\s+){0,2}(?:company|business|brand|platform)\\b)",
+        "\\bwe(?:'re| are|'ll| will)? (?:rapidly |actively |quickly |now )?expand\\w* (?:in)?to\\b",
+        "\\bexpan\\w* (?:in)?to (?:new|additional) (?:markets?|regions?|territor\\w*|verticals?|segments?|countr\\w*|geograph\\w*|states?)\\b",
+        "\\b(?:open|launch)\\w* (?:a |our )?(?:new |second |third )(?:office|market|region|location|hub)\\b",
+        "\\bnew (?:sales )?territor(?:y|ies)\\b",
+        "\\bnewest (?:region|market|territor\\w*|office)\\b",
+        "\\bgreenfield (?:territor\\w*|markets?|regions?|accounts?)\\b"
+      ]
+    },
+    "pace": {
+      "label": "Hiring pace",
+      "where": "pace",
+      "points": 1
+    },
+    "stack": {
+      "label": "Their stack",
+      "where": "stack",
+      "points": 0
+    }
+  },
+  "skip_context": "\\b(?:experience[ds]?|proven|track record|familiar(?:ity)?|knowledge of|understanding of|background in|expertise|skilled|you have|you've|years of|demonstrat(?:ed|able)|ability to|implementation partners?|channel partners?|certification|certified)\\b"
+}

@@ -1,0 +1,328 @@
+{
+ "account": "Quantum Metric",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "6617fe24c358f27f",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T05:02:33+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Quantum Metric had 8 open roles on its public job board on 2026-11-20. The US held 38% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "se4e8891e62",
+   "title": "Senior / Strategic Account Executive",
+   "excerpt": "As part of the Sales team at Quantum Metric, you will be responsible for full life-cycle sales within a greenfield territory of enterprise accounts.",
+   "posted": "2026-11-09",
+   "posting_id": "lever:quantummetric:aa79d63e-ef97-412d-928c-09c2eaf26958",
+   "family": "territory"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s019fdd5d74",
+   "title": "Enterprise Account Executive",
+   "excerpt": "As an Account Executive at Quantum Metric, you will spearhead full life-cycle sales within a greenfield territory, focusing on acquiring and expanding enterprise-level accounts.",
+   "posted": "2026-08-06",
+   "posting_id": "lever:quantummetric:d998d7cb-a919-43b0-9502-496ad0e45982",
+   "family": "territory"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s908fcdfe00",
+   "title": "Enterprise Account Executive",
+   "excerpt": "Proficient with CRM systems (e.g., Salesforce).",
+   "posted": "2026-08-06",
+   "posting_id": "lever:quantummetric:d998d7cb-a919-43b0-9502-496ad0e45982",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s78fe5574a0",
+   "title": "Strategic Account Executive",
+   "excerpt": "Strategic Account Executive",
+   "posted": "2026-11-02",
+   "posting_id": "lever:quantummetric:8ab30f6b-6c59-46c7-9379-6561d65bdd88",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Senior / Strategic Account Executive\\\" posting was created on 2026-11-09 [1].\"}, {\"text\": \"The \\\"Strategic Account Executive\\\" posting was created on 2026-11-02, and both postings went up in the last 30 days [1][4].\"}, {\"text\": \"The \\\"Enterprise Account Executive\\\" posting was created on 2026-08-06 and asks for \\\"Proficient with CRM systems\\\" [2][3].\"}], \"priority\": {\"text\": \"The likely priority is revenue work that the postings describe through \\\"full life-cycle sales\\\" in a \\\"greenfield territory\\\" and \\\"CRM systems\\\" use [1][2][3].\"}, \"questions\": [\"Which open roles are part of the \\\"greenfield territory\\\"?\", \"How does the sales team use \\\"CRM systems\\\" day to day?\", \"Who plans the sales territories today?\"], \"unknowns\": [\"Who owns the sales process today\", \"How the current CRM is set up\", \"Whether the greenfield territory already has a team\"], \"first_touch\": {\"subject\": \"Enterprise and strategic account roles\", \"body\": \"Hi {first_name},\\n\\nYour \\\"Enterprise Account Executive\\\" posting went up in August. It describes a \\\"greenfield territory\\\" focused on \\\"enterprise-level accounts\\\" and asks for \\\"Proficient with CRM systems\\\".\\n\\nYour \\\"Senior / Strategic Account Executive\\\" and \\\"Strategic Account Executive\\\" postings went up in November.\\n\\nWould you be the right person to talk with about how your sales team plans its territories?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 4]}}",
+   "meta": {
+    "ms": 31512,
+    "input_tokens": 2,
+    "output_tokens": 7196,
+    "cache_write_tokens": 5278,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.004669260000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Senior / Strategic Account Executive\" posting was created on 2026-11-09 [1]."
+     },
+     {
+      "text": "The \"Strategic Account Executive\" posting was created on 2026-11-02, and both postings went up in the last 30 days [1][4]."
+     },
+     {
+      "text": "The \"Enterprise Account Executive\" posting was created on 2026-08-06 and asks for \"Proficient with CRM systems\" [2][3]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work that the postings describe through \"full life-cycle sales\" in a \"greenfield territory\" and \"CRM systems\" use [1][2][3]."
+    },
+    "questions": [
+     "Which open roles are part of the \"greenfield territory\"?",
+     "How does the sales team use \"CRM systems\" day to day?",
+     "Who plans the sales territories today?"
+    ],
+    "unknowns": [
+     "Who owns the sales process today",
+     "How the current CRM is set up",
+     "Whether the greenfield territory already has a team"
+    ],
+    "first_touch": {
+     "subject": "Enterprise and strategic account roles",
+     "body": "Hi {first_name},\n\nYour \"Enterprise Account Executive\" posting went up in August. It describes a \"greenfield territory\" focused on \"enterprise-level accounts\" and asks for \"Proficient with CRM systems\".\n\nYour \"Senior / Strategic Account Executive\" and \"Strategic Account Executive\" postings went up in November.\n\nWould you be the right person to talk with about how your sales team plans its territories?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Senior / Strategic Account Executive\" posting was created on 2026-11-09 [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Strategic Account Executive\" posting was created on 2026-11-02, and both postings went up in the last 30 days [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Enterprise Account Executive\" posting was created on 2026-08-06 and asks for \"Proficient with CRM systems\" [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work that the postings describe through \"full life-cycle sales\" in a \"greenfield territory\" and \"CRM systems\" use [1][2][3].",
+      "cites": [
+       1,
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which open roles are part of the \"greenfield territory\"?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the sales team use \"CRM systems\" day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who plans the sales territories today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the sales process today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How the current CRM is set up",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the greenfield territory already has a team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nYour \"Enterprise Account Executive\" posting went up in August. It describes a \"greenfield territory\" focused on \"enterprise-level accounts\" and asks for \"Proficient with CRM systems\".\n\nYour \"Senior / Strategic Account Executive\" and \"Strategic Account Executive\" postings went up in November.\n\nWould you be the right person to talk with about how your sales team plans its territories?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Senior / Strategic Account Executive\" posting was created on 2026-11-09 [1]."
+    },
+    {
+     "text": "The \"Strategic Account Executive\" posting was created on 2026-11-02, and both postings went up in the last 30 days [1][4]."
+    },
+    {
+     "text": "The \"Enterprise Account Executive\" posting was created on 2026-08-06 and asks for \"Proficient with CRM systems\" [2][3]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work that the postings describe through \"full life-cycle sales\" in a \"greenfield territory\" and \"CRM systems\" use [1][2][3]."
+   },
+   "questions": [
+    "Which open roles are part of the \"greenfield territory\"?",
+    "How does the sales team use \"CRM systems\" day to day?",
+    "Who plans the sales territories today?"
+   ],
+   "unknowns": [
+    "Who owns the sales process today",
+    "How the current CRM is set up",
+    "Whether the greenfield territory already has a team"
+   ],
+   "first_touch": {
+    "subject": "Enterprise and strategic account roles",
+    "body": "Hi {first_name},\n\nYour \"Enterprise Account Executive\" posting went up in August. It describes a \"greenfield territory\" focused on \"enterprise-level accounts\" and asks for \"Proficient with CRM systems\".\n\nYour \"Senior / Strategic Account Executive\" and \"Strategic Account Executive\" postings went up in November.\n\nWould you be the right person to talk with about how your sales team plans its territories?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Senior / Strategic Account Executive\" posting was created on 2026-11-09 [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Strategic Account Executive\" posting was created on 2026-11-02, and both postings went up in the last 30 days [1][4].",
+     "cites": [
+      1,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Enterprise Account Executive\" posting was created on 2026-08-06 and asks for \"Proficient with CRM systems\" [2][3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work that the postings describe through \"full life-cycle sales\" in a \"greenfield territory\" and \"CRM systems\" use [1][2][3].",
+     "cites": [
+      1,
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which open roles are part of the \"greenfield territory\"?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the sales team use \"CRM systems\" day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who plans the sales territories today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns the sales process today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How the current CRM is set up",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the greenfield territory already has a team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nYour \"Enterprise Account Executive\" posting went up in August. It describes a \"greenfield territory\" focused on \"enterprise-level accounts\" and asks for \"Proficient with CRM systems\".\n\nYour \"Senior / Strategic Account Executive\" and \"Strategic Account Executive\" postings went up in November.\n\nWould you be the right person to talk with about how your sales team plans its territories?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.004669,
+ "ms": 31512
+}

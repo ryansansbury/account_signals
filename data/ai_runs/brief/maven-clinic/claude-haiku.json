@@ -1,0 +1,366 @@
+{
+ "account": "Maven Clinic",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "f2bdf63f59710230",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:58:10+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Maven Clinic had 34 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s61cb1f4dfe",
+   "title": "Director, GTM Operations & Architecture",
+   "excerpt": "Director, GTM Operations & Architecture",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:mavenclinic:8932349002",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s1095910940",
+   "title": "VP of Business Operations",
+   "excerpt": "Instrument and forecast: Partner with Data and Finance to build the measurement, segmentation, attribution, and forecasting needed to know exactly what is and isn’t working, and to forecast enrollment and revenue with confidence.",
+   "posted": "2026-09-09",
+   "posting_id": "greenhouse:mavenclinic:8790269002",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s0cef1473f6",
+   "title": "Senior Associate, Network Operations",
+   "excerpt": "Stellar organizational and analytical skill sets with high Excel/Google Sheets fluency.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:mavenclinic:8946493002",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s1074b18792",
+   "title": "Director, Marketing Operations",
+   "excerpt": "Dashboards: own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4, and keep it accurate as definitions change.",
+   "posted": "2026-08-31",
+   "posting_id": "greenhouse:mavenclinic:8760173002",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s1baf9f5be3",
+   "title": "Strategic Finance Manager",
+   "excerpt": "Experience with Salesforce, Workday/Adaptive, and Looker preferred.",
+   "posted": "2026-11-04",
+   "posting_id": "greenhouse:mavenclinic:8930894002",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "sec47419032",
+   "title": "Senior Influencer Marketing Manager",
+   "excerpt": "Senior Influencer Marketing Manager",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:mavenclinic:8936990002",
+   "family": "pace"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s118432f151",
+   "title": "Senior Manager, GTM Narrative",
+   "excerpt": "Senior Manager, GTM Narrative",
+   "posted": "2026-10-05",
+   "posting_id": "greenhouse:mavenclinic:8868164002",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Four postings were published in the last 30 days [1][3][5][6].\"}, {\"text\": \"The posting \"Director, GTM Operations & Architecture\" went up on 2026-11-05 [1].\"}, {\"text\": \"The posting \"VP of Business Operations\" went up on 2026-09-09 and asks the hire to \"forecast enrollment and revenue with confidence\" [2].\"}], \"priority\": {\"text\": \"Forecasting and reporting look like the likely revenue work priority based on the \"VP of Business Operations\" posting asking the hire to \"forecast enrollment and revenue with confidence\" and the \"Director, Marketing Operations\" posting asking the hire to \"own the B2B analytics stack\" [2][4].\"}, \"questions\": [\"Which team will own the revenue operations work described in the Director role?\", \"Is the forecasting work in the VP of Business Operations posting still active?\", \"Which tools does your team use today for pipeline and forecast reporting?\"], \"unknowns\": [\"Who currently owns pipeline and forecast reporting\", \"Which CRM and forecasting tools the team uses day to day\", \"Whether the open roles are new headcount or replacements\"], \"first_touch\": {\"subject\": \"Your revenue ops and forecasting roles\", \"body\": \"Hi {first_name},\\n\\nI noticed Maven Clinic posted a \"Director, GTM Operations & Architecture\" role in November and a \"VP of Business Operations\" role in September. The VP posting asks the hire to \"forecast enrollment and revenue with confidence,\" and the \"Director, Marketing Operations\" posting from August asks for someone to \"own the B2B analytics stack.\"\\n\\nWould you be open to a short call about how your team handles pipeline and forecasting today?\\n\\n{sender_name}\", \"cites\": [1, 2, 4]}}",
+   "meta": {
+    "ms": 30080,
+    "input_tokens": 2,
+    "output_tokens": 7024,
+    "cache_write_tokens": 5480,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00462366
+   },
+   "shape_errors": [
+    "the reply isn't one JSON object"
+   ],
+   "brief": null,
+   "check": null
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Four postings were published in the last 30 days [1][3][5][6].\"}, {\"text\": \"The \\\"VP of Business Operations\\\" posting was published on 2026-09-09 and asks the hire to \\\"forecast enrollment and revenue with confidence\\\" [2].\"}, {\"text\": \"The \\\"Strategic Finance Manager\\\" posting was published on 2026-11-04 and says \\\"Experience with Salesforce, Workday/Adaptive, and Looker preferred\\\" [5].\"}], \"priority\": {\"text\": \"The likely priority is revenue forecasting, and the \\\"VP of Business Operations\\\" posting asks the hire to \\\"forecast enrollment and revenue with confidence\\\" [2].\"}, \"questions\": [\"Which team owns the forecasting work that the \\\"VP of Business Operations\\\" role describes?\", \"Which tools does your team use for forecasting today?\", \"Is the \\\"Strategic Finance Manager\\\" role still open?\"], \"unknowns\": [\"Who owns forecasting and reporting today\", \"Which tools the team uses day to day\", \"Whether the open roles are new or replacements\"], \"first_touch\": {\"subject\": \"Forecasting roles at Maven Clinic\", \"body\": \"Hi {first_name},\\n\\nI noticed Maven Clinic posted a \\\"VP of Business Operations\\\" role in September that asks the hire to \\\"forecast enrollment and revenue with confidence.\\\" Maven Clinic also posted a \\\"Strategic Finance Manager\\\" role in November, and it lists \\\"Experience with Salesforce, Workday/Adaptive, and Looker preferred.\\\"\\n\\nWould you be open to a short call about how your team approaches forecasting today?\\n\\n{sender_name}\", \"cites\": [2, 5]}}",
+   "meta": {
+    "ms": 37169,
+    "input_tokens": 2,
+    "output_tokens": 8765,
+    "cache_write_tokens": 6151,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00562836
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Four postings were published in the last 30 days [1][3][5][6]."
+     },
+     {
+      "text": "The \"VP of Business Operations\" posting was published on 2026-09-09 and asks the hire to \"forecast enrollment and revenue with confidence\" [2]."
+     },
+     {
+      "text": "The \"Strategic Finance Manager\" posting was published on 2026-11-04 and says \"Experience with Salesforce, Workday/Adaptive, and Looker preferred\" [5]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue forecasting, and the \"VP of Business Operations\" posting asks the hire to \"forecast enrollment and revenue with confidence\" [2]."
+    },
+    "questions": [
+     "Which team owns the forecasting work that the \"VP of Business Operations\" role describes?",
+     "Which tools does your team use for forecasting today?",
+     "Is the \"Strategic Finance Manager\" role still open?"
+    ],
+    "unknowns": [
+     "Who owns forecasting and reporting today",
+     "Which tools the team uses day to day",
+     "Whether the open roles are new or replacements"
+    ],
+    "first_touch": {
+     "subject": "Forecasting roles at Maven Clinic",
+     "body": "Hi {first_name},\n\nI noticed Maven Clinic posted a \"VP of Business Operations\" role in September that asks the hire to \"forecast enrollment and revenue with confidence.\" Maven Clinic also posted a \"Strategic Finance Manager\" role in November, and it lists \"Experience with Salesforce, Workday/Adaptive, and Looker preferred.\"\n\nWould you be open to a short call about how your team approaches forecasting today?\n\n{sender_name}",
+     "cites": [
+      2,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Four postings were published in the last 30 days [1][3][5][6].",
+      "cites": [
+       1,
+       3,
+       5,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"VP of Business Operations\" posting was published on 2026-09-09 and asks the hire to \"forecast enrollment and revenue with confidence\" [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Strategic Finance Manager\" posting was published on 2026-11-04 and says \"Experience with Salesforce, Workday/Adaptive, and Looker preferred\" [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue forecasting, and the \"VP of Business Operations\" posting asks the hire to \"forecast enrollment and revenue with confidence\" [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns the forecasting work that the \"VP of Business Operations\" role describes?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which tools does your team use for forecasting today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is the \"Strategic Finance Manager\" role still open?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting and reporting today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools the team uses day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the open roles are new or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Maven Clinic posted a \"VP of Business Operations\" role in September that asks the hire to \"forecast enrollment and revenue with confidence.\" Maven Clinic also posted a \"Strategic Finance Manager\" role in November, and it lists \"Experience with Salesforce, Workday/Adaptive, and Looker preferred.\"\n\nWould you be open to a short call about how your team approaches forecasting today?\n\n{sender_name}",
+      "cites": [
+       2,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Four postings were published in the last 30 days [1][3][5][6]."
+    },
+    {
+     "text": "The \"VP of Business Operations\" posting was published on 2026-09-09 and asks the hire to \"forecast enrollment and revenue with confidence\" [2]."
+    },
+    {
+     "text": "The \"Strategic Finance Manager\" posting was published on 2026-11-04 and says \"Experience with Salesforce, Workday/Adaptive, and Looker preferred\" [5]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue forecasting, and the \"VP of Business Operations\" posting asks the hire to \"forecast enrollment and revenue with confidence\" [2]."
+   },
+   "questions": [
+    "Which team owns the forecasting work that the \"VP of Business Operations\" role describes?",
+    "Which tools does your team use for forecasting today?",
+    "Is the \"Strategic Finance Manager\" role still open?"
+   ],
+   "unknowns": [
+    "Who owns forecasting and reporting today",
+    "Which tools the team uses day to day",
+    "Whether the open roles are new or replacements"
+   ],
+   "first_touch": {
+    "subject": "Forecasting roles at Maven Clinic",
+    "body": "Hi {first_name},\n\nI noticed Maven Clinic posted a \"VP of Business Operations\" role in September that asks the hire to \"forecast enrollment and revenue with confidence.\" Maven Clinic also posted a \"Strategic Finance Manager\" role in November, and it lists \"Experience with Salesforce, Workday/Adaptive, and Looker preferred.\"\n\nWould you be open to a short call about how your team approaches forecasting today?\n\n{sender_name}",
+    "cites": [
+     2,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Four postings were published in the last 30 days [1][3][5][6].",
+     "cites": [
+      1,
+      3,
+      5,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"VP of Business Operations\" posting was published on 2026-09-09 and asks the hire to \"forecast enrollment and revenue with confidence\" [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Strategic Finance Manager\" posting was published on 2026-11-04 and says \"Experience with Salesforce, Workday/Adaptive, and Looker preferred\" [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue forecasting, and the \"VP of Business Operations\" posting asks the hire to \"forecast enrollment and revenue with confidence\" [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team owns the forecasting work that the \"VP of Business Operations\" role describes?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which tools does your team use for forecasting today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Is the \"Strategic Finance Manager\" role still open?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting and reporting today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which tools the team uses day to day",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the open roles are new or replacements",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Maven Clinic posted a \"VP of Business Operations\" role in September that asks the hire to \"forecast enrollment and revenue with confidence.\" Maven Clinic also posted a \"Strategic Finance Manager\" role in November, and it lists \"Experience with Salesforce, Workday/Adaptive, and Looker preferred.\"\n\nWould you be open to a short call about how your team approaches forecasting today?\n\n{sender_name}",
+     "cites": [
+      2,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.010252,
+ "ms": 67249
+}

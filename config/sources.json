@@ -1,0 +1,31 @@
+{
+ "note": "The terms check for each source beyond the job boards (reader/NOTES_SEC_AND_DNS_TERMS_2026-11-11.md stays private). An owner script reads a source only when it's allowed here from a check made in the last 45 days, and DATA.md says what each check found.",
+ "max_age_days": 45,
+ "sources": {
+  "sec": {
+   "allowed": true,
+   "checked": "2026-11-11",
+   "status": "fits with conditions",
+   "requests_per_second": 2,
+   "conditions": [
+    "Every request carries a User-Agent with a name and a contact address, read from a private file that never ships.",
+    "Requests stay far under ten a second, and a throttled run stops and waits at least ten minutes before it starts again.",
+    "No request goes under /cgi-bin, so the browse-edgar search is never used.",
+    "The page shows no SEC seal or logo and nothing that suggests an SEC or EDGAR business.",
+    "data.sec.gov is read by the owner script alone and never by the page.",
+    "Form D data keeps the offering fields alone. No related person, signer or recipient is ever saved."
+   ]
+  },
+  "dns": {
+   "allowed": true,
+   "checked": "2026-11-11",
+   "status": "fits with conditions",
+   "conditions": [
+    "Lookups go slowly through the machine's own resolver.",
+    "A finding reads as what a domain's DNS named on the day it was read and never as what a company uses.",
+    "A verification record shows a vendor was set up at some point, and the page says so.",
+    "No verification token is stored or shown, only the vendor its prefix names."
+   ]
+  }
+ }
+}

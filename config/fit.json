@@ -1,0 +1,6 @@
+{
+  "note": "Fit, 100 points at most, for a seller of revenue operations services. Each part is the seller's own choice and the page says so. Industry comes from the seed list, open roles from the board's count (never a headcount, decision D9), and the US footprint from where the postings are. Set on 11/9 before any board was read.",
+  "industry": {"max": 40, "points": {"software": 40, "logistics": 36, "manufacturing": 32, "energy": 30, "health care": 28, "consumer": 22}},
+  "open_roles": {"max": 30, "bands": [[1, 9, 10, "a small hiring team"], [10, 49, 30, "the mid-size band"], [50, 199, 24, "a large hiring team"], [200, 1000000, 14, "an enterprise-size board"]]},
+  "us_footprint": {"max": 30}
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Xometry",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "5dcea58c94b0cc47",
+ "input_hash": "0e25a7bb29c93b37",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:51+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3246,
+    "input_tokens": 2,
+    "output_tokens": 368,
+    "cache_write_tokens": 19469,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0816403
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Title, 2026-11-05 date and both quotes match the Senior Sales Operations Analyst posting cited in [2][3]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Published 2026-11-13 is 7 days before the 2026-11-20 read date, and the posting asks to partner with FP&A on \"forecasting accuracy\"."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Dates 2026-10-16 and 2026-10-21 match the sources, and the Salesforce Engineer posting asks for experience with Salesforce CPQ."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both quotes appear in the Senior Sales Operations Analyst posting, and inferring sales analytics as a priority is a fair reading of that role."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The title, November timing and both quotes match the posting, and the question about sales analytics ownership is a fair inference."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.08164,
+ "ms": 3246
+}

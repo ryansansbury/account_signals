@@ -1,0 +1,452 @@
+{
+ "account": "Rondo Energy",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "8c484852622f391e",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:05:19+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Alameda, CA. The US held 58% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s5dde86afef",
+   "title": "People Operations & Mobility Specialist",
+   "excerpt": "Support entity setups and p rovider -to-entity transitions as Rondo expands into new countries.",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:rondoenergy:4725911006",
+   "family": "territory"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s5c5f6ce3c9",
+   "title": "Director of Sales and Business Development, Middle East",
+   "excerpt": "You will support the region's flagship industrial and NOC pursuits, and you will take the lead on your own accounts, primarily in the power sector, where Rondo's power-to-power storage and power generation applications open a new market.",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:rondoenergy:4718583006",
+   "family": "territory"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"The \\\"Director of Sales and Business Development, Middle East\\\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2].\"}, {\"text\": \"The \\\"People Operations & Mobility Specialist\\\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1].\"}], \"priority\": {\"text\": \"The account's likely priority is selling in the Middle East, where the sales director role supports \\\"flagship industrial and NOC pursuits\\\" and takes the lead on its own accounts in the power sector [2].\"}, \"questions\": [\"How does the team currently track pursuits and accounts in a new region like the Middle East?\", \"Who owns sales reporting and forecasting as the company enters new markets?\", \"What would a useful view of the pipeline look like for the new Middle East role?\"], \"unknowns\": [\"Which CRM and reporting tools the team uses\", \"Size and structure of the current sales team\", \"Whether other regions have sales hiring planned\", \"Who owns revenue operations today\"], \"first_touch\": {\"subject\": \"Rondo Energy's Middle East sales role\", \"body\": \"Hi {first_name},\\n\\nI saw that Rondo Energy posted a \\\"Director of Sales and Business Development, Middle East\\\" role in October. I also saw a \\\"People Operations & Mobility Specialist\\\" posting from October that mentions expansion into new countries.\\n\\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 17184,
+    "input_tokens": 2,
+    "output_tokens": 2236,
+    "cache_write_tokens": 5157,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.04314660000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "The \"Director of Sales and Business Development, Middle East\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2]."
+     },
+     {
+      "text": "The \"People Operations & Mobility Specialist\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1]."
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is selling in the Middle East, where the sales director role supports \"flagship industrial and NOC pursuits\" and takes the lead on its own accounts in the power sector [2]."
+    },
+    "questions": [
+     "How does the team currently track pursuits and accounts in a new region like the Middle East?",
+     "Who owns sales reporting and forecasting as the company enters new markets?",
+     "What would a useful view of the pipeline look like for the new Middle East role?"
+    ],
+    "unknowns": [
+     "Which CRM and reporting tools the team uses",
+     "Size and structure of the current sales team",
+     "Whether other regions have sales hiring planned",
+     "Who owns revenue operations today"
+    ],
+    "first_touch": {
+     "subject": "Rondo Energy's Middle East sales role",
+     "body": "Hi {first_name},\n\nI saw that Rondo Energy posted a \"Director of Sales and Business Development, Middle East\" role in October. I also saw a \"People Operations & Mobility Specialist\" posting from October that mentions expansion into new countries.\n\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Director of Sales and Business Development, Middle East\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"People Operations & Mobility Specialist\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is selling in the Middle East, where the sales director role supports \"flagship industrial and NOC pursuits\" and takes the lead on its own accounts in the power sector [2].",
+      "cites": [
+       2
+      ],
+      "problems": [
+       "writing: a pause comma before \"where\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How does the team currently track pursuits and accounts in a new region like the Middle East?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns sales reporting and forecasting as the company enters new markets?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would a useful view of the pipeline look like for the new Middle East role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM and reporting tools the team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the current sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether other regions have sales hiring planned",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Rondo Energy posted a \"Director of Sales and Business Development, Middle East\" role in October. I also saw a \"People Operations & Mobility Specialist\" posting from October that mentions expansion into new countries.\n\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"The \\\"Director of Sales and Business Development, Middle East\\\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2].\"}, {\"text\": \"The \\\"People Operations & Mobility Specialist\\\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1].\"}], \"priority\": {\"text\": \"The account's likely priority is selling into the Middle East through a sales director role that supports \\\"flagship industrial and NOC pursuits\\\" and leads its own accounts in the power sector [2].\"}, \"questions\": [\"How does the team currently track pursuits and accounts in a new region like the Middle East?\", \"Who owns sales reporting and forecasting as the company enters new markets?\", \"What would a useful view of the pipeline look like for the new Middle East role?\"], \"unknowns\": [\"Which CRM and reporting tools the team uses\", \"Size and structure of the current sales team\", \"Whether other regions have sales hiring planned\", \"Who owns revenue operations today\"], \"first_touch\": {\"subject\": \"Rondo Energy's Middle East sales role\", \"body\": \"Hi {first_name},\\n\\nI saw that Rondo Energy posted a \\\"Director of Sales and Business Development, Middle East\\\" role in October. I also saw a \\\"People Operations & Mobility Specialist\\\" posting from October that mentions expansion into new countries.\\n\\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 6992,
+    "input_tokens": 2,
+    "output_tokens": 1096,
+    "cache_write_tokens": 5888,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.034670599999999996
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "The \"Director of Sales and Business Development, Middle East\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2]."
+     },
+     {
+      "text": "The \"People Operations & Mobility Specialist\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1]."
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is selling into the Middle East through a sales director role that supports \"flagship industrial and NOC pursuits\" and leads its own accounts in the power sector [2]."
+    },
+    "questions": [
+     "How does the team currently track pursuits and accounts in a new region like the Middle East?",
+     "Who owns sales reporting and forecasting as the company enters new markets?",
+     "What would a useful view of the pipeline look like for the new Middle East role?"
+    ],
+    "unknowns": [
+     "Which CRM and reporting tools the team uses",
+     "Size and structure of the current sales team",
+     "Whether other regions have sales hiring planned",
+     "Who owns revenue operations today"
+    ],
+    "first_touch": {
+     "subject": "Rondo Energy's Middle East sales role",
+     "body": "Hi {first_name},\n\nI saw that Rondo Energy posted a \"Director of Sales and Business Development, Middle East\" role in October. I also saw a \"People Operations & Mobility Specialist\" posting from October that mentions expansion into new countries.\n\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Director of Sales and Business Development, Middle East\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"People Operations & Mobility Specialist\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is selling into the Middle East through a sales director role that supports \"flagship industrial and NOC pursuits\" and leads its own accounts in the power sector [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the team currently track pursuits and accounts in a new region like the Middle East?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns sales reporting and forecasting as the company enters new markets?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would a useful view of the pipeline look like for the new Middle East role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM and reporting tools the team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the current sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether other regions have sales hiring planned",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Rondo Energy posted a \"Director of Sales and Business Development, Middle East\" role in October. I also saw a \"People Operations & Mobility Specialist\" posting from October that mentions expansion into new countries.\n\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "The \"Director of Sales and Business Development, Middle East\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2]."
+    },
+    {
+     "text": "The \"People Operations & Mobility Specialist\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1]."
+    }
+   ],
+   "priority": {
+    "text": "The account's likely priority is selling into the Middle East through a sales director role that supports \"flagship industrial and NOC pursuits\" and leads its own accounts in the power sector [2]."
+   },
+   "questions": [
+    "How does the team currently track pursuits and accounts in a new region like the Middle East?",
+    "Who owns sales reporting and forecasting as the company enters new markets?",
+    "What would a useful view of the pipeline look like for the new Middle East role?"
+   ],
+   "unknowns": [
+    "Which CRM and reporting tools the team uses",
+    "Size and structure of the current sales team",
+    "Whether other regions have sales hiring planned",
+    "Who owns revenue operations today"
+   ],
+   "first_touch": {
+    "subject": "Rondo Energy's Middle East sales role",
+    "body": "Hi {first_name},\n\nI saw that Rondo Energy posted a \"Director of Sales and Business Development, Middle East\" role in October. I also saw a \"People Operations & Mobility Specialist\" posting from October that mentions expansion into new countries.\n\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\n\n{sender_name}",
+    "cites": [
+     1,
+     2
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Director of Sales and Business Development, Middle East\" posting was published 2026-10-01 and has the role leading its own accounts in the power sector [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"People Operations & Mobility Specialist\" posting was published 22 days before the read date and ties its work to Rondo expanding into new countries [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The account's likely priority is selling into the Middle East through a sales director role that supports \"flagship industrial and NOC pursuits\" and leads its own accounts in the power sector [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the team currently track pursuits and accounts in a new region like the Middle East?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns sales reporting and forecasting as the company enters new markets?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What would a useful view of the pipeline look like for the new Middle East role?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM and reporting tools the team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size and structure of the current sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether other regions have sales hiring planned",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue operations today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that Rondo Energy posted a \"Director of Sales and Business Development, Middle East\" role in October. I also saw a \"People Operations & Mobility Specialist\" posting from October that mentions expansion into new countries.\n\nI work with revenue teams on CRM, pipeline reporting, and forecasting. Who looks after how the sales pipeline is tracked as the Middle East work gets going?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.077817,
+ "ms": 24176
+}

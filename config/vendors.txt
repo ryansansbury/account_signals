@@ -1,0 +1,52 @@
+# Office, cloud and AI products that postings name beside revenue tools. Like config/tools.txt (decision D6, 11/9), a
+# product named here may appear inside a quote, and its maker never as an account. Unlike tools.txt, these aren't
+# stack signals, since office software tells a seller nothing. Used only to set names aside in the exclusion text scan.
+Google Workspace
+Google Analytics
+Google Ads
+Google Docs
+Google Drive
+Google Slides
+Google Suite
+G Suite
+Google Cloud
+Google Cloud Platform
+Google Data Studio
+Looker Studio
+BigQuery
+Gemini
+Microsoft Excel
+Microsoft Office
+Microsoft Office Suite
+Microsoft 365
+Office 365
+MS Office
+MS Excel
+Microsoft Teams
+Microsoft Power BI
+Microsoft PowerPoint
+Microsoft Word
+Microsoft Outlook
+Microsoft Azure
+Microsoft Fabric
+Microsoft Copilot
+Microsoft SQL Server
+Microsoft Access
+Microsoft Project
+Microsoft Dynamics
+Microsoft Dynamics 365
+Copilot
+Amazon Web Services
+AWS
+Amazon Redshift
+Amazon QuickSight
+Adobe Analytics
+Adobe Marketo
+Oracle NetSuite
+SAP Concur
+Workday Adaptive Planning
+Zoom
+LinkedIn Sales Navigator
+Sales Navigator
+ChatGPT
+Claude

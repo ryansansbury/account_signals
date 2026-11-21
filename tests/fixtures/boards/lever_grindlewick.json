@@ -1,0 +1,41 @@
+[
+  {
+    "id": "aaaa-1111",
+    "text": "Head of Revenue Operations",
+    "categories": {"commitment": "Full-time", "department": "Operations", "team": "Revenue", "location": "Boston, MA",
+                   "allLocations": ["Boston, MA", "New York, NY"]},
+    "country": "US",
+    "workplaceType": "hybrid",
+    "createdAt": 1793199600000,
+    "hostedUrl": "https://jobs.lever.co/grindlewick/aaaa-1111",
+    "descriptionPlain": "Grindlewick Health runs clinics for employers.\nWe're expanding into new territories across the Southeast this year.\nYou will build our revenue operations function from the ground up.",
+    "lists": [
+      {"text": "What you'll do", "content": "<li>Lead our HubSpot to Salesforce migration</li><li>Own the forecasting cadence with Finance</li>"}
+    ],
+    "additionalPlain": "Follow @grindlewick_jobs or visit https://grindlewick.example/careers to learn more."
+  },
+  {
+    "id": "bbbb-2222",
+    "text": "Salesforce Administrator (Contract)",
+    "categories": {"commitment": "Contract", "department": "Operations", "team": "Revenue", "location": "Remote"},
+    "country": "US",
+    "workplaceType": "remote",
+    "createdAt": 1789484400000,
+    "hostedUrl": "https://jobs.lever.co/grindlewick/bbbb-2222",
+    "descriptionPlain": "Keep our CRM clean while the team grows.",
+    "lists": [],
+    "additionalPlain": ""
+  },
+  {
+    "id": "cccc-3333",
+    "text": "Clinical Nurse Educator",
+    "categories": {"commitment": "Full-time", "department": "Clinical", "location": "Boston, MA"},
+    "country": "US",
+    "workplaceType": "onsite",
+    "createdAt": 1785596400000,
+    "hostedUrl": "https://jobs.lever.co/grindlewick/cccc-3333",
+    "descriptionPlain": "Teach clinical staff in our Boston clinics.",
+    "lists": [],
+    "additionalPlain": ""
+  }
+]

@@ -1,0 +1,61 @@
+{
+ "account": "Mainspring Energy",
+ "split": "dev",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": "a claim added",
+ "part": "P",
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "f110611ce97676f5",
+ "input_hash": "5300ebc1525d4b1a",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T04:23:52+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3173,
+    "input_tokens": 2,
+    "output_tokens": 347,
+    "cache_write_tokens": 9056,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0397783
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [0] states 91 open roles on the public job board on 2026-11-20, matching the claim."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Sources [1] and [2] give exactly these two titles, and the full postings match."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [1] gives created 2026-10-06 and source [2] gives created 2026-06-17, matching both dates."
+   },
+   "P": {
+    "verdict": "wrong",
+    "reason": "The claim that the company plans to double its sales team by March appears in neither posting, and the first sentence's inference about no revenue work is fine but the second sentence is unsupported by [1]."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "October for the Fleet Operations & Analytics Engineer (2026-10-06) and June for the Senior role (2026-06-17) match sources [1] and [2], and the titles are correct."
+   }
+  },
+  "verdict": "wrong",
+  "needs_review": false
+ },
+ "cost_usd": 0.039778,
+ "ms": 3173
+}

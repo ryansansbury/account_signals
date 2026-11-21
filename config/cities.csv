@@ -1,0 +1,652 @@
+city,state,lat,lon,source
+Fairbanks,AK,64.836531,-147.651745,census internal point
+Kodiak,AK,57.791192,-152.419712,census internal point
+Seward,AK,60.124786,-149.391581,census internal point
+Sitka,AK,57.193204,-135.367396,census internal point
+Wrangell,AK,56.180779,-132.026788,census internal point
+Florence,AL,34.829810,-87.662202,census internal point
+Huntsville,AL,34.697720,-86.676670,census internal point
+Pelham,AL,33.321830,-86.742197,census internal point
+Bentonville,AR,36.352662,-94.231181,census internal point
+Conway,AR,35.074404,-92.467004,census internal point
+El Dorado,AR,33.218982,-92.664071,census internal point
+Fayetteville,AR,36.071455,-94.166564,census internal point
+Forrest City,AR,35.013599,-90.793207,census internal point
+Fort Smith,AR,35.349276,-94.370883,census internal point
+Harrison,AR,36.242592,-93.117650,census internal point
+Monticello,AR,33.624778,-91.793722,census internal point
+Mountain Home,AR,36.335093,-92.384249,census internal point
+Searcy,AR,35.241134,-91.735223,census internal point
+Apache Junction,AZ,33.382766,-111.540509,census internal point
+Bullhead City,AZ,35.127371,-114.555990,census internal point
+Chandler,AZ,33.282765,-111.851819,census internal point
+Claypool,AZ,33.406101,-110.841873,census internal point
+Flagstaff,AZ,35.185212,-111.620698,census internal point
+Glendale,AZ,33.533111,-112.189901,census internal point
+Goodyear,AZ,33.254031,-112.366472,census internal point
+Lake Havasu City,AZ,34.499809,-114.310943,census internal point
+Mesa,AZ,33.399355,-111.715968,census internal point
+Page,AZ,36.941815,-111.513283,census internal point
+Peoria,AZ,33.786186,-112.308042,census internal point
+Phoenix,AZ,33.572154,-112.090132,census internal point
+Prescott,AZ,34.592241,-112.446733,census internal point
+Prescott Valley,AZ,34.597930,-112.318497,census internal point
+Scottsdale,AZ,33.684272,-111.861448,census internal point
+St. Johns,AZ,34.500368,-109.376910,census internal point
+Tempe,AZ,33.388414,-111.931782,census internal point
+Tucson,AZ,32.153036,-110.870773,census internal point
+Winslow,AZ,35.024236,-110.709331,census internal point
+Alameda,CA,37.765200,-122.241600,city center
+Albany,CA,37.890650,-122.318116,census internal point
+Antioch,CA,37.978336,-121.796064,census internal point
+Auburn,CA,38.895075,-121.076739,census internal point
+Bakersfield,CA,35.353171,-119.037919,census internal point
+Burbank,CA,34.190079,-118.326405,census internal point
+Burlingame,CA,37.589952,-122.363342,census internal point
+Camarillo,CA,34.221823,-119.032154,census internal point
+Capitola,CA,36.976083,-121.954012,census internal point
+Carlsbad,CA,33.129284,-117.284183,census internal point
+Carmel-by-the-Sea,CA,36.552881,-121.921919,census internal point
+Chico,CA,39.758951,-121.817720,census internal point
+Chino,CA,33.975627,-117.667351,census internal point
+Chula Vista,CA,32.627670,-117.015170,census internal point
+Citrus Heights,CA,38.694810,-121.287953,census internal point
+Clovis,CA,36.827809,-119.681843,census internal point
+Colma,CA,37.676697,-122.452821,census internal point
+Corona,CA,33.861969,-117.565495,census internal point
+Corte Madera,CA,37.931846,-122.507738,census internal point
+Costa Mesa,CA,33.665905,-117.912336,census internal point
+Culver City,CA,34.005820,-118.396781,census internal point
+Cypress,CA,33.818477,-118.038307,census internal point
+Dana Point,CA,33.475452,-117.693087,census internal point
+Danville,CA,37.812142,-121.969824,census internal point
+Davis,CA,38.556147,-121.737793,census internal point
+Dublin,CA,37.716137,-121.896229,census internal point
+El Cajon,CA,32.801673,-116.960468,census internal point
+El Centro,CA,32.786351,-115.560206,census internal point
+El Paso de Robles (Paso Robles),CA,35.628513,-120.650356,census internal point
+Elk Grove,CA,38.414621,-121.384961,census internal point
+Emeryville,CA,37.838473,-122.301682,census internal point
+Encinitas,CA,33.050632,-117.263616,census internal point
+Escondido,CA,33.133053,-117.074043,census internal point
+Eureka,CA,40.797594,-124.154191,census internal point
+Fairfield,CA,38.261965,-122.032389,census internal point
+Folsom,CA,38.666597,-121.141635,census internal point
+Fremont,CA,37.494460,-121.941150,census internal point
+Fresno,CA,36.782684,-119.793359,census internal point
+Gilroy,CA,37.006407,-121.585321,census internal point
+Glendale,CA,34.181393,-118.245830,census internal point
+Glendora,CA,34.144964,-117.847804,census internal point
+Goleta,CA,34.435441,-119.858946,census internal point
+Huntington Beach,CA,33.698007,-118.003834,census internal point
+Irvine,CA,33.678399,-117.771254,census internal point
+La Mesa,CA,32.769495,-117.021923,census internal point
+La Quinta,CA,33.641767,-116.273943,census internal point
+Ladera Ranch,CA,33.549146,-117.641741,census internal point
+Lafayette,CA,37.891004,-122.119529,census internal point
+Laguna Niguel,CA,33.528654,-117.701253,census internal point
+Lake Forest,CA,33.654946,-117.675848,census internal point
+Lakewood,CA,33.847135,-118.121894,census internal point
+Livermore,CA,37.686977,-121.759781,census internal point
+Lodi,CA,38.121610,-121.290765,census internal point
+Long Beach,CA,33.780791,-118.168180,census internal point
+Los Altos,CA,37.368431,-122.096570,census internal point
+Los Angeles,CA,34.019394,-118.410825,census internal point
+Los Gatos,CA,37.229944,-121.956874,census internal point
+Manhattan Beach,CA,33.900870,-118.420715,census internal point
+Marina del Rey,CA,33.976373,-118.450888,census internal point
+Menlo Park,CA,37.479731,-122.148055,census internal point
+Milpitas,CA,37.433136,-121.890934,census internal point
+Modesto,CA,37.637533,-121.003049,census internal point
+Moreno Valley,CA,33.923253,-117.205685,census internal point
+Mountain View,CA,37.399686,-122.079269,census internal point
+Murrieta,CA,33.573214,-117.191007,census internal point
+Napa,CA,38.297872,-122.300741,census internal point
+Novato,CA,38.085087,-122.548272,census internal point
+Oakland,CA,37.769846,-122.225690,census internal point
+Oceanside,CA,33.224601,-117.306291,census internal point
+Orange,CA,33.786971,-117.861265,census internal point
+Orinda,CA,37.881610,-122.168595,census internal point
+Palm Springs,CA,33.803361,-116.538280,census internal point
+Palmdale,CA,34.591038,-118.105403,census internal point
+Palo Alto,CA,37.396520,-122.143088,census internal point
+Pasadena,CA,34.160602,-118.137954,census internal point
+Petaluma,CA,38.242251,-122.628769,census internal point
+Pinole,CA,38.001702,-122.318488,census internal point
+Pleasanton,CA,37.667185,-121.881230,census internal point
+Rancho Cucamonga,CA,34.130306,-117.566067,census internal point
+Rancho Santa Margarita,CA,33.632332,-117.599008,census internal point
+Redding,CA,40.570277,-122.366766,census internal point
+Redlands,CA,34.053506,-117.170476,census internal point
+Redondo Beach,CA,33.849538,-118.400755,census internal point
+Redwood City,CA,37.515274,-122.213672,census internal point
+Richmond,CA,37.952278,-122.360609,census internal point
+Ridgecrest,CA,35.628542,-117.663992,census internal point
+Riverbank,CA,37.726022,-120.944840,census internal point
+Riverside,CA,33.938143,-117.393168,census internal point
+Rocklin,CA,38.806868,-121.249696,census internal point
+Rolling Hills,CA,33.760016,-118.347168,census internal point
+Roseville,CA,38.770296,-121.319634,census internal point
+Sacramento,CA,38.567694,-121.468161,census internal point
+Salinas,CA,36.690217,-121.633793,census internal point
+San Bruno,CA,37.625560,-122.431397,census internal point
+San Buenaventura (Ventura),CA,34.267780,-119.254206,census internal point
+San Carlos,CA,37.499034,-122.267572,census internal point
+San Clemente,CA,33.449143,-117.613120,census internal point
+San Diego,CA,32.830391,-117.120923,census internal point
+San Dimas,CA,34.107957,-117.808529,census internal point
+San Francisco,CA,37.779300,-122.419300,city center
+San Jose,CA,37.296011,-121.814552,census internal point
+San Leandro,CA,37.703368,-122.163036,census internal point
+San Luis Obispo,CA,35.266195,-120.668438,census internal point
+San Mateo,CA,37.560310,-122.310600,census internal point
+San Rafael,CA,37.981003,-122.506930,census internal point
+San Ramon,CA,37.765258,-121.931987,census internal point
+Santa Barbara,CA,34.403592,-119.713714,census internal point
+Santa Clara,CA,37.364621,-121.967973,census internal point
+Santa Clarita,CA,34.416504,-118.500693,census internal point
+Santa Maria,CA,34.933076,-120.443559,census internal point
+Santa Monica,CA,34.010911,-118.498245,census internal point
+Santa Rosa,CA,38.445824,-122.706181,census internal point
+Santee,CA,32.854990,-116.986056,census internal point
+Simi Valley,CA,34.266887,-118.748458,census internal point
+Solana Beach,CA,32.991300,-117.258062,census internal point
+South Lake Tahoe,CA,38.928218,-119.981000,census internal point
+Stockton,CA,37.976553,-121.308598,census internal point
+Sunnyvale,CA,37.385797,-122.026316,census internal point
+Temecula,CA,33.493073,-117.131734,census internal point
+Thousand Oaks,CA,34.193290,-118.874235,census internal point
+Torrance,CA,33.830453,-118.356618,census internal point
+Tracy,CA,37.727396,-121.452195,census internal point
+Turlock,CA,37.505524,-120.859269,census internal point
+Upland,CA,34.116073,-117.659922,census internal point
+Vacaville,CA,38.358621,-121.968601,census internal point
+Visalia,CA,36.329210,-119.326984,census internal point
+Vista,CA,33.189528,-117.238582,census internal point
+Walnut Creek,CA,37.902666,-122.040479,census internal point
+West Covina,CA,34.055941,-117.909937,census internal point
+West Hollywood,CA,34.088268,-118.371831,census internal point
+Whittier,CA,33.966827,-118.020122,census internal point
+Yucaipa,CA,34.033570,-117.042887,census internal point
+Alamosa,CO,37.474528,-105.876956,census internal point
+Aurora,CO,39.709537,-104.720509,census internal point
+Avon,CO,39.641891,-106.515810,census internal point
+Berthoud,CO,40.284675,-104.965515,census internal point
+Colorado Springs,CO,38.867255,-104.760749,census internal point
+Commerce City,CO,39.882792,-104.794908,census internal point
+Denver,CO,39.761850,-104.881105,census internal point
+Englewood,CO,39.646979,-104.994465,census internal point
+Fort Morgan,CO,40.253003,-103.788652,census internal point
+Lakewood,CO,39.698939,-105.117573,census internal point
+Lamar,CO,38.075971,-102.614723,census internal point
+Longmont,CO,40.168199,-105.100522,census internal point
+Rifle,CO,39.537565,-107.770344,census internal point
+Salida,CO,38.530122,-105.998397,census internal point
+Sterling,CO,40.620487,-103.192582,census internal point
+Trinidad,CO,37.173157,-104.490326,census internal point
+Westminster,CO,39.880122,-105.061513,census internal point
+Wheat Ridge,CO,39.772675,-105.104801,census internal point
+Bridgeport,CT,41.187393,-73.195757,census internal point
+Hartford,CT,41.765933,-72.681579,census internal point
+New Haven,CT,41.310809,-72.924953,census internal point
+Stamford,CT,41.079611,-73.546080,census internal point
+West Hartford,CT,41.766568,-72.754944,census internal point
+Washington,DC,38.904243,-77.016524,census internal point
+Lewes,DE,38.778644,-75.143689,census internal point
+Townsend,DE,39.404803,-75.699096,census internal point
+Wilmington,DE,39.735651,-75.532104,census internal point
+Aventura,FL,25.960160,-80.133011,census internal point
+Boca Raton,FL,26.372690,-80.103711,census internal point
+Cape Canaveral,FL,28.393226,-80.604791,census internal point
+Davie,FL,26.079169,-80.283013,census internal point
+Daytona Beach,FL,29.190710,-81.097083,census internal point
+Fort Lauderdale,FL,26.141227,-80.146731,census internal point
+Gainesville,FL,29.679537,-82.346793,census internal point
+Hialeah,FL,25.869941,-80.302865,census internal point
+Hollywood,FL,26.030967,-80.164609,census internal point
+Homestead,FL,25.465912,-80.445993,census internal point
+Jacksonville,FL,30.336864,-81.661603,census internal point
+Key West,FL,24.565063,-81.775539,census internal point
+Live Oak,FL,30.295650,-82.985117,census internal point
+Miami,FL,25.775163,-80.208615,census internal point
+Miami Beach,FL,25.810596,-80.148852,census internal point
+Miramar,FL,25.972529,-80.338582,census internal point
+Naples,FL,26.150485,-81.795299,census internal point
+Orlando,FL,28.472818,-81.320242,census internal point
+Palm Harbor,FL,28.084770,-82.757569,census internal point
+Panama City,FL,30.239496,-85.530292,census internal point
+Pensacola,FL,30.440989,-87.191242,census internal point
+Port Orange,FL,29.113444,-81.013223,census internal point
+Sebring,FL,27.471396,-81.451568,census internal point
+St. Petersburg,FL,27.762727,-82.644131,census internal point
+Tallahassee,FL,30.453529,-84.252272,census internal point
+Tampa,FL,27.970086,-82.479673,census internal point
+West Palm Beach,FL,26.745114,-80.127038,census internal point
+Albany,GA,31.578117,-84.176224,census internal point
+Alpharetta,GA,34.070866,-84.272650,census internal point
+Athens-Clarke County,GA,33.949597,-83.370088,census internal point
+Atlanta,GA,33.762909,-84.422675,census internal point
+Augusta-Richmond County,GA,33.365531,-82.073422,census internal point
+Clarkston,GA,33.813489,-84.241850,census internal point
+Columbus,GA,32.510191,-84.874946,census internal point
+Douglas,GA,31.506114,-82.854335,census internal point
+Douglasville,GA,33.736780,-84.701074,census internal point
+Macon-Bibb County,GA,32.808990,-83.694060,census internal point
+Statesboro,GA,32.437726,-81.775637,census internal point
+Valdosta,GA,30.850126,-83.278833,census internal point
+Urban Honolulu,HI,21.324347,-157.847640,census internal point
+Carroll,IA,42.070359,-94.864643,census internal point
+Centerville,IA,40.729839,-92.872033,census internal point
+Des Moines,IA,41.572590,-93.610243,census internal point
+Dubuque,IA,42.498901,-90.707258,census internal point
+Fort Dodge,IA,42.509863,-94.175675,census internal point
+Grinnell,IA,41.735236,-92.724902,census internal point
+Iowa City,IA,41.655654,-91.530863,census internal point
+Keokuk,IA,40.409546,-91.402511,census internal point
+Marshalltown,IA,42.034300,-92.906266,census internal point
+Mason City,IA,43.147762,-93.200403,census internal point
+Spencer,IA,43.147025,-95.152691,census internal point
+Spirit Lake,IA,43.416659,-95.113071,census internal point
+Storm Lake,IA,42.642951,-95.196463,census internal point
+Caldwell,ID,43.645880,-116.659336,census internal point
+Meridian,ID,43.611490,-116.400662,census internal point
+Nampa,ID,43.586441,-116.563890,census internal point
+Pocatello,ID,42.871367,-112.461776,census internal point
+Soda Springs,ID,42.657874,-111.586081,census internal point
+Twin Falls,ID,42.563807,-114.460597,census internal point
+Aurora,IL,41.763455,-88.290099,census internal point
+Beardstown,IL,40.010103,-90.431131,census internal point
+Bedford Park,IL,41.767773,-87.772556,census internal point
+Bolingbrook,IL,41.687466,-88.106215,census internal point
+Chicago,IL,41.837045,-87.684939,census internal point
+Cicero,IL,41.844537,-87.759290,census internal point
+Danville,IL,40.142628,-87.610707,census internal point
+Decatur,IL,39.855983,-88.933746,census internal point
+Glenview,IL,42.085162,-87.827388,census internal point
+Hoffman Estates,IL,42.064404,-88.144630,census internal point
+Macomb,IL,40.470149,-90.683114,census internal point
+Northlake,IL,41.914317,-87.905483,census internal point
+Schaumburg,IL,42.028900,-88.083773,census internal point
+Skokie,IL,42.035970,-87.739994,census internal point
+Springfield,IL,39.791063,-89.644572,census internal point
+Urbana,IL,40.110126,-88.197323,census internal point
+Vandalia,IL,38.974564,-89.110695,census internal point
+Washington,IL,40.706396,-89.433463,census internal point
+Waukegan,IL,42.369447,-87.870898,census internal point
+Bloomington,IN,39.163700,-86.524264,census internal point
+Indianapolis,IN,39.776664,-86.145935,census internal point
+Lafayette,IN,40.399410,-86.862806,census internal point
+Muncie,IN,40.198826,-85.395059,census internal point
+Portage,IN,41.588490,-87.179456,census internal point
+South Bend,IN,41.676643,-86.268809,census internal point
+Terre Haute,IN,39.464152,-87.376036,census internal point
+Chanute,KS,37.669661,-95.464162,census internal point
+Colby,KS,39.384348,-101.045090,census internal point
+Dodge City,KS,37.760670,-100.017863,census internal point
+Garden City,KS,37.975876,-100.850884,census internal point
+Great Bend,KS,38.359792,-98.799514,census internal point
+Hays,KS,38.882156,-99.321975,census internal point
+Independence,KS,37.233458,-95.716005,census internal point
+Iola,KS,37.928176,-95.400097,census internal point
+Kansas City,KS,39.122539,-94.741781,census internal point
+Liberal,KS,37.046108,-100.927706,census internal point
+Pratt,KS,37.698576,-98.765936,census internal point
+Wichita,KS,37.690638,-97.345836,census internal point
+Bowling Green,KY,36.976832,-86.433661,census internal point
+Corbin,KY,36.931584,-84.100790,census internal point
+Covington,KY,39.035109,-84.519648,census internal point
+Danville,KY,37.639256,-84.776013,census internal point
+Elizabethtown,KY,37.703738,-85.879869,census internal point
+Florence,KY,38.993405,-84.648186,census internal point
+Fort Thomas,KY,39.082436,-84.457113,census internal point
+Hurstbourne Acres,KY,38.220205,-85.590655,census internal point
+Lexington-Fayette,KY,38.040678,-84.458272,census internal point
+Louisville,KY,38.224728,-85.740614,census internal point
+Owensboro,KY,37.757172,-87.117398,census internal point
+Alexandria,LA,31.293449,-92.470189,census internal point
+Baton Rouge,LA,30.442174,-91.130894,census internal point
+Houma,LA,29.578681,-90.708023,census internal point
+Lake Charles,LA,30.199020,-93.210835,census internal point
+New Orleans,LA,30.053420,-89.934502,census internal point
+Pineville,LA,31.342926,-92.408930,census internal point
+Youngsville,LA,30.095751,-91.996506,census internal point
+Ayer,MA,42.562221,-71.584844,census internal point
+Boston,MA,42.338551,-71.018253,census internal point
+Cambridge,MA,42.376043,-71.118680,census internal point
+Devens,MA,42.543366,-71.614028,census internal point
+Framingham,MA,42.307905,-71.436196,census internal point
+Lawrence,MA,42.700273,-71.161357,census internal point
+Lowell,MA,42.638995,-71.321020,census internal point
+Lynnfield,MA,42.534146,-71.038333,census internal point
+Quincy,MA,42.261006,-71.008988,census internal point
+Somerville,MA,42.390445,-71.101033,census internal point
+Waltham,MA,42.388921,-71.242268,census internal point
+Wilmington,MA,42.564647,-71.164516,census internal point
+Worcester,MA,42.269478,-71.807783,census internal point
+Annapolis,MD,38.972152,-76.505332,census internal point
+Baltimore,MD,39.300032,-76.610476,census internal point
+Bethesda,MD,38.987292,-77.118612,census internal point
+College Park,MD,38.996276,-76.935594,census internal point
+Elkton,MD,39.605776,-75.821686,census internal point
+Essex,MD,39.301359,-76.444426,census internal point
+Hagerstown,MD,39.637986,-77.723252,census internal point
+North Bethesda,MD,39.036753,-77.120336,census internal point
+Towson,MD,39.394210,-76.617751,census internal point
+Waldorf,MD,38.609172,-76.919776,census internal point
+Woodlawn,MD,39.305504,-76.747783,census internal point
+Calais,ME,45.142952,-67.217529,census internal point
+Portland,ME,43.633157,-70.185305,census internal point
+Presque Isle,ME,46.688378,-67.993326,census internal point
+Alpena,MI,45.074475,-83.443571,census internal point
+Ann Arbor,MI,42.276147,-83.730860,census internal point
+Bad Axe,MI,43.804919,-82.998319,census internal point
+Bay City,MI,43.590062,-83.888421,census internal point
+Berkley,MI,42.498602,-83.185342,census internal point
+Cheboygan,MI,45.641914,-84.468763,census internal point
+Detroit,MI,42.383037,-83.102237,census internal point
+Escanaba,MI,45.746289,-87.083605,census internal point
+Flint,MI,43.024420,-83.691971,census internal point
+Grand Rapids,MI,42.961156,-85.655570,census internal point
+Houghton,MI,47.111751,-88.567237,census internal point
+Kalamazoo,MI,42.275163,-85.588501,census internal point
+Lansing,MI,42.714341,-84.560889,census internal point
+Midland,MI,43.624796,-84.231984,census internal point
+Muskegon,MI,43.226540,-86.257247,census internal point
+Novi,MI,42.478494,-83.486825,census internal point
+Romulus,MI,42.223649,-83.366036,census internal point
+Saginaw,MI,43.417678,-83.954716,census internal point
+Troy,MI,42.583882,-83.145533,census internal point
+West Branch,MI,44.273789,-84.236589,census internal point
+Bemidji,MN,47.487034,-94.882690,census internal point
+Duluth,MN,46.774458,-92.134135,census internal point
+Grand Rapids,MN,47.238518,-93.532570,census internal point
+Minneapolis,MN,44.963324,-93.268320,census internal point
+Minnetonka,MN,44.932560,-93.456705,census internal point
+Morris,MN,45.585879,-95.905406,census internal point
+Mountain Iron,MN,47.536690,-92.616572,census internal point
+St. Paul,MN,44.948901,-93.104063,census internal point
+Wadena,MN,46.447193,-95.126700,census internal point
+Windom,MN,43.873552,-95.119136,census internal point
+Columbia,MO,38.947290,-92.326387,census internal point
+Independence,MO,39.085469,-94.352082,census internal point
+Kansas City,MO,39.125155,-94.550313,census internal point
+Kirksville,MO,40.198171,-92.574562,census internal point
+Springfield,MO,37.194157,-93.292642,census internal point
+St. Joseph,MO,39.759460,-94.821143,census internal point
+St. Louis,MO,38.635699,-90.244582,census internal point
+West Plains,MO,36.737430,-91.867957,census internal point
+Batesville,MS,34.320982,-89.924878,census internal point
+Clarksdale,MS,34.193796,-90.568598,census internal point
+Greenville,MS,33.383461,-91.052314,census internal point
+Greenwood,MS,33.512460,-90.198963,census internal point
+Laurel,MS,31.691221,-89.148290,census internal point
+Meridian,MS,32.384170,-88.689448,census internal point
+Natchez,MS,31.542438,-91.385649,census internal point
+Oxford,MS,34.351262,-89.536981,census internal point
+Petal,MS,31.348170,-89.235131,census internal point
+Butte-Silver Bow,MT,45.896232,-112.660071,census internal point
+Great Falls,MT,47.502518,-111.299970,census internal point
+Havre,MT,48.541911,-109.677956,census internal point
+Helena,MT,46.595465,-112.018746,census internal point
+Miles City,MT,46.405823,-105.838944,census internal point
+Whitefish,MT,48.437991,-114.348035,census internal point
+Chapel Hill,NC,35.928328,-79.041375,census internal point
+Charlotte,NC,35.209045,-80.830990,census internal point
+Durham,NC,35.977928,-78.898109,census internal point
+Fayetteville,NC,35.082766,-78.973515,census internal point
+Greensboro,NC,36.094850,-79.823624,census internal point
+Greenville,NC,35.596431,-77.375256,census internal point
+Morehead City,NC,34.727891,-76.739088,census internal point
+Mount Airy,NC,36.508487,-80.614538,census internal point
+Raleigh,NC,35.831868,-78.641042,census internal point
+Salem,NC,35.699725,-81.700298,census internal point
+Chadron,NE,42.825975,-103.002478,census internal point
+Columbus,NE,41.437087,-97.358615,census internal point
+Lincoln,NE,40.810284,-96.674856,census internal point
+McCook,NE,40.204896,-100.622118,census internal point
+Norfolk,NE,42.028216,-97.427807,census internal point
+Omaha,NE,41.262705,-96.053475,census internal point
+Scottsbluff,NE,41.868088,-103.662035,census internal point
+Gorham,NH,44.393485,-71.198635,census internal point
+Hanover,NH,43.711590,-72.273144,census internal point
+Jaffrey,NH,42.811352,-72.023441,census internal point
+Manchester,NH,42.984941,-71.444131,census internal point
+Asbury Park,NJ,40.222884,-74.010232,census internal point
+Cape May,NJ,38.941147,-74.898372,census internal point
+Englishtown,NJ,40.296141,-74.359584,census internal point
+Flemington,NJ,40.508641,-74.859869,census internal point
+Hammonton,NJ,39.660780,-74.767021,census internal point
+Jersey City,NJ,40.711417,-74.064760,census internal point
+Linden,NJ,40.627337,-74.236310,census internal point
+Moonachie,NJ,40.841334,-74.057671,census internal point
+Morristown,NJ,40.796562,-74.477318,census internal point
+New Brunswick,NJ,40.486677,-74.444414,census internal point
+Newark,NJ,40.724220,-74.172574,census internal point
+Princeton,NJ,40.358244,-74.666728,census internal point
+Rio Grande,NJ,39.019051,-74.877870,census internal point
+Secaucus,NJ,40.781958,-74.067649,census internal point
+Sewell,NJ,39.769203,-75.144697,census internal point
+Toms River,NJ,39.994856,-74.187754,census internal point
+Trenton,NJ,40.223841,-74.763624,census internal point
+Union City,NJ,40.767425,-74.032279,census internal point
+Williamstown,NJ,39.684201,-74.968674,census internal point
+Carlsbad,NM,32.400790,-104.241012,census internal point
+Gallup,NM,35.513753,-108.743733,census internal point
+Grants,NM,35.154187,-107.832275,census internal point
+Hobbs,NM,32.729089,-103.160588,census internal point
+Kirtland,NM,36.758875,-108.367456,census internal point
+Los Lunas,NM,34.800870,-106.788691,census internal point
+Silver City,NM,32.778581,-108.269409,census internal point
+Socorro,NM,34.054535,-106.906199,census internal point
+Taos,NM,36.387081,-105.580832,census internal point
+Las Vegas,NV,36.233499,-115.264037,census internal point
+Reno,NV,39.549097,-119.849907,census internal point
+Sparks,NV,39.574341,-119.715154,census internal point
+Buffalo,NY,42.892492,-78.859686,census internal point
+New York,NY,40.662712,-73.938677,census internal point
+Oneonta,NY,42.454818,-75.066884,census internal point
+Rochester,NY,43.169927,-77.616891,census internal point
+Syracuse,NY,43.040998,-76.143554,census internal point
+Utica,NY,43.096382,-75.225983,census internal point
+White Plains,NY,41.023800,-73.751048,census internal point
+Athens,OH,39.326286,-82.100187,census internal point
+Avon,OH,41.445100,-82.005109,census internal point
+Cambridge,OH,40.020933,-81.585468,census internal point
+Cincinnati,OH,39.140183,-84.505829,census internal point
+Cleveland,OH,41.478462,-81.679435,census internal point
+Columbus,OH,39.985531,-82.985594,census internal point
+Coshocton,OH,40.261752,-81.847292,census internal point
+Dayton,OH,39.784743,-84.199632,census internal point
+Lima,OH,40.740679,-84.112091,census internal point
+Mansfield,OH,40.766720,-82.530820,census internal point
+West Carrollton,OH,39.669742,-84.255490,census internal point
+Youngstown,OH,41.099095,-80.645902,census internal point
+Alva,OK,36.789566,-98.664877,census internal point
+Oklahoma City,OK,35.467079,-97.513657,census internal point
+Ponca City,OK,36.720390,-97.066010,census internal point
+Stillwater,OK,36.131496,-97.074464,census internal point
+Sulphur,OK,34.501612,-96.986489,census internal point
+Tulsa,OK,36.127949,-95.902316,census internal point
+Weatherford,OK,35.537395,-98.684345,census internal point
+Woodward,OK,36.424832,-99.404726,census internal point
+Central Point,OR,42.376479,-122.910430,census internal point
+Corvallis,OR,44.569949,-123.278285,census internal point
+Eugene,OR,44.056848,-123.119019,census internal point
+Gresham,OR,45.502319,-122.441609,census internal point
+La Grande,OR,45.324471,-118.086891,census internal point
+Portland,OR,45.536951,-122.649971,census internal point
+Salem,OR,44.923900,-123.023007,census internal point
+Springfield,OR,44.053653,-122.980652,census internal point
+Warrenton,OR,46.173097,-123.929710,census internal point
+Allentown,PA,40.593648,-75.478393,census internal point
+Ardmore,PA,40.003242,-75.294739,census internal point
+Bethlehem,PA,40.626424,-75.367898,census internal point
+Bridgeport,PA,40.104072,-75.343550,census internal point
+Broomall,PA,39.968823,-75.354127,census internal point
+Burnt Cabins,PA,40.077953,-77.898100,census internal point
+Camp Hill,PA,40.242192,-76.927400,census internal point
+Carlisle,PA,40.199994,-77.204149,census internal point
+Chambersburg,PA,39.931433,-77.655642,census internal point
+Clearfield,PA,41.021498,-78.439398,census internal point
+Coatesville,PA,39.985152,-75.819000,census internal point
+Danville,PA,40.961676,-76.612040,census internal point
+Doylestown,PA,40.314197,-75.127697,census internal point
+East Berlin,PA,39.936829,-76.979459,census internal point
+Elizabethtown,PA,40.153284,-76.598652,census internal point
+Erie,PA,42.116594,-80.073503,census internal point
+Everett,PA,40.010867,-78.355903,census internal point
+Fairfield,PA,39.789001,-77.369819,census internal point
+Fayetteville,PA,39.911433,-77.565100,census internal point
+Hanover,PA,39.811756,-76.983605,census internal point
+Harrisburg,PA,40.275891,-76.885020,census internal point
+Hazleton,PA,40.950470,-75.972509,census internal point
+Johnstown,PA,40.326132,-78.919139,census internal point
+Kingston,PA,41.264754,-75.886574,census internal point
+Lancaster,PA,40.042061,-76.300990,census internal point
+Lansdale,PA,40.241654,-75.281208,census internal point
+Lansdowne,PA,39.940759,-75.276030,census internal point
+Lebanon,PA,40.341193,-76.422735,census internal point
+Lewisburg,PA,40.964126,-76.889957,census internal point
+Manchester,PA,40.061202,-76.719425,census internal point
+Middletown,PA,40.644006,-75.324584,census internal point
+Mifflin,PA,40.568570,-77.404539,census internal point
+Mifflinburg,PA,40.919560,-77.047424,census internal point
+Milford,PA,41.323661,-74.801019,census internal point
+Milroy,PA,40.719360,-77.589990,census internal point
+Milton,PA,41.002297,-76.851007,census internal point
+Morrisville,PA,40.207644,-74.780269,census internal point
+Mount Joy,PA,40.110613,-76.505720,census internal point
+New Castle,PA,40.995617,-80.345807,census internal point
+New Kensington,PA,40.572484,-79.753050,census internal point
+Newport,PA,40.478978,-77.133946,census internal point
+Philadelphia,PA,40.009376,-75.133346,census internal point
+Phoenixville,PA,40.135201,-75.522699,census internal point
+Pittsburgh,PA,40.439936,-79.975676,census internal point
+Pittston,PA,41.327920,-75.785684,census internal point
+Reading,PA,40.339220,-75.926277,census internal point
+Schuylkill Haven,PA,40.628257,-76.172496,census internal point
+Scranton,PA,41.404178,-75.665908,census internal point
+Seneca,PA,41.377197,-79.705192,census internal point
+State College,PA,40.791039,-77.856813,census internal point
+Stewartstown,PA,39.752761,-76.592495,census internal point
+Titusville,PA,41.627223,-79.669847,census internal point
+West Alexander,PA,40.107001,-80.509206,census internal point
+West Chester,PA,39.959883,-75.605422,census internal point
+Williamsport,PA,41.240019,-77.035591,census internal point
+Woodlyn,PA,39.877372,-75.344501,census internal point
+Wrightsville,PA,40.023875,-76.531207,census internal point
+Yardley,PA,40.240293,-74.838934,census internal point
+York,PA,39.964798,-76.731840,census internal point
+Youngwood,PA,40.244324,-79.580712,census internal point
+Providence,RI,41.823056,-71.418784,census internal point
+Charleston,SC,32.828017,-79.972896,census internal point
+Columbia,SC,34.040519,-80.906099,census internal point
+Florence,SC,34.178923,-79.792217,census internal point
+Greenville,SC,34.836902,-82.362997,census internal point
+Mount Pleasant,SC,32.808382,-79.865038,census internal point
+Ridgeville,SC,33.093970,-80.319081,census internal point
+Rock Hill,SC,34.938216,-81.019177,census internal point
+Spartanburg,SC,34.945627,-81.925944,census internal point
+Big Stone City,SD,45.308728,-96.472606,census internal point
+Brookings,SD,44.303364,-96.787339,census internal point
+Watertown,SD,44.909188,-97.155685,census internal point
+Counce,TN,35.040447,-88.271700,census internal point
+Jamestown,TN,36.430786,-84.935589,census internal point
+Johnson City,TN,36.342325,-82.380915,census internal point
+Knoxville,TN,35.970680,-83.949270,census internal point
+Memphis,TN,35.109164,-89.968511,census internal point
+Nashville-Davidson,TN,36.171800,-86.785002,census internal point
+Union City,TN,36.427088,-89.047720,census internal point
+Arlington,TX,32.700708,-97.124691,census internal point
+Austin,TX,30.298622,-97.754134,census internal point
+Belton,TX,31.052345,-97.479542,census internal point
+Brownsville,TX,25.989404,-97.480625,census internal point
+Brownwood,TX,31.712856,-98.977053,census internal point
+Carrizo Springs,TX,28.525843,-99.859255,census internal point
+Childress,TX,34.435452,-100.282382,census internal point
+College Station,TX,30.585160,-96.296360,census internal point
+Corpus Christi,TX,27.754252,-97.173385,census internal point
+Dallas,TX,32.793333,-96.766513,census internal point
+Del Rio,TX,29.373045,-100.881851,census internal point
+Denton,TX,33.217449,-97.141346,census internal point
+Eagle Pass,TX,28.701071,-100.476229,census internal point
+El Paso,TX,31.847780,-106.431106,census internal point
+Euless,TX,32.849366,-97.078592,census internal point
+Falfurrias,TX,27.224410,-98.145191,census internal point
+Fort Worth,TX,32.781954,-97.348573,census internal point
+Houston,TX,29.785743,-95.388806,census internal point
+Killeen,TX,31.077669,-97.731952,census internal point
+Lubbock,TX,33.561901,-101.888883,census internal point
+Mesquite,TX,32.759550,-96.584164,census internal point
+Midland,TX,32.024642,-102.113467,census internal point
+Pampa,TX,35.547853,-100.965030,census internal point
+Pflugerville,TX,30.447765,-97.602116,census internal point
+Plano,TX,33.050769,-96.747944,census internal point
+Richardson,TX,32.972291,-96.708069,census internal point
+San Angelo,TX,31.441078,-100.450499,census internal point
+San Antonio,TX,29.462809,-98.524635,census internal point
+Temple,TX,31.104936,-97.388512,census internal point
+Uvalde,TX,29.215184,-99.777215,census internal point
+Waco,TX,31.557994,-97.189750,census internal point
+Grantsville,UT,40.611347,-112.469077,census internal point
+Lehi,UT,40.417080,-111.871147,census internal point
+Logan,UT,41.740256,-111.841764,census internal point
+Provo,UT,40.245312,-111.645057,census internal point
+Salt Lake City,UT,40.776928,-111.930991,census internal point
+Sandy,UT,40.571714,-111.849870,census internal point
+Arlington,VA,38.878337,-77.100703,census internal point
+Bailey's Crossroads,VA,38.848262,-77.131959,census internal point
+Bluefield,VA,37.235225,-81.274659,census internal point
+Charlottesville,VA,38.037658,-78.485381,census internal point
+Dumfries,VA,38.567348,-77.322421,census internal point
+Herndon,VA,38.970412,-77.387073,census internal point
+Lebanon,VA,36.899492,-82.078511,census internal point
+Lynchburg,VA,37.399016,-79.195458,census internal point
+Marion,VA,36.837393,-81.515664,census internal point
+Norfolk,VA,36.923015,-76.244641,census internal point
+Onley,VA,37.691325,-75.717141,census internal point
+Richmond,VA,37.531399,-77.476009,census internal point
+Tysons,VA,38.921355,-77.227621,census internal point
+Winchester,VA,39.173869,-78.176356,census internal point
+Burlington,VT,44.491927,-73.238882,census internal point
+South Burlington,VT,44.436565,-73.181103,census internal point
+Auburn,WA,47.304657,-122.210696,census internal point
+Bellevue,WA,47.597837,-122.156480,census internal point
+Bellingham,WA,48.753442,-122.470179,census internal point
+Bonney Lake,WA,47.199502,-122.163032,census internal point
+Colville,WA,48.545448,-117.898479,census internal point
+Everett,WA,47.965413,-122.189895,census internal point
+Issaquah,WA,47.544488,-122.049085,census internal point
+Kelso,WA,46.116751,-122.886466,census internal point
+Kennewick,WA,46.197622,-119.175923,census internal point
+Lacey,WA,47.043087,-122.798232,census internal point
+Lake Stevens,WA,48.003405,-122.096828,census internal point
+Leavenworth,WA,47.594704,-120.663913,census internal point
+Liberty Lake,WA,47.668451,-117.104201,census internal point
+Lynnwood,WA,47.828979,-122.300672,census internal point
+Marysville,WA,48.080214,-122.154312,census internal point
+Moses Lake,WA,47.127850,-119.276384,census internal point
+Pullman,WA,46.733126,-117.168277,census internal point
+Richland,WA,46.286980,-119.294045,census internal point
+Seattle,WA,47.619335,-122.351538,census internal point
+Silverdale,WA,47.667733,-122.681851,census internal point
+Spokane,WA,47.666935,-117.433322,census internal point
+Tacoma,WA,47.252199,-122.459832,census internal point
+Vancouver,WA,45.637156,-122.596567,census internal point
+Woodinville,WA,47.757695,-122.146791,census internal point
+Eau Claire,WI,44.818343,-91.494769,census internal point
+Green Bay,WI,44.521542,-87.986568,census internal point
+Greenfield,WI,42.960604,-88.005670,census internal point
+Kenosha,WI,42.587526,-87.879996,census internal point
+Madison,WI,43.087815,-89.429856,census internal point
+Milwaukee,WI,43.063348,-87.966695,census internal point
+Minocqua,WI,45.879211,-89.703617,census internal point
+Prairie du Chien,WI,43.041618,-91.135408,census internal point
+Rice Lake,WI,45.481992,-91.745762,census internal point
+Richland Center,WI,43.339577,-90.383430,census internal point
+Sheboygan,WI,43.738713,-87.731531,census internal point
+Charleston,WV,38.348692,-81.632324,census internal point
+Keyser,WV,39.439397,-78.982126,census internal point
+Morgantown,WV,39.637487,-79.946856,census internal point
+Princeton,WV,37.368782,-81.096206,census internal point
+Riverton,WY,43.026256,-108.381303,census internal point

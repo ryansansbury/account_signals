@@ -1,0 +1,399 @@
+{
+ "account": "PagerDuty",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "a1084e240215a4dd",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:41:14+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "PagerDuty had 42 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Francisco, CA. The US held 69% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sc7099dc065",
+   "title": "Director, Sales Strategy & Operations",
+   "excerpt": "Director, Sales Strategy & Operations",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:pagerduty:6225139004",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s8ac4ea8971",
+   "title": "Director, Sales Strategy & Operations",
+   "excerpt": "Improve forecast accuracy and pipeline health.",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:pagerduty:6225139004",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sc109eaefca",
+   "title": "Business Development Representative - San Francisco",
+   "excerpt": "Execute modern outbound prospecting strategies across phone, email, social, and video channels to generate qualified pipeline in greenfield accounts.",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:pagerduty:6211460004",
+   "family": "territory"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s0403ff5395",
+   "title": "Senior FP&A Manager, GTM",
+   "excerpt": "You will own the analytical backbone of how we plan, forecast, and measure our sales engine - this includes ARR and revenue forecasting, expense management, variance analysis and headcount planning.",
+   "posted": "2026-08-10",
+   "posting_id": "greenhouse:pagerduty:6131057004",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s7b4aa1bc86",
+   "title": "Sales Strategy and Operations Manager",
+   "excerpt": "Sales Strategy and Operations Manager",
+   "posted": "2026-06-02",
+   "posting_id": "greenhouse:pagerduty:5835317004",
+   "family": "salesops"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s2094092aa1",
+   "title": "Sales Strategy and Operations Manager",
+   "excerpt": "Data visualization experience (Tableau, Looker, or PowerBI) is highly preferred.",
+   "posted": "2026-06-02",
+   "posting_id": "greenhouse:pagerduty:5835317004",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s3ba27a279d",
+   "title": "Sales Strategy and Operations Manager",
+   "excerpt": "High proficiency in Excel/Google Sheets for financial modeling and compensation plan simulations.",
+   "posted": "2026-06-02",
+   "posting_id": "greenhouse:pagerduty:5835317004",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s58188b9ed5",
+   "title": "HR Infrastructure & Operations Manager",
+   "excerpt": "Experience with BI/reporting tools (e.g., Tableau, Looker) and SQL.",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:pagerduty:6252144004",
+   "family": "stack"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s425b8d183d",
+   "title": "Senior Manager, Performance Marketing",
+   "excerpt": "Senior Manager, Performance Marketing",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:pagerduty:6253607004",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s301a531232",
+   "title": "Senior Principal Customer Success Manager",
+   "excerpt": "Senior Principal Customer Success Manager",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:pagerduty:6226348004",
+   "family": "pace"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "sd8d05233e5",
+   "title": "Senior Principal Customer Success Manager",
+   "excerpt": "Senior Principal Customer Success Manager",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:pagerduty:6256127004",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Director, Sales Strategy & Operations\\\" posting went up on 2026-10-19 and says \\\"Improve forecast accuracy and pipeline health.\\\" [1][2]\"}, {\"text\": \"The \\\"Sales Strategy and Operations Manager\\\" posting from 2026-06-02 asks for Excel or Google Sheets skill for \\\"compensation plan simulations.\\\" [5][7]\"}, {\"text\": \"The \\\"Senior FP&A Manager, GTM\\\" posting from 2026-08-10 says the role covers \\\"ARR and revenue forecasting\\\" and \\\"headcount planning.\\\" [4]\"}], \"priority\": {\"text\": \"The account's likely priority is forecasting and pipeline health for its sales team, and the postings describe it as \\\"Improve forecast accuracy and pipeline health.\\\" and \\\"ARR and revenue forecasting\\\" [2][4]\"}, \"questions\": [\"How does your team build the sales forecast today, and who relies on it?\", \"Where does pipeline reporting live now, and how do sales leaders use it?\", \"How are compensation plans modeled and checked before they roll out?\"], \"unknowns\": [\"Which CRM the sales team uses\", \"Whether the sales operations roles are new or backfills\", \"Who owns forecasting between sales and finance\", \"How large the sales operations team is today\"], \"first_touch\": {\"subject\": \"Forecasting and pipeline at PagerDuty\", \"body\": \"Hi {first_name},\\n\\nI saw that PagerDuty posted a \\\"Director, Sales Strategy & Operations\\\" role in October that talks about forecast accuracy and pipeline health. A \\\"Senior FP&A Manager, GTM\\\" role from August also covers ARR and revenue forecasting.\\n\\nI work with revenue teams on pipeline reporting and forecasting. Is improving the forecast something your team is working on this quarter?\\n\\n{sender_name}\", \"cites\": [1, 2, 4]}}",
+   "meta": {
+    "ms": 20607,
+    "input_tokens": 2,
+    "output_tokens": 2727,
+    "cache_write_tokens": 5702,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0502366
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Director, Sales Strategy & Operations\" posting went up on 2026-10-19 and says \"Improve forecast accuracy and pipeline health.\" [1][2]"
+     },
+     {
+      "text": "The \"Sales Strategy and Operations Manager\" posting from 2026-06-02 asks for Excel or Google Sheets skill for \"compensation plan simulations.\" [5][7]"
+     },
+     {
+      "text": "The \"Senior FP&A Manager, GTM\" posting from 2026-08-10 says the role covers \"ARR and revenue forecasting\" and \"headcount planning.\" [4]"
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is forecasting and pipeline health for its sales team, and the postings describe it as \"Improve forecast accuracy and pipeline health.\" and \"ARR and revenue forecasting\" [2][4]"
+    },
+    "questions": [
+     "How does your team build the sales forecast today, and who relies on it?",
+     "Where does pipeline reporting live now, and how do sales leaders use it?",
+     "How are compensation plans modeled and checked before they roll out?"
+    ],
+    "unknowns": [
+     "Which CRM the sales team uses",
+     "Whether the sales operations roles are new or backfills",
+     "Who owns forecasting between sales and finance",
+     "How large the sales operations team is today"
+    ],
+    "first_touch": {
+     "subject": "Forecasting and pipeline at PagerDuty",
+     "body": "Hi {first_name},\n\nI saw that PagerDuty posted a \"Director, Sales Strategy & Operations\" role in October that talks about forecast accuracy and pipeline health. A \"Senior FP&A Manager, GTM\" role from August also covers ARR and revenue forecasting.\n\nI work with revenue teams on pipeline reporting and forecasting. Is improving the forecast something your team is working on this quarter?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Director, Sales Strategy & Operations\" posting went up on 2026-10-19 and says \"Improve forecast accuracy and pipeline health.\" [1][2]",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Sales Strategy and Operations Manager\" posting from 2026-06-02 asks for Excel or Google Sheets skill for \"compensation plan simulations.\" [5][7]",
+      "cites": [
+       5,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Senior FP&A Manager, GTM\" posting from 2026-08-10 says the role covers \"ARR and revenue forecasting\" and \"headcount planning.\" [4]",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is forecasting and pipeline health for its sales team, and the postings describe it as \"Improve forecast accuracy and pipeline health.\" and \"ARR and revenue forecasting\" [2][4]",
+      "cites": [
+       2,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does your team build the sales forecast today, and who relies on it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Where does pipeline reporting live now, and how do sales leaders use it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are compensation plans modeled and checked before they roll out?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the sales team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the sales operations roles are new or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting between sales and finance",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How large the sales operations team is today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that PagerDuty posted a \"Director, Sales Strategy & Operations\" role in October that talks about forecast accuracy and pipeline health. A \"Senior FP&A Manager, GTM\" role from August also covers ARR and revenue forecasting.\n\nI work with revenue teams on pipeline reporting and forecasting. Is improving the forecast something your team is working on this quarter?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Director, Sales Strategy & Operations\" posting went up on 2026-10-19 and says \"Improve forecast accuracy and pipeline health.\" [1][2]"
+    },
+    {
+     "text": "The \"Sales Strategy and Operations Manager\" posting from 2026-06-02 asks for Excel or Google Sheets skill for \"compensation plan simulations.\" [5][7]"
+    },
+    {
+     "text": "The \"Senior FP&A Manager, GTM\" posting from 2026-08-10 says the role covers \"ARR and revenue forecasting\" and \"headcount planning.\" [4]"
+    }
+   ],
+   "priority": {
+    "text": "The account's likely priority is forecasting and pipeline health for its sales team, and the postings describe it as \"Improve forecast accuracy and pipeline health.\" and \"ARR and revenue forecasting\" [2][4]"
+   },
+   "questions": [
+    "How does your team build the sales forecast today, and who relies on it?",
+    "Where does pipeline reporting live now, and how do sales leaders use it?",
+    "How are compensation plans modeled and checked before they roll out?"
+   ],
+   "unknowns": [
+    "Which CRM the sales team uses",
+    "Whether the sales operations roles are new or backfills",
+    "Who owns forecasting between sales and finance",
+    "How large the sales operations team is today"
+   ],
+   "first_touch": {
+    "subject": "Forecasting and pipeline at PagerDuty",
+    "body": "Hi {first_name},\n\nI saw that PagerDuty posted a \"Director, Sales Strategy & Operations\" role in October that talks about forecast accuracy and pipeline health. A \"Senior FP&A Manager, GTM\" role from August also covers ARR and revenue forecasting.\n\nI work with revenue teams on pipeline reporting and forecasting. Is improving the forecast something your team is working on this quarter?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Director, Sales Strategy & Operations\" posting went up on 2026-10-19 and says \"Improve forecast accuracy and pipeline health.\" [1][2]",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Sales Strategy and Operations Manager\" posting from 2026-06-02 asks for Excel or Google Sheets skill for \"compensation plan simulations.\" [5][7]",
+     "cites": [
+      5,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Senior FP&A Manager, GTM\" posting from 2026-08-10 says the role covers \"ARR and revenue forecasting\" and \"headcount planning.\" [4]",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The account's likely priority is forecasting and pipeline health for its sales team, and the postings describe it as \"Improve forecast accuracy and pipeline health.\" and \"ARR and revenue forecasting\" [2][4]",
+     "cites": [
+      2,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does your team build the sales forecast today, and who relies on it?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Where does pipeline reporting live now, and how do sales leaders use it?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are compensation plans modeled and checked before they roll out?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM the sales team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the sales operations roles are new or backfills",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting between sales and finance",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How large the sales operations team is today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that PagerDuty posted a \"Director, Sales Strategy & Operations\" role in October that talks about forecast accuracy and pipeline health. A \"Senior FP&A Manager, GTM\" role from August also covers ARR and revenue forecasting.\n\nI work with revenue teams on pipeline reporting and forecasting. Is improving the forecast something your team is working on this quarter?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.050237,
+ "ms": 20607
+}

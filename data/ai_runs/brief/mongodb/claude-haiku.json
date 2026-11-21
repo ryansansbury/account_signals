@@ -1,0 +1,437 @@
+{
+ "account": "MongoDB",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "1658fd90285a1282",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:47:08+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "MongoDB had 408 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 34% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s506a97acca",
+   "title": "Principal GTM Operations Analyst",
+   "excerpt": "Principal GTM Operations Analyst",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8335237",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s823fe3c629",
+   "title": "Principal GTM Operations Analyst",
+   "excerpt": "Principal GTM Operations Analyst",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8386087",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s882e43f65e",
+   "title": "Principal GTM Operations Analyst",
+   "excerpt": "…and insights that help our sales organization make better, faster decisions across our people, segmentation, territory design, forecasting, and account prioritization.",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8386087",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s1b75b3bcf5",
+   "title": "Manager, Sales Development - Italian",
+   "excerpt": "…across our sales organization, you will be a crucial part of uncovering new opportunities, determining how to unlock new territories, and driving revenue into our pipeline.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:mongodb:8385839",
+   "family": "territory"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s33b54ab821",
+   "title": "SVP, Revenue Marketing",
+   "excerpt": "Marketing-sourced revenue: Own the sales-led marketing revenue target, regional forecasts, and performance; Anticipate pipeline gaps, diagnose performance, and adjust investment and execution to deliver the number.",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:mongodb:8331479",
+   "family": "forecasting"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s671fcc15de",
+   "title": "SVP, Revenue Marketing",
+   "excerpt": "SVP, Revenue Marketing",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:mongodb:8331479",
+   "family": "leadership"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s32704d2f28",
+   "title": "Senior Sales Compensation Engineer",
+   "excerpt": "Senior Sales Compensation Engineer",
+   "posted": "2026-09-11",
+   "posting_id": "greenhouse:mongodb:8121701",
+   "family": "salesops"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s275ed94b59",
+   "title": "Salesforce Developer III",
+   "excerpt": "Salesforce Developer III",
+   "posted": "2026-09-10",
+   "posting_id": "greenhouse:mongodb:8122751",
+   "family": "crm"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s7dd39f2ae2",
+   "title": "Commercial Growth Account Executive - Acquisition",
+   "excerpt": "MongoDB is expanding its presence in the Israeli startup ecosystem.",
+   "posted": "2026-08-21",
+   "posting_id": "greenhouse:mongodb:8143761",
+   "family": "territory"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s08f668a6ea",
+   "title": "Senior Salesforce Developer",
+   "excerpt": "Senior Salesforce Developer",
+   "posted": "2026-07-14",
+   "posting_id": "greenhouse:mongodb:8008794",
+   "family": "crm"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "s0cd86fbf15",
+   "title": "Manager, Customer Success Operations",
+   "excerpt": "You can navigate your way around Salesforce with relative ease.",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8383215",
+   "family": "stack"
+  },
+  "12": {
+   "kind": "signal",
+   "sid": "s15a86e3c52",
+   "title": "Senior Manager, Revenue",
+   "excerpt": "Experience with ERP and CRM systems; NetSuite and Salesforce experience preferred.",
+   "posted": "2026-09-21",
+   "posting_id": "greenhouse:mongodb:8201521",
+   "family": "stack"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \"Principal GTM Operations Analyst\" posting was published in the last 30 days and describes work on \"territory design\" and \"forecasting\" [1][2][3].\"}, {\"text\": \"The \"SVP, Revenue Marketing\" posting was published 23 days before the read date and asks the holder to own \"regional forecasts\" [5][6].\"}, {\"text\": \"The \"Manager, Sales Development - Italian\" posting was published on 2026-11-16 and asks for \"driving revenue into our pipeline\" [4].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work that these postings describe in the words \"territory design\" and \"regional forecasts\" [3][5].\"}, \"questions\": [\"Which teams will the new analyst work with most closely on forecasts?\", \"Who currently owns forecasts by region?\", \"Which systems does the team rely on for pipeline reporting today?\"], \"unknowns\": [\"Whether these roles add headcount or replace departures\", \"Which tools beyond Salesforce and NetSuite the team uses\", \"Who makes the territory and forecasting decisions today\", \"Budget and timing for any project work\"], \"first_touch\": {\"subject\": \"Forecasting and territory work at MongoDB\", \"body\": \"Hi {first_name},\\n\\nI noticed MongoDB recently posted a \\\"Principal GTM Operations Analyst\\\" role in November and an \\\"SVP, Revenue Marketing\\\" role in October. The analyst role names \\\"territory design\\\" and \\\"forecasting\\\". The SVP role mentions \\\"regional forecasts\\\".\\n\\nOur team helps revenue teams with pipeline reporting, forecasting, and territory planning. Would you be open to a short call to hear how your team handles those today?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 5, 6]}}",
+   "meta": {
+    "ms": 35864,
+    "input_tokens": 2,
+    "output_tokens": 8179,
+    "cache_write_tokens": 5763,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00525776
+   },
+   "shape_errors": [
+    "the reply isn't one JSON object"
+   ],
+   "brief": null,
+   "check": null
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Principal GTM Operations Analyst\\\" posting was published 7 days before the read date and mentions \\\"territory design\\\" and \\\"forecasting\\\" [1][2][3].\"}, {\"text\": \"The \\\"SVP, Revenue Marketing\\\" posting was published 23 days before the read date and asks the holder to own \\\"regional forecasts\\\" [5][6].\"}, {\"text\": \"The \\\"Manager, Sales Development - Italian\\\" posting was published 4 days before the read date and mentions \\\"driving revenue into our pipeline\\\" [4].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work these postings describe around \\\"territory design\\\", \\\"forecasting\\\", and \\\"regional forecasts\\\" [1][3][5].\"}, \"questions\": [\"Which teams will the new analyst work with most closely on forecasting?\", \"How does your team currently build \\\"regional forecasts\\\"?\", \"Which systems do your revenue teams use for pipeline reporting today?\"], \"unknowns\": [\"Whether these roles add headcount or replace departures\", \"Which tools the team uses day to day\", \"Who makes territory and forecasting decisions today\", \"Budget and timing for any project work\"], \"first_touch\": {\"subject\": \"Territory and forecasting roles at MongoDB\", \"body\": \"Hi {first_name},\\n\\nMongoDB posted a \\\"Principal GTM Operations Analyst\\\" role in November. The posting describes insights that help the sales organization make decisions across \\\"territory design\\\" and \\\"forecasting\\\". An \\\"SVP, Revenue Marketing\\\" role posted in October asks the holder to own \\\"regional forecasts\\\". A \\\"Manager, Sales Development - Italian\\\" role posted in November describes \\\"driving revenue into our pipeline\\\" as part of the work.\\n\\nOur team helps revenue teams with pipeline reporting, forecasting, and territory planning. Would you be open to a short call to hear how your team handles those today?\\n\\n{sender_name}\", \"cites\": [1, 3, 4, 5]}}",
+   "meta": {
+    "ms": 33176,
+    "input_tokens": 2,
+    "output_tokens": 7813,
+    "cache_write_tokens": 6435,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00520916
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Principal GTM Operations Analyst\" posting was published 7 days before the read date and mentions \"territory design\" and \"forecasting\" [1][2][3]."
+     },
+     {
+      "text": "The \"SVP, Revenue Marketing\" posting was published 23 days before the read date and asks the holder to own \"regional forecasts\" [5][6]."
+     },
+     {
+      "text": "The \"Manager, Sales Development - Italian\" posting was published 4 days before the read date and mentions \"driving revenue into our pipeline\" [4]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work these postings describe around \"territory design\", \"forecasting\", and \"regional forecasts\" [1][3][5]."
+    },
+    "questions": [
+     "Which teams will the new analyst work with most closely on forecasting?",
+     "How does your team currently build \"regional forecasts\"?",
+     "Which systems do your revenue teams use for pipeline reporting today?"
+    ],
+    "unknowns": [
+     "Whether these roles add headcount or replace departures",
+     "Which tools the team uses day to day",
+     "Who makes territory and forecasting decisions today",
+     "Budget and timing for any project work"
+    ],
+    "first_touch": {
+     "subject": "Territory and forecasting roles at MongoDB",
+     "body": "Hi {first_name},\n\nMongoDB posted a \"Principal GTM Operations Analyst\" role in November. The posting describes insights that help the sales organization make decisions across \"territory design\" and \"forecasting\". An \"SVP, Revenue Marketing\" role posted in October asks the holder to own \"regional forecasts\". A \"Manager, Sales Development - Italian\" role posted in November describes \"driving revenue into our pipeline\" as part of the work.\n\nOur team helps revenue teams with pipeline reporting, forecasting, and territory planning. Would you be open to a short call to hear how your team handles those today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Principal GTM Operations Analyst\" posting was published 7 days before the read date and mentions \"territory design\" and \"forecasting\" [1][2][3].",
+      "cites": [
+       1,
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"SVP, Revenue Marketing\" posting was published 23 days before the read date and asks the holder to own \"regional forecasts\" [5][6].",
+      "cites": [
+       5,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Manager, Sales Development - Italian\" posting was published 4 days before the read date and mentions \"driving revenue into our pipeline\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work these postings describe around \"territory design\", \"forecasting\", and \"regional forecasts\" [1][3][5].",
+      "cites": [
+       1,
+       3,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which teams will the new analyst work with most closely on forecasting?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does your team currently build \"regional forecasts\"?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems do your revenue teams use for pipeline reporting today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether these roles add headcount or replace departures",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools the team uses day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who makes territory and forecasting decisions today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for any project work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nMongoDB posted a \"Principal GTM Operations Analyst\" role in November. The posting describes insights that help the sales organization make decisions across \"territory design\" and \"forecasting\". An \"SVP, Revenue Marketing\" role posted in October asks the holder to own \"regional forecasts\". A \"Manager, Sales Development - Italian\" role posted in November describes \"driving revenue into our pipeline\" as part of the work.\n\nOur team helps revenue teams with pipeline reporting, forecasting, and territory planning. Would you be open to a short call to hear how your team handles those today?\n\n{sender_name}",
+      "cites": [
+       1,
+       3,
+       4,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Principal GTM Operations Analyst\" posting was published 7 days before the read date and mentions \"territory design\" and \"forecasting\" [1][2][3]."
+    },
+    {
+     "text": "The \"SVP, Revenue Marketing\" posting was published 23 days before the read date and asks the holder to own \"regional forecasts\" [5][6]."
+    },
+    {
+     "text": "The \"Manager, Sales Development - Italian\" posting was published 4 days before the read date and mentions \"driving revenue into our pipeline\" [4]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the revenue work these postings describe around \"territory design\", \"forecasting\", and \"regional forecasts\" [1][3][5]."
+   },
+   "questions": [
+    "Which teams will the new analyst work with most closely on forecasting?",
+    "How does your team currently build \"regional forecasts\"?",
+    "Which systems do your revenue teams use for pipeline reporting today?"
+   ],
+   "unknowns": [
+    "Whether these roles add headcount or replace departures",
+    "Which tools the team uses day to day",
+    "Who makes territory and forecasting decisions today",
+    "Budget and timing for any project work"
+   ],
+   "first_touch": {
+    "subject": "Territory and forecasting roles at MongoDB",
+    "body": "Hi {first_name},\n\nMongoDB posted a \"Principal GTM Operations Analyst\" role in November. The posting describes insights that help the sales organization make decisions across \"territory design\" and \"forecasting\". An \"SVP, Revenue Marketing\" role posted in October asks the holder to own \"regional forecasts\". A \"Manager, Sales Development - Italian\" role posted in November describes \"driving revenue into our pipeline\" as part of the work.\n\nOur team helps revenue teams with pipeline reporting, forecasting, and territory planning. Would you be open to a short call to hear how your team handles those today?\n\n{sender_name}",
+    "cites": [
+     1,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Principal GTM Operations Analyst\" posting was published 7 days before the read date and mentions \"territory design\" and \"forecasting\" [1][2][3].",
+     "cites": [
+      1,
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"SVP, Revenue Marketing\" posting was published 23 days before the read date and asks the holder to own \"regional forecasts\" [5][6].",
+     "cites": [
+      5,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Manager, Sales Development - Italian\" posting was published 4 days before the read date and mentions \"driving revenue into our pipeline\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the revenue work these postings describe around \"territory design\", \"forecasting\", and \"regional forecasts\" [1][3][5].",
+     "cites": [
+      1,
+      3,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which teams will the new analyst work with most closely on forecasting?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does your team currently build \"regional forecasts\"?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which systems do your revenue teams use for pipeline reporting today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether these roles add headcount or replace departures",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which tools the team uses day to day",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who makes territory and forecasting decisions today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for any project work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nMongoDB posted a \"Principal GTM Operations Analyst\" role in November. The posting describes insights that help the sales organization make decisions across \"territory design\" and \"forecasting\". An \"SVP, Revenue Marketing\" role posted in October asks the holder to own \"regional forecasts\". A \"Manager, Sales Development - Italian\" role posted in November describes \"driving revenue into our pipeline\" as part of the work.\n\nOur team helps revenue teams with pipeline reporting, forecasting, and territory planning. Would you be open to a short call to hear how your team handles those today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.010467,
+ "ms": 69040
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Quantum Metric",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "6617fe24c358f27f",
+ "input_hash": "2844fe8c888e3621",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:43+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6542,
+    "input_tokens": 2,
+    "output_tokens": 803,
+    "cache_write_tokens": 13092,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0604823
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [1] gives the title and the 2026-11-09 creation date, and the quoted phrase appears verbatim in the posting."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The 2026-08-06 posting says \"greenfield territory\" and lists \"Proficient with CRM systems (e.g., Salesforce)\", as cited in [2][3]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [4] gives 2026-11-02 for the Strategic Account Executive posting, and board source [0] gives 8 open roles on 2026-11-20."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both cited postings seek account executives for full-cycle sales in a greenfield territory of enterprise accounts, so the inferred priority is a fair reading."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November posting, the verbatim quote and the similar wording in the August Enterprise Account Executive posting all match sources [1][2]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.060482,
+ "ms": 6542
+}

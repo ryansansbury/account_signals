@@ -1,0 +1,61 @@
+{
+ "account": "Sumo Logic",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "811fa8b1fdadcf0c",
+ "input_hash": "6b78f768d3687fac",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:12+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6548,
+    "input_tokens": 2,
+    "output_tokens": 901,
+    "cache_write_tokens": 17903,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0807063
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Director, Sales Operations posting is dated 2026-10-16 and says to roll out enabling technologies, including CRM, to the field sales team."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The same posting lists territory planning, quota setting, compensation design and forecasting among its responsibilities."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Deal Desk Analyst posting is dated 2026-10-15, and the Account Executive posting is dated 2026-11-16 and asks for a \"Salesforce.com power user\"."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "A sales operations director role covering the CRM rollout, territory planning, quotas, compensation and forecasting supports this as a fair inference about the account's priority."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October dates, the CRM rollout to the field sales team, the planning and forecasting duties and the Deal Desk Analyst role all match the cited postings."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.080706,
+ "ms": 6548
+}

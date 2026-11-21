@@ -1,0 +1,12 @@
+{
+  "note": "The default weights the build scores with and the page starts from. The page's controls move intent_share, half_life_days and the family points in config/signals.json, and site/scoring.js recomputes with the same arithmetic as engine/score.py. Tiers and caps were set on 11/9 before any board was read, and any change after seeing the data goes in docs/DECISIONS.md.",
+  "intent_share": 0.6,
+  "half_life_days": 30,
+  "missing_date_age_days": 60,
+  "per_family": 2,
+  "pace_cap": 10,
+  "temporary_multiplier": 0.5,
+  "intent_cap": 100,
+  "tiers": [["A", 75], ["B", 60], ["C", 40], ["D", 0]],
+  "history_days": 90
+}

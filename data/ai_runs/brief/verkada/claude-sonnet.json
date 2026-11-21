@@ -1,0 +1,539 @@
+{
+ "account": "Verkada",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "dfe096ae6a3bc0cd",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:37:22+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Verkada had 335 open roles on its public job board on 2026-11-20. The US held 12% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s5f9195fd42",
+   "title": "Sales Strategy and Operations | Channel Programs Specialist",
+   "excerpt": "Sales Strategy and Operations | Channel Programs Specialist",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:verkada:5291267007",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s8828db7b69",
+   "title": "Executive Assistant to VP of Sales",
+   "excerpt": "Executive Assistant to VP of Sales",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:verkada:5294009007",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s4bd992a4b8",
+   "title": "MBA Full-Time Hire - Sales Strategy & Operations",
+   "excerpt": "MBA Full-Time Hire - Sales Strategy & Operations",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:verkada:5275057007",
+   "family": "salesops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sbd2e844cff",
+   "title": "Regional Sales Director, Enterprise - Muni",
+   "excerpt": "Market Penetration: Guide representatives in identifying and securing new opportunities in greenfield markets, ensuring the achievement of quarterly quotas with 1-3 qualified net-new logos per quarter.",
+   "posted": "2026-11-04",
+   "posting_id": "greenhouse:verkada:5281762007",
+   "family": "territory"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sac63d92fa6",
+   "title": "Federal Enterprise Account Executive (Veteran Affairs)",
+   "excerpt": "Meet or exceed individual quotas by penetrating greenfield accounts and securing at least 1 qualified net new logo per quarter.",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:verkada:5259963007",
+   "family": "territory"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s0d03ab4ce7",
+   "title": "Director of Business Systems Product Management",
+   "excerpt": "A partner order has to land cleanly in NetSuite.",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:verkada:5238205007",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s14655d5337",
+   "title": "Channel Sales Manager, Ohio Valley",
+   "excerpt": "Proficiency in Salesforce, Excel, and business intelligence tools.",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:verkada:5106588007",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s29cb18ea73",
+   "title": "Data Trust Associate, Global Revenue Informatics",
+   "excerpt": "Data Pipeline Tooling: Hands-on experience with dbt or Apache Airflow is a significant plus.",
+   "posted": "2026-03-02",
+   "posting_id": "greenhouse:verkada:5064464007",
+   "family": "stack"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sd8253498dd",
+   "title": "Enterprise Account Executive, Brazil",
+   "excerpt": "Enterprise Account Executive, Brazil",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:verkada:5291122007",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s60d7b4660d",
+   "title": "Enterprise Account Executive, Public Sector South - UK",
+   "excerpt": "Enterprise Account Executive, Public Sector South - UK",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:verkada:5300387007",
+   "family": "pace"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "sb2b0247047",
+   "title": "Enterprise Account Executive, Public Sector North - UK",
+   "excerpt": "Enterprise Account Executive, Public Sector North - UK",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:verkada:5297849007",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Verkada had 335 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Two sales operations postings are recent, with \\\"Sales Strategy and Operations | Channel Programs Specialist\\\" published 2026-11-10 and \\\"MBA Full-Time Hire - Sales Strategy & Operations\\\" published 2026-10-28 [1][3].\"}, {\"text\": \"The \\\"Federal Enterprise Account Executive (Veteran Affairs)\\\" posting from 2026-10-16 asks for \\\"at least 1 qualified net new logo per quarter\\\" [5].\"}], \"priority\": {\"text\": \"Verkada's likely priority is selling into new accounts against quotas, as the \\\"Federal Enterprise Account Executive (Veteran Affairs)\\\" posting words it with \\\"Meet or exceed individual quotas by penetrating greenfield accounts\\\" [5].\"}, \"questions\": [\"How does the sales team build and review its pipeline and forecast today?\", \"How are territories and quotas set for new regions and new accounts?\", \"Which systems does the sales operations team rely on most for reporting?\"], \"unknowns\": [\"Current CRM setup and condition\", \"Size of the sales operations team\", \"Who owns forecasting and territory planning\", \"Any active CRM migration or cleanup project\"], \"first_touch\": {\"subject\": \"Sales operations roles at Verkada\", \"body\": \"Hi {first_name},\\n\\nI noticed Verkada posted \\\"Sales Strategy and Operations | Channel Programs Specialist\\\" in November and \\\"MBA Full-Time Hire - Sales Strategy & Operations\\\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\\n\\n{sender_name}\", \"cites\": [1, 3]}}",
+   "meta": {
+    "ms": 19073,
+    "input_tokens": 2,
+    "output_tokens": 2596,
+    "cache_write_tokens": 5669,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0487946
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Two sales operations postings are recent, with \"Sales Strategy and Operations | Channel Programs Specialist\" published 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" published 2026-10-28 [1][3]."
+     },
+     {
+      "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting from 2026-10-16 asks for \"at least 1 qualified net new logo per quarter\" [5]."
+     }
+    ],
+    "priority": {
+     "text": "Verkada's likely priority is selling into new accounts against quotas, as the \"Federal Enterprise Account Executive (Veteran Affairs)\" posting words it with \"Meet or exceed individual quotas by penetrating greenfield accounts\" [5]."
+    },
+    "questions": [
+     "How does the sales team build and review its pipeline and forecast today?",
+     "How are territories and quotas set for new regions and new accounts?",
+     "Which systems does the sales operations team rely on most for reporting?"
+    ],
+    "unknowns": [
+     "Current CRM setup and condition",
+     "Size of the sales operations team",
+     "Who owns forecasting and territory planning",
+     "Any active CRM migration or cleanup project"
+    ],
+    "first_touch": {
+     "subject": "Sales operations roles at Verkada",
+     "body": "Hi {first_name},\n\nI noticed Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two sales operations postings are recent, with \"Sales Strategy and Operations | Channel Programs Specialist\" published 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" published 2026-10-28 [1][3].",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": [
+       "writing: a pause comma before \"with\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting from 2026-10-16 asks for \"at least 1 qualified net new logo per quarter\" [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Verkada's likely priority is selling into new accounts against quotas, as the \"Federal Enterprise Account Executive (Veteran Affairs)\" posting words it with \"Meet or exceed individual quotas by penetrating greenfield accounts\" [5].",
+      "cites": [
+       5
+      ],
+      "problems": [
+       "writing: a pause comma before \"as\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How does the sales team build and review its pipeline and forecast today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are territories and quotas set for new regions and new accounts?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems does the sales operations team rely on most for reporting?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current CRM setup and condition",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales operations team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting and territory planning",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Any active CRM migration or cleanup project",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\n\n{sender_name}",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Verkada had 335 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Verkada published \\\"Sales Strategy and Operations | Channel Programs Specialist\\\" on 2026-11-10 and \\\"MBA Full-Time Hire - Sales Strategy & Operations\\\" on 2026-10-28 [1][3].\"}, {\"text\": \"The \\\"Federal Enterprise Account Executive (Veteran Affairs)\\\" posting from 2026-10-16 asks for \\\"at least 1 qualified net new logo per quarter\\\" [5].\"}], \"priority\": {\"text\": \"The \\\"Federal Enterprise Account Executive (Veteran Affairs)\\\" posting points to a likely priority of selling into greenfield accounts to \\\"Meet or exceed individual quotas\\\" [5].\"}, \"questions\": [\"How does the sales team build and review its pipeline and forecast today?\", \"How are territories and quotas set for new regions and new accounts?\", \"Which systems does the sales operations team rely on most for reporting?\"], \"unknowns\": [\"Current CRM setup and condition\", \"Size of the sales operations team\", \"Who owns forecasting and territory planning\", \"Any active CRM migration or cleanup project\"], \"first_touch\": {\"subject\": \"Sales operations roles at Verkada\", \"body\": \"Hi {first_name},\\n\\nI noticed Verkada posted \\\"Sales Strategy and Operations | Channel Programs Specialist\\\" in November and \\\"MBA Full-Time Hire - Sales Strategy & Operations\\\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\\n\\n{sender_name}\", \"cites\": [1, 3]}}",
+   "meta": {
+    "ms": 8277,
+    "input_tokens": 2,
+    "output_tokens": 1363,
+    "cache_write_tokens": 6549,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0399846
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3]."
+     },
+     {
+      "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting from 2026-10-16 asks for \"at least 1 qualified net new logo per quarter\" [5]."
+     }
+    ],
+    "priority": {
+     "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting points to a likely priority of selling into greenfield accounts to \"Meet or exceed individual quotas\" [5]."
+    },
+    "questions": [
+     "How does the sales team build and review its pipeline and forecast today?",
+     "How are territories and quotas set for new regions and new accounts?",
+     "Which systems does the sales operations team rely on most for reporting?"
+    ],
+    "unknowns": [
+     "Current CRM setup and condition",
+     "Size of the sales operations team",
+     "Who owns forecasting and territory planning",
+     "Any active CRM migration or cleanup project"
+    ],
+    "first_touch": {
+     "subject": "Sales operations roles at Verkada",
+     "body": "Hi {first_name},\n\nI noticed Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3].",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting from 2026-10-16 asks for \"at least 1 qualified net new logo per quarter\" [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting points to a likely priority of selling into greenfield accounts to \"Meet or exceed individual quotas\" [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the sales team build and review its pipeline and forecast today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are territories and quotas set for new regions and new accounts?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems does the sales operations team rely on most for reporting?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current CRM setup and condition",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales operations team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting and territory planning",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Any active CRM migration or cleanup project",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\n\n{sender_name}",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3]."
+    },
+    {
+     "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting from 2026-10-16 asks for \"at least 1 qualified net new logo per quarter\" [5]."
+    }
+   ],
+   "priority": {
+    "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting points to a likely priority of selling into greenfield accounts to \"Meet or exceed individual quotas\" [5]."
+   },
+   "questions": [
+    "How does the sales team build and review its pipeline and forecast today?",
+    "How are territories and quotas set for new regions and new accounts?",
+    "Which systems does the sales operations team rely on most for reporting?"
+   ],
+   "unknowns": [
+    "Current CRM setup and condition",
+    "Size of the sales operations team",
+    "Who owns forecasting and territory planning",
+    "Any active CRM migration or cleanup project"
+   ],
+   "first_touch": {
+    "subject": "Sales operations roles at Verkada",
+    "body": "Hi {first_name},\n\nI noticed Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\n\n{sender_name}",
+    "cites": [
+     1,
+     3
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3].",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting from 2026-10-16 asks for \"at least 1 qualified net new logo per quarter\" [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The \"Federal Enterprise Account Executive (Veteran Affairs)\" posting points to a likely priority of selling into greenfield accounts to \"Meet or exceed individual quotas\" [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the sales team build and review its pipeline and forecast today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are territories and quotas set for new regions and new accounts?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which systems does the sales operations team rely on most for reporting?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current CRM setup and condition",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales operations team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting and territory planning",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Any active CRM migration or cleanup project",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October. I work on revenue operations services such as pipeline reporting and territory planning. Who on your team looks after sales operations work like this today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.088779,
+ "ms": 27350
+}

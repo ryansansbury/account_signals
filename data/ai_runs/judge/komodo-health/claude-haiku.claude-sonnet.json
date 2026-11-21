@@ -1,0 +1,61 @@
+{
+ "account": "Komodo Health",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "83f81013c3dbf4af",
+ "input_hash": "aea95d63941bff80",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:03:39+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6436,
+    "input_tokens": 2,
+    "output_tokens": 750,
+    "cache_write_tokens": 18266,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0806483
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [0] gives 19 open roles on 2026-11-20 and [6] gives the Business Operations Manager, Revenue posting date as 2026-11-20."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The SDR posting is dated 2026-10-09, which is 42 days before 2026-11-20, and the quoted Salesforce, Salesloft, Qualified.io line matches [4]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Dates 2026-06-09 for [2] and 2026-02-13 for [3] match their source lines."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both quotes match [3] and [4], and reading them as a revenue-tooling and Salesforce priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November posting date for [6] and the SDR quote in [4] match, and calling these revenue roles is supported."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.080648,
+ "ms": 6436
+}

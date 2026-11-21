@@ -1,0 +1,61 @@
+{
+ "account": "Quantum Metric",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "6617fe24c358f27f",
+ "input_hash": "02c2e8bb1c28fd89",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:35+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6453,
+    "input_tokens": 2,
+    "output_tokens": 830,
+    "cache_write_tokens": 13054,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.060600299999999996
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [1] gives the title \"Senior / Strategic Account Executive\" and a creation date of 2026-11-09, matching the claim."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [4] is dated 2026-11-02 and [1] 2026-11-09, which are 18 and 11 days before the 2026-11-20 read date, so both fall within 30 days."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Sources [2][3] give the title and a 2026-08-06 creation date, and the posting text contains \"Proficient with CRM systems\" (followed by an e.g., Salesforce)."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The phrases \"full life-cycle sales\", \"greenfield territory\" and \"CRM systems\" appear in the cited postings, and inferring a revenue-focused priority from them is fair."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The August date, the quoted phrases, and the November dates for the Senior / Strategic and Strategic postings all match sources [1][2][3][4]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.0606,
+ "ms": 6453
+}

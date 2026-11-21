@@ -1,0 +1,81 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "title": "Revenue Operations Manager",
+      "company_name": "Wobbleton Freight",
+      "absolute_url": "https://job-boards.greenhouse.io/wobbleton/jobs/101",
+      "location": {"name": "Denver, CO"},
+      "departments": [{"id": 1, "name": "Revenue Operations"}],
+      "offices": [{"id": 9, "name": "Denver", "location": "Denver, CO"}],
+      "first_published": "2026-11-02T10:00:00-07:00",
+      "updated_at": "2026-11-05T09:00:00-07:00",
+      "content": "&lt;p&gt;Wobbleton Freight moves freight across the Mountain West.&lt;/p&gt;&lt;p&gt;You'll lead our move off spreadsheets to a single CRM this quarter and build the forecast our sales leaders use every week.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Own pipeline reporting for every region&lt;/li&gt;&lt;li&gt;Partner with Finance on forecast accuracy&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Questions? Contact Marisol Quentworth at marisol.q@wobbleton.example or 303-555-0142. #LI-MQ1 #LI-Hybrid&lt;/p&gt;"
+    },
+    {
+      "id": 102,
+      "title": "Sales Operations Analyst",
+      "company_name": "Wobbleton Freight",
+      "absolute_url": "https://job-boards.greenhouse.io/wobbleton/jobs/102",
+      "location": {"name": "Denver, CO"},
+      "departments": [{"id": 1, "name": "Revenue Operations"}],
+      "updated_at": "2026-10-20T08:00:00-06:00",
+      "content": "&lt;p&gt;Wobbleton Freight moves freight across the Mountain West.&lt;/p&gt;&lt;p&gt;You'll be our first sales operations hire and report to our CRO, Dashiell Prunkworth.&lt;/p&gt;"
+    },
+    {
+      "id": 103,
+      "title": "Sales Operations Analyst",
+      "company_name": "Wobbleton Freight",
+      "absolute_url": "https://job-boards.greenhouse.io/wobbleton/jobs/103",
+      "location": {"name": "Salt Lake City, UT"},
+      "departments": [{"id": 1, "name": "Revenue Operations"}],
+      "updated_at": "2026-10-20T08:00:00-06:00",
+      "content": "&lt;p&gt;Wobbleton Freight moves freight across the Mountain West.&lt;/p&gt;&lt;p&gt;You'll be our first sales operations hire and report to our CRO, Dashiell Prunkworth.&lt;/p&gt;"
+    },
+    {
+      "id": 104,
+      "title": "General Application",
+      "company_name": "Wobbleton Freight",
+      "absolute_url": "https://job-boards.greenhouse.io/wobbleton/jobs/104",
+      "location": {"name": "Remote - US"},
+      "departments": [],
+      "first_published": "2026-01-10T10:00:00-07:00",
+      "updated_at": "2026-11-01T10:00:00-07:00",
+      "content": "&lt;p&gt;Don't see a role that fits? Send us your resume and we'll keep it on file.&lt;/p&gt;"
+    },
+    {
+      "id": 105,
+      "title": "Sales Intern (Summer 2027)",
+      "company_name": "Wobbleton Freight",
+      "absolute_url": "https://job-boards.greenhouse.io/wobbleton/jobs/105",
+      "location": {"name": "Denver, CO"},
+      "departments": [{"id": 2, "name": "Sales"}],
+      "first_published": "2026-10-30T10:00:00-07:00",
+      "updated_at": "2026-10-30T10:00:00-07:00",
+      "content": "&lt;p&gt;Help the sales team build territory plans for new markets in the Southwest.&lt;/p&gt;"
+    },
+    {
+      "id": 106,
+      "title": "Warehouse Associate",
+      "company_name": "Wobbleton Freight",
+      "absolute_url": "https://job-boards.greenhouse.io/wobbleton/jobs/106",
+      "location": {"name": "Aurora, CO"},
+      "departments": [{"id": 3, "name": "Operations"}],
+      "first_published": "2026-10-15T10:00:00-07:00",
+      "updated_at": "2026-10-15T10:00:00-07:00",
+      "content": "&lt;p&gt;Load and unload trailers on the night shift.&lt;/p&gt;"
+    },
+    {
+      "id": 107,
+      "title": "Account Executive, Mid-Market",
+      "company_name": "Wobbleton Freight",
+      "absolute_url": "https://job-boards.greenhouse.io/wobbleton/jobs/107",
+      "location": {"name": "Remote (United States)"},
+      "departments": [{"id": 2, "name": "Sales"}],
+      "first_published": "2026-11-04T10:00:00-07:00",
+      "updated_at": "2026-11-04T10:00:00-07:00",
+      "content": "&lt;p&gt;Carry a quota for shippers in the Midwest.&lt;/p&gt;"
+    }
+  ],
+  "meta": {"total": 7}
+}

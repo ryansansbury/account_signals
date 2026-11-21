@@ -1,0 +1,505 @@
+{
+ "account": "Entrata",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "b5687a55d36feddb",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:02:29+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Entrata had 29 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Lehi, UT. The US held 55% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s11c2fe25a0",
+   "title": "Deal Desk Analyst II",
+   "excerpt": "Deal Desk Analyst II",
+   "posted": "2026-11-16",
+   "posting_id": "lever:entrata:722a854d-d4a8-48c3-8a7f-c40b5d7ed503",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "seea571fbd1",
+   "title": "Regional Vice President of Sales, West Region (IC-Enterprise)",
+   "excerpt": "Regional Vice President of Sales, West Region (IC-Enterprise)",
+   "posted": "2026-05-18",
+   "posting_id": "lever:entrata:8f6b75c0-5157-4db4-b600-6fa18303e16d",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s01c813c3ad",
+   "title": "Regional Vice President of Sales, East Region (IC-Enterprise)",
+   "excerpt": "Regional Vice President of Sales, East Region (IC-Enterprise)",
+   "posted": "2026-04-01",
+   "posting_id": "lever:entrata:dd699465-497c-49a2-8720-000db1d1feb0",
+   "family": "leadership"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s934a5cf394",
+   "title": "Outbound BDR",
+   "excerpt": "Outbound BDR",
+   "posted": "2026-11-10",
+   "posting_id": "lever:entrata:a297cf8f-ca51-46ce-bfab-25d169b78948",
+   "family": "pace"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s8f66c14bac",
+   "title": "Regional Vice President Product Sales (AI)",
+   "excerpt": "Regional Vice President Product Sales (AI)",
+   "posted": "2026-10-06",
+   "posting_id": "lever:entrata:f91be6ec-b3b9-4bc4-a9a2-05246f32acb7",
+   "family": "pace"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s7ab38f0759",
+   "title": "Enterprise Inside Sales Executive",
+   "excerpt": "Enterprise Inside Sales Executive",
+   "posted": "2026-07-27",
+   "posting_id": "lever:entrata:b5f583d7-97ad-4526-bf5f-640449cf1c04",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Entrata created a \\\"Deal Desk Analyst II\\\" posting on 2026-11-16, 4 days before the read date [1].\"}, {\"text\": \"An \\\"Outbound BDR\\\" posting was created on 2026-11-10 and a \\\"Regional Vice President Product Sales (AI)\\\" posting was created on 2026-10-06 [4][5].\"}, {\"text\": \"The \\\"Regional Vice President of Sales, West Region (IC-Enterprise)\\\" posting dates from 2026-05-18 and the \\\"Regional Vice President of Sales, East Region (IC-Enterprise)\\\" posting dates from 2026-04-01 [2][3].\"}], \"priority\": {\"text\": \"Entrata's likely priority is the selling and deal desk work named in its postings for \\\"Deal Desk Analyst II\\\", \\\"Outbound BDR\\\", and \\\"Enterprise Inside Sales Executive\\\" [1][4][6].\"}, \"questions\": [\"How does the deal desk work with the sales team today?\", \"What would a strong first quarter look like for the new \\\"Deal Desk Analyst II\\\" hire?\", \"How do the West Region and East Region sales teams plan and report on their pipeline?\"], \"unknowns\": [\"Which CRM Entrata uses\", \"Size of the current sales team\", \"Who owns sales operations and reporting\", \"Whether the regional sales leader roles have been filled\"], \"first_touch\": {\"subject\": \"Entrata's new deal desk and sales roles\", \"body\": \"Hi {first_name},\\n\\nI saw Entrata posted a \\\"Deal Desk Analyst II\\\" role in November. An \\\"Outbound BDR\\\" role also went up in November and a \\\"Regional Vice President Product Sales (AI)\\\" role went up in October.\\n\\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\\n\\nWould you be open to a short call next week?\\n\\n{sender_name}\", \"cites\": [1, 4, 5]}}",
+   "meta": {
+    "ms": 22472,
+    "input_tokens": 2,
+    "output_tokens": 2377,
+    "cache_write_tokens": 5216,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0895852
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Entrata created a \"Deal Desk Analyst II\" posting on 2026-11-16, 4 days before the read date [1]."
+     },
+     {
+      "text": "An \"Outbound BDR\" posting was created on 2026-11-10 and a \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [4][5]."
+     },
+     {
+      "text": "The \"Regional Vice President of Sales, West Region (IC-Enterprise)\" posting dates from 2026-05-18 and the \"Regional Vice President of Sales, East Region (IC-Enterprise)\" posting dates from 2026-04-01 [2][3]."
+     }
+    ],
+    "priority": {
+     "text": "Entrata's likely priority is the selling and deal desk work named in its postings for \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" [1][4][6]."
+    },
+    "questions": [
+     "How does the deal desk work with the sales team today?",
+     "What would a strong first quarter look like for the new \"Deal Desk Analyst II\" hire?",
+     "How do the West Region and East Region sales teams plan and report on their pipeline?"
+    ],
+    "unknowns": [
+     "Which CRM Entrata uses",
+     "Size of the current sales team",
+     "Who owns sales operations and reporting",
+     "Whether the regional sales leader roles have been filled"
+    ],
+    "first_touch": {
+     "subject": "Entrata's new deal desk and sales roles",
+     "body": "Hi {first_name},\n\nI saw Entrata posted a \"Deal Desk Analyst II\" role in November. An \"Outbound BDR\" role also went up in November and a \"Regional Vice President Product Sales (AI)\" role went up in October.\n\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\n\nWould you be open to a short call next week?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Entrata created a \"Deal Desk Analyst II\" posting on 2026-11-16, 4 days before the read date [1].",
+      "cites": [
+       1
+      ],
+      "problems": [
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "An \"Outbound BDR\" posting was created on 2026-11-10 and a \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [4][5].",
+      "cites": [
+       4,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Regional Vice President of Sales, West Region (IC-Enterprise)\" posting dates from 2026-05-18 and the \"Regional Vice President of Sales, East Region (IC-Enterprise)\" posting dates from 2026-04-01 [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Entrata's likely priority is the selling and deal desk work named in its postings for \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" [1][4][6].",
+      "cites": [
+       1,
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the deal desk work with the sales team today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would a strong first quarter look like for the new \"Deal Desk Analyst II\" hire?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do the West Region and East Region sales teams plan and report on their pipeline?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM Entrata uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the current sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns sales operations and reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the regional sales leader roles have been filled",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Entrata posted a \"Deal Desk Analyst II\" role in November. An \"Outbound BDR\" role also went up in November and a \"Regional Vice President Product Sales (AI)\" role went up in October.\n\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\n\nWould you be open to a short call next week?\n\n{sender_name}",
+      "cites": [
+       1,
+       4,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Entrata created a \\\"Deal Desk Analyst II\\\" posting on 2026-11-16 [1].\"}, {\"text\": \"An \\\"Outbound BDR\\\" posting was created on 2026-11-10 and a \\\"Regional Vice President Product Sales (AI)\\\" posting was created on 2026-10-06 [4][5].\"}, {\"text\": \"The \\\"Regional Vice President of Sales, West Region (IC-Enterprise)\\\" posting dates from 2026-05-18 and the \\\"Regional Vice President of Sales, East Region (IC-Enterprise)\\\" posting dates from 2026-04-01 [2][3].\"}], \"priority\": {\"text\": \"Entrata's likely priority is the deal desk and selling work behind its \\\"Deal Desk Analyst II\\\", \\\"Outbound BDR\\\", and \\\"Enterprise Inside Sales Executive\\\" postings [1][4][6].\"}, \"questions\": [\"How does the deal desk work with the sales team today?\", \"What would a strong first quarter look like for the new deal desk hire?\", \"How do the regional sales teams plan and report on their pipeline?\"], \"unknowns\": [\"Which CRM Entrata uses\", \"Size of the current sales team\", \"Who owns sales operations and reporting\", \"Whether the regional sales leader roles have been filled\"], \"first_touch\": {\"subject\": \"Entrata's new deal desk and sales roles\", \"body\": \"Hi {first_name},\\n\\nI saw Entrata posted a \\\"Deal Desk Analyst II\\\" role in November. An \\\"Outbound BDR\\\" role also went up in November and a \\\"Regional Vice President Product Sales (AI)\\\" role went up in October.\\n\\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\\n\\nWould you be open to a short call next week?\\n\\n{sender_name}\", \"cites\": [1, 4, 5]}}",
+   "meta": {
+    "ms": 10645,
+    "input_tokens": 2,
+    "output_tokens": 1234,
+    "cache_write_tokens": 6016,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0731252
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Entrata created a \"Deal Desk Analyst II\" posting on 2026-11-16 [1]."
+     },
+     {
+      "text": "An \"Outbound BDR\" posting was created on 2026-11-10 and a \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [4][5]."
+     },
+     {
+      "text": "The \"Regional Vice President of Sales, West Region (IC-Enterprise)\" posting dates from 2026-05-18 and the \"Regional Vice President of Sales, East Region (IC-Enterprise)\" posting dates from 2026-04-01 [2][3]."
+     }
+    ],
+    "priority": {
+     "text": "Entrata's likely priority is the deal desk and selling work behind its \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" postings [1][4][6]."
+    },
+    "questions": [
+     "How does the deal desk work with the sales team today?",
+     "What would a strong first quarter look like for the new deal desk hire?",
+     "How do the regional sales teams plan and report on their pipeline?"
+    ],
+    "unknowns": [
+     "Which CRM Entrata uses",
+     "Size of the current sales team",
+     "Who owns sales operations and reporting",
+     "Whether the regional sales leader roles have been filled"
+    ],
+    "first_touch": {
+     "subject": "Entrata's new deal desk and sales roles",
+     "body": "Hi {first_name},\n\nI saw Entrata posted a \"Deal Desk Analyst II\" role in November. An \"Outbound BDR\" role also went up in November and a \"Regional Vice President Product Sales (AI)\" role went up in October.\n\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\n\nWould you be open to a short call next week?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Entrata created a \"Deal Desk Analyst II\" posting on 2026-11-16 [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "An \"Outbound BDR\" posting was created on 2026-11-10 and a \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [4][5].",
+      "cites": [
+       4,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Regional Vice President of Sales, West Region (IC-Enterprise)\" posting dates from 2026-05-18 and the \"Regional Vice President of Sales, East Region (IC-Enterprise)\" posting dates from 2026-04-01 [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Entrata's likely priority is the deal desk and selling work behind its \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" postings [1][4][6].",
+      "cites": [
+       1,
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the deal desk work with the sales team today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would a strong first quarter look like for the new deal desk hire?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do the regional sales teams plan and report on their pipeline?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM Entrata uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the current sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns sales operations and reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the regional sales leader roles have been filled",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Entrata posted a \"Deal Desk Analyst II\" role in November. An \"Outbound BDR\" role also went up in November and a \"Regional Vice President Product Sales (AI)\" role went up in October.\n\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\n\nWould you be open to a short call next week?\n\n{sender_name}",
+      "cites": [
+       1,
+       4,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Entrata created a \"Deal Desk Analyst II\" posting on 2026-11-16 [1]."
+    },
+    {
+     "text": "An \"Outbound BDR\" posting was created on 2026-11-10 and a \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [4][5]."
+    },
+    {
+     "text": "The \"Regional Vice President of Sales, West Region (IC-Enterprise)\" posting dates from 2026-05-18 and the \"Regional Vice President of Sales, East Region (IC-Enterprise)\" posting dates from 2026-04-01 [2][3]."
+    }
+   ],
+   "priority": {
+    "text": "Entrata's likely priority is the deal desk and selling work behind its \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" postings [1][4][6]."
+   },
+   "questions": [
+    "How does the deal desk work with the sales team today?",
+    "What would a strong first quarter look like for the new deal desk hire?",
+    "How do the regional sales teams plan and report on their pipeline?"
+   ],
+   "unknowns": [
+    "Which CRM Entrata uses",
+    "Size of the current sales team",
+    "Who owns sales operations and reporting",
+    "Whether the regional sales leader roles have been filled"
+   ],
+   "first_touch": {
+    "subject": "Entrata's new deal desk and sales roles",
+    "body": "Hi {first_name},\n\nI saw Entrata posted a \"Deal Desk Analyst II\" role in November. An \"Outbound BDR\" role also went up in November and a \"Regional Vice President Product Sales (AI)\" role went up in October.\n\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\n\nWould you be open to a short call next week?\n\n{sender_name}",
+    "cites": [
+     1,
+     4,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Entrata created a \"Deal Desk Analyst II\" posting on 2026-11-16 [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "An \"Outbound BDR\" posting was created on 2026-11-10 and a \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [4][5].",
+     "cites": [
+      4,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Regional Vice President of Sales, West Region (IC-Enterprise)\" posting dates from 2026-05-18 and the \"Regional Vice President of Sales, East Region (IC-Enterprise)\" posting dates from 2026-04-01 [2][3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Entrata's likely priority is the deal desk and selling work behind its \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" postings [1][4][6].",
+     "cites": [
+      1,
+      4,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the deal desk work with the sales team today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What would a strong first quarter look like for the new deal desk hire?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do the regional sales teams plan and report on their pipeline?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM Entrata uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the current sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns sales operations and reporting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the regional sales leader roles have been filled",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw Entrata posted a \"Deal Desk Analyst II\" role in November. An \"Outbound BDR\" role also went up in November and a \"Regional Vice President Product Sales (AI)\" role went up in October.\n\nWe work with sales teams on pipeline reporting, forecasting, and CRM work. I'd like to learn how the deal desk works with sales at Entrata.\n\nWould you be open to a short call next week?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.16271,
+ "ms": 33117
+}

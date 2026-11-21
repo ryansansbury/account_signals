@@ -1,0 +1,382 @@
+{
+ "account": "Sumo Logic",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "811fa8b1fdadcf0c",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:54:02+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Sumo Logic had 25 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Austin, TX. The US held 27% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sf68ec9e28c",
+   "title": "Director, Sales Operations",
+   "excerpt": "Roll out enabling technologies, including CRM, to the field sales team.",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:sumologic:8292621",
+   "family": "crm_move"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sbc98f3cb1d",
+   "title": "Director, Sales Operations",
+   "excerpt": "Director, Sales Operations",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:sumologic:8292621",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s61fce981c1",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Deal Desk Analyst",
+   "posted": "2026-10-15",
+   "posting_id": "greenhouse:sumologic:8284409",
+   "family": "salesops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s6a5437dd15",
+   "title": "Director, Sales Operations",
+   "excerpt": "You'll partner with sales leadership on headcount and capacity planning, territory planning, quota setting, compensation design, forecasting, reporting, and policy.",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:sumologic:8292621",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s012fd85fae",
+   "title": "Account Executive",
+   "excerpt": "Salesforce.com power user .",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:sumologic:8392471",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s01c3a5d814",
+   "title": "Sales Development Representative I",
+   "excerpt": "Record every activity in Salesforce and your sales engagement tools.",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:sumologic:8356857",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s09fe4a1cb5",
+   "title": "Senior Data Engineer",
+   "excerpt": "The ideal candidate will have strong hands-on expertise in Databricks, Apache Spark, PySpark, Python, SQL, and Delta Lake, along with experience building production-grade data pipelines and enterprise integrations.",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:sumologic:8353318",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sf2622aefac",
+   "title": "Sales Development Representative",
+   "excerpt": "Sales Development Representative",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:sumologic:8381853",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s90547f8db3",
+   "title": "Technical Account Manager",
+   "excerpt": "Technical Account Manager",
+   "posted": "2026-11-09",
+   "posting_id": "greenhouse:sumologic:8364704",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s8a0ee6d172",
+   "title": "Sales Development Representative I",
+   "excerpt": "Sales Development Representative I",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:sumologic:8356819",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"A \\\"Director, Sales Operations\\\" posting published on 2026-10-16 includes the words \\\"Roll out enabling technologies\\\" and names CRM as one of them [1].\"}, {\"text\": \"The same posting says the role will \\\"partner with sales leadership\\\" on \\\"forecasting,\\\" \\\"quota setting,\\\" and \\\"territory planning\\\" [4].\"}, {\"text\": \"Six postings published in the last 30 days are an \\\"Account Executive,\\\" a \\\"Senior Data Engineer,\\\" a \\\"Sales Development Representative,\\\" a \\\"Technical Account Manager,\\\" and two \\\"Sales Development Representative I\\\" postings [5][6][7][8][9][10].\"}], \"priority\": {\"text\": \"The likely priority is revenue work, and the cited postings describe rolling out CRM for sales and partnering on \\\"territory planning,\\\" \\\"quota setting,\\\" \\\"compensation design,\\\" and \\\"forecasting\\\" [1][4].\"}, \"questions\": [\"Who owns the CRM rollout in the Director role and where does it stand today?\", \"Is the Deal Desk Analyst role a new seat or a replacement?\", \"Which tools does the sales development team use beyond Salesforce?\"], \"unknowns\": [\"Whether the open roles are new or backfills\", \"Team size and who leads sales operations today\", \"Current sales tools beyond Salesforce\"], \"first_touch\": {\"subject\": \"Sales operations roles at Sumo Logic\", \"body\": \"Hi {first_name},\\n\\nI noticed Sumo Logic has a \\\"Director, Sales Operations\\\" role that was posted in October. The posting says the role will \\\"Roll out enabling technologies\\\" and names CRM as one of them. It also lists \\\"forecasting\\\" and \\\"territory planning\\\" as work with sales leadership. A \\\"Deal Desk Analyst\\\" role went up in October too.\\n\\nIs that the right person to talk to about sales operations planning?\\n\\n{sender_name}\", \"cites\": [1, 3, 4]}}",
+   "meta": {
+    "ms": 44800,
+    "input_tokens": 2,
+    "output_tokens": 10367,
+    "cache_write_tokens": 5577,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0063145599999999994
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "A \"Director, Sales Operations\" posting published on 2026-10-16 includes the words \"Roll out enabling technologies\" and names CRM as one of them [1]."
+     },
+     {
+      "text": "The same posting says the role will \"partner with sales leadership\" on \"forecasting,\" \"quota setting,\" and \"territory planning\" [4]."
+     },
+     {
+      "text": "Six postings published in the last 30 days are an \"Account Executive,\" a \"Senior Data Engineer,\" a \"Sales Development Representative,\" a \"Technical Account Manager,\" and two \"Sales Development Representative I\" postings [5][6][7][8][9][10]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work, and the cited postings describe rolling out CRM for sales and partnering on \"territory planning,\" \"quota setting,\" \"compensation design,\" and \"forecasting\" [1][4]."
+    },
+    "questions": [
+     "Who owns the CRM rollout in the Director role and where does it stand today?",
+     "Is the Deal Desk Analyst role a new seat or a replacement?",
+     "Which tools does the sales development team use beyond Salesforce?"
+    ],
+    "unknowns": [
+     "Whether the open roles are new or backfills",
+     "Team size and who leads sales operations today",
+     "Current sales tools beyond Salesforce"
+    ],
+    "first_touch": {
+     "subject": "Sales operations roles at Sumo Logic",
+     "body": "Hi {first_name},\n\nI noticed Sumo Logic has a \"Director, Sales Operations\" role that was posted in October. The posting says the role will \"Roll out enabling technologies\" and names CRM as one of them. It also lists \"forecasting\" and \"territory planning\" as work with sales leadership. A \"Deal Desk Analyst\" role went up in October too.\n\nIs that the right person to talk to about sales operations planning?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "A \"Director, Sales Operations\" posting published on 2026-10-16 includes the words \"Roll out enabling technologies\" and names CRM as one of them [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The same posting says the role will \"partner with sales leadership\" on \"forecasting,\" \"quota setting,\" and \"territory planning\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Six postings published in the last 30 days are an \"Account Executive,\" a \"Senior Data Engineer,\" a \"Sales Development Representative,\" a \"Technical Account Manager,\" and two \"Sales Development Representative I\" postings [5][6][7][8][9][10].",
+      "cites": [
+       5,
+       6,
+       7,
+       8,
+       9,
+       10
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work, and the cited postings describe rolling out CRM for sales and partnering on \"territory planning,\" \"quota setting,\" \"compensation design,\" and \"forecasting\" [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the CRM rollout in the Director role and where does it stand today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is the Deal Desk Analyst role a new seat or a replacement?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which tools does the sales development team use beyond Salesforce?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the open roles are new or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Team size and who leads sales operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current sales tools beyond Salesforce",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Sumo Logic has a \"Director, Sales Operations\" role that was posted in October. The posting says the role will \"Roll out enabling technologies\" and names CRM as one of them. It also lists \"forecasting\" and \"territory planning\" as work with sales leadership. A \"Deal Desk Analyst\" role went up in October too.\n\nIs that the right person to talk to about sales operations planning?\n\n{sender_name}",
+      "cites": [
+       1,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "A \"Director, Sales Operations\" posting published on 2026-10-16 includes the words \"Roll out enabling technologies\" and names CRM as one of them [1]."
+    },
+    {
+     "text": "The same posting says the role will \"partner with sales leadership\" on \"forecasting,\" \"quota setting,\" and \"territory planning\" [4]."
+    },
+    {
+     "text": "Six postings published in the last 30 days are an \"Account Executive,\" a \"Senior Data Engineer,\" a \"Sales Development Representative,\" a \"Technical Account Manager,\" and two \"Sales Development Representative I\" postings [5][6][7][8][9][10]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work, and the cited postings describe rolling out CRM for sales and partnering on \"territory planning,\" \"quota setting,\" \"compensation design,\" and \"forecasting\" [1][4]."
+   },
+   "questions": [
+    "Who owns the CRM rollout in the Director role and where does it stand today?",
+    "Is the Deal Desk Analyst role a new seat or a replacement?",
+    "Which tools does the sales development team use beyond Salesforce?"
+   ],
+   "unknowns": [
+    "Whether the open roles are new or backfills",
+    "Team size and who leads sales operations today",
+    "Current sales tools beyond Salesforce"
+   ],
+   "first_touch": {
+    "subject": "Sales operations roles at Sumo Logic",
+    "body": "Hi {first_name},\n\nI noticed Sumo Logic has a \"Director, Sales Operations\" role that was posted in October. The posting says the role will \"Roll out enabling technologies\" and names CRM as one of them. It also lists \"forecasting\" and \"territory planning\" as work with sales leadership. A \"Deal Desk Analyst\" role went up in October too.\n\nIs that the right person to talk to about sales operations planning?\n\n{sender_name}",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "A \"Director, Sales Operations\" posting published on 2026-10-16 includes the words \"Roll out enabling technologies\" and names CRM as one of them [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The same posting says the role will \"partner with sales leadership\" on \"forecasting,\" \"quota setting,\" and \"territory planning\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Six postings published in the last 30 days are an \"Account Executive,\" a \"Senior Data Engineer,\" a \"Sales Development Representative,\" a \"Technical Account Manager,\" and two \"Sales Development Representative I\" postings [5][6][7][8][9][10].",
+     "cites": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work, and the cited postings describe rolling out CRM for sales and partnering on \"territory planning,\" \"quota setting,\" \"compensation design,\" and \"forecasting\" [1][4].",
+     "cites": [
+      1,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns the CRM rollout in the Director role and where does it stand today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Is the Deal Desk Analyst role a new seat or a replacement?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which tools does the sales development team use beyond Salesforce?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the open roles are new or backfills",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Team size and who leads sales operations today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current sales tools beyond Salesforce",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Sumo Logic has a \"Director, Sales Operations\" role that was posted in October. The posting says the role will \"Roll out enabling technologies\" and names CRM as one of them. It also lists \"forecasting\" and \"territory planning\" as work with sales leadership. A \"Deal Desk Analyst\" role went up in October too.\n\nIs that the right person to talk to about sales operations planning?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.006315,
+ "ms": 44800
+}

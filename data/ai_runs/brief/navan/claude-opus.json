@@ -1,0 +1,405 @@
+{
+ "account": "Navan",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "0838eca8147c02c3",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:26:58+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Navan had 192 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 59% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s2908351230",
+   "title": "GTM Systems Manager",
+   "excerpt": "GTM Systems Manager",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:tripactions:8381986",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "se21c0012d6",
+   "title": "Senior Deal Desk Analyst",
+   "excerpt": "Senior Deal Desk Analyst",
+   "posted": "2026-10-07",
+   "posting_id": "greenhouse:tripactions:8263272",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s3ed5aa1c44",
+   "title": "Senior Deal Desk Analyst",
+   "excerpt": "Senior Deal Desk Analyst",
+   "posted": "2026-10-06",
+   "posting_id": "greenhouse:tripactions:8239885",
+   "family": "salesops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s00e5360e56",
+   "title": "Senior Business Systems Engineer, Salesforce CPQ Developer",
+   "excerpt": "Senior Business Systems Engineer, Salesforce CPQ Developer",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:tripactions:8248395",
+   "family": "crm"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s5532c250f0",
+   "title": "Senior GTM Engineer",
+   "excerpt": "Senior GTM Engineer",
+   "posted": "2026-09-15",
+   "posting_id": "greenhouse:tripactions:8204930",
+   "family": "revops"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s01b0582dcf",
+   "title": "Proposal Analyst - EMEA",
+   "excerpt": "Technically savvy, with experience using CRM systems (e.g., Salesforce), collaboration tools (e.g., Slack), Google Suite and MS Office.",
+   "posted": "2026-08-31",
+   "posting_id": "greenhouse:tripactions:8164987",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s24fe8fe04d",
+   "title": "Commercial Account Executive",
+   "excerpt": "Oversee all sales activity within your account list and ensure accurate monthly forecasting of revenue in Salesforce.",
+   "posted": "2026-09-02",
+   "posting_id": "greenhouse:tripactions:8147457",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s3412b6c47e",
+   "title": "Workplace Operations Coordinator",
+   "excerpt": "Utilize project management tools (G-Suite, Slack, Jira) to prioritize and complete high-volume tasks with minimal supervision.",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:tripactions:8354085",
+   "family": "stack"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sdc255d462b",
+   "title": "Customer Success Manager",
+   "excerpt": "Customer Success Manager",
+   "posted": "2026-11-17",
+   "posting_id": "greenhouse:tripactions:8394195",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s48723029fb",
+   "title": "Field Marketing Manager",
+   "excerpt": "Field Marketing Manager",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:tripactions:8369942",
+   "family": "pace"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "s9b4b5218b6",
+   "title": "Field Marketing Manager",
+   "excerpt": "Field Marketing Manager",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:tripactions:8384755",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Navan published two \\\"Senior Deal Desk Analyst\\\" postings on 2026-10-06 and 2026-10-07 [2][3].\"}, {\"text\": \"A \\\"GTM Systems Manager\\\" posting went up 8 days before the read date, and a \\\"Senior Business Systems Engineer, Salesforce CPQ Developer\\\" posting went up on 2026-10-01 [1][4].\"}, {\"text\": \"A \\\"Commercial Account Executive\\\" posting asks the hire to \\\"ensure accurate monthly forecasting of revenue in Salesforce\\\" [7].\"}], \"priority\": {\"text\": \"Navan's likely priority is deal desk work and Salesforce CPQ work as shown by two \\\"Senior Deal Desk Analyst\\\" postings and a \\\"Senior Business Systems Engineer, Salesforce CPQ Developer\\\" posting [2][3][4].\"}, \"questions\": [\"What will the new \\\"Senior Deal Desk Analyst\\\" hires own in the deal process?\", \"How do account executives build their monthly revenue forecasts in Salesforce today?\", \"What will the \\\"GTM Systems Manager\\\" focus on in the first few months?\"], \"unknowns\": [\"Size of the sales team\", \"Who the deal desk hires report to\", \"How Salesforce CPQ is set up today\", \"Whether the two deal desk postings are one role or two\"], \"first_touch\": {\"subject\": \"Navan deal desk and GTM systems hiring\", \"body\": \"Hi {first_name},\\n\\nI saw Navan posted two \\\"Senior Deal Desk Analyst\\\" roles in October and a \\\"GTM Systems Manager\\\" role in November. A \\\"Senior Business Systems Engineer, Salesforce CPQ Developer\\\" posting also went up in October.\\n\\nOur team works on CRM projects, pipeline reporting, and forecasting for sales teams.\\n\\nAre you the right person to talk with about the new deal desk roles?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 4]}}",
+   "meta": {
+    "ms": 22294,
+    "input_tokens": 2,
+    "output_tokens": 2363,
+    "cache_write_tokens": 5543,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.09192120000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Navan published two \"Senior Deal Desk Analyst\" postings on 2026-10-06 and 2026-10-07 [2][3]."
+     },
+     {
+      "text": "A \"GTM Systems Manager\" posting went up 8 days before the read date, and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting went up on 2026-10-01 [1][4]."
+     },
+     {
+      "text": "A \"Commercial Account Executive\" posting asks the hire to \"ensure accurate monthly forecasting of revenue in Salesforce\" [7]."
+     }
+    ],
+    "priority": {
+     "text": "Navan's likely priority is deal desk work and Salesforce CPQ work as shown by two \"Senior Deal Desk Analyst\" postings and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting [2][3][4]."
+    },
+    "questions": [
+     "What will the new \"Senior Deal Desk Analyst\" hires own in the deal process?",
+     "How do account executives build their monthly revenue forecasts in Salesforce today?",
+     "What will the \"GTM Systems Manager\" focus on in the first few months?"
+    ],
+    "unknowns": [
+     "Size of the sales team",
+     "Who the deal desk hires report to",
+     "How Salesforce CPQ is set up today",
+     "Whether the two deal desk postings are one role or two"
+    ],
+    "first_touch": {
+     "subject": "Navan deal desk and GTM systems hiring",
+     "body": "Hi {first_name},\n\nI saw Navan posted two \"Senior Deal Desk Analyst\" roles in October and a \"GTM Systems Manager\" role in November. A \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting also went up in October.\n\nOur team works on CRM projects, pipeline reporting, and forecasting for sales teams.\n\nAre you the right person to talk with about the new deal desk roles?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Navan published two \"Senior Deal Desk Analyst\" postings on 2026-10-06 and 2026-10-07 [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"GTM Systems Manager\" posting went up 8 days before the read date, and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting went up on 2026-10-01 [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Commercial Account Executive\" posting asks the hire to \"ensure accurate monthly forecasting of revenue in Salesforce\" [7].",
+      "cites": [
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Navan's likely priority is deal desk work and Salesforce CPQ work as shown by two \"Senior Deal Desk Analyst\" postings and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting [2][3][4].",
+      "cites": [
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What will the new \"Senior Deal Desk Analyst\" hires own in the deal process?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do account executives build their monthly revenue forecasts in Salesforce today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What will the \"GTM Systems Manager\" focus on in the first few months?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who the deal desk hires report to",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How Salesforce CPQ is set up today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the two deal desk postings are one role or two",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Navan posted two \"Senior Deal Desk Analyst\" roles in October and a \"GTM Systems Manager\" role in November. A \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting also went up in October.\n\nOur team works on CRM projects, pipeline reporting, and forecasting for sales teams.\n\nAre you the right person to talk with about the new deal desk roles?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Navan published two \"Senior Deal Desk Analyst\" postings on 2026-10-06 and 2026-10-07 [2][3]."
+    },
+    {
+     "text": "A \"GTM Systems Manager\" posting went up 8 days before the read date, and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting went up on 2026-10-01 [1][4]."
+    },
+    {
+     "text": "A \"Commercial Account Executive\" posting asks the hire to \"ensure accurate monthly forecasting of revenue in Salesforce\" [7]."
+    }
+   ],
+   "priority": {
+    "text": "Navan's likely priority is deal desk work and Salesforce CPQ work as shown by two \"Senior Deal Desk Analyst\" postings and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting [2][3][4]."
+   },
+   "questions": [
+    "What will the new \"Senior Deal Desk Analyst\" hires own in the deal process?",
+    "How do account executives build their monthly revenue forecasts in Salesforce today?",
+    "What will the \"GTM Systems Manager\" focus on in the first few months?"
+   ],
+   "unknowns": [
+    "Size of the sales team",
+    "Who the deal desk hires report to",
+    "How Salesforce CPQ is set up today",
+    "Whether the two deal desk postings are one role or two"
+   ],
+   "first_touch": {
+    "subject": "Navan deal desk and GTM systems hiring",
+    "body": "Hi {first_name},\n\nI saw Navan posted two \"Senior Deal Desk Analyst\" roles in October and a \"GTM Systems Manager\" role in November. A \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting also went up in October.\n\nOur team works on CRM projects, pipeline reporting, and forecasting for sales teams.\n\nAre you the right person to talk with about the new deal desk roles?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Navan published two \"Senior Deal Desk Analyst\" postings on 2026-10-06 and 2026-10-07 [2][3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"GTM Systems Manager\" posting went up 8 days before the read date, and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting went up on 2026-10-01 [1][4].",
+     "cites": [
+      1,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Commercial Account Executive\" posting asks the hire to \"ensure accurate monthly forecasting of revenue in Salesforce\" [7].",
+     "cites": [
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Navan's likely priority is deal desk work and Salesforce CPQ work as shown by two \"Senior Deal Desk Analyst\" postings and a \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting [2][3][4].",
+     "cites": [
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What will the new \"Senior Deal Desk Analyst\" hires own in the deal process?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do account executives build their monthly revenue forecasts in Salesforce today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What will the \"GTM Systems Manager\" focus on in the first few months?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who the deal desk hires report to",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How Salesforce CPQ is set up today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the two deal desk postings are one role or two",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw Navan posted two \"Senior Deal Desk Analyst\" roles in October and a \"GTM Systems Manager\" role in November. A \"Senior Business Systems Engineer, Salesforce CPQ Developer\" posting also went up in October.\n\nOur team works on CRM projects, pipeline reporting, and forecasting for sales teams.\n\nAre you the right person to talk with about the new deal desk roles?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.091921,
+ "ms": 22294
+}

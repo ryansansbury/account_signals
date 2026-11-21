@@ -1,0 +1,57 @@
+{
+ "account": "Ursa Major",
+ "split": "dev",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": "as written",
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "86fb4bc2dbebeeb3",
+ "input_hash": "f6c2bcfbcb170849",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T04:24:16+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 5229,
+    "input_tokens": 2,
+    "output_tokens": 502,
+    "cache_write_tokens": 19600,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0835043
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [0] gives 134 open roles on the public board on 2026-11-20, which matches."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Both [6] and [7] are dated 2026-10-20, and that is 31 days before the 2026-11-20 read date."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The Specialist posting centers on solid rocket motor growth and pipeline, and the Representative II posting on Space Force capture and CRM, so selling as a priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "Two business development postings dated October 2026 exist, and both titles match [6] and [7] exactly."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.083504,
+ "ms": 5229
+}

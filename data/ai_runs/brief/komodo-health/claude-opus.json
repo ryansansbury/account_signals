@@ -1,0 +1,497 @@
+{
+ "account": "Komodo Health",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "83f81013c3dbf4af",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:33:20+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Komodo Health had 19 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 79% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sdfbe1ae02e",
+   "title": "Web & GTM Engineer",
+   "excerpt": "Web & GTM Engineer",
+   "posted": "2026-11-06",
+   "posting_id": "greenhouse:komodohealth:8933245002",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sca88841a51",
+   "title": "Senior Salesforce Consultant (Patient Services)",
+   "excerpt": "Senior Salesforce Consultant (Patient Services)",
+   "posted": "2026-06-09",
+   "posting_id": "greenhouse:komodohealth:8570084002",
+   "family": "crm"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s224b871e7a",
+   "title": "Account Executive - AVP, Sales (Tech Partnerships)",
+   "excerpt": "Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy.",
+   "posted": "2026-02-13",
+   "posting_id": "greenhouse:komodohealth:8422588002",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s3c853cecf3",
+   "title": "Sales Development Representative",
+   "excerpt": "Experience with Salesforce, Salesloft, and/or Qualified.io..",
+   "posted": "2026-10-09",
+   "posting_id": "greenhouse:komodohealth:8880020002",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s6a4f536d1b",
+   "title": "Sales Development Representative",
+   "excerpt": "Experience with Salesforce, Salesloft, and/or Qualified.io..",
+   "posted": "2026-10-09",
+   "posting_id": "greenhouse:komodohealth:8880020002",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "sf656d046a3",
+   "title": "Business Operations Manager, Revenue",
+   "excerpt": "Business Operations Manager, Revenue",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:komodohealth:8950363002",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Komodo Health published a \\\"Business Operations Manager, Revenue\\\" posting on 2026-11-20 and a \\\"Web & GTM Engineer\\\" posting on 2026-11-06 [1][6].\"}, {\"text\": \"Its \\\"Sales Development Representative\\\" posting from 2026-10-09 asks for \\\"Experience with Salesforce, Salesloft, and/or Qualified.io..\\\" [4].\"}, {\"text\": \"An \\\"Account Executive - AVP, Sales (Tech Partnerships)\\\" posting asks the hire to \\\"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\\\" [3].\"}], \"priority\": {\"text\": \"Komodo Health's likely priority is selling and the pipeline in Salesforce, since its \\\"Account Executive - AVP, Sales (Tech Partnerships)\\\" posting asks the hire to \\\"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\\\" [3].\"}, \"questions\": [\"What will the \\\"Business Operations Manager, Revenue\\\" own once they start?\", \"How do sales and pipeline details in Salesforce turn into the reports your leaders use?\", \"What part of your GTM work will the \\\"Web & GTM Engineer\\\" support?\"], \"unknowns\": [\"Size and structure of the sales team\", \"How forecasting and territory planning run today\", \"Who owns Salesforce administration\", \"Whether the Patient Services Salesforce role is internal or client facing\"], \"first_touch\": {\"subject\": \"Your new revenue operations roles\", \"body\": \"Hi {first_name},\\n\\nI saw Komodo Health posted a \\\"Business Operations Manager, Revenue\\\" role and a \\\"Web & GTM Engineer\\\" role in November. The \\\"Sales Development Representative\\\" posting from October asks for \\\"Experience with Salesforce, Salesloft, and/or Qualified.io..\\\"\\n\\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\\n\\nWould the \\\"Business Operations Manager, Revenue\\\" sit on your team?\\n\\n{sender_name}\", \"cites\": [1, 4, 6]}}",
+   "meta": {
+    "ms": 25801,
+    "input_tokens": 2,
+    "output_tokens": 2734,
+    "cache_write_tokens": 5330,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.09763720000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Komodo Health published a \"Business Operations Manager, Revenue\" posting on 2026-11-20 and a \"Web & GTM Engineer\" posting on 2026-11-06 [1][6]."
+     },
+     {
+      "text": "Its \"Sales Development Representative\" posting from 2026-10-09 asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\" [4]."
+     },
+     {
+      "text": "An \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3]."
+     }
+    ],
+    "priority": {
+     "text": "Komodo Health's likely priority is selling and the pipeline in Salesforce, since its \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3]."
+    },
+    "questions": [
+     "What will the \"Business Operations Manager, Revenue\" own once they start?",
+     "How do sales and pipeline details in Salesforce turn into the reports your leaders use?",
+     "What part of your GTM work will the \"Web & GTM Engineer\" support?"
+    ],
+    "unknowns": [
+     "Size and structure of the sales team",
+     "How forecasting and territory planning run today",
+     "Who owns Salesforce administration",
+     "Whether the Patient Services Salesforce role is internal or client facing"
+    ],
+    "first_touch": {
+     "subject": "Your new revenue operations roles",
+     "body": "Hi {first_name},\n\nI saw Komodo Health posted a \"Business Operations Manager, Revenue\" role and a \"Web & GTM Engineer\" role in November. The \"Sales Development Representative\" posting from October asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\"\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\n\nWould the \"Business Operations Manager, Revenue\" sit on your team?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Komodo Health published a \"Business Operations Manager, Revenue\" posting on 2026-11-20 and a \"Web & GTM Engineer\" posting on 2026-11-06 [1][6].",
+      "cites": [
+       1,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Its \"Sales Development Representative\" posting from 2026-10-09 asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "An \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Komodo Health's likely priority is selling and the pipeline in Salesforce, since its \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": [
+       "writing: a pause comma before \"since\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "What will the \"Business Operations Manager, Revenue\" own once they start?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do sales and pipeline details in Salesforce turn into the reports your leaders use?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What part of your GTM work will the \"Web & GTM Engineer\" support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How forecasting and territory planning run today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns Salesforce administration",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Patient Services Salesforce role is internal or client facing",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Komodo Health posted a \"Business Operations Manager, Revenue\" role and a \"Web & GTM Engineer\" role in November. The \"Sales Development Representative\" posting from October asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\"\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\n\nWould the \"Business Operations Manager, Revenue\" sit on your team?\n\n{sender_name}",
+      "cites": [
+       1,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Komodo Health published a \\\"Business Operations Manager, Revenue\\\" posting on 2026-11-20 and a \\\"Web & GTM Engineer\\\" posting on 2026-11-06 [1][6].\"}, {\"text\": \"Its \\\"Sales Development Representative\\\" posting from 2026-10-09 asks for \\\"Experience with Salesforce, Salesloft, and/or Qualified.io..\\\" [4].\"}, {\"text\": \"An \\\"Account Executive - AVP, Sales (Tech Partnerships)\\\" posting asks the hire to \\\"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\\\" [3].\"}], \"priority\": {\"text\": \"Komodo Health's likely priority is the selling and pipeline work its \\\"Account Executive - AVP, Sales (Tech Partnerships)\\\" posting describes when it asks the hire to \\\"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\\\" [3].\"}, \"questions\": [\"What will the \\\"Business Operations Manager, Revenue\\\" own once they start?\", \"How do sales and pipeline details in Salesforce turn into the reports your leaders use?\", \"What part of your GTM work will the \\\"Web & GTM Engineer\\\" support?\"], \"unknowns\": [\"Size and structure of the sales team\", \"How forecasting and territory planning run today\", \"Who owns Salesforce administration\", \"Whether the Patient Services Salesforce role is internal or client facing\"], \"first_touch\": {\"subject\": \"Komodo Health revenue and GTM hiring\", \"body\": \"Hi {first_name},\\n\\nI saw Komodo Health posted a \\\"Business Operations Manager, Revenue\\\" role and a \\\"Web & GTM Engineer\\\" role in November. The \\\"Sales Development Representative\\\" posting from October asks for \\\"Experience with Salesforce, Salesloft, and/or Qualified.io..\\\"\\n\\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\\n\\nWould the \\\"Business Operations Manager, Revenue\\\" sit on your team?\\n\\n{sender_name}\", \"cites\": [1, 4, 6]}}",
+   "meta": {
+    "ms": 11997,
+    "input_tokens": 2,
+    "output_tokens": 1342,
+    "cache_write_tokens": 6240,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0770772
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Komodo Health published a \"Business Operations Manager, Revenue\" posting on 2026-11-20 and a \"Web & GTM Engineer\" posting on 2026-11-06 [1][6]."
+     },
+     {
+      "text": "Its \"Sales Development Representative\" posting from 2026-10-09 asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\" [4]."
+     },
+     {
+      "text": "An \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3]."
+     }
+    ],
+    "priority": {
+     "text": "Komodo Health's likely priority is the selling and pipeline work its \"Account Executive - AVP, Sales (Tech Partnerships)\" posting describes when it asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3]."
+    },
+    "questions": [
+     "What will the \"Business Operations Manager, Revenue\" own once they start?",
+     "How do sales and pipeline details in Salesforce turn into the reports your leaders use?",
+     "What part of your GTM work will the \"Web & GTM Engineer\" support?"
+    ],
+    "unknowns": [
+     "Size and structure of the sales team",
+     "How forecasting and territory planning run today",
+     "Who owns Salesforce administration",
+     "Whether the Patient Services Salesforce role is internal or client facing"
+    ],
+    "first_touch": {
+     "subject": "Komodo Health revenue and GTM hiring",
+     "body": "Hi {first_name},\n\nI saw Komodo Health posted a \"Business Operations Manager, Revenue\" role and a \"Web & GTM Engineer\" role in November. The \"Sales Development Representative\" posting from October asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\"\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\n\nWould the \"Business Operations Manager, Revenue\" sit on your team?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Komodo Health published a \"Business Operations Manager, Revenue\" posting on 2026-11-20 and a \"Web & GTM Engineer\" posting on 2026-11-06 [1][6].",
+      "cites": [
+       1,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Its \"Sales Development Representative\" posting from 2026-10-09 asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "An \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Komodo Health's likely priority is the selling and pipeline work its \"Account Executive - AVP, Sales (Tech Partnerships)\" posting describes when it asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What will the \"Business Operations Manager, Revenue\" own once they start?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do sales and pipeline details in Salesforce turn into the reports your leaders use?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What part of your GTM work will the \"Web & GTM Engineer\" support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How forecasting and territory planning run today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns Salesforce administration",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Patient Services Salesforce role is internal or client facing",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Komodo Health posted a \"Business Operations Manager, Revenue\" role and a \"Web & GTM Engineer\" role in November. The \"Sales Development Representative\" posting from October asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\"\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\n\nWould the \"Business Operations Manager, Revenue\" sit on your team?\n\n{sender_name}",
+      "cites": [
+       1,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Komodo Health published a \"Business Operations Manager, Revenue\" posting on 2026-11-20 and a \"Web & GTM Engineer\" posting on 2026-11-06 [1][6]."
+    },
+    {
+     "text": "Its \"Sales Development Representative\" posting from 2026-10-09 asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\" [4]."
+    },
+    {
+     "text": "An \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3]."
+    }
+   ],
+   "priority": {
+    "text": "Komodo Health's likely priority is the selling and pipeline work its \"Account Executive - AVP, Sales (Tech Partnerships)\" posting describes when it asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3]."
+   },
+   "questions": [
+    "What will the \"Business Operations Manager, Revenue\" own once they start?",
+    "How do sales and pipeline details in Salesforce turn into the reports your leaders use?",
+    "What part of your GTM work will the \"Web & GTM Engineer\" support?"
+   ],
+   "unknowns": [
+    "Size and structure of the sales team",
+    "How forecasting and territory planning run today",
+    "Who owns Salesforce administration",
+    "Whether the Patient Services Salesforce role is internal or client facing"
+   ],
+   "first_touch": {
+    "subject": "Komodo Health revenue and GTM hiring",
+    "body": "Hi {first_name},\n\nI saw Komodo Health posted a \"Business Operations Manager, Revenue\" role and a \"Web & GTM Engineer\" role in November. The \"Sales Development Representative\" posting from October asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\"\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\n\nWould the \"Business Operations Manager, Revenue\" sit on your team?\n\n{sender_name}",
+    "cites": [
+     1,
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Komodo Health published a \"Business Operations Manager, Revenue\" posting on 2026-11-20 and a \"Web & GTM Engineer\" posting on 2026-11-06 [1][6].",
+     "cites": [
+      1,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Its \"Sales Development Representative\" posting from 2026-10-09 asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "An \"Account Executive - AVP, Sales (Tech Partnerships)\" posting asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Komodo Health's likely priority is the selling and pipeline work its \"Account Executive - AVP, Sales (Tech Partnerships)\" posting describes when it asks the hire to \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What will the \"Business Operations Manager, Revenue\" own once they start?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do sales and pipeline details in Salesforce turn into the reports your leaders use?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What part of your GTM work will the \"Web & GTM Engineer\" support?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size and structure of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How forecasting and territory planning run today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns Salesforce administration",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the Patient Services Salesforce role is internal or client facing",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw Komodo Health posted a \"Business Operations Manager, Revenue\" role and a \"Web & GTM Engineer\" role in November. The \"Sales Development Representative\" posting from October asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io..\"\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting.\n\nWould the \"Business Operations Manager, Revenue\" sit on your team?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.174714,
+ "ms": 37798
+}

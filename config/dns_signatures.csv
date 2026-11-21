@@ -1,0 +1,24 @@
+# The DNS records that name a vendor, from each vendor's own documentation as the 11/11 terms check found it.
+# kind: spf (an include in the SPF record), mx (a mail host), or txt (a verification record's prefix).
+# match: the end of an SPF include or MX host, or the start of a TXT record. Verification records say a vendor was set
+# up at some point, and SPF includes and mail hosts say more about the mail that flows today.
+kind,match,vendor,category,confidence,source
+spf,_spf.salesforce.com,Salesforce,CRM,high,https://help.salesforce.com/apex/HTViewSolution?id=000006347
+spf,hubspotemail.net,HubSpot,CRM and marketing,high,https://knowledge.hubspot.com/email/manage-email-authentication-in-hubspot
+spf,mktomail.com,Marketo,marketing automation,high,https://experienceleague.adobe.com/pt-br/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo
+spf,marketing.dynamics.com,Microsoft Dynamics 365,CRM and marketing,medium,https://learn.microsoft.com/en-sg/dynamics365/customer-insights/journeys/domain-authentication
+spf,mail.zendesk.com,Zendesk,support desk,high,https://support.zendesk.com/hc/en-us/articles/4408832543770
+spf,email.freshdesk.com,Freshdesk,support desk,high,https://support.freshdesk.com/en/support/solutions/articles/43170
+spf,servers.mcsv.net,Mailchimp,email marketing,medium,https://support.google.com/a/answer/178723
+spf,sendgrid.net,SendGrid,email delivery,high,https://www.twilio.com/docs/sendgrid/ui/account-and-settings/spf-records
+spf,amazonses.com,Amazon SES,email delivery,high,https://docs.aws.amazon.com/ses/latest/dg/mail-from.html
+spf,mailgun.org,Mailgun,email delivery,high,https://help.mailgun.com/hc/en-us/articles/360011565514
+spf,spf.mtasv.net,Postmark,email delivery,high,https://postmarkapp.com/support/article/how-do-i-set-up-spf-for-postmark
+spf,mg-spf.greenhouse.io,Greenhouse,recruiting,high,https://support.greenhouse.io/hc/en-us/articles/24674627688475
+spf,_spf.google.com,Google Workspace,mail and documents,high,https://support.google.com/a/answer/178723
+spf,spf.protection.outlook.com,Microsoft 365,mail and documents,high,https://learn.microsoft.com/en-us/defender-office-365/email-authentication-spf-configure
+mx,mail.protection.outlook.com,Microsoft 365,mail and documents,high,https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/information-for-dns-records
+mx,mailgun.org,Mailgun,email delivery,high,https://documentation.mailgun.com/docs/mailgun/user-manual/domains/
+txt,MS=,Microsoft 365,verified with Microsoft,high,https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domains/information-for-dns-records
+txt,adobe-idp-site-verification=,Adobe,verified with Adobe,high,https://helpx.adobe.com/enterprise/using/verify-domain-ownership.html
+txt,atlassian-domain-verification=,Atlassian,verified with Atlassian,medium,https://support.atlassian.com/user-management/docs/verify-a-domain-to-manage-accounts/

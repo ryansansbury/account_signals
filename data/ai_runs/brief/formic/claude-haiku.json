@@ -1,0 +1,376 @@
+{
+ "account": "Formic",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "de4986a2c013349f",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:58:43+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Formic had 37 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Bolingbrook, IL. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s7a6bb0240a",
+   "title": "Head of Sales",
+   "excerpt": "Head of Sales",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:formic:4730505006",
+   "family": "leadership"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sf2979f0911",
+   "title": "GTM Engineer",
+   "excerpt": "GTM Engineer",
+   "posted": "2026-07-27",
+   "posting_id": "greenhouse:formic:4699467006",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sf840b05cac",
+   "title": "Automation Sales Manager",
+   "excerpt": "Proficiency with Salesforce or comparable CRM systems.",
+   "posted": "2026-10-30",
+   "posting_id": "greenhouse:formic:4726219006",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s207203c970",
+   "title": "Customer Success Manager - Bolingbrook, IL",
+   "excerpt": "Proficiency with CRM and customer relationship management tools such as Salesforce, ticketing systems, or project tracking platforms.",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:formic:4726483006",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "se75b976f85",
+   "title": "Head of Sales",
+   "excerpt": "Strong analytical and commercial judgment, including pipeline analysis, forecasting, deal economics, and Salesforce or similar CRM tools.",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:formic:4730505006",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "sa7839ac2ff",
+   "title": "Head of Marketing - Remote, USA",
+   "excerpt": "Head of Marketing - Remote, USA",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:formic:4726500006",
+   "family": "pace"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s9e9b986496",
+   "title": "Head of Marketing - Oakland, CA",
+   "excerpt": "Head of Marketing - Oakland, CA",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:formic:4725623006",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sfaebccda24",
+   "title": "Head of Marketing - Bolingbrook, IL",
+   "excerpt": "Head of Marketing - Bolingbrook, IL",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:formic:4724916006",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Formic had 37 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"The \\\"Head of Sales\\\" posting went up on 2026-11-18 and asks for \\\"pipeline analysis, forecasting, deal economics\\\" [1][5].\"}, {\"text\": \"The \\\"Automation Sales Manager\\\" posting went up on 2026-10-30 and asks for \\\"Proficiency with Salesforce or comparable CRM systems\\\" [3].\"}], \"priority\": {\"text\": \"The likely priority is revenue work on the pipeline and forecasting, and the postings also ask for \\\"Salesforce or similar CRM tools\\\" in the \\\"Head of Sales\\\" posting and \\\"Proficiency with Salesforce or comparable CRM systems\\\" in the \\\"Automation Sales Manager\\\" posting [1][3][5].\"}, \"questions\": [\"Is the \\\"Head of Sales\\\" role a new seat or a replacement?\", \"How does the team use Salesforce today for pipeline analysis and forecasting?\", \"Are the \\\"Automation Sales Manager\\\" and \\\"GTM Engineer\\\" roles working with the same CRM setup?\"], \"unknowns\": [\"Team size and headcount\", \"Current Salesforce setup and data quality\", \"Who owns revenue operations today\", \"Whether the open roles are still being filled\"], \"first_touch\": {\"subject\": \"Salesforce work across Formic's open roles\", \"body\": \"Hi {first_name},\\n\\nFormic has 37 open roles on its public job board. The \\\"Head of Sales\\\" posting went up in November and asks for \\\"Strong analytical and commercial judgment, including pipeline analysis, forecasting, deal economics, and Salesforce or similar CRM tools\\\". The \\\"Automation Sales Manager\\\" posting from October asks for \\\"Proficiency with Salesforce or comparable CRM systems\\\".\\n\\nWho on your team owns the Salesforce setup today?\\n\\n{sender_name}\", \"cites\": [0, 1, 3, 5]}}",
+   "meta": {
+    "ms": 32424,
+    "input_tokens": 2,
+    "output_tokens": 7857,
+    "cache_write_tokens": 5443,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00503276
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Formic had 37 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "The \"Head of Sales\" posting went up on 2026-11-18 and asks for \"pipeline analysis, forecasting, deal economics\" [1][5]."
+     },
+     {
+      "text": "The \"Automation Sales Manager\" posting went up on 2026-10-30 and asks for \"Proficiency with Salesforce or comparable CRM systems\" [3]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work on the pipeline and forecasting, and the postings also ask for \"Salesforce or similar CRM tools\" in the \"Head of Sales\" posting and \"Proficiency with Salesforce or comparable CRM systems\" in the \"Automation Sales Manager\" posting [1][3][5]."
+    },
+    "questions": [
+     "Is the \"Head of Sales\" role a new seat or a replacement?",
+     "How does the team use Salesforce today for pipeline analysis and forecasting?",
+     "Are the \"Automation Sales Manager\" and \"GTM Engineer\" roles working with the same CRM setup?"
+    ],
+    "unknowns": [
+     "Team size and headcount",
+     "Current Salesforce setup and data quality",
+     "Who owns revenue operations today",
+     "Whether the open roles are still being filled"
+    ],
+    "first_touch": {
+     "subject": "Salesforce work across Formic's open roles",
+     "body": "Hi {first_name},\n\nFormic has 37 open roles on its public job board. The \"Head of Sales\" posting went up in November and asks for \"Strong analytical and commercial judgment, including pipeline analysis, forecasting, deal economics, and Salesforce or similar CRM tools\". The \"Automation Sales Manager\" posting from October asks for \"Proficiency with Salesforce or comparable CRM systems\".\n\nWho on your team owns the Salesforce setup today?\n\n{sender_name}",
+     "cites": [
+      0,
+      1,
+      3,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Formic had 37 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Head of Sales\" posting went up on 2026-11-18 and asks for \"pipeline analysis, forecasting, deal economics\" [1][5].",
+      "cites": [
+       1,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Automation Sales Manager\" posting went up on 2026-10-30 and asks for \"Proficiency with Salesforce or comparable CRM systems\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work on the pipeline and forecasting, and the postings also ask for \"Salesforce or similar CRM tools\" in the \"Head of Sales\" posting and \"Proficiency with Salesforce or comparable CRM systems\" in the \"Automation Sales Manager\" posting [1][3][5].",
+      "cites": [
+       1,
+       3,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is the \"Head of Sales\" role a new seat or a replacement?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the team use Salesforce today for pipeline analysis and forecasting?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Are the \"Automation Sales Manager\" and \"GTM Engineer\" roles working with the same CRM setup?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Team size and headcount",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current Salesforce setup and data quality",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the open roles are still being filled",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nFormic has 37 open roles on its public job board. The \"Head of Sales\" posting went up in November and asks for \"Strong analytical and commercial judgment, including pipeline analysis, forecasting, deal economics, and Salesforce or similar CRM tools\". The \"Automation Sales Manager\" posting from October asks for \"Proficiency with Salesforce or comparable CRM systems\".\n\nWho on your team owns the Salesforce setup today?\n\n{sender_name}",
+      "cites": [
+       0,
+       1,
+       3,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Formic had 37 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "The \"Head of Sales\" posting went up on 2026-11-18 and asks for \"pipeline analysis, forecasting, deal economics\" [1][5]."
+    },
+    {
+     "text": "The \"Automation Sales Manager\" posting went up on 2026-10-30 and asks for \"Proficiency with Salesforce or comparable CRM systems\" [3]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work on the pipeline and forecasting, and the postings also ask for \"Salesforce or similar CRM tools\" in the \"Head of Sales\" posting and \"Proficiency with Salesforce or comparable CRM systems\" in the \"Automation Sales Manager\" posting [1][3][5]."
+   },
+   "questions": [
+    "Is the \"Head of Sales\" role a new seat or a replacement?",
+    "How does the team use Salesforce today for pipeline analysis and forecasting?",
+    "Are the \"Automation Sales Manager\" and \"GTM Engineer\" roles working with the same CRM setup?"
+   ],
+   "unknowns": [
+    "Team size and headcount",
+    "Current Salesforce setup and data quality",
+    "Who owns revenue operations today",
+    "Whether the open roles are still being filled"
+   ],
+   "first_touch": {
+    "subject": "Salesforce work across Formic's open roles",
+    "body": "Hi {first_name},\n\nFormic has 37 open roles on its public job board. The \"Head of Sales\" posting went up in November and asks for \"Strong analytical and commercial judgment, including pipeline analysis, forecasting, deal economics, and Salesforce or similar CRM tools\". The \"Automation Sales Manager\" posting from October asks for \"Proficiency with Salesforce or comparable CRM systems\".\n\nWho on your team owns the Salesforce setup today?\n\n{sender_name}",
+    "cites": [
+     0,
+     1,
+     3,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Formic had 37 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Head of Sales\" posting went up on 2026-11-18 and asks for \"pipeline analysis, forecasting, deal economics\" [1][5].",
+     "cites": [
+      1,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Automation Sales Manager\" posting went up on 2026-10-30 and asks for \"Proficiency with Salesforce or comparable CRM systems\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work on the pipeline and forecasting, and the postings also ask for \"Salesforce or similar CRM tools\" in the \"Head of Sales\" posting and \"Proficiency with Salesforce or comparable CRM systems\" in the \"Automation Sales Manager\" posting [1][3][5].",
+     "cites": [
+      1,
+      3,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Is the \"Head of Sales\" role a new seat or a replacement?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the team use Salesforce today for pipeline analysis and forecasting?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Are the \"Automation Sales Manager\" and \"GTM Engineer\" roles working with the same CRM setup?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Team size and headcount",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current Salesforce setup and data quality",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue operations today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the open roles are still being filled",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nFormic has 37 open roles on its public job board. The \"Head of Sales\" posting went up in November and asks for \"Strong analytical and commercial judgment, including pipeline analysis, forecasting, deal economics, and Salesforce or similar CRM tools\". The \"Automation Sales Manager\" posting from October asks for \"Proficiency with Salesforce or comparable CRM systems\".\n\nWho on your team owns the Salesforce setup today?\n\n{sender_name}",
+     "cites": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.005033,
+ "ms": 32424
+}

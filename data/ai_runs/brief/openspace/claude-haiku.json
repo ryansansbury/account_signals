@@ -1,0 +1,374 @@
+{
+ "account": "OpenSpace",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "41e77b5f1c0cabb5",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:06:14+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "OpenSpace had 13 open roles on its public job board on 2026-11-20. The US held 0% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s59f1958f71",
+   "title": "Deal Desk Manager",
+   "excerpt": "Deal Desk Manager",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8205448003",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s912b9f3016",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Deal Desk Analyst",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sd3d32ce50c",
+   "title": "Sales Operations Manager",
+   "excerpt": "Partner directly with Sales leaders to support the forecasting cadence, inspect pipeline, identify risks, and drive forecast accuracy, opportunity hygiene, and adherence to sales processes.",
+   "posted": "2026-08-21",
+   "posting_id": "greenhouse:openspace:7930340003",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2763572fc0",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Hands-on experience creating customer quotes or order forms in Salesforce and a CPQ solution (Salesforce CPQ or comparable system) strongly preferred; candidates with equivalent order-form systems experience may be considered.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s35083146d2",
+   "title": "Inside Sales Representative",
+   "excerpt": "Keeping Salesforce accurate and current with all activities, contacts and lead status.",
+   "posted": "2026-10-26",
+   "posting_id": "greenhouse:openspace:8045063003",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s5400273e41",
+   "title": "Deal Desk Analyst",
+   "excerpt": "This role is suited to a detail-oriented, collaborative professional who already knows how to work in Salesforce and a CPQ/order-form workflow and is motivated to develop deeper skills in commercial contracting and deal execution.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s6a960a2f1c",
+   "title": "Inside Sales Representative",
+   "excerpt": "Inside Sales Representative",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:openspace:8040476003",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sbb6da83254",
+   "title": "Sr. Product Marketing Manager",
+   "excerpt": "Sr. Product Marketing Manager",
+   "posted": "2026-10-14",
+   "posting_id": "greenhouse:openspace:8033548003",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"OpenSpace had 13 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Both \\\"Deal Desk Manager\\\" and \\\"Deal Desk Analyst\\\" were published 4 days before the read date [1][2].\"}, {\"text\": \"A \\\"Sales Operations Manager\\\" posting from 2026-08-21 asks the hire to \\\"support the forecasting cadence\\\" and to \\\"inspect pipeline\\\" [3].\"}], \"priority\": {\"text\": \"The likely priority is revenue work on \\\"creating customer quotes or order forms in Salesforce\\\" and on the \\\"forecasting cadence\\\" [3][4].\"}, \"questions\": [\"Which of the two open roles is the team filling first?\", \"How does the team run its forecast review today?\", \"Which system does your team use for quotes and order forms today?\"], \"unknowns\": [\"Whether the open roles are new headcount or backfills\", \"Current Salesforce setup and data quality\", \"Who owns forecasting and quoting today\", \"Budget and timing for any project\"], \"first_touch\": {\"subject\": \"Quick question on your open sales ops roles\", \"body\": \"Hi {first_name},\\n\\nI saw that OpenSpace posted \\\"Deal Desk Manager\\\" and \\\"Deal Desk Analyst\\\" in November. The analyst posting lists \\\"Hands-on experience creating customer quotes or order forms in Salesforce\\\" and says a CPQ solution is \\\"strongly preferred.\\\" A \\\"Sales Operations Manager\\\" posting from August asks for someone to \\\"inspect pipeline\\\" and to \\\"support the forecasting cadence.\\\"\\n\\nWhich system does your team use for quotes and order forms today?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 4]}}",
+   "meta": {
+    "ms": 31082,
+    "input_tokens": 2,
+    "output_tokens": 7146,
+    "cache_write_tokens": 7104,
+    "cache_read_tokens": 0,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.004994
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "OpenSpace had 13 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Both \"Deal Desk Manager\" and \"Deal Desk Analyst\" were published 4 days before the read date [1][2]."
+     },
+     {
+      "text": "A \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"support the forecasting cadence\" and to \"inspect pipeline\" [3]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work on \"creating customer quotes or order forms in Salesforce\" and on the \"forecasting cadence\" [3][4]."
+    },
+    "questions": [
+     "Which of the two open roles is the team filling first?",
+     "How does the team run its forecast review today?",
+     "Which system does your team use for quotes and order forms today?"
+    ],
+    "unknowns": [
+     "Whether the open roles are new headcount or backfills",
+     "Current Salesforce setup and data quality",
+     "Who owns forecasting and quoting today",
+     "Budget and timing for any project"
+    ],
+    "first_touch": {
+     "subject": "Quick question on your open sales ops roles",
+     "body": "Hi {first_name},\n\nI saw that OpenSpace posted \"Deal Desk Manager\" and \"Deal Desk Analyst\" in November. The analyst posting lists \"Hands-on experience creating customer quotes or order forms in Salesforce\" and says a CPQ solution is \"strongly preferred.\" A \"Sales Operations Manager\" posting from August asks for someone to \"inspect pipeline\" and to \"support the forecasting cadence.\"\n\nWhich system does your team use for quotes and order forms today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "OpenSpace had 13 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Both \"Deal Desk Manager\" and \"Deal Desk Analyst\" were published 4 days before the read date [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"support the forecasting cadence\" and to \"inspect pipeline\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work on \"creating customer quotes or order forms in Salesforce\" and on the \"forecasting cadence\" [3][4].",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of the two open roles is the team filling first?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the team run its forecast review today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which system does your team use for quotes and order forms today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the open roles are new headcount or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current Salesforce setup and data quality",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting and quoting today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for any project",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that OpenSpace posted \"Deal Desk Manager\" and \"Deal Desk Analyst\" in November. The analyst posting lists \"Hands-on experience creating customer quotes or order forms in Salesforce\" and says a CPQ solution is \"strongly preferred.\" A \"Sales Operations Manager\" posting from August asks for someone to \"inspect pipeline\" and to \"support the forecasting cadence.\"\n\nWhich system does your team use for quotes and order forms today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "OpenSpace had 13 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "Both \"Deal Desk Manager\" and \"Deal Desk Analyst\" were published 4 days before the read date [1][2]."
+    },
+    {
+     "text": "A \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"support the forecasting cadence\" and to \"inspect pipeline\" [3]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work on \"creating customer quotes or order forms in Salesforce\" and on the \"forecasting cadence\" [3][4]."
+   },
+   "questions": [
+    "Which of the two open roles is the team filling first?",
+    "How does the team run its forecast review today?",
+    "Which system does your team use for quotes and order forms today?"
+   ],
+   "unknowns": [
+    "Whether the open roles are new headcount or backfills",
+    "Current Salesforce setup and data quality",
+    "Who owns forecasting and quoting today",
+    "Budget and timing for any project"
+   ],
+   "first_touch": {
+    "subject": "Quick question on your open sales ops roles",
+    "body": "Hi {first_name},\n\nI saw that OpenSpace posted \"Deal Desk Manager\" and \"Deal Desk Analyst\" in November. The analyst posting lists \"Hands-on experience creating customer quotes or order forms in Salesforce\" and says a CPQ solution is \"strongly preferred.\" A \"Sales Operations Manager\" posting from August asks for someone to \"inspect pipeline\" and to \"support the forecasting cadence.\"\n\nWhich system does your team use for quotes and order forms today?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "OpenSpace had 13 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Both \"Deal Desk Manager\" and \"Deal Desk Analyst\" were published 4 days before the read date [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"support the forecasting cadence\" and to \"inspect pipeline\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work on \"creating customer quotes or order forms in Salesforce\" and on the \"forecasting cadence\" [3][4].",
+     "cites": [
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which of the two open roles is the team filling first?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the team run its forecast review today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which system does your team use for quotes and order forms today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the open roles are new headcount or backfills",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current Salesforce setup and data quality",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting and quoting today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for any project",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that OpenSpace posted \"Deal Desk Manager\" and \"Deal Desk Analyst\" in November. The analyst posting lists \"Hands-on experience creating customer quotes or order forms in Salesforce\" and says a CPQ solution is \"strongly preferred.\" A \"Sales Operations Manager\" posting from August asks for someone to \"inspect pipeline\" and to \"support the forecasting cadence.\"\n\nWhich system does your team use for quotes and order forms today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.004994,
+ "ms": 31082
+}

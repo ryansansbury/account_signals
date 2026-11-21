@@ -1,0 +1,374 @@
+{
+ "account": "OpenSpace",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "41e77b5f1c0cabb5",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:04:06+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "OpenSpace had 13 open roles on its public job board on 2026-11-20. The US held 0% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s59f1958f71",
+   "title": "Deal Desk Manager",
+   "excerpt": "Deal Desk Manager",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8205448003",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s912b9f3016",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Deal Desk Analyst",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sd3d32ce50c",
+   "title": "Sales Operations Manager",
+   "excerpt": "Partner directly with Sales leaders to support the forecasting cadence, inspect pipeline, identify risks, and drive forecast accuracy, opportunity hygiene, and adherence to sales processes.",
+   "posted": "2026-08-21",
+   "posting_id": "greenhouse:openspace:7930340003",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2763572fc0",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Hands-on experience creating customer quotes or order forms in Salesforce and a CPQ solution (Salesforce CPQ or comparable system) strongly preferred; candidates with equivalent order-form systems experience may be considered.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s35083146d2",
+   "title": "Inside Sales Representative",
+   "excerpt": "Keeping Salesforce accurate and current with all activities, contacts and lead status.",
+   "posted": "2026-10-26",
+   "posting_id": "greenhouse:openspace:8045063003",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s5400273e41",
+   "title": "Deal Desk Analyst",
+   "excerpt": "This role is suited to a detail-oriented, collaborative professional who already knows how to work in Salesforce and a CPQ/order-form workflow and is motivated to develop deeper skills in commercial contracting and deal execution.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s6a960a2f1c",
+   "title": "Inside Sales Representative",
+   "excerpt": "Inside Sales Representative",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:openspace:8040476003",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sbb6da83254",
+   "title": "Sr. Product Marketing Manager",
+   "excerpt": "Sr. Product Marketing Manager",
+   "posted": "2026-10-14",
+   "posting_id": "greenhouse:openspace:8033548003",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"OpenSpace published a \\\"Deal Desk Manager\\\" posting and a \\\"Deal Desk Analyst\\\" posting on 2026-11-16 [1][2].\"}, {\"text\": \"The \\\"Deal Desk Analyst\\\" posting names \\\"Salesforce CPQ or comparable system\\\" for creating customer quotes and order forms [4].\"}, {\"text\": \"The \\\"Sales Operations Manager\\\" posting from 2026-08-21 asks for support of the forecasting cadence and says to \\\"drive forecast accuracy\\\" [3].\"}], \"priority\": {\"text\": \"The cited postings describe deal desk work on customer quotes and order forms in \\\"Salesforce CPQ or comparable system\\\" and a forecasting cadence that includes pipeline inspection [3][4].\"}, \"questions\": [\"How do quotes and order forms move through the deal desk today?\", \"What does the forecasting cadence look like for the sales leaders you support?\", \"Which parts of Salesforce do the sales and deal desk teams rely on most?\"], \"unknowns\": [\"Size of the sales team\", \"Who owns the CRM today\", \"Whether the roles are new or replacements\", \"Budget and timing for revenue operations work\"], \"first_touch\": {\"subject\": \"Deal desk hiring at OpenSpace\", \"body\": \"Hi {first_name},\\n\\nI noticed OpenSpace posted a \\\"Deal Desk Manager\\\" role and a \\\"Deal Desk Analyst\\\" role in November. The analyst posting prefers experience with Salesforce CPQ or a comparable system. There was also a \\\"Sales Operations Manager\\\" posting in August that mentions the forecasting cadence.\\n\\nMy team helps with CRM cleanup, pipeline reporting, and forecasting. Would you be the right person to talk to about how deal desk and sales operations work gets done there?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 4]}}",
+   "meta": {
+    "ms": 14825,
+    "input_tokens": 2,
+    "output_tokens": 2148,
+    "cache_write_tokens": 7083,
+    "cache_read_tokens": 0,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.049816
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2]."
+     },
+     {
+      "text": "The \"Deal Desk Analyst\" posting names \"Salesforce CPQ or comparable system\" for creating customer quotes and order forms [4]."
+     },
+     {
+      "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks for support of the forecasting cadence and says to \"drive forecast accuracy\" [3]."
+     }
+    ],
+    "priority": {
+     "text": "The cited postings describe deal desk work on customer quotes and order forms in \"Salesforce CPQ or comparable system\" and a forecasting cadence that includes pipeline inspection [3][4]."
+    },
+    "questions": [
+     "How do quotes and order forms move through the deal desk today?",
+     "What does the forecasting cadence look like for the sales leaders you support?",
+     "Which parts of Salesforce do the sales and deal desk teams rely on most?"
+    ],
+    "unknowns": [
+     "Size of the sales team",
+     "Who owns the CRM today",
+     "Whether the roles are new or replacements",
+     "Budget and timing for revenue operations work"
+    ],
+    "first_touch": {
+     "subject": "Deal desk hiring at OpenSpace",
+     "body": "Hi {first_name},\n\nI noticed OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The analyst posting prefers experience with Salesforce CPQ or a comparable system. There was also a \"Sales Operations Manager\" posting in August that mentions the forecasting cadence.\n\nMy team helps with CRM cleanup, pipeline reporting, and forecasting. Would you be the right person to talk to about how deal desk and sales operations work gets done there?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Deal Desk Analyst\" posting names \"Salesforce CPQ or comparable system\" for creating customer quotes and order forms [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks for support of the forecasting cadence and says to \"drive forecast accuracy\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The cited postings describe deal desk work on customer quotes and order forms in \"Salesforce CPQ or comparable system\" and a forecasting cadence that includes pipeline inspection [3][4].",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do quotes and order forms move through the deal desk today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the forecasting cadence look like for the sales leaders you support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which parts of Salesforce do the sales and deal desk teams rely on most?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the CRM today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the roles are new or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for revenue operations work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The analyst posting prefers experience with Salesforce CPQ or a comparable system. There was also a \"Sales Operations Manager\" posting in August that mentions the forecasting cadence.\n\nMy team helps with CRM cleanup, pipeline reporting, and forecasting. Would you be the right person to talk to about how deal desk and sales operations work gets done there?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2]."
+    },
+    {
+     "text": "The \"Deal Desk Analyst\" posting names \"Salesforce CPQ or comparable system\" for creating customer quotes and order forms [4]."
+    },
+    {
+     "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks for support of the forecasting cadence and says to \"drive forecast accuracy\" [3]."
+    }
+   ],
+   "priority": {
+    "text": "The cited postings describe deal desk work on customer quotes and order forms in \"Salesforce CPQ or comparable system\" and a forecasting cadence that includes pipeline inspection [3][4]."
+   },
+   "questions": [
+    "How do quotes and order forms move through the deal desk today?",
+    "What does the forecasting cadence look like for the sales leaders you support?",
+    "Which parts of Salesforce do the sales and deal desk teams rely on most?"
+   ],
+   "unknowns": [
+    "Size of the sales team",
+    "Who owns the CRM today",
+    "Whether the roles are new or replacements",
+    "Budget and timing for revenue operations work"
+   ],
+   "first_touch": {
+    "subject": "Deal desk hiring at OpenSpace",
+    "body": "Hi {first_name},\n\nI noticed OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The analyst posting prefers experience with Salesforce CPQ or a comparable system. There was also a \"Sales Operations Manager\" posting in August that mentions the forecasting cadence.\n\nMy team helps with CRM cleanup, pipeline reporting, and forecasting. Would you be the right person to talk to about how deal desk and sales operations work gets done there?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Deal Desk Analyst\" posting names \"Salesforce CPQ or comparable system\" for creating customer quotes and order forms [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks for support of the forecasting cadence and says to \"drive forecast accuracy\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The cited postings describe deal desk work on customer quotes and order forms in \"Salesforce CPQ or comparable system\" and a forecasting cadence that includes pipeline inspection [3][4].",
+     "cites": [
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do quotes and order forms move through the deal desk today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does the forecasting cadence look like for the sales leaders you support?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which parts of Salesforce do the sales and deal desk teams rely on most?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns the CRM today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the roles are new or replacements",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for revenue operations work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The analyst posting prefers experience with Salesforce CPQ or a comparable system. There was also a \"Sales Operations Manager\" posting in August that mentions the forecasting cadence.\n\nMy team helps with CRM cleanup, pipeline reporting, and forecasting. Would you be the right person to talk to about how deal desk and sales operations work gets done there?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.049816,
+ "ms": 14825
+}

@@ -1,0 +1,389 @@
+{
+ "account": "Omada Health",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "aea847e79e9ffba4",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:40:52+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Omada Health had 23 open roles on its public job board on 2026-11-20. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s0ff4d9c534",
+   "title": "Director of Engineering, Eligibility & Revenue Systems",
+   "excerpt": "Director of Engineering, Eligibility & Revenue Systems",
+   "posted": "2026-11-11",
+   "posting_id": "greenhouse:omadahealth:8355741",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sc8792b6a97",
+   "title": "Senior Manager, Revenue Operations",
+   "excerpt": "Senior Manager, Revenue Operations",
+   "posted": "2026-08-25",
+   "posting_id": "greenhouse:omadahealth:8114215",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s843196aaad",
+   "title": "Chief Revenue Officer",
+   "excerpt": "Chief Revenue Officer",
+   "posted": "2026-04-17",
+   "posting_id": "greenhouse:omadahealth:7816243",
+   "family": "leadership"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s410efdfe7b",
+   "title": "Marketing Operations Associate, Direct Mail",
+   "excerpt": "Experience with marketing tools such as Asana and SFDC, plus data manipulation and analysis in spreadsheets.",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:omadahealth:8367734",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s57b2fa6e32",
+   "title": "Marketing Operations Associate, Direct Mail",
+   "excerpt": "3+ years of hands-on experience working in a marketing automation platform for direct mail operations (Marketo, Braze, Pardot, etc.).",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:omadahealth:8367734",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "sac97af7fe8",
+   "title": "Marketing Operations Associate, Direct Mail",
+   "excerpt": "3+ years of hands-on experience working in a marketing automation platform for direct mail operations (Marketo, Braze, Pardot, etc.).",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:omadahealth:8367734",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s04cacc5f96",
+   "title": "Regional Vice President, GLP-1 Sales",
+   "excerpt": "Regional Vice President, GLP-1 Sales",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:omadahealth:8383833",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s9bb96565a6",
+   "title": "Regional Vice President, Enterprise Sales",
+   "excerpt": "Regional Vice President, Enterprise Sales",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:omadahealth:8367730",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s89326472f8",
+   "title": "Regional Vice President, Mid Market Sales",
+   "excerpt": "Regional Vice President, Mid Market Sales",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:omadahealth:8356273",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Three sales leadership postings for regional vice presidents were published between 2026-11-10 and 2026-11-18 [7][8][9].\"}, {\"text\": \"A posting for \\\"Senior Manager, Revenue Operations\\\" was published 2026-08-25, and one for \\\"Chief Revenue Officer\\\" was published 2026-04-17 [2][3].\"}, {\"text\": \"The \\\"Marketing Operations Associate, Direct Mail\\\" posting from 2026-11-12 mentions \\\"Asana and SFDC\\\" in its experience line [4].\"}], \"priority\": {\"text\": \"The likely priority is hiring regional sales leaders for \\\"GLP-1 Sales\\\", \\\"Enterprise Sales\\\", and \\\"Mid Market Sales\\\" [7][8][9].\"}, \"questions\": [\"How are the new regional sales leaders expected to plan and track their pipeline in the first few months?\", \"Who owns CRM and forecasting work today, and how does the revenue operations role fit with that team?\", \"How are territories and quotas set across the GLP-1, Enterprise, and Mid Market sales groups?\"], \"unknowns\": [\"Current CRM setup and data quality\", \"How territories and quotas are set\", \"Who the revenue operations role reports to\", \"Whether the Chief Revenue Officer role is still open\"], \"first_touch\": {\"subject\": \"Your regional sales hiring at Omada\", \"body\": \"Hi {first_name},\\n\\nI noticed Omada Health posted three regional vice president sales roles in November. I also saw the \\\"Senior Manager, Revenue Operations\\\" role that went up in August.\\n\\nMy company helps with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team looks after the sales and revenue operations work these days?\\n\\n{sender_name}\", \"cites\": [2, 7, 8, 9]}}",
+   "meta": {
+    "ms": 16941,
+    "input_tokens": 2,
+    "output_tokens": 2410,
+    "cache_write_tokens": 5511,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0463026
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Three sales leadership postings for regional vice presidents were published between 2026-11-10 and 2026-11-18 [7][8][9]."
+     },
+     {
+      "text": "A posting for \"Senior Manager, Revenue Operations\" was published 2026-08-25, and one for \"Chief Revenue Officer\" was published 2026-04-17 [2][3]."
+     },
+     {
+      "text": "The \"Marketing Operations Associate, Direct Mail\" posting from 2026-11-12 mentions \"Asana and SFDC\" in its experience line [4]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is hiring regional sales leaders for \"GLP-1 Sales\", \"Enterprise Sales\", and \"Mid Market Sales\" [7][8][9]."
+    },
+    "questions": [
+     "How are the new regional sales leaders expected to plan and track their pipeline in the first few months?",
+     "Who owns CRM and forecasting work today, and how does the revenue operations role fit with that team?",
+     "How are territories and quotas set across the GLP-1, Enterprise, and Mid Market sales groups?"
+    ],
+    "unknowns": [
+     "Current CRM setup and data quality",
+     "How territories and quotas are set",
+     "Who the revenue operations role reports to",
+     "Whether the Chief Revenue Officer role is still open"
+    ],
+    "first_touch": {
+     "subject": "Your regional sales hiring at Omada",
+     "body": "Hi {first_name},\n\nI noticed Omada Health posted three regional vice president sales roles in November. I also saw the \"Senior Manager, Revenue Operations\" role that went up in August.\n\nMy company helps with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team looks after the sales and revenue operations work these days?\n\n{sender_name}",
+     "cites": [
+      2,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Three sales leadership postings for regional vice presidents were published between 2026-11-10 and 2026-11-18 [7][8][9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A posting for \"Senior Manager, Revenue Operations\" was published 2026-08-25, and one for \"Chief Revenue Officer\" was published 2026-04-17 [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Marketing Operations Associate, Direct Mail\" posting from 2026-11-12 mentions \"Asana and SFDC\" in its experience line [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is hiring regional sales leaders for \"GLP-1 Sales\", \"Enterprise Sales\", and \"Mid Market Sales\" [7][8][9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are the new regional sales leaders expected to plan and track their pipeline in the first few months?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns CRM and forecasting work today, and how does the revenue operations role fit with that team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are territories and quotas set across the GLP-1, Enterprise, and Mid Market sales groups?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current CRM setup and data quality",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How territories and quotas are set",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who the revenue operations role reports to",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Chief Revenue Officer role is still open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Omada Health posted three regional vice president sales roles in November. I also saw the \"Senior Manager, Revenue Operations\" role that went up in August.\n\nMy company helps with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team looks after the sales and revenue operations work these days?\n\n{sender_name}",
+      "cites": [
+       2,
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Three sales leadership postings for regional vice presidents were published between 2026-11-10 and 2026-11-18 [7][8][9]."
+    },
+    {
+     "text": "A posting for \"Senior Manager, Revenue Operations\" was published 2026-08-25, and one for \"Chief Revenue Officer\" was published 2026-04-17 [2][3]."
+    },
+    {
+     "text": "The \"Marketing Operations Associate, Direct Mail\" posting from 2026-11-12 mentions \"Asana and SFDC\" in its experience line [4]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is hiring regional sales leaders for \"GLP-1 Sales\", \"Enterprise Sales\", and \"Mid Market Sales\" [7][8][9]."
+   },
+   "questions": [
+    "How are the new regional sales leaders expected to plan and track their pipeline in the first few months?",
+    "Who owns CRM and forecasting work today, and how does the revenue operations role fit with that team?",
+    "How are territories and quotas set across the GLP-1, Enterprise, and Mid Market sales groups?"
+   ],
+   "unknowns": [
+    "Current CRM setup and data quality",
+    "How territories and quotas are set",
+    "Who the revenue operations role reports to",
+    "Whether the Chief Revenue Officer role is still open"
+   ],
+   "first_touch": {
+    "subject": "Your regional sales hiring at Omada",
+    "body": "Hi {first_name},\n\nI noticed Omada Health posted three regional vice president sales roles in November. I also saw the \"Senior Manager, Revenue Operations\" role that went up in August.\n\nMy company helps with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team looks after the sales and revenue operations work these days?\n\n{sender_name}",
+    "cites": [
+     2,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Three sales leadership postings for regional vice presidents were published between 2026-11-10 and 2026-11-18 [7][8][9].",
+     "cites": [
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A posting for \"Senior Manager, Revenue Operations\" was published 2026-08-25, and one for \"Chief Revenue Officer\" was published 2026-04-17 [2][3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Marketing Operations Associate, Direct Mail\" posting from 2026-11-12 mentions \"Asana and SFDC\" in its experience line [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is hiring regional sales leaders for \"GLP-1 Sales\", \"Enterprise Sales\", and \"Mid Market Sales\" [7][8][9].",
+     "cites": [
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are the new regional sales leaders expected to plan and track their pipeline in the first few months?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns CRM and forecasting work today, and how does the revenue operations role fit with that team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are territories and quotas set across the GLP-1, Enterprise, and Mid Market sales groups?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current CRM setup and data quality",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How territories and quotas are set",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who the revenue operations role reports to",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the Chief Revenue Officer role is still open",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Omada Health posted three regional vice president sales roles in November. I also saw the \"Senior Manager, Revenue Operations\" role that went up in August.\n\nMy company helps with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team looks after the sales and revenue operations work these days?\n\n{sender_name}",
+     "cites": [
+      2,
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.046303,
+ "ms": 16941
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Netradyne",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "0e2d5680f0334a1c",
+ "input_hash": "0f2d776189d0587c",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:05:28+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 9849,
+    "input_tokens": 2,
+    "output_tokens": 832,
+    "cache_write_tokens": 27300,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.23520860000000002
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [0] gives 39 open roles on the public job board on 2026-11-20."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "All six cited postings are dated between 2026-11-05 and 2026-11-12, which is within 30 days of the read date."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [2] dates this posting 2026-10-09, which is 42 days before the 2026-11-20 read date."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Posting [1] covers pricing and deal strategy, and [2][6] cover processes for adding new accounts and contacts to Salesforce, so the inference is a fair reading."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October revenue operations posting, its Salesforce quote and the November Deal Desk posting all match sources [2][6][1]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.235209,
+ "ms": 9849
+}

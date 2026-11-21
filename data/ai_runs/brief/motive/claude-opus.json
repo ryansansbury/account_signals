@@ -1,0 +1,404 @@
+{
+ "account": "Motive",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "56db664c79ededa3",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:24:47+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Motive had 170 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Francisco, CA. The US held 75% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s4535fad6e9",
+   "title": "Manager/Senior Manager FP&A- GTM",
+   "excerpt": "Own the monthly, quarterly, and annual forecasting processes for assigned GTM functions, ensuring clear assumptions, strong governance, and timely delivery.",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:gomotive:8922857002",
+   "family": "forecasting"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s0a615666bb",
+   "title": "Senior Manager, GTM Operations",
+   "excerpt": "Senior Manager, GTM Operations",
+   "posted": "2026-10-08",
+   "posting_id": "greenhouse:gomotive:8859354002",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sb87a505cc4",
+   "title": "Business Intelligence Analyst II",
+   "excerpt": "Business Intelligence Analyst II",
+   "posted": "2026-10-30",
+   "posting_id": "greenhouse:gomotive:8925908002",
+   "family": "analytics"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s60e21eaac0",
+   "title": "Associate Manager, Business Strategy & Operations",
+   "excerpt": "Own key operating processes, including forecasting, business reviews, KPI reporting, pipeline reporting, and productivity analysis.",
+   "posted": "2026-10-20",
+   "posting_id": "greenhouse:gomotive:8899725002",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sf00f864e64",
+   "title": "Senior Analytics Engineer - GTM",
+   "excerpt": "Senior Analytics Engineer - GTM",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:gomotive:8900270002",
+   "family": "analytics"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s2634068651",
+   "title": "Sales Operations Manager, Implementation",
+   "excerpt": "Sales Operations Manager, Implementation",
+   "posted": "2026-09-23",
+   "posting_id": "greenhouse:gomotive:8697087002",
+   "family": "salesops"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s64bd7e2a8b",
+   "title": "Program Manager, Deal Desk Operations",
+   "excerpt": "Program Manager, Deal Desk Operations",
+   "posted": "2026-09-18",
+   "posting_id": "greenhouse:gomotive:8693228002",
+   "family": "salesops"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s240c85a376",
+   "title": "Senior Salesforce Engineer - CPQ",
+   "excerpt": "Senior Salesforce Engineer - CPQ",
+   "posted": "2026-09-11",
+   "posting_id": "greenhouse:gomotive:8781587002",
+   "family": "crm"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sa89ea53cf0",
+   "title": "Account Executive, Strategic",
+   "excerpt": "Motive is searching for an Account Executive that will be instrumental in building the sales organization from the ground up in our newest regional market, Mexico.",
+   "posted": "2026-08-21",
+   "posting_id": "greenhouse:gomotive:8706368002",
+   "family": "first_hire"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s93c08b1c03",
+   "title": "RevOps Strategic Initiatives Manager",
+   "excerpt": "RevOps Strategic Initiatives Manager",
+   "posted": "2026-07-31",
+   "posting_id": "greenhouse:gomotive:8654142002",
+   "family": "revops"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "s03161b684e",
+   "title": "Senior Collections Analyst",
+   "excerpt": "Operational Rigor: Strong proficiency in Excel (pivot tables, modeling) and project management tools (Asana/JIRA).",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:gomotive:8886671002",
+   "family": "stack"
+  },
+  "12": {
+   "kind": "signal",
+   "sid": "s070544a57e",
+   "title": "Senior Collections Analyst",
+   "excerpt": "Systems Expertise: Advanced proficiency in Zuora (required) or a similar major ERP/Billing system (NetSuite, SAP).",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:gomotive:8886671002",
+   "family": "stack"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Manager/Senior Manager FP&A- GTM\\\" posting went up on 2026-10-29 and says the role will \\\"Own the monthly, quarterly, and annual forecasting processes for assigned GTM functions\\\" [1].\"}, {\"text\": \"The \\\"Associate Manager, Business Strategy & Operations\\\" posting from 2026-10-20 says the role will \\\"Own key operating processes, including forecasting, business reviews, KPI reporting, pipeline reporting, and productivity analysis\\\" [4].\"}, {\"text\": \"Motive also posted \\\"Senior Manager, GTM Operations\\\" on 2026-10-08, \\\"Program Manager, Deal Desk Operations\\\" on 2026-09-18, and \\\"Senior Salesforce Engineer - CPQ\\\" on 2026-09-11 [2][7][8].\"}], \"priority\": {\"text\": \"Motive's likely priority is the \\\"forecasting processes for assigned GTM functions\\\" and the \\\"pipeline reporting\\\" that its recent postings describe [1][4].\"}, \"questions\": [\"How are GTM forecasts built and reviewed across the monthly and quarterly cycles today?\", \"What does pipeline reporting look like for the teams the new business strategy role will support?\", \"What will the new deal desk program manager own in the first few months?\"], \"unknowns\": [\"Which reports feed the GTM forecast today\", \"Size of the sales team\", \"Who owns revenue operations decisions\", \"Whether any of these roles are filled\"], \"first_touch\": {\"subject\": \"Forecasting and pipeline reporting at Motive\", \"body\": \"Hi {first_name},\\n\\nI saw that Motive posted a \\\"Manager/Senior Manager FP&A- GTM\\\" role in October. It will own the \\\"monthly, quarterly, and annual forecasting processes\\\" for GTM teams. The \\\"Associate Manager, Business Strategy & Operations\\\" posting from October also lists \\\"KPI reporting\\\" and \\\"pipeline reporting\\\" among the processes that role will own.\\n\\nWe work with revenue teams on forecasting, pipeline reporting, and CRM work. I would like to learn how your team approaches this.\\n\\nHow are GTM forecasts put together today?\\n\\n{sender_name}\", \"cites\": [1, 4]}}",
+   "meta": {
+    "ms": 22651,
+    "input_tokens": 2,
+    "output_tokens": 2376,
+    "cache_write_tokens": 5732,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0936932
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Manager/Senior Manager FP&A- GTM\" posting went up on 2026-10-29 and says the role will \"Own the monthly, quarterly, and annual forecasting processes for assigned GTM functions\" [1]."
+     },
+     {
+      "text": "The \"Associate Manager, Business Strategy & Operations\" posting from 2026-10-20 says the role will \"Own key operating processes, including forecasting, business reviews, KPI reporting, pipeline reporting, and productivity analysis\" [4]."
+     },
+     {
+      "text": "Motive also posted \"Senior Manager, GTM Operations\" on 2026-10-08, \"Program Manager, Deal Desk Operations\" on 2026-09-18, and \"Senior Salesforce Engineer - CPQ\" on 2026-09-11 [2][7][8]."
+     }
+    ],
+    "priority": {
+     "text": "Motive's likely priority is the \"forecasting processes for assigned GTM functions\" and the \"pipeline reporting\" that its recent postings describe [1][4]."
+    },
+    "questions": [
+     "How are GTM forecasts built and reviewed across the monthly and quarterly cycles today?",
+     "What does pipeline reporting look like for the teams the new business strategy role will support?",
+     "What will the new deal desk program manager own in the first few months?"
+    ],
+    "unknowns": [
+     "Which reports feed the GTM forecast today",
+     "Size of the sales team",
+     "Who owns revenue operations decisions",
+     "Whether any of these roles are filled"
+    ],
+    "first_touch": {
+     "subject": "Forecasting and pipeline reporting at Motive",
+     "body": "Hi {first_name},\n\nI saw that Motive posted a \"Manager/Senior Manager FP&A- GTM\" role in October. It will own the \"monthly, quarterly, and annual forecasting processes\" for GTM teams. The \"Associate Manager, Business Strategy & Operations\" posting from October also lists \"KPI reporting\" and \"pipeline reporting\" among the processes that role will own.\n\nWe work with revenue teams on forecasting, pipeline reporting, and CRM work. I would like to learn how your team approaches this.\n\nHow are GTM forecasts put together today?\n\n{sender_name}",
+     "cites": [
+      1,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Manager/Senior Manager FP&A- GTM\" posting went up on 2026-10-29 and says the role will \"Own the monthly, quarterly, and annual forecasting processes for assigned GTM functions\" [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Associate Manager, Business Strategy & Operations\" posting from 2026-10-20 says the role will \"Own key operating processes, including forecasting, business reviews, KPI reporting, pipeline reporting, and productivity analysis\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Motive also posted \"Senior Manager, GTM Operations\" on 2026-10-08, \"Program Manager, Deal Desk Operations\" on 2026-09-18, and \"Senior Salesforce Engineer - CPQ\" on 2026-09-11 [2][7][8].",
+      "cites": [
+       2,
+       7,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Motive's likely priority is the \"forecasting processes for assigned GTM functions\" and the \"pipeline reporting\" that its recent postings describe [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are GTM forecasts built and reviewed across the monthly and quarterly cycles today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does pipeline reporting look like for the teams the new business strategy role will support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What will the new deal desk program manager own in the first few months?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which reports feed the GTM forecast today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations decisions",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether any of these roles are filled",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Motive posted a \"Manager/Senior Manager FP&A- GTM\" role in October. It will own the \"monthly, quarterly, and annual forecasting processes\" for GTM teams. The \"Associate Manager, Business Strategy & Operations\" posting from October also lists \"KPI reporting\" and \"pipeline reporting\" among the processes that role will own.\n\nWe work with revenue teams on forecasting, pipeline reporting, and CRM work. I would like to learn how your team approaches this.\n\nHow are GTM forecasts put together today?\n\n{sender_name}",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Manager/Senior Manager FP&A- GTM\" posting went up on 2026-10-29 and says the role will \"Own the monthly, quarterly, and annual forecasting processes for assigned GTM functions\" [1]."
+    },
+    {
+     "text": "The \"Associate Manager, Business Strategy & Operations\" posting from 2026-10-20 says the role will \"Own key operating processes, including forecasting, business reviews, KPI reporting, pipeline reporting, and productivity analysis\" [4]."
+    },
+    {
+     "text": "Motive also posted \"Senior Manager, GTM Operations\" on 2026-10-08, \"Program Manager, Deal Desk Operations\" on 2026-09-18, and \"Senior Salesforce Engineer - CPQ\" on 2026-09-11 [2][7][8]."
+    }
+   ],
+   "priority": {
+    "text": "Motive's likely priority is the \"forecasting processes for assigned GTM functions\" and the \"pipeline reporting\" that its recent postings describe [1][4]."
+   },
+   "questions": [
+    "How are GTM forecasts built and reviewed across the monthly and quarterly cycles today?",
+    "What does pipeline reporting look like for the teams the new business strategy role will support?",
+    "What will the new deal desk program manager own in the first few months?"
+   ],
+   "unknowns": [
+    "Which reports feed the GTM forecast today",
+    "Size of the sales team",
+    "Who owns revenue operations decisions",
+    "Whether any of these roles are filled"
+   ],
+   "first_touch": {
+    "subject": "Forecasting and pipeline reporting at Motive",
+    "body": "Hi {first_name},\n\nI saw that Motive posted a \"Manager/Senior Manager FP&A- GTM\" role in October. It will own the \"monthly, quarterly, and annual forecasting processes\" for GTM teams. The \"Associate Manager, Business Strategy & Operations\" posting from October also lists \"KPI reporting\" and \"pipeline reporting\" among the processes that role will own.\n\nWe work with revenue teams on forecasting, pipeline reporting, and CRM work. I would like to learn how your team approaches this.\n\nHow are GTM forecasts put together today?\n\n{sender_name}",
+    "cites": [
+     1,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Manager/Senior Manager FP&A- GTM\" posting went up on 2026-10-29 and says the role will \"Own the monthly, quarterly, and annual forecasting processes for assigned GTM functions\" [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Associate Manager, Business Strategy & Operations\" posting from 2026-10-20 says the role will \"Own key operating processes, including forecasting, business reviews, KPI reporting, pipeline reporting, and productivity analysis\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Motive also posted \"Senior Manager, GTM Operations\" on 2026-10-08, \"Program Manager, Deal Desk Operations\" on 2026-09-18, and \"Senior Salesforce Engineer - CPQ\" on 2026-09-11 [2][7][8].",
+     "cites": [
+      2,
+      7,
+      8
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Motive's likely priority is the \"forecasting processes for assigned GTM functions\" and the \"pipeline reporting\" that its recent postings describe [1][4].",
+     "cites": [
+      1,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are GTM forecasts built and reviewed across the monthly and quarterly cycles today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does pipeline reporting look like for the teams the new business strategy role will support?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What will the new deal desk program manager own in the first few months?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which reports feed the GTM forecast today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue operations decisions",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether any of these roles are filled",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that Motive posted a \"Manager/Senior Manager FP&A- GTM\" role in October. It will own the \"monthly, quarterly, and annual forecasting processes\" for GTM teams. The \"Associate Manager, Business Strategy & Operations\" posting from October also lists \"KPI reporting\" and \"pipeline reporting\" among the processes that role will own.\n\nWe work with revenue teams on forecasting, pipeline reporting, and CRM work. I would like to learn how your team approaches this.\n\nHow are GTM forecasts put together today?\n\n{sender_name}",
+     "cites": [
+      1,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.093693,
+ "ms": 22651
+}

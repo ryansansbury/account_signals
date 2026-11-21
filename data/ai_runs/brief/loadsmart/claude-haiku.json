@@ -1,0 +1,509 @@
+{
+ "account": "Loadsmart",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "636a8cff2bd7dec0",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:59:43+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Loadsmart had 14 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Chicago, IL. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s565edf7b1f",
+   "title": "GTM Engineer",
+   "excerpt": "GTM Engineer",
+   "posted": "2026-10-06",
+   "posting_id": "lever:loadsmart:cb901648-bc3b-4429-b0d8-098769322099",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sed90fdb281",
+   "title": "Head of Global Sales",
+   "excerpt": "Head of Global Sales",
+   "posted": "2026-09-22",
+   "posting_id": "lever:loadsmart:c165cd34-9891-4fab-a22b-2ea3c96a7368",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s1844027439",
+   "title": "GTM Engineer",
+   "excerpt": "Build, run, and maintain role × product sequences in Salesloft, including deliverability, A/B testing, and retiring what loses.",
+   "posted": "2026-10-06",
+   "posting_id": "lever:loadsmart:cb901648-bc3b-4429-b0d8-098769322099",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s39d14db39a",
+   "title": "Growth Design Manager",
+   "excerpt": "AI-powered build and operations: Design, build and deploy pages with AI tools (Claude Code, Claude Design, Figma integrations) and HubSpot.",
+   "posted": "2026-11-12",
+   "posting_id": "lever:loadsmart:57d9cbd4-cecd-4b9f-9b68-a6f1511b5415",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s5c179340bb",
+   "title": "Customer Success Manager (Remote - Mexico City)",
+   "excerpt": "Experience with CRM, preferably Salesforce, is a plus.",
+   "posted": "2026-11-13",
+   "posting_id": "lever:loadsmart:f53d4f45-55cf-4dee-9aa1-3f7261dc5fec",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s576476b613",
+   "title": "Enterprise Sales Executive",
+   "excerpt": "Enterprise Sales Executive",
+   "posted": "2026-11-18",
+   "posting_id": "lever:loadsmart:c61ba8cb-edaa-48d4-90f1-c64b14793030",
+   "family": "pace"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s5e67aa3d99",
+   "title": "Customer Success Manager (Remote - Brazil)",
+   "excerpt": "Customer Success Manager (Remote - Brazil)",
+   "posted": "2026-11-13",
+   "posting_id": "lever:loadsmart:e9c335da-2986-4068-be2d-39f32cce6691",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s9fdac91e5b",
+   "title": "Account Sales Representative",
+   "excerpt": "Account Sales Representative",
+   "posted": "2026-11-03",
+   "posting_id": "lever:loadsmart:be01a698-8459-4a99-b10a-21bf2fbf5929",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Five postings went up in the last 30 days [4][5][6][7][8].\"}, {\"text\": \"\\\"Enterprise Sales Executive\\\" was created on 2026-11-18 [6].\"}, {\"text\": \"The \\\"Head of Global Sales\\\" role was created 59 days before the read date [2].\"}], \"priority\": {\"text\": \"The likely priority is revenue work, and the cited postings describe building and running sequences in \\\"Salesloft\\\" [3] and CRM work where \\\"Salesforce\\\" is preferred [5].\"}, \"questions\": [\"Who owns the sales engagement sequences that the \\\"GTM Engineer\\\" role will build and run?\", \"Is \\\"Salesforce\\\" or \\\"HubSpot\\\" the CRM your sales team uses day to day?\", \"Which of the open sales roles is the most urgent to fill?\"], \"unknowns\": [\"Which CRM is the system of record\", \"Who owns the sales tools\", \"Why the roles were opened\"], \"first_touch\": {\"subject\": \"Sales roles at Loadsmart\", \"body\": \"Hi {first_name},\\n\\nLoadsmart has several sales roles open right now. The \\\"Head of Global Sales\\\" role went up in September. The \\\"GTM Engineer\\\" posting from October asks for \\\"Build, run, and maintain role × product sequences in Salesloft.\\\" Then \\\"Enterprise Sales Executive\\\" followed in November.\\n\\nWhich CRM does your sales team use day to day?\\n\\n{sender_name}\", \"cites\": [2, 3, 6]}}",
+   "meta": {
+    "ms": 32974,
+    "input_tokens": 2,
+    "output_tokens": 7444,
+    "cache_write_tokens": 5443,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.004826260000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Five postings went up in the last 30 days [4][5][6][7][8]."
+     },
+     {
+      "text": "\"Enterprise Sales Executive\" was created on 2026-11-18 [6]."
+     },
+     {
+      "text": "The \"Head of Global Sales\" role was created 59 days before the read date [2]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work, and the cited postings describe building and running sequences in \"Salesloft\" [3] and CRM work where \"Salesforce\" is preferred [5]."
+    },
+    "questions": [
+     "Who owns the sales engagement sequences that the \"GTM Engineer\" role will build and run?",
+     "Is \"Salesforce\" or \"HubSpot\" the CRM your sales team uses day to day?",
+     "Which of the open sales roles is the most urgent to fill?"
+    ],
+    "unknowns": [
+     "Which CRM is the system of record",
+     "Who owns the sales tools",
+     "Why the roles were opened"
+    ],
+    "first_touch": {
+     "subject": "Sales roles at Loadsmart",
+     "body": "Hi {first_name},\n\nLoadsmart has several sales roles open right now. The \"Head of Global Sales\" role went up in September. The \"GTM Engineer\" posting from October asks for \"Build, run, and maintain role × product sequences in Salesloft.\" Then \"Enterprise Sales Executive\" followed in November.\n\nWhich CRM does your sales team use day to day?\n\n{sender_name}",
+     "cites": [
+      2,
+      3,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Five postings went up in the last 30 days [4][5][6][7][8].",
+      "cites": [
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "\"Enterprise Sales Executive\" was created on 2026-11-18 [6].",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Head of Global Sales\" role was created 59 days before the read date [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work, and the cited postings describe building and running sequences in \"Salesloft\" [3] and CRM work where \"Salesforce\" is preferred [5].",
+      "cites": [
+       3,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the sales engagement sequences that the \"GTM Engineer\" role will build and run?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is \"Salesforce\" or \"HubSpot\" the CRM your sales team uses day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of the open sales roles is the most urgent to fill?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM is the system of record",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the sales tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Why the roles were opened",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nLoadsmart has several sales roles open right now. The \"Head of Global Sales\" role went up in September. The \"GTM Engineer\" posting from October asks for \"Build, run, and maintain role × product sequences in Salesloft.\" Then \"Enterprise Sales Executive\" followed in November.\n\nWhich CRM does your sales team use day to day?\n\n{sender_name}",
+      "cites": [
+       2,
+       3,
+       6
+      ],
+      "problems": [
+       "name: Then"
+      ]
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Five postings went up in the last 30 days [4][5][6][7][8].\"}, {\"text\": \"The \\\"Enterprise Sales Executive\\\" posting was created on 2026-11-18 [6].\"}, {\"text\": \"The \\\"Head of Global Sales\\\" posting was created 59 days before the read date [2].\"}], \"priority\": {\"text\": \"The likely priority is revenue work, and the cited postings describe building and running sequences in \\\"Salesloft\\\" [3] and a CRM skill with \\\"preferably Salesforce\\\" listed [5].\"}, \"questions\": [\"Who owns the sales engagement sequences that the \\\"GTM Engineer\\\" role will build and run?\", \"Is \\\"Salesforce\\\" or \\\"HubSpot\\\" the CRM your sales team uses day to day?\", \"Which of the open sales roles is the most urgent to fill?\"], \"unknowns\": [\"Which CRM is the system of record\", \"Who owns the sales tools\", \"Why the roles were opened\"], \"first_touch\": {\"subject\": \"Sales roles at Loadsmart\", \"body\": \"Hi {first_name},\\n\\nLoadsmart has several sales roles on its public job board. The \\\"Head of Global Sales\\\" role went up in September. The \\\"GTM Engineer\\\" posting from October is about building, running, and maintaining \\\"role × product sequences in Salesloft.\\\" The \\\"Enterprise Sales Executive\\\" role followed in November.\\n\\nWhich CRM does your sales team use day to day?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 6]}}",
+   "meta": {
+    "ms": 24753,
+    "input_tokens": 2,
+    "output_tokens": 5775,
+    "cache_write_tokens": 6059,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00411496
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Five postings went up in the last 30 days [4][5][6][7][8]."
+     },
+     {
+      "text": "The \"Enterprise Sales Executive\" posting was created on 2026-11-18 [6]."
+     },
+     {
+      "text": "The \"Head of Global Sales\" posting was created 59 days before the read date [2]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work, and the cited postings describe building and running sequences in \"Salesloft\" [3] and a CRM skill with \"preferably Salesforce\" listed [5]."
+    },
+    "questions": [
+     "Who owns the sales engagement sequences that the \"GTM Engineer\" role will build and run?",
+     "Is \"Salesforce\" or \"HubSpot\" the CRM your sales team uses day to day?",
+     "Which of the open sales roles is the most urgent to fill?"
+    ],
+    "unknowns": [
+     "Which CRM is the system of record",
+     "Who owns the sales tools",
+     "Why the roles were opened"
+    ],
+    "first_touch": {
+     "subject": "Sales roles at Loadsmart",
+     "body": "Hi {first_name},\n\nLoadsmart has several sales roles on its public job board. The \"Head of Global Sales\" role went up in September. The \"GTM Engineer\" posting from October is about building, running, and maintaining \"role × product sequences in Salesloft.\" The \"Enterprise Sales Executive\" role followed in November.\n\nWhich CRM does your sales team use day to day?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Five postings went up in the last 30 days [4][5][6][7][8].",
+      "cites": [
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Enterprise Sales Executive\" posting was created on 2026-11-18 [6].",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Head of Global Sales\" posting was created 59 days before the read date [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work, and the cited postings describe building and running sequences in \"Salesloft\" [3] and a CRM skill with \"preferably Salesforce\" listed [5].",
+      "cites": [
+       3,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the sales engagement sequences that the \"GTM Engineer\" role will build and run?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is \"Salesforce\" or \"HubSpot\" the CRM your sales team uses day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of the open sales roles is the most urgent to fill?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM is the system of record",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the sales tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Why the roles were opened",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nLoadsmart has several sales roles on its public job board. The \"Head of Global Sales\" role went up in September. The \"GTM Engineer\" posting from October is about building, running, and maintaining \"role × product sequences in Salesloft.\" The \"Enterprise Sales Executive\" role followed in November.\n\nWhich CRM does your sales team use day to day?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Five postings went up in the last 30 days [4][5][6][7][8]."
+    },
+    {
+     "text": "The \"Enterprise Sales Executive\" posting was created on 2026-11-18 [6]."
+    },
+    {
+     "text": "The \"Head of Global Sales\" posting was created 59 days before the read date [2]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work, and the cited postings describe building and running sequences in \"Salesloft\" [3] and a CRM skill with \"preferably Salesforce\" listed [5]."
+   },
+   "questions": [
+    "Who owns the sales engagement sequences that the \"GTM Engineer\" role will build and run?",
+    "Is \"Salesforce\" or \"HubSpot\" the CRM your sales team uses day to day?",
+    "Which of the open sales roles is the most urgent to fill?"
+   ],
+   "unknowns": [
+    "Which CRM is the system of record",
+    "Who owns the sales tools",
+    "Why the roles were opened"
+   ],
+   "first_touch": {
+    "subject": "Sales roles at Loadsmart",
+    "body": "Hi {first_name},\n\nLoadsmart has several sales roles on its public job board. The \"Head of Global Sales\" role went up in September. The \"GTM Engineer\" posting from October is about building, running, and maintaining \"role × product sequences in Salesloft.\" The \"Enterprise Sales Executive\" role followed in November.\n\nWhich CRM does your sales team use day to day?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Five postings went up in the last 30 days [4][5][6][7][8].",
+     "cites": [
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Enterprise Sales Executive\" posting was created on 2026-11-18 [6].",
+     "cites": [
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Head of Global Sales\" posting was created 59 days before the read date [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work, and the cited postings describe building and running sequences in \"Salesloft\" [3] and a CRM skill with \"preferably Salesforce\" listed [5].",
+     "cites": [
+      3,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns the sales engagement sequences that the \"GTM Engineer\" role will build and run?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Is \"Salesforce\" or \"HubSpot\" the CRM your sales team uses day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which of the open sales roles is the most urgent to fill?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM is the system of record",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns the sales tools",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Why the roles were opened",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nLoadsmart has several sales roles on its public job board. The \"Head of Global Sales\" role went up in September. The \"GTM Engineer\" posting from October is about building, running, and maintaining \"role × product sequences in Salesloft.\" The \"Enterprise Sales Executive\" role followed in November.\n\nWhich CRM does your sales team use day to day?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.008941,
+ "ms": 57727
+}

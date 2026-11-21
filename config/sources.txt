@@ -1,0 +1,6 @@
+# The job board providers this project reads, which every page and doc has to name as its data sources and credit as
+# the terms ask. Like the tools in config/tools.txt (decision D6, 11/9), a name here may appear in text as a source and
+# never as an account, so the exclusion scan sets it aside in text while the account check stays strict.
+Greenhouse
+Lever
+Ashby

@@ -1,0 +1,500 @@
+{
+ "account": "Maven Clinic",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "f2bdf63f59710230",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:41:40+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Maven Clinic had 34 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s61cb1f4dfe",
+   "title": "Director, GTM Operations & Architecture",
+   "excerpt": "Director, GTM Operations & Architecture",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:mavenclinic:8932349002",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s1095910940",
+   "title": "VP of Business Operations",
+   "excerpt": "Instrument and forecast: Partner with Data and Finance to build the measurement, segmentation, attribution, and forecasting needed to know exactly what is and isn’t working, and to forecast enrollment and revenue with confidence.",
+   "posted": "2026-09-09",
+   "posting_id": "greenhouse:mavenclinic:8790269002",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s0cef1473f6",
+   "title": "Senior Associate, Network Operations",
+   "excerpt": "Stellar organizational and analytical skill sets with high Excel/Google Sheets fluency.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:mavenclinic:8946493002",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s1074b18792",
+   "title": "Director, Marketing Operations",
+   "excerpt": "Dashboards: own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4, and keep it accurate as definitions change.",
+   "posted": "2026-08-31",
+   "posting_id": "greenhouse:mavenclinic:8760173002",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s1baf9f5be3",
+   "title": "Strategic Finance Manager",
+   "excerpt": "Experience with Salesforce, Workday/Adaptive, and Looker preferred.",
+   "posted": "2026-11-04",
+   "posting_id": "greenhouse:mavenclinic:8930894002",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "sec47419032",
+   "title": "Senior Influencer Marketing Manager",
+   "excerpt": "Senior Influencer Marketing Manager",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:mavenclinic:8936990002",
+   "family": "pace"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s118432f151",
+   "title": "Senior Manager, GTM Narrative",
+   "excerpt": "Senior Manager, GTM Narrative",
+   "posted": "2026-10-05",
+   "posting_id": "greenhouse:mavenclinic:8868164002",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Director, GTM Operations & Architecture\\\" posting was published 2026-11-05 and is marked as a revenue operations role. [1]\"}, {\"text\": \"The \\\"VP of Business Operations\\\" posting from 2026-09-09 asks the hire to \\\"forecast enrollment and revenue with confidence.\\\" [2]\"}, {\"text\": \"The \\\"Director, Marketing Operations\\\" posting from 2026-08-31 asks the hire to \\\"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\\\". [4]\"}], \"priority\": {\"text\": \"The likely priority is forecasting and reporting on revenue, since one posting asks to \\\"forecast enrollment and revenue with confidence\\\" and another asks to \\\"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\\\". [2][4]\"}, \"questions\": [\"How does the team build its enrollment and revenue forecast today?\", \"Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?\", \"How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?\"], \"unknowns\": [\"Current CRM setup and data quality\", \"Who owns forecasting today\", \"Size of the sales team\", \"Budget and timing for outside help\"], \"first_touch\": {\"subject\": \"GTM operations hiring at Maven Clinic\", \"body\": \"Hi {first_name},\\n\\nI read through Maven Clinic's open roles and noticed the \\\"Director, GTM Operations & Architecture\\\" posting from November. The \\\"VP of Business Operations\\\" posting from September also talks about forecasting enrollment and revenue.\\n\\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 13966,
+    "input_tokens": 2,
+    "output_tokens": 1945,
+    "cache_write_tokens": 5460,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0414486
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Director, GTM Operations & Architecture\" posting was published 2026-11-05 and is marked as a revenue operations role. [1]"
+     },
+     {
+      "text": "The \"VP of Business Operations\" posting from 2026-09-09 asks the hire to \"forecast enrollment and revenue with confidence.\" [2]"
+     },
+     {
+      "text": "The \"Director, Marketing Operations\" posting from 2026-08-31 asks the hire to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\". [4]"
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is forecasting and reporting on revenue, since one posting asks to \"forecast enrollment and revenue with confidence\" and another asks to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\". [2][4]"
+    },
+    "questions": [
+     "How does the team build its enrollment and revenue forecast today?",
+     "Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?",
+     "How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?"
+    ],
+    "unknowns": [
+     "Current CRM setup and data quality",
+     "Who owns forecasting today",
+     "Size of the sales team",
+     "Budget and timing for outside help"
+    ],
+    "first_touch": {
+     "subject": "GTM operations hiring at Maven Clinic",
+     "body": "Hi {first_name},\n\nI read through Maven Clinic's open roles and noticed the \"Director, GTM Operations & Architecture\" posting from November. The \"VP of Business Operations\" posting from September also talks about forecasting enrollment and revenue.\n\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Director, GTM Operations & Architecture\" posting was published 2026-11-05 and is marked as a revenue operations role. [1]",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"VP of Business Operations\" posting from 2026-09-09 asks the hire to \"forecast enrollment and revenue with confidence.\" [2]",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Director, Marketing Operations\" posting from 2026-08-31 asks the hire to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\". [4]",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is forecasting and reporting on revenue, since one posting asks to \"forecast enrollment and revenue with confidence\" and another asks to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\". [2][4]",
+      "cites": [
+       2,
+       4
+      ],
+      "problems": [
+       "writing: a pause comma before \"since\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How does the team build its enrollment and revenue forecast today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current CRM setup and data quality",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI read through Maven Clinic's open roles and noticed the \"Director, GTM Operations & Architecture\" posting from November. The \"VP of Business Operations\" posting from September also talks about forecasting enrollment and revenue.\n\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Director, GTM Operations & Architecture\\\" posting was published 2026-11-05 and is marked as a revenue operations role [1].\"}, {\"text\": \"The \\\"VP of Business Operations\\\" posting from 2026-09-09 asks the hire to \\\"forecast enrollment and revenue with confidence\\\" [2].\"}, {\"text\": \"The \\\"Director, Marketing Operations\\\" posting from 2026-08-31 asks the hire to \\\"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\\\" [4].\"}], \"priority\": {\"text\": \"The likely priority is forecasting and reporting on revenue as the \\\"VP of Business Operations\\\" posting asks to \\\"forecast enrollment and revenue with confidence\\\" and the \\\"Director, Marketing Operations\\\" posting asks to \\\"own the B2B analytics stack\\\" [2][4].\"}, \"questions\": [\"How does the team build its enrollment and revenue forecast today?\", \"Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?\", \"How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?\"], \"unknowns\": [\"Current CRM setup and data quality\", \"Who owns forecasting today\", \"Size of the sales team\", \"Budget and timing for outside help\"], \"first_touch\": {\"subject\": \"GTM operations hiring at Maven Clinic\", \"body\": \"Hi {first_name},\\n\\nI read through Maven Clinic's open roles and noticed the \\\"Director, GTM Operations & Architecture\\\" posting from November. The \\\"VP of Business Operations\\\" posting from September also talks about forecasting enrollment and revenue.\\n\\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 10379,
+    "input_tokens": 2,
+    "output_tokens": 1621,
+    "cache_write_tokens": 6267,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.041436600000000004
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Director, GTM Operations & Architecture\" posting was published 2026-11-05 and is marked as a revenue operations role [1]."
+     },
+     {
+      "text": "The \"VP of Business Operations\" posting from 2026-09-09 asks the hire to \"forecast enrollment and revenue with confidence\" [2]."
+     },
+     {
+      "text": "The \"Director, Marketing Operations\" posting from 2026-08-31 asks the hire to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\" [4]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is forecasting and reporting on revenue as the \"VP of Business Operations\" posting asks to \"forecast enrollment and revenue with confidence\" and the \"Director, Marketing Operations\" posting asks to \"own the B2B analytics stack\" [2][4]."
+    },
+    "questions": [
+     "How does the team build its enrollment and revenue forecast today?",
+     "Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?",
+     "How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?"
+    ],
+    "unknowns": [
+     "Current CRM setup and data quality",
+     "Who owns forecasting today",
+     "Size of the sales team",
+     "Budget and timing for outside help"
+    ],
+    "first_touch": {
+     "subject": "GTM operations hiring at Maven Clinic",
+     "body": "Hi {first_name},\n\nI read through Maven Clinic's open roles and noticed the \"Director, GTM Operations & Architecture\" posting from November. The \"VP of Business Operations\" posting from September also talks about forecasting enrollment and revenue.\n\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Director, GTM Operations & Architecture\" posting was published 2026-11-05 and is marked as a revenue operations role [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"VP of Business Operations\" posting from 2026-09-09 asks the hire to \"forecast enrollment and revenue with confidence\" [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Director, Marketing Operations\" posting from 2026-08-31 asks the hire to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is forecasting and reporting on revenue as the \"VP of Business Operations\" posting asks to \"forecast enrollment and revenue with confidence\" and the \"Director, Marketing Operations\" posting asks to \"own the B2B analytics stack\" [2][4].",
+      "cites": [
+       2,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the team build its enrollment and revenue forecast today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current CRM setup and data quality",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI read through Maven Clinic's open roles and noticed the \"Director, GTM Operations & Architecture\" posting from November. The \"VP of Business Operations\" posting from September also talks about forecasting enrollment and revenue.\n\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Director, GTM Operations & Architecture\" posting was published 2026-11-05 and is marked as a revenue operations role [1]."
+    },
+    {
+     "text": "The \"VP of Business Operations\" posting from 2026-09-09 asks the hire to \"forecast enrollment and revenue with confidence\" [2]."
+    },
+    {
+     "text": "The \"Director, Marketing Operations\" posting from 2026-08-31 asks the hire to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\" [4]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is forecasting and reporting on revenue as the \"VP of Business Operations\" posting asks to \"forecast enrollment and revenue with confidence\" and the \"Director, Marketing Operations\" posting asks to \"own the B2B analytics stack\" [2][4]."
+   },
+   "questions": [
+    "How does the team build its enrollment and revenue forecast today?",
+    "Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?",
+    "How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?"
+   ],
+   "unknowns": [
+    "Current CRM setup and data quality",
+    "Who owns forecasting today",
+    "Size of the sales team",
+    "Budget and timing for outside help"
+   ],
+   "first_touch": {
+    "subject": "GTM operations hiring at Maven Clinic",
+    "body": "Hi {first_name},\n\nI read through Maven Clinic's open roles and noticed the \"Director, GTM Operations & Architecture\" posting from November. The \"VP of Business Operations\" posting from September also talks about forecasting enrollment and revenue.\n\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\n\n{sender_name}",
+    "cites": [
+     1,
+     2
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Director, GTM Operations & Architecture\" posting was published 2026-11-05 and is marked as a revenue operations role [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"VP of Business Operations\" posting from 2026-09-09 asks the hire to \"forecast enrollment and revenue with confidence\" [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Director, Marketing Operations\" posting from 2026-08-31 asks the hire to \"own the B2B analytics stack across CaliberMind, Looker, Data Studio, Salesforce, and GA4\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is forecasting and reporting on revenue as the \"VP of Business Operations\" posting asks to \"forecast enrollment and revenue with confidence\" and the \"Director, Marketing Operations\" posting asks to \"own the B2B analytics stack\" [2][4].",
+     "cites": [
+      2,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the team build its enrollment and revenue forecast today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which systems hold the pipeline data that the GTM operations and marketing operations teams report from?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are the new GTM operations and business operations roles expected to split the work on forecasting and reporting?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current CRM setup and data quality",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for outside help",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI read through Maven Clinic's open roles and noticed the \"Director, GTM Operations & Architecture\" posting from November. The \"VP of Business Operations\" posting from September also talks about forecasting enrollment and revenue.\n\nI work with teams on CRM, pipeline reporting, and forecasting. Who would be the right person to talk to about that work at Maven Clinic?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.082885,
+ "ms": 24345
+}

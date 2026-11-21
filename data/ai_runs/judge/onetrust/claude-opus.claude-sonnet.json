@@ -1,0 +1,61 @@
+{
+ "account": "OneTrust",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "5b1e68d943e31f2f",
+ "input_hash": "e35d21c5ca57b3fe",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:12+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 5631,
+    "input_tokens": 2,
+    "output_tokens": 665,
+    "cache_write_tokens": 21345,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0921143
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Salesforce Administrator posting is dated 2026-11-09 and contains the quoted Lead to Cash phrase, which is central to its stated challenge."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The posting's mission text includes the quoted architecture line covering Sales Cloud, CPQ, E-commerce, and Partner systems."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Senior Principal Sales Strategy Manager posting is dated 2026-10-19 and lists sales forecasting, reporting, and analytics among its duties."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both quoted phrases appear in the cited postings, and reading them as likely priorities is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November and October postings, their titles and both quotes match the cited sources, and the rest is sender description and a question."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.092114,
+ "ms": 5631
+}

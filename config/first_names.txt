@@ -1,0 +1,53 @@
+# Common US first names, written for this build to find people's names in posting text and remove them
+# (engine/redact.py). Names that are also everyday words, places or tools (Will, May, Grant, Austin, Jordan, Clay,
+# Chase, Hope and the like) are left out, since a capitalized pair whose last word is a common surname, or a name after
+# a cue such as "contact" or "reports to," still catches those people. Several names per line, separated by spaces.
+Aaliyah Aaron Abby Abdul Abigail Abraham Ada Adam Adeline Adrian Adriana Ahmed Aidan Aiden Aisha Alan Albert Alberto
+Alejandra Alejandro Alex Alexa Alexander Alexandra Alexis Alfonso Alfred Alfredo Ali Alicia Alisha Alison
+Allison Alma Alondra Alyssa Amanda Amelia Amir Amit Amy Ana Anand Andre Andrea Andres Andrew Andy Angela
+Angelica Angelina Anita Anjali Ann Anna Annabelle Anne Annette Annie Anthony Antonio Anya Arjun Armando Arnold
+Arthur Arturo Ashley Ashlyn Ashwin Audrey Ava Avery Ayesha Barbara Beatrice Becky Belinda Ben Benjamin Bernard
+Bernadette Beth Bethany Betty Beverly Bianca Blake Bob Bobby Bonnie Brad Bradley Brady Brandi Brandon Brandy Brenda
+Brendan Brent Brett Brian Briana Brianna Bridget Britney Brittany Brooke Bruce Bryan Bryce Caitlin Caleb Calvin
+Cameron Camila Candace Cara Carina Carl Carla Carlos Carly Carmen Carol Caroline Carolyn Carrie Casey Cassandra
+Catherine Cathy Cecilia Cedric Celeste Celia Chad Charlene Charles Charlie Charlotte Chelsea Cheryl Chloe Chris
+Christina Christine Christopher Christy Cindy Claire Clara Clarence Claudia Clayton Clifford Colby Cole Colin
+Colleen Connie Connor Corey Cory Courtney Craig Cristina Crystal Curtis Cynthia Daisy Dale Damian Damon Dan Dana
+Daniel Daniela Danielle Danny Darius Darnell Darren Darryl Dave David Deanna Debbie Deborah Debra Deepak Deepika
+Denise Dennis Derek Derrick Desiree Devin Devon Diana Diane Diego Dimitri Dominic Dominique Don Donald Donna Doris
+Dorothy Douglas Duane Dustin Dwayne Dylan Earl Eddie Edgar Eduardo Edward Edwin Eileen Elaine Elena Eli Elias
+Elijah Elisa Elise Eliza Elizabeth Ella Ellie Eloise Elsa Emanuel Emily Emma Emmanuel Enrique Eric Erica Erik Erika
+Erin Ernest Esperanza Esther Ethan Eugene Eva Evan Evelyn Everett Fatima Felicia Felipe Fiona Frances
+Francesca Francis Francisco Frank Frankie Franklin Fred Freddie Frederick Gabriel Gabriela Gabrielle Gail Garrett
+Gary Gavin Gemma Geoffrey George Gerald Gerardo Gina Giovanni Giselle Gloria Gordon Grace Graham Greg Gregory
+Gretchen Guadalupe Guillermo Gustavo Hailey Haley Hannah Harold Harriet Harrison Harry Hassan Hazel Heather
+Hector Helen Henry Hilary Hillary Holly Howard Hugo Hussein Ian Ibrahim Ingrid Irene Isaac Isabel Isabella
+Isabelle Isaiah Ivan Jack Jackie Jacob Jacqueline Jaime Jake Jamal James Jamie Jan Jane Janet Janice Jared Jasmine
+Jason Javier Jay Jayden Jean Jeanette Jeanne Jeff Jeffrey Jenna Jennifer Jenny Jeremiah Jeremy Jerome Jerry Jesse
+Jessica Jessie Jill Jillian Jim Jimmy Joan Joanna Joanne Jocelyn Jodi Joe Joel Joey Johanna John Johnny Jon
+Jonathan Jorge Jose Joseph Josephine Josh Joshua Josue Joyce Juan Juanita Judith Judy Julia Julian Juliana Julie
+Juliet Julio Justin Kaitlyn Kara Karen Kari Karina Karl Kate Katelyn Katherine Kathleen Kathryn Kathy Katie Katrina
+Kayla Keith Kelsey Ken Kendall Kendra Kenneth Kenny Kerry Kevin Khalid Kim Kimberly Kirk Krista Kristen
+Kristin Kristina Kristy Krystal Kumar Kurt Kyle Kylie Lakshmi Lance Larry Latoya Laura Lauren Laurie Leah Lee Leila
+Lena Leo Leon Leonard Leslie Leticia Lewis Liam Lillian Lily Linda Lindsay Lindsey Lionel Lisa Liz Logan Lorena
+Lorenzo Lori Lorraine Louis Louise Lucas Lucia Lucy Luis Luke Lydia Lynn Mackenzie Madeline Maggie Malik Mandy
+Manuel Marc Marcia Marco Marcos Marcus Margaret Margarita Maria Mariah Mariana Marie Marilyn Marina Mario Marisa
+Marisol Marissa Marjorie Marlene Marsha Martha Martin Marvin Mary Matt Matthew Maureen Max Maxwell Maya Megan
+Meghan Melanie Melinda Melissa Mercedes Meredith Mia Micah Michael Michaela Michele Michelle Miguel Mike Mila
+Mildred Mindy Miranda Miriam Misty Mitchell Mohamed Mohammad Mohammed Molly Monica Monique Morgan Muhammad Nadia
+Nancy Naomi Natalia Natalie Natasha Nathan Nathaniel Neha Neil Nelson Nicholas Nick Nicolas Nicole Nikhil Nikki
+Nina Noah Noelle Nora Norma Norman Oliver Olivia Omar Oscar Owen Pablo Paige Pamela Paola Patricia Patrick Paul
+Paula Pedro Peggy Penelope Penny Pete Peter Philip Phillip Phyllis Pooja Prakash Priya Priyanka Rachel Rafael
+Rahul Raj Rajesh Ralph Ramon Ramona Randall Randy Raquel Raul Ravi Rebecca Regina Renee Ricardo Richard Rick Ricky
+Riley Rita Rob Robert Roberta Roberto Robin Rocio Rodney Rodrigo Roger Rohan Roland Ronald Ronnie Rosa Rosalie
+Rosemary Ross Roxanne Ruben Russell Ruth Ryan Sabrina Sahil Samantha Samir Samuel Sandeep Sandra Sanjay Sara Sarah
+Sasha Scott Sean Sebastian Selena Sergio Seth Shana Shane Shannon Sharon Shawn Sheila Shelby Shelley Sherry Shirley
+Simon Simone Sofia Sonia Sophia Sophie Stacey Stacy Stanley Stefan Stella Stephanie Stephen Steve Steven
+Stuart Sunil Susan Suzanne Sylvia Tamara Tammy Tanya Tara Teresa Terrance Terrence Terri Terry Tessa Theodore
+Theresa Thomas Tiffany Timothy Tina Todd Tom Tommy Toni Tony Tonya Tracey Tracy Travis Trevor Tristan Troy Tyler
+Ulysses Uma Valentina Valerie Vanessa Veronica Vicki Vickie Victor Vikram Vincent Violet Vivian Walter Wanda Warren
+Wayne Wei Wendy Wesley Whitney William Willie Xavier Yasmin Yesenia Yolanda Yusuf Yvette Yvonne Zachary Zoe
+Akash Anil Bao Chen Deepa Divya Gaurav Hao Hiroshi Hyun Jin Jisoo Ji-woo Kenji Kiran Lan Li Linh Manish Mei
+Minh Nguyen Ning Pradeep Rakesh Ramesh Ritu Sachin Sandhya Satoshi Seo-yeon Shreya Sneha Suresh Takeshi Thanh Tuan
+Vijay Vivek Xiao Ying Yuki Yuna Yusuke Zhang Zhao Ana-Maria Adebayo Chidi Chinedu Kwame Kofi Oluwaseun Tunde
+DeShawn Jamal Keisha Lakisha Shanice Tyrone Darnell Latisha Malika Imani Kiara Jalen Marquis Dashawn

@@ -1,0 +1,371 @@
+{
+ "account": "New Relic",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "60253b62eaa4723c",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:47:43+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "New Relic had 41 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Atlanta, GA. The US held 39% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s57e3ec6436",
+   "title": "Revenue Operations Manager",
+   "excerpt": "Revenue Operations Manager",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sc361e861bb",
+   "title": "Revenue Operations Manager",
+   "excerpt": "Obsesses over scalable design, territory strategy, and revenue forecasting.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sc355664943",
+   "title": "Senior Revenue Operations Manager- Order To Cash",
+   "excerpt": "Senior Revenue Operations Manager- Order To Cash",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:newrelic:5430127008",
+   "family": "revops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2992006c89",
+   "title": "Director, Field Marketing - Americas",
+   "excerpt": "You have rich experience in managing field marketing teams, in B2B enterprise Software as a Service (SaaS) and account based marketing (ABM) and solution led selling, as well as a good understanding of Salesforce CRM and Marketo Marketing Automation platforms.",
+   "posted": "2026-08-03",
+   "posting_id": "greenhouse:newrelic:5368778008",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s458f975649",
+   "title": "Revenue Operations Manager",
+   "excerpt": "You will transition from being the first line of support to the strategic visionary, guiding our field teams, defining our data governance, owning the roadmap for our tech stack (Salesforce, 6sense, LinkedIn Sales Navigator, Salesloft, etc.).",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s49d314bea1",
+   "title": "Revenue Operations Manager",
+   "excerpt": "You will transition from being the first line of support to the strategic visionary, guiding our field teams, defining our data governance, owning the roadmap for our tech stack (Salesforce, 6sense, LinkedIn Sales Navigator, Salesloft, etc.).",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "sb76a7a1319",
+   "title": "Account Manager - Renewals (West)",
+   "excerpt": "Account Manager - Renewals (West)",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:newrelic:5480591008",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s0609513a74",
+   "title": "Senior Sales Manager (Northern Europe) - Acquisition",
+   "excerpt": "Senior Sales Manager (Northern Europe) - Acquisition",
+   "posted": "2026-10-30",
+   "posting_id": "greenhouse:newrelic:5468037008",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s5712fece06",
+   "title": "Senior Account Executive - Enterprise Sales (Japan)(担当領域：製造・金融業界）",
+   "excerpt": "Senior Account Executive - Enterprise Sales (Japan)(担当領域：製造・金融業界）",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:newrelic:5465612008",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Two revenue operations postings went up in the last 30 days [1][3].\"}, {\"text\": \"\\\"Revenue Operations Manager\\\" was published 2026-11-16 [1], and \\\"Senior Revenue Operations Manager- Order To Cash\\\" was published 2026-10-22 [3].\"}, {\"text\": \"The account also published \\\"Account Manager - Renewals (West)\\\" on 2026-11-13 [7] and \\\"Senior Sales Manager (Northern Europe) - Acquisition\\\" on 2026-10-30 [8].\"}], \"priority\": {\"text\": \"The account's likely priority is the revenue work its \\\"Revenue Operations Manager\\\" posting describes in \\\"revenue forecasting\\\", \\\"territory strategy\\\", and \\\"defining our data governance\\\" [1][2][6].\"}, \"questions\": [\"Which sales teams will the \\\"Revenue Operations Manager\\\" role support?\", \"How is revenue forecasting handled today?\", \"What changes are planned for the tech stack over the next year?\"], \"unknowns\": [\"Who owns revenue operations today\", \"How large the sales organization is\", \"Whether the sales roles connect to the revenue operations work\"], \"first_touch\": {\"subject\": \"Question on your Revenue Operations Manager role\", \"body\": \"Hi {first_name},\\n\\nYour \\\"Revenue Operations Manager\\\" posting went up in November. It describes \\\"revenue forecasting\\\" and \\\"territory strategy\\\" as part of the work. It also lists \\\"owning the roadmap for our tech stack\\\" as part of the role.\\n\\nWho on your team leads revenue operations planning today?\\n\\n{sender_name}\", \"cites\": [1, 2, 6]}}",
+   "meta": {
+    "ms": 34469,
+    "input_tokens": 2,
+    "output_tokens": 8136,
+    "cache_write_tokens": 5718,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.005227259999999999
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Two revenue operations postings went up in the last 30 days [1][3]."
+     },
+     {
+      "text": "\"Revenue Operations Manager\" was published 2026-11-16 [1], and \"Senior Revenue Operations Manager- Order To Cash\" was published 2026-10-22 [3]."
+     },
+     {
+      "text": "The account also published \"Account Manager - Renewals (West)\" on 2026-11-13 [7] and \"Senior Sales Manager (Northern Europe) - Acquisition\" on 2026-10-30 [8]."
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is the revenue work its \"Revenue Operations Manager\" posting describes in \"revenue forecasting\", \"territory strategy\", and \"defining our data governance\" [1][2][6]."
+    },
+    "questions": [
+     "Which sales teams will the \"Revenue Operations Manager\" role support?",
+     "How is revenue forecasting handled today?",
+     "What changes are planned for the tech stack over the next year?"
+    ],
+    "unknowns": [
+     "Who owns revenue operations today",
+     "How large the sales organization is",
+     "Whether the sales roles connect to the revenue operations work"
+    ],
+    "first_touch": {
+     "subject": "Question on your Revenue Operations Manager role",
+     "body": "Hi {first_name},\n\nYour \"Revenue Operations Manager\" posting went up in November. It describes \"revenue forecasting\" and \"territory strategy\" as part of the work. It also lists \"owning the roadmap for our tech stack\" as part of the role.\n\nWho on your team leads revenue operations planning today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Two revenue operations postings went up in the last 30 days [1][3].",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "\"Revenue Operations Manager\" was published 2026-11-16 [1], and \"Senior Revenue Operations Manager- Order To Cash\" was published 2026-10-22 [3].",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The account also published \"Account Manager - Renewals (West)\" on 2026-11-13 [7] and \"Senior Sales Manager (Northern Europe) - Acquisition\" on 2026-10-30 [8].",
+      "cites": [
+       7,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is the revenue work its \"Revenue Operations Manager\" posting describes in \"revenue forecasting\", \"territory strategy\", and \"defining our data governance\" [1][2][6].",
+      "cites": [
+       1,
+       2,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which sales teams will the \"Revenue Operations Manager\" role support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is revenue forecasting handled today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What changes are planned for the tech stack over the next year?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How large the sales organization is",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the sales roles connect to the revenue operations work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nYour \"Revenue Operations Manager\" posting went up in November. It describes \"revenue forecasting\" and \"territory strategy\" as part of the work. It also lists \"owning the roadmap for our tech stack\" as part of the role.\n\nWho on your team leads revenue operations planning today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Two revenue operations postings went up in the last 30 days [1][3]."
+    },
+    {
+     "text": "\"Revenue Operations Manager\" was published 2026-11-16 [1], and \"Senior Revenue Operations Manager- Order To Cash\" was published 2026-10-22 [3]."
+    },
+    {
+     "text": "The account also published \"Account Manager - Renewals (West)\" on 2026-11-13 [7] and \"Senior Sales Manager (Northern Europe) - Acquisition\" on 2026-10-30 [8]."
+    }
+   ],
+   "priority": {
+    "text": "The account's likely priority is the revenue work its \"Revenue Operations Manager\" posting describes in \"revenue forecasting\", \"territory strategy\", and \"defining our data governance\" [1][2][6]."
+   },
+   "questions": [
+    "Which sales teams will the \"Revenue Operations Manager\" role support?",
+    "How is revenue forecasting handled today?",
+    "What changes are planned for the tech stack over the next year?"
+   ],
+   "unknowns": [
+    "Who owns revenue operations today",
+    "How large the sales organization is",
+    "Whether the sales roles connect to the revenue operations work"
+   ],
+   "first_touch": {
+    "subject": "Question on your Revenue Operations Manager role",
+    "body": "Hi {first_name},\n\nYour \"Revenue Operations Manager\" posting went up in November. It describes \"revenue forecasting\" and \"territory strategy\" as part of the work. It also lists \"owning the roadmap for our tech stack\" as part of the role.\n\nWho on your team leads revenue operations planning today?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Two revenue operations postings went up in the last 30 days [1][3].",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "\"Revenue Operations Manager\" was published 2026-11-16 [1], and \"Senior Revenue Operations Manager- Order To Cash\" was published 2026-10-22 [3].",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The account also published \"Account Manager - Renewals (West)\" on 2026-11-13 [7] and \"Senior Sales Manager (Northern Europe) - Acquisition\" on 2026-10-30 [8].",
+     "cites": [
+      7,
+      8
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The account's likely priority is the revenue work its \"Revenue Operations Manager\" posting describes in \"revenue forecasting\", \"territory strategy\", and \"defining our data governance\" [1][2][6].",
+     "cites": [
+      1,
+      2,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which sales teams will the \"Revenue Operations Manager\" role support?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How is revenue forecasting handled today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What changes are planned for the tech stack over the next year?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue operations today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How large the sales organization is",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the sales roles connect to the revenue operations work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nYour \"Revenue Operations Manager\" posting went up in November. It describes \"revenue forecasting\" and \"territory strategy\" as part of the work. It also lists \"owning the roadmap for our tech stack\" as part of the role.\n\nWho on your team leads revenue operations planning today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.005227,
+ "ms": 34469
+}

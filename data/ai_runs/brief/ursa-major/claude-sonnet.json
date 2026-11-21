@@ -1,0 +1,515 @@
+{
+ "account": "Ursa Major",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "86fb4bc2dbebeeb3",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:04:52+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Berthoud, CO. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "se216ee8a41",
+   "title": "Loads and Dynamics Analyst, II",
+   "excerpt": "Loads and Dynamics Analyst, II",
+   "posted": "2026-10-07",
+   "posting_id": "greenhouse:ursamajor:4741621005",
+   "family": "crm"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s64186e5785",
+   "title": "Staff Loads & Dynamics Analysis Engineer",
+   "excerpt": "Staff Loads & Dynamics Analysis Engineer",
+   "posted": "2026-08-05",
+   "posting_id": "greenhouse:ursamajor:4721764005",
+   "family": "crm"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s7e96daa0b8",
+   "title": "Director, Enterprise Systems & Software",
+   "excerpt": "Demonstrated experience overseeing enterprise platforms across PLM (PTC Windchill), ERP (Odoo, SAP, NetSuite), MES (Critical Manufacturing, Apriso), and domain-specific tools (HighQA, Jama, Ignition).",
+   "posted": "2026-10-23",
+   "posting_id": "greenhouse:ursamajor:4746840005",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s93d08ddc99",
+   "title": "Production Controller",
+   "excerpt": "Proficiency with spreadsheets (Excel or Google Sheets) for capacity, scheduling, and simple reporting.",
+   "posted": "2026-08-06",
+   "posting_id": "greenhouse:ursamajor:4722089005",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sfe25591fff",
+   "title": "Production Controller",
+   "excerpt": "Proficiency with spreadsheets (Excel or Google Sheets) for capacity, scheduling, and simple reporting.",
+   "posted": "2026-08-06",
+   "posting_id": "greenhouse:ursamajor:4722089005",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s1d0bf044bb",
+   "title": "Business Development Specialist",
+   "excerpt": "Business Development Specialist",
+   "posted": "2026-10-20",
+   "posting_id": "greenhouse:ursamajor:4745710005",
+   "family": "pace"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "scbf4f2e02f",
+   "title": "Business Development Representative II",
+   "excerpt": "Business Development Representative II",
+   "posted": "2026-10-20",
+   "posting_id": "greenhouse:ursamajor:4745717005",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sd70fee7065",
+   "title": "2027 Summer Marketing & Communications Intern",
+   "excerpt": "2027 Summer Marketing & Communications Intern",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:ursamajor:4744833005",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Two business development postings, \\\"Business Development Specialist\\\" and \\\"Business Development Representative II\\\", were both published 2026-10-20, which is 31 days before the read date [6][7].\"}, {\"text\": \"A posting published 2026-10-23 asks for experience overseeing enterprise platforms including ERP tools such as \\\"NetSuite\\\" [3].\"}, {\"text\": \"Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].\"}], \"priority\": {\"text\": \"The account's likely priority is business development selling work, since the postings for a \\\"Business Development Specialist\\\" and a \\\"Business Development Representative II\\\" are the only ones that describe selling [6][7].\"}, \"questions\": [\"How do the business development hires you are adding work with the rest of the sales team?\", \"Which systems do your sellers use today to track pipeline and report on it?\", \"Who owns sales reporting and forecasting at Ursa Major today?\"], \"unknowns\": [\"Size and structure of the sales team\", \"Which CRM the sales team uses\", \"Who owns revenue reporting and forecasting\", \"Whether the business development roles are new or replacements\"], \"first_touch\": {\"subject\": \"Business development hiring at Ursa Major\", \"body\": \"Hi {first_name},\\n\\nI saw that Ursa Major posted a \\\"Business Development Specialist\\\" role and a \\\"Business Development Representative II\\\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\\n\\n{sender_name}\", \"cites\": [6, 7]}}",
+   "meta": {
+    "ms": 15130,
+    "input_tokens": 2,
+    "output_tokens": 1884,
+    "cache_write_tokens": 5481,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0409226
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Two business development postings, \"Business Development Specialist\" and \"Business Development Representative II\", were both published 2026-10-20, which is 31 days before the read date [6][7]."
+     },
+     {
+      "text": "A posting published 2026-10-23 asks for experience overseeing enterprise platforms including ERP tools such as \"NetSuite\" [3]."
+     },
+     {
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0]."
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is business development selling work, since the postings for a \"Business Development Specialist\" and a \"Business Development Representative II\" are the only ones that describe selling [6][7]."
+    },
+    "questions": [
+     "How do the business development hires you are adding work with the rest of the sales team?",
+     "Which systems do your sellers use today to track pipeline and report on it?",
+     "Who owns sales reporting and forecasting at Ursa Major today?"
+    ],
+    "unknowns": [
+     "Size and structure of the sales team",
+     "Which CRM the sales team uses",
+     "Who owns revenue reporting and forecasting",
+     "Whether the business development roles are new or replacements"
+    ],
+    "first_touch": {
+     "subject": "Business development hiring at Ursa Major",
+     "body": "Hi {first_name},\n\nI saw that Ursa Major posted a \"Business Development Specialist\" role and a \"Business Development Representative II\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\n\n{sender_name}",
+     "cites": [
+      6,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Two business development postings, \"Business Development Specialist\" and \"Business Development Representative II\", were both published 2026-10-20, which is 31 days before the read date [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": [
+       "writing: a pause comma before \"which\"",
+       "writing: 3 commas and no conjunction after any of them"
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "A posting published 2026-10-23 asks for experience overseeing enterprise platforms including ERP tools such as \"NetSuite\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is business development selling work, since the postings for a \"Business Development Specialist\" and a \"Business Development Representative II\" are the only ones that describe selling [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": [
+       "writing: a pause comma before \"since\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How do the business development hires you are adding work with the rest of the sales team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems do your sellers use today to track pipeline and report on it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns sales reporting and forecasting at Ursa Major today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the sales team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue reporting and forecasting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the business development roles are new or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Ursa Major posted a \"Business Development Specialist\" role and a \"Business Development Representative II\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\n\n{sender_name}",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Business Development Specialist\\\" and \\\"Business Development Representative II\\\" postings were both published 2026-10-20 [6][7].\"}, {\"text\": \"A posting published 2026-10-23 for an enterprise systems director role lists \\\"NetSuite\\\" among its ERP tools [3].\"}, {\"text\": \"Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].\"}], \"priority\": {\"text\": \"The postings for a \\\"Business Development Specialist\\\" and a \\\"Business Development Representative II\\\" point to business development as the likely priority but give no detail on the work [6][7].\"}, \"questions\": [\"How do the business development hires you are adding work with the rest of the sales team?\", \"Which systems do your sellers use today to track pipeline and report on it?\", \"Who owns sales reporting and forecasting at Ursa Major today?\"], \"unknowns\": [\"Size and structure of the sales team\", \"Which CRM the sales team uses\", \"Who owns revenue reporting and forecasting\", \"Whether the business development roles are new or replacements\"], \"first_touch\": {\"subject\": \"Business development hiring at Ursa Major\", \"body\": \"Hi {first_name},\\n\\nI saw that Ursa Major posted a \\\"Business Development Specialist\\\" role and a \\\"Business Development Representative II\\\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\\n\\n{sender_name}\", \"cites\": [6, 7]}}",
+   "meta": {
+    "ms": 11826,
+    "input_tokens": 2,
+    "output_tokens": 1659,
+    "cache_write_tokens": 6255,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0417686
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Business Development Specialist\" and \"Business Development Representative II\" postings were both published 2026-10-20 [6][7]."
+     },
+     {
+      "text": "A posting published 2026-10-23 for an enterprise systems director role lists \"NetSuite\" among its ERP tools [3]."
+     },
+     {
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0]."
+     }
+    ],
+    "priority": {
+     "text": "The postings for a \"Business Development Specialist\" and a \"Business Development Representative II\" point to business development as the likely priority but give no detail on the work [6][7]."
+    },
+    "questions": [
+     "How do the business development hires you are adding work with the rest of the sales team?",
+     "Which systems do your sellers use today to track pipeline and report on it?",
+     "Who owns sales reporting and forecasting at Ursa Major today?"
+    ],
+    "unknowns": [
+     "Size and structure of the sales team",
+     "Which CRM the sales team uses",
+     "Who owns revenue reporting and forecasting",
+     "Whether the business development roles are new or replacements"
+    ],
+    "first_touch": {
+     "subject": "Business development hiring at Ursa Major",
+     "body": "Hi {first_name},\n\nI saw that Ursa Major posted a \"Business Development Specialist\" role and a \"Business Development Representative II\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\n\n{sender_name}",
+     "cites": [
+      6,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Business Development Specialist\" and \"Business Development Representative II\" postings were both published 2026-10-20 [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A posting published 2026-10-23 for an enterprise systems director role lists \"NetSuite\" among its ERP tools [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The postings for a \"Business Development Specialist\" and a \"Business Development Representative II\" point to business development as the likely priority but give no detail on the work [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do the business development hires you are adding work with the rest of the sales team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems do your sellers use today to track pipeline and report on it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns sales reporting and forecasting at Ursa Major today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the sales team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue reporting and forecasting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the business development roles are new or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Ursa Major posted a \"Business Development Specialist\" role and a \"Business Development Representative II\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\n\n{sender_name}",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Business Development Specialist\" and \"Business Development Representative II\" postings were both published 2026-10-20 [6][7]."
+    },
+    {
+     "text": "A posting published 2026-10-23 for an enterprise systems director role lists \"NetSuite\" among its ERP tools [3]."
+    },
+    {
+     "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0]."
+    }
+   ],
+   "priority": {
+    "text": "The postings for a \"Business Development Specialist\" and a \"Business Development Representative II\" point to business development as the likely priority but give no detail on the work [6][7]."
+   },
+   "questions": [
+    "How do the business development hires you are adding work with the rest of the sales team?",
+    "Which systems do your sellers use today to track pipeline and report on it?",
+    "Who owns sales reporting and forecasting at Ursa Major today?"
+   ],
+   "unknowns": [
+    "Size and structure of the sales team",
+    "Which CRM the sales team uses",
+    "Who owns revenue reporting and forecasting",
+    "Whether the business development roles are new or replacements"
+   ],
+   "first_touch": {
+    "subject": "Business development hiring at Ursa Major",
+    "body": "Hi {first_name},\n\nI saw that Ursa Major posted a \"Business Development Specialist\" role and a \"Business Development Representative II\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\n\n{sender_name}",
+    "cites": [
+     6,
+     7
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Business Development Specialist\" and \"Business Development Representative II\" postings were both published 2026-10-20 [6][7].",
+     "cites": [
+      6,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A posting published 2026-10-23 for an enterprise systems director role lists \"NetSuite\" among its ERP tools [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The postings for a \"Business Development Specialist\" and a \"Business Development Representative II\" point to business development as the likely priority but give no detail on the work [6][7].",
+     "cites": [
+      6,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do the business development hires you are adding work with the rest of the sales team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which systems do your sellers use today to track pipeline and report on it?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns sales reporting and forecasting at Ursa Major today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size and structure of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM the sales team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue reporting and forecasting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the business development roles are new or replacements",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that Ursa Major posted a \"Business Development Specialist\" role and a \"Business Development Representative II\" role in October. I work with teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the best person to talk to about how your sales work is tracked and reported?\n\n{sender_name}",
+     "cites": [
+      6,
+      7
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.082691,
+ "ms": 26956
+}

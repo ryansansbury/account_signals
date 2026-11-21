@@ -1,0 +1,502 @@
+{
+ "account": "Divergent Technologies",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "aae922f0ef3a21e9",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:32:40+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Torrance, CA. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s1ba90a5c9a",
+   "title": "Senior Loads and Dynamics Engineer",
+   "excerpt": "Senior Loads and Dynamics Engineer",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:divergent:5481180008",
+   "family": "crm"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s0a9eceefe1",
+   "title": "Staff Business Intelligence Analyst (Finance)",
+   "excerpt": "Staff Business Intelligence Analyst (Finance)",
+   "posted": "2026-08-07",
+   "posting_id": "greenhouse:divergent:5382633008",
+   "family": "analytics"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s3bdbd4dedc",
+   "title": "Program Management Operations Specialist",
+   "excerpt": "Experience with work on the Jira platform (managing user access, maintaining workflows, developing dashboards and reports, troubleshooting technical issues, and ensuring Jira is aligned with organizational processes and operational needs).",
+   "posted": "2026-11-03",
+   "posting_id": "greenhouse:divergent:5468853008",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2a1213415a",
+   "title": "Operations Analyst",
+   "excerpt": "Microsoft Fabric or equivalent lakehouse platforms (Databricks, Snowflake): navigation and data extraction .",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:divergent:5459805008",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s638418f28c",
+   "title": "Staff Business Intelligence Analyst (Finance)",
+   "excerpt": "Knowledge of cloud data platforms (Azure, Snowflake, Fabric, etc.) .",
+   "posted": "2026-08-07",
+   "posting_id": "greenhouse:divergent:5382633008",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "scbb0909adc",
+   "title": "Commercial Bid and Quote Manager",
+   "excerpt": "Commercial Bid and Quote Manager",
+   "posted": "2026-11-03",
+   "posting_id": "greenhouse:divergent:5468946008",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"A \\\"Commercial Bid and Quote Manager\\\" posting went up on 2026-11-03 [6].\"}, {\"text\": \"Two other postings from the last 30 days name data tools like Jira and Snowflake [3][4].\"}], \"priority\": {\"text\": \"Beyond the \\\"Commercial Bid and Quote Manager\\\" title the cited postings describe no revenue work and instead describe \\\"developing dashboards and reports\\\" in Jira and \\\"data extraction\\\" from lakehouse platforms [3][4][6].\"}, \"questions\": [\"How does the \\\"Commercial Bid and Quote Manager\\\" role fit into the way your team handles bids and quotes today?\", \"What systems does your commercial team use to track bids and customer conversations?\", \"Who owns reporting on bids and quotes as the team grows?\"], \"unknowns\": [\"Which CRM the commercial team uses\", \"Size and structure of the commercial team\", \"Whether sales reporting runs in Snowflake\", \"Who owns bid and quote reporting\"], \"first_touch\": {\"subject\": \"Your Commercial Bid and Quote Manager role\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Commercial Bid and Quote Manager\\\" posting that went up in November. I also noticed a \\\"Staff Business Intelligence Analyst (Finance)\\\" role from August that asks for \\\"Knowledge of cloud data platforms\\\" like Snowflake.\\n\\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\\n\\nWho would be the right person to ask about that?\\n\\n{sender_name}\", \"cites\": [2, 5, 6]}}",
+   "meta": {
+    "ms": 20233,
+    "input_tokens": 2,
+    "output_tokens": 2186,
+    "cache_write_tokens": 5401,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08724520000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "A \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03 [6]."
+     },
+     {
+      "text": "Two other postings from the last 30 days name data tools like Jira and Snowflake [3][4]."
+     }
+    ],
+    "priority": {
+     "text": "Beyond the \"Commercial Bid and Quote Manager\" title the cited postings describe no revenue work and instead describe \"developing dashboards and reports\" in Jira and \"data extraction\" from lakehouse platforms [3][4][6]."
+    },
+    "questions": [
+     "How does the \"Commercial Bid and Quote Manager\" role fit into the way your team handles bids and quotes today?",
+     "What systems does your commercial team use to track bids and customer conversations?",
+     "Who owns reporting on bids and quotes as the team grows?"
+    ],
+    "unknowns": [
+     "Which CRM the commercial team uses",
+     "Size and structure of the commercial team",
+     "Whether sales reporting runs in Snowflake",
+     "Who owns bid and quote reporting"
+    ],
+    "first_touch": {
+     "subject": "Your Commercial Bid and Quote Manager role",
+     "body": "Hi {first_name},\n\nI saw the \"Commercial Bid and Quote Manager\" posting that went up in November. I also noticed a \"Staff Business Intelligence Analyst (Finance)\" role from August that asks for \"Knowledge of cloud data platforms\" like Snowflake.\n\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\n\nWho would be the right person to ask about that?\n\n{sender_name}",
+     "cites": [
+      2,
+      5,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03 [6].",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two other postings from the last 30 days name data tools like Jira and Snowflake [3][4].",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": [
+       "number: 30"
+      ]
+     },
+     {
+      "field": "priority",
+      "text": "Beyond the \"Commercial Bid and Quote Manager\" title the cited postings describe no revenue work and instead describe \"developing dashboards and reports\" in Jira and \"data extraction\" from lakehouse platforms [3][4][6].",
+      "cites": [
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the \"Commercial Bid and Quote Manager\" role fit into the way your team handles bids and quotes today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What systems does your commercial team use to track bids and customer conversations?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns reporting on bids and quotes as the team grows?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the commercial team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the commercial team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether sales reporting runs in Snowflake",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns bid and quote reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Commercial Bid and Quote Manager\" posting that went up in November. I also noticed a \"Staff Business Intelligence Analyst (Finance)\" role from August that asks for \"Knowledge of cloud data platforms\" like Snowflake.\n\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\n\nWho would be the right person to ask about that?\n\n{sender_name}",
+      "cites": [
+       2,
+       5,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"A \\\"Commercial Bid and Quote Manager\\\" posting went up on 2026-11-03 [6].\"}, {\"text\": \"Two other postings name Jira and Snowflake and went up on 2026-11-03 and 2026-10-22 [3][4].\"}], \"priority\": {\"text\": \"Beyond the \\\"Commercial Bid and Quote Manager\\\" title the cited postings describe no revenue work and instead describe \\\"developing dashboards and reports\\\" in Jira and \\\"data extraction\\\" from lakehouse platforms [3][4][6].\"}, \"questions\": [\"How does the \\\"Commercial Bid and Quote Manager\\\" role fit into the way your team handles bids and quotes today?\", \"What systems does your commercial team use to track bids and customer conversations?\", \"Who owns reporting on bids and quotes as the team grows?\"], \"unknowns\": [\"Which CRM the commercial team uses\", \"Size and structure of the commercial team\", \"Whether sales reporting runs in Snowflake\", \"Who owns bid and quote reporting\"], \"first_touch\": {\"subject\": \"Your Commercial Bid and Quote Manager role\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Commercial Bid and Quote Manager\\\" posting that went up in November. I also noticed a \\\"Staff Business Intelligence Analyst (Finance)\\\" role from August that asks for \\\"Knowledge of cloud data platforms\\\" like Snowflake.\\n\\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\\n\\nWho would be the right person to ask about that?\\n\\n{sender_name}\", \"cites\": [2, 5, 6]}}",
+   "meta": {
+    "ms": 11159,
+    "input_tokens": 2,
+    "output_tokens": 1209,
+    "cache_write_tokens": 6113,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0734012
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "A \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03 [6]."
+     },
+     {
+      "text": "Two other postings name Jira and Snowflake and went up on 2026-11-03 and 2026-10-22 [3][4]."
+     }
+    ],
+    "priority": {
+     "text": "Beyond the \"Commercial Bid and Quote Manager\" title the cited postings describe no revenue work and instead describe \"developing dashboards and reports\" in Jira and \"data extraction\" from lakehouse platforms [3][4][6]."
+    },
+    "questions": [
+     "How does the \"Commercial Bid and Quote Manager\" role fit into the way your team handles bids and quotes today?",
+     "What systems does your commercial team use to track bids and customer conversations?",
+     "Who owns reporting on bids and quotes as the team grows?"
+    ],
+    "unknowns": [
+     "Which CRM the commercial team uses",
+     "Size and structure of the commercial team",
+     "Whether sales reporting runs in Snowflake",
+     "Who owns bid and quote reporting"
+    ],
+    "first_touch": {
+     "subject": "Your Commercial Bid and Quote Manager role",
+     "body": "Hi {first_name},\n\nI saw the \"Commercial Bid and Quote Manager\" posting that went up in November. I also noticed a \"Staff Business Intelligence Analyst (Finance)\" role from August that asks for \"Knowledge of cloud data platforms\" like Snowflake.\n\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\n\nWho would be the right person to ask about that?\n\n{sender_name}",
+     "cites": [
+      2,
+      5,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03 [6].",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two other postings name Jira and Snowflake and went up on 2026-11-03 and 2026-10-22 [3][4].",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Beyond the \"Commercial Bid and Quote Manager\" title the cited postings describe no revenue work and instead describe \"developing dashboards and reports\" in Jira and \"data extraction\" from lakehouse platforms [3][4][6].",
+      "cites": [
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the \"Commercial Bid and Quote Manager\" role fit into the way your team handles bids and quotes today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What systems does your commercial team use to track bids and customer conversations?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns reporting on bids and quotes as the team grows?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the commercial team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the commercial team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether sales reporting runs in Snowflake",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns bid and quote reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Commercial Bid and Quote Manager\" posting that went up in November. I also noticed a \"Staff Business Intelligence Analyst (Finance)\" role from August that asks for \"Knowledge of cloud data platforms\" like Snowflake.\n\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\n\nWho would be the right person to ask about that?\n\n{sender_name}",
+      "cites": [
+       2,
+       5,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "A \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03 [6]."
+    },
+    {
+     "text": "Two other postings name Jira and Snowflake and went up on 2026-11-03 and 2026-10-22 [3][4]."
+    }
+   ],
+   "priority": {
+    "text": "Beyond the \"Commercial Bid and Quote Manager\" title the cited postings describe no revenue work and instead describe \"developing dashboards and reports\" in Jira and \"data extraction\" from lakehouse platforms [3][4][6]."
+   },
+   "questions": [
+    "How does the \"Commercial Bid and Quote Manager\" role fit into the way your team handles bids and quotes today?",
+    "What systems does your commercial team use to track bids and customer conversations?",
+    "Who owns reporting on bids and quotes as the team grows?"
+   ],
+   "unknowns": [
+    "Which CRM the commercial team uses",
+    "Size and structure of the commercial team",
+    "Whether sales reporting runs in Snowflake",
+    "Who owns bid and quote reporting"
+   ],
+   "first_touch": {
+    "subject": "Your Commercial Bid and Quote Manager role",
+    "body": "Hi {first_name},\n\nI saw the \"Commercial Bid and Quote Manager\" posting that went up in November. I also noticed a \"Staff Business Intelligence Analyst (Finance)\" role from August that asks for \"Knowledge of cloud data platforms\" like Snowflake.\n\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\n\nWho would be the right person to ask about that?\n\n{sender_name}",
+    "cites": [
+     2,
+     5,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03 [6].",
+     "cites": [
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Two other postings name Jira and Snowflake and went up on 2026-11-03 and 2026-10-22 [3][4].",
+     "cites": [
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Beyond the \"Commercial Bid and Quote Manager\" title the cited postings describe no revenue work and instead describe \"developing dashboards and reports\" in Jira and \"data extraction\" from lakehouse platforms [3][4][6].",
+     "cites": [
+      3,
+      4,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the \"Commercial Bid and Quote Manager\" role fit into the way your team handles bids and quotes today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What systems does your commercial team use to track bids and customer conversations?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns reporting on bids and quotes as the team grows?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM the commercial team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size and structure of the commercial team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether sales reporting runs in Snowflake",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns bid and quote reporting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw the \"Commercial Bid and Quote Manager\" posting that went up in November. I also noticed a \"Staff Business Intelligence Analyst (Finance)\" role from August that asks for \"Knowledge of cloud data platforms\" like Snowflake.\n\nWe help teams with CRM cleanup, pipeline reporting, and forecasting. I'm curious how bids and quotes get tracked on your side today.\n\nWho would be the right person to ask about that?\n\n{sender_name}",
+     "cites": [
+      2,
+      5,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.160646,
+ "ms": 31392
+}

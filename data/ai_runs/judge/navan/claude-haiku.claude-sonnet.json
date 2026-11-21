@@ -1,0 +1,61 @@
+{
+ "account": "Navan",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "0838eca8147c02c3",
+ "input_hash": "8e33532ca47fdfca",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:15+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7681,
+    "input_tokens": 2,
+    "output_tokens": 1042,
+    "cache_write_tokens": 21359,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.09594029999999999
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "wrong",
+    "reason": "The Deal Desk title appears twice [2][3], but \"GTM Systems Manager\" appears only once [1], so \"twice\" doesn't hold for it."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [7] is dated 2026-09-02 and contains the quoted phrase about monthly revenue forecasting in Salesforce."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [5] gives \"Senior GTM Engineer\" with a publish date of 2026-09-15."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The Deal Desk postings cover pricing, quoting and revenue recognition, and the AE posting covers Salesforce revenue forecasting, so a revenue-work priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November GTM Systems Manager posting, the two October Deal Desk postings, and the September AE posting with its exact quote all match sources [1][2][3][7]."
+   }
+  },
+  "verdict": "wrong",
+  "needs_review": false
+ },
+ "cost_usd": 0.09594,
+ "ms": 7681
+}

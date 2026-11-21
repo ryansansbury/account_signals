@@ -1,0 +1,61 @@
+{
+ "account": "Verkada",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "dfe096ae6a3bc0cd",
+ "input_hash": "4b416c45a0ca19a0",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:33+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7618,
+    "input_tokens": 2,
+    "output_tokens": 1096,
+    "cache_write_tokens": 28602,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1254523
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [0] states 335 open roles on 2026-11-20, which matches."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Postings [9], [10] and [11] carry titles beginning \"Enterprise Account Executive\" and are dated 2026-11-20, 2026-11-19 and 2026-11-19."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Postings [1] and [3] are dated 2026-11-10 and 2026-10-28, which are 10 and 23 days before the 2026-11-20 read date, so both fall within 30 days."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "\"Quarterly quotas\" appears in [4] and \"individual quotas\" in [5], and [9][10][11] are Enterprise Account Executive roles, so enterprise selling as a priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The titles, the November dates for the three Enterprise Account Executive roles, the October date for [5], the November date for [4], and both net-new logo quotas match the cited postings."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.125452,
+ "ms": 7618
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Rubrik",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "37561125f970b788",
+ "input_hash": "76578b7a90ff0f83",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:07:01+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7823,
+    "input_tokens": 2,
+    "output_tokens": 643,
+    "cache_write_tokens": 24890,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.2121486
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-11-02 date and both quoted phrases match sources [1][2] and the Japan posting's text."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [5] gives the title and the 2026-10-14 date, and the posting lists Salesforce familiarity for pipeline management and forecasting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Sources [7][8][9] are three sales postings dated 2026-11-20, 2026-11-20 and 2026-11-19, covering the UK, cloud and EMEA identity areas."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Reading forecast and pipeline work as a likely priority is fair, since the Japan role owns the forecast process and the account executive posting names Salesforce for pipeline management and forecasting."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November and October dates, both quoted phrases and the Salesforce mention all match sources [1][2][5]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.212149,
+ "ms": 7823
+}

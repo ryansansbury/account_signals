@@ -1,0 +1,61 @@
+{
+ "account": "Sumo Logic",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "811fa8b1fdadcf0c",
+ "input_hash": "8f192d04a1e8caaa",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:09+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6422,
+    "input_tokens": 2,
+    "output_tokens": 848,
+    "cache_write_tokens": 18002,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0805723
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Director, Sales Operations posting is dated 2026-10-16 and both quotes match its text."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The Deal Desk Analyst posting is dated 2026-10-15, one day before the 2026-10-16 Director posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Account Executive (2026-11-16) and SDR I (2026-11-05) postings are both within 30 days of 2026-11-20 and both name Salesforce."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The quoted planning and forecasting duties are in the Director posting and the Deal Desk Analyst posting is real, so inferring these as priorities is fair."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October timing, both quotes, and the same-month Deal Desk Analyst opening match the cited postings, and the CRM rollout inference follows from the quoted line."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.080572,
+ "ms": 6422
+}

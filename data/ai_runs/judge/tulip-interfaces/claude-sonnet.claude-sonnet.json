@@ -1,0 +1,61 @@
+{
+ "account": "Tulip Interfaces",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "54401f17e5517dd7",
+ "input_hash": "9d26f97a03593713",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:25+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6867,
+    "input_tokens": 2,
+    "output_tokens": 942,
+    "cache_write_tokens": 18478,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0834163
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Titles and dates match sources [1] (2026-08-26) and [2] (2026-08-25)."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The Sales RevOps posting says the candidate is curious about using AI for \"territory optimization, pipeline forecasting\", as the part describes."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Post Sales posting dated 2026-03-25 contains \"build automated forecasting for renewals and contraction risks\"."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Territory carving and forecasting in the Sales posting and renewal forecasting in the Post Sales posting reasonably support a likely revenue-forecasting priority."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "Both roles were posted in August, the Sales role mentions territory and pipeline forecasting, and the March Post Sales role mentions renewal forecasting, all matching the cited postings."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.083416,
+ "ms": 6867
+}

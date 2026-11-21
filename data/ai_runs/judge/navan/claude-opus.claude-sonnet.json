@@ -1,0 +1,61 @@
+{
+ "account": "Navan",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "0838eca8147c02c3",
+ "input_hash": "593da18f6ff74967",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:18+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7266,
+    "input_tokens": 2,
+    "output_tokens": 936,
+    "cache_write_tokens": 21423,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.09513630000000001
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Sources [2] and [3] are both titled \"Senior Deal Desk Analyst\" and are dated 2026-10-07 and 2026-10-06."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "[1] is dated 2026-11-12, which is 8 days before the 2026-11-20 read date, and [4] is dated 2026-10-01 with the stated title."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The [7] posting contains the quoted phrase \"ensure accurate monthly forecasting of revenue in Salesforce\"."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Two deal desk postings and a Salesforce CPQ engineer posting, with the deal desk roles also asking for Salesforce and CPQ knowledge, fairly support the inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The two October deal desk postings, the November 12 GTM Systems Manager posting and the October CPQ posting all match [1]-[4]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.095136,
+ "ms": 7266
+}

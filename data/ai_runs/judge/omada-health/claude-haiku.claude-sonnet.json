@@ -1,0 +1,61 @@
+{
+ "account": "Omada Health",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "aea847e79e9ffba4",
+ "input_hash": "566b6adcc5f2439f",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:52+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3635,
+    "input_tokens": 2,
+    "output_tokens": 391,
+    "cache_write_tokens": 28174,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.11669030000000001
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The three RVP sales postings are dated 2026-11-18, 2026-11-13 and 2026-11-10, all within 30 days of the 2026-11-20 read date."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [1] gives the Director of Engineering, Eligibility & Revenue Systems posting date as 2026-11-11."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [2] gives the Senior Manager, Revenue Operations posting date as 2026-08-25."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The RevOps posting covers funnel, quotas and incentive comp, the engineering posting covers billing and eligibility systems tied to the sales pipeline, and the RVP roles are sales hires, so revenue work as a priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November Director posting, the August Senior Manager posting, and three RVP roles across GLP-1, enterprise and mid market all match the cited sources."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.11669,
+ "ms": 3635
+}

@@ -1,0 +1,340 @@
+{
+ "account": "Quantum Metric",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "6617fe24c358f27f",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:34:07+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Quantum Metric had 8 open roles on its public job board on 2026-11-20. The US held 38% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "se4e8891e62",
+   "title": "Senior / Strategic Account Executive",
+   "excerpt": "As part of the Sales team at Quantum Metric, you will be responsible for full life-cycle sales within a greenfield territory of enterprise accounts.",
+   "posted": "2026-11-09",
+   "posting_id": "lever:quantummetric:aa79d63e-ef97-412d-928c-09c2eaf26958",
+   "family": "territory"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s019fdd5d74",
+   "title": "Enterprise Account Executive",
+   "excerpt": "As an Account Executive at Quantum Metric, you will spearhead full life-cycle sales within a greenfield territory, focusing on acquiring and expanding enterprise-level accounts.",
+   "posted": "2026-08-06",
+   "posting_id": "lever:quantummetric:d998d7cb-a919-43b0-9502-496ad0e45982",
+   "family": "territory"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s908fcdfe00",
+   "title": "Enterprise Account Executive",
+   "excerpt": "Proficient with CRM systems (e.g., Salesforce).",
+   "posted": "2026-08-06",
+   "posting_id": "lever:quantummetric:d998d7cb-a919-43b0-9502-496ad0e45982",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s78fe5574a0",
+   "title": "Strategic Account Executive",
+   "excerpt": "Strategic Account Executive",
+   "posted": "2026-11-02",
+   "posting_id": "lever:quantummetric:8ab30f6b-6c59-46c7-9379-6561d65bdd88",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Quantum Metric posted \\\"Senior / Strategic Account Executive\\\" on 2026-11-09 and \\\"Strategic Account Executive\\\" on 2026-11-02 [1][4].\"}, {\"text\": \"The \\\"Senior / Strategic Account Executive\\\" posting describes \\\"full life-cycle sales within a greenfield territory of enterprise accounts\\\" [1].\"}, {\"text\": \"The \\\"Enterprise Account Executive\\\" posting from 2026-08-06 also names a \\\"greenfield territory\\\" and asks for someone \\\"Proficient with CRM systems\\\" with \\\"Salesforce\\\" given as an example [2][3].\"}], \"priority\": {\"text\": \"The likely priority is \\\"full life-cycle sales\\\" in a \\\"greenfield territory\\\" of enterprise accounts [1][2].\"}, \"questions\": [\"How are the greenfield territories for the new account executives being defined?\", \"How does the sales team use Salesforce to track enterprise pipeline today?\", \"What would a strong first quarter look like for the new account executives?\"], \"unknowns\": [\"How territories are drawn today\", \"Who owns revenue operations\", \"How many sellers are on the team now\", \"How forecasting and reporting work today\"], \"first_touch\": {\"subject\": \"Greenfield territories at Quantum Metric\", \"body\": \"Hi {first_name},\\n\\nI saw Quantum Metric posted a \\\"Senior / Strategic Account Executive\\\" role and a \\\"Strategic Account Executive\\\" role in November. The first describes \\\"full life-cycle sales within a greenfield territory of enterprise accounts.\\\" The \\\"Enterprise Account Executive\\\" role from August also mentions a \\\"greenfield territory\\\" and Salesforce.\\n\\nWe help sales teams with territory planning, pipeline reporting, and CRM work.\\n\\nHow are you thinking about carving up those new territories?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 4]}}",
+   "meta": {
+    "ms": 18452,
+    "input_tokens": 2,
+    "output_tokens": 1919,
+    "cache_write_tokens": 5253,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08072119999999999
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Quantum Metric posted \"Senior / Strategic Account Executive\" on 2026-11-09 and \"Strategic Account Executive\" on 2026-11-02 [1][4]."
+     },
+     {
+      "text": "The \"Senior / Strategic Account Executive\" posting describes \"full life-cycle sales within a greenfield territory of enterprise accounts\" [1]."
+     },
+     {
+      "text": "The \"Enterprise Account Executive\" posting from 2026-08-06 also names a \"greenfield territory\" and asks for someone \"Proficient with CRM systems\" with \"Salesforce\" given as an example [2][3]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is \"full life-cycle sales\" in a \"greenfield territory\" of enterprise accounts [1][2]."
+    },
+    "questions": [
+     "How are the greenfield territories for the new account executives being defined?",
+     "How does the sales team use Salesforce to track enterprise pipeline today?",
+     "What would a strong first quarter look like for the new account executives?"
+    ],
+    "unknowns": [
+     "How territories are drawn today",
+     "Who owns revenue operations",
+     "How many sellers are on the team now",
+     "How forecasting and reporting work today"
+    ],
+    "first_touch": {
+     "subject": "Greenfield territories at Quantum Metric",
+     "body": "Hi {first_name},\n\nI saw Quantum Metric posted a \"Senior / Strategic Account Executive\" role and a \"Strategic Account Executive\" role in November. The first describes \"full life-cycle sales within a greenfield territory of enterprise accounts.\" The \"Enterprise Account Executive\" role from August also mentions a \"greenfield territory\" and Salesforce.\n\nWe help sales teams with territory planning, pipeline reporting, and CRM work.\n\nHow are you thinking about carving up those new territories?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Quantum Metric posted \"Senior / Strategic Account Executive\" on 2026-11-09 and \"Strategic Account Executive\" on 2026-11-02 [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Senior / Strategic Account Executive\" posting describes \"full life-cycle sales within a greenfield territory of enterprise accounts\" [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Enterprise Account Executive\" posting from 2026-08-06 also names a \"greenfield territory\" and asks for someone \"Proficient with CRM systems\" with \"Salesforce\" given as an example [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is \"full life-cycle sales\" in a \"greenfield territory\" of enterprise accounts [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are the greenfield territories for the new account executives being defined?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the sales team use Salesforce to track enterprise pipeline today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would a strong first quarter look like for the new account executives?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How territories are drawn today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How many sellers are on the team now",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How forecasting and reporting work today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Quantum Metric posted a \"Senior / Strategic Account Executive\" role and a \"Strategic Account Executive\" role in November. The first describes \"full life-cycle sales within a greenfield territory of enterprise accounts.\" The \"Enterprise Account Executive\" role from August also mentions a \"greenfield territory\" and Salesforce.\n\nWe help sales teams with territory planning, pipeline reporting, and CRM work.\n\nHow are you thinking about carving up those new territories?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Quantum Metric posted \"Senior / Strategic Account Executive\" on 2026-11-09 and \"Strategic Account Executive\" on 2026-11-02 [1][4]."
+    },
+    {
+     "text": "The \"Senior / Strategic Account Executive\" posting describes \"full life-cycle sales within a greenfield territory of enterprise accounts\" [1]."
+    },
+    {
+     "text": "The \"Enterprise Account Executive\" posting from 2026-08-06 also names a \"greenfield territory\" and asks for someone \"Proficient with CRM systems\" with \"Salesforce\" given as an example [2][3]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is \"full life-cycle sales\" in a \"greenfield territory\" of enterprise accounts [1][2]."
+   },
+   "questions": [
+    "How are the greenfield territories for the new account executives being defined?",
+    "How does the sales team use Salesforce to track enterprise pipeline today?",
+    "What would a strong first quarter look like for the new account executives?"
+   ],
+   "unknowns": [
+    "How territories are drawn today",
+    "Who owns revenue operations",
+    "How many sellers are on the team now",
+    "How forecasting and reporting work today"
+   ],
+   "first_touch": {
+    "subject": "Greenfield territories at Quantum Metric",
+    "body": "Hi {first_name},\n\nI saw Quantum Metric posted a \"Senior / Strategic Account Executive\" role and a \"Strategic Account Executive\" role in November. The first describes \"full life-cycle sales within a greenfield territory of enterprise accounts.\" The \"Enterprise Account Executive\" role from August also mentions a \"greenfield territory\" and Salesforce.\n\nWe help sales teams with territory planning, pipeline reporting, and CRM work.\n\nHow are you thinking about carving up those new territories?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Quantum Metric posted \"Senior / Strategic Account Executive\" on 2026-11-09 and \"Strategic Account Executive\" on 2026-11-02 [1][4].",
+     "cites": [
+      1,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Senior / Strategic Account Executive\" posting describes \"full life-cycle sales within a greenfield territory of enterprise accounts\" [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Enterprise Account Executive\" posting from 2026-08-06 also names a \"greenfield territory\" and asks for someone \"Proficient with CRM systems\" with \"Salesforce\" given as an example [2][3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is \"full life-cycle sales\" in a \"greenfield territory\" of enterprise accounts [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are the greenfield territories for the new account executives being defined?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the sales team use Salesforce to track enterprise pipeline today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What would a strong first quarter look like for the new account executives?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How territories are drawn today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue operations",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How many sellers are on the team now",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How forecasting and reporting work today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw Quantum Metric posted a \"Senior / Strategic Account Executive\" role and a \"Strategic Account Executive\" role in November. The first describes \"full life-cycle sales within a greenfield territory of enterprise accounts.\" The \"Enterprise Account Executive\" role from August also mentions a \"greenfield territory\" and Salesforce.\n\nWe help sales teams with territory planning, pipeline reporting, and CRM work.\n\nHow are you thinking about carving up those new territories?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.080721,
+ "ms": 18452
+}

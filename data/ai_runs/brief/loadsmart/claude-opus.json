@@ -1,0 +1,380 @@
+{
+ "account": "Loadsmart",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "636a8cff2bd7dec0",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:32:06+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Loadsmart had 14 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Chicago, IL. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s565edf7b1f",
+   "title": "GTM Engineer",
+   "excerpt": "GTM Engineer",
+   "posted": "2026-10-06",
+   "posting_id": "lever:loadsmart:cb901648-bc3b-4429-b0d8-098769322099",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sed90fdb281",
+   "title": "Head of Global Sales",
+   "excerpt": "Head of Global Sales",
+   "posted": "2026-09-22",
+   "posting_id": "lever:loadsmart:c165cd34-9891-4fab-a22b-2ea3c96a7368",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s1844027439",
+   "title": "GTM Engineer",
+   "excerpt": "Build, run, and maintain role × product sequences in Salesloft, including deliverability, A/B testing, and retiring what loses.",
+   "posted": "2026-10-06",
+   "posting_id": "lever:loadsmart:cb901648-bc3b-4429-b0d8-098769322099",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s39d14db39a",
+   "title": "Growth Design Manager",
+   "excerpt": "AI-powered build and operations: Design, build and deploy pages with AI tools (Claude Code, Claude Design, Figma integrations) and HubSpot.",
+   "posted": "2026-11-12",
+   "posting_id": "lever:loadsmart:57d9cbd4-cecd-4b9f-9b68-a6f1511b5415",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s5c179340bb",
+   "title": "Customer Success Manager (Remote - Mexico City)",
+   "excerpt": "Experience with CRM, preferably Salesforce, is a plus.",
+   "posted": "2026-11-13",
+   "posting_id": "lever:loadsmart:f53d4f45-55cf-4dee-9aa1-3f7261dc5fec",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s576476b613",
+   "title": "Enterprise Sales Executive",
+   "excerpt": "Enterprise Sales Executive",
+   "posted": "2026-11-18",
+   "posting_id": "lever:loadsmart:c61ba8cb-edaa-48d4-90f1-c64b14793030",
+   "family": "pace"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s5e67aa3d99",
+   "title": "Customer Success Manager (Remote - Brazil)",
+   "excerpt": "Customer Success Manager (Remote - Brazil)",
+   "posted": "2026-11-13",
+   "posting_id": "lever:loadsmart:e9c335da-2986-4068-be2d-39f32cce6691",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s9fdac91e5b",
+   "title": "Account Sales Representative",
+   "excerpt": "Account Sales Representative",
+   "posted": "2026-11-03",
+   "posting_id": "lever:loadsmart:be01a698-8459-4a99-b10a-21bf2fbf5929",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Loadsmart posted a \\\"Head of Global Sales\\\" role on 2026-09-22 [2].\"}, {\"text\": \"The \\\"GTM Engineer\\\" posting from 2026-10-06 asks the hire to \\\"Build, run, and maintain role × product sequences in Salesloft\\\" [1][3].\"}, {\"text\": \"An \\\"Account Sales Representative\\\" role and an \\\"Enterprise Sales Executive\\\" role both went up in the last 30 days [6][8].\"}], \"priority\": {\"text\": \"Loadsmart's likely priority is hiring for selling roles such as \\\"Head of Global Sales\\\" and \\\"Enterprise Sales Executive\\\" and running \\\"role × product sequences in Salesloft\\\" through a \\\"GTM Engineer\\\" [1][2][3][6].\"}, \"questions\": [\"What will the new \\\"Head of Global Sales\\\" focus on first?\", \"Which CRM does the sales team work in day to day?\", \"How are pipeline and forecast reports built today?\"], \"unknowns\": [\"Which CRM the sales team uses\", \"How pipeline and forecasts are reported today\", \"Who owns revenue operations\", \"How sales territories are split\"], \"first_touch\": {\"subject\": \"Loadsmart sales hiring this fall\", \"body\": \"Hi {first_name},\\n\\nI saw Loadsmart opened a \\\"Head of Global Sales\\\" role in September and an \\\"Enterprise Sales Executive\\\" role in November. The \\\"GTM Engineer\\\" posting from October talks about building and running \\\"role × product sequences in Salesloft.\\\"\\n\\nWe help sales teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. I'm curious how your team is thinking about that work as these roles fill.\\n\\nWho on your side owns sales operations today?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 6]}}",
+   "meta": {
+    "ms": 21539,
+    "input_tokens": 2,
+    "output_tokens": 2305,
+    "cache_write_tokens": 5419,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08976920000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Loadsmart posted a \"Head of Global Sales\" role on 2026-09-22 [2]."
+     },
+     {
+      "text": "The \"GTM Engineer\" posting from 2026-10-06 asks the hire to \"Build, run, and maintain role × product sequences in Salesloft\" [1][3]."
+     },
+     {
+      "text": "An \"Account Sales Representative\" role and an \"Enterprise Sales Executive\" role both went up in the last 30 days [6][8]."
+     }
+    ],
+    "priority": {
+     "text": "Loadsmart's likely priority is hiring for selling roles such as \"Head of Global Sales\" and \"Enterprise Sales Executive\" and running \"role × product sequences in Salesloft\" through a \"GTM Engineer\" [1][2][3][6]."
+    },
+    "questions": [
+     "What will the new \"Head of Global Sales\" focus on first?",
+     "Which CRM does the sales team work in day to day?",
+     "How are pipeline and forecast reports built today?"
+    ],
+    "unknowns": [
+     "Which CRM the sales team uses",
+     "How pipeline and forecasts are reported today",
+     "Who owns revenue operations",
+     "How sales territories are split"
+    ],
+    "first_touch": {
+     "subject": "Loadsmart sales hiring this fall",
+     "body": "Hi {first_name},\n\nI saw Loadsmart opened a \"Head of Global Sales\" role in September and an \"Enterprise Sales Executive\" role in November. The \"GTM Engineer\" posting from October talks about building and running \"role × product sequences in Salesloft.\"\n\nWe help sales teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. I'm curious how your team is thinking about that work as these roles fill.\n\nWho on your side owns sales operations today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Loadsmart posted a \"Head of Global Sales\" role on 2026-09-22 [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"GTM Engineer\" posting from 2026-10-06 asks the hire to \"Build, run, and maintain role × product sequences in Salesloft\" [1][3].",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "An \"Account Sales Representative\" role and an \"Enterprise Sales Executive\" role both went up in the last 30 days [6][8].",
+      "cites": [
+       6,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Loadsmart's likely priority is hiring for selling roles such as \"Head of Global Sales\" and \"Enterprise Sales Executive\" and running \"role × product sequences in Salesloft\" through a \"GTM Engineer\" [1][2][3][6].",
+      "cites": [
+       1,
+       2,
+       3,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What will the new \"Head of Global Sales\" focus on first?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which CRM does the sales team work in day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are pipeline and forecast reports built today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the sales team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How pipeline and forecasts are reported today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How sales territories are split",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Loadsmart opened a \"Head of Global Sales\" role in September and an \"Enterprise Sales Executive\" role in November. The \"GTM Engineer\" posting from October talks about building and running \"role × product sequences in Salesloft.\"\n\nWe help sales teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. I'm curious how your team is thinking about that work as these roles fill.\n\nWho on your side owns sales operations today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Loadsmart posted a \"Head of Global Sales\" role on 2026-09-22 [2]."
+    },
+    {
+     "text": "The \"GTM Engineer\" posting from 2026-10-06 asks the hire to \"Build, run, and maintain role × product sequences in Salesloft\" [1][3]."
+    },
+    {
+     "text": "An \"Account Sales Representative\" role and an \"Enterprise Sales Executive\" role both went up in the last 30 days [6][8]."
+    }
+   ],
+   "priority": {
+    "text": "Loadsmart's likely priority is hiring for selling roles such as \"Head of Global Sales\" and \"Enterprise Sales Executive\" and running \"role × product sequences in Salesloft\" through a \"GTM Engineer\" [1][2][3][6]."
+   },
+   "questions": [
+    "What will the new \"Head of Global Sales\" focus on first?",
+    "Which CRM does the sales team work in day to day?",
+    "How are pipeline and forecast reports built today?"
+   ],
+   "unknowns": [
+    "Which CRM the sales team uses",
+    "How pipeline and forecasts are reported today",
+    "Who owns revenue operations",
+    "How sales territories are split"
+   ],
+   "first_touch": {
+    "subject": "Loadsmart sales hiring this fall",
+    "body": "Hi {first_name},\n\nI saw Loadsmart opened a \"Head of Global Sales\" role in September and an \"Enterprise Sales Executive\" role in November. The \"GTM Engineer\" posting from October talks about building and running \"role × product sequences in Salesloft.\"\n\nWe help sales teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. I'm curious how your team is thinking about that work as these roles fill.\n\nWho on your side owns sales operations today?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Loadsmart posted a \"Head of Global Sales\" role on 2026-09-22 [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"GTM Engineer\" posting from 2026-10-06 asks the hire to \"Build, run, and maintain role × product sequences in Salesloft\" [1][3].",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "An \"Account Sales Representative\" role and an \"Enterprise Sales Executive\" role both went up in the last 30 days [6][8].",
+     "cites": [
+      6,
+      8
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Loadsmart's likely priority is hiring for selling roles such as \"Head of Global Sales\" and \"Enterprise Sales Executive\" and running \"role × product sequences in Salesloft\" through a \"GTM Engineer\" [1][2][3][6].",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What will the new \"Head of Global Sales\" focus on first?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which CRM does the sales team work in day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are pipeline and forecast reports built today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM the sales team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How pipeline and forecasts are reported today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue operations",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How sales territories are split",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw Loadsmart opened a \"Head of Global Sales\" role in September and an \"Enterprise Sales Executive\" role in November. The \"GTM Engineer\" posting from October talks about building and running \"role × product sequences in Salesloft.\"\n\nWe help sales teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. I'm curious how your team is thinking about that work as these roles fill.\n\nWho on your side owns sales operations today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.089769,
+ "ms": 21539
+}

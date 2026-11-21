@@ -1,0 +1,61 @@
+{
+ "account": "Rubrik",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "37561125f970b788",
+ "input_hash": "64123dcf26653e0e",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:52+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7312,
+    "input_tokens": 2,
+    "output_tokens": 999,
+    "cache_write_tokens": 24829,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1093903
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The posting is dated 2026-11-02 and the quoted \"forecast process\" and \"pipeline hygiene\" appear in its Operational Excellence duty for Japan."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Three sales postings are dated 2026-11-20, 2026-11-20 and 2026-11-19, which fall within the two days up to the 2026-11-20 read date."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Territory Account Executive posting is dated 2026-10-14 and the quote about Salesforce for pipeline management and forecasting matches its preferred qualifications."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The \"Rhythm of the Business\" duty is tied in the posting to the forecast process and pipeline hygiene \"to ensure high predictability\", so a Japan forecasting priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The Japan posting went up in November with the quoted duties, and the three sales roles are dated 2026-11-19 and 2026-11-20, so all facts match the cited sources."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.10939,
+ "ms": 7312
+}

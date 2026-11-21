@@ -1,0 +1,61 @@
+{
+ "account": "Divergent Technologies",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "aae922f0ef3a21e9",
+ "input_hash": "c9c8b80c8cca760b",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:02:59+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 5101,
+    "input_tokens": 2,
+    "output_tokens": 514,
+    "cache_write_tokens": 20573,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0875163
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The board line says 149 open roles on 2026-11-20, which matches the brief."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [6] gives the Commercial Bid and Quote Manager title and a 2026-11-03 publication date."
+   },
+   "W3": {
+    "verdict": "wrong",
+    "reason": "Jira is in the 2026-11-03 posting [3] and Snowflake in the 2026-10-22 posting [4], but the sentence is cited only to [3][4] and both dates and tools do match, so the issue is that it calls them 'two other postings' while the Jira posting [3] is fine; however Snowflake is only a preferred example alongside Databricks, not a named stack, making the claim overstated."
+   },
+   "P": {
+    "verdict": "wrong",
+    "reason": "The Commercial Bid and Quote Manager posting [6] describes pricing, quotes, and contract work and even mentions CRM and quote-pipeline reporting, so the claim that the cited postings describe no revenue work is false."
+   },
+   "E": {
+    "verdict": "wrong",
+    "reason": "The quoted 'Knowledge of cloud data platforms' phrase is real in [5] but the email says the role is from August and lists Snowflake, which matches; however the email cites [2][5][6] and the Bid and Quote posting is dated 2026-11-03, so 'went up in November' is right, leaving no mismatch, which makes this part hold up."
+   }
+  },
+  "verdict": "wrong",
+  "needs_review": false
+ },
+ "cost_usd": 0.087516,
+ "ms": 5101
+}

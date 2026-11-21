@@ -1,0 +1,382 @@
+{
+ "account": "Brex",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "9f9c54aaa2e94333",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:28:25+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Brex had 206 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Francisco, CA. The US held 82% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sbbb08e4217",
+   "title": "Startup & VC Partnerships Manager",
+   "excerpt": "On the partnerships side, you'll identify and cultivate partners from the ground up, build tailored go-to-market plans for each one, onboard them into the Brex ecosystem, and manage the relationship over time.",
+   "posted": "2026-11-06",
+   "posting_id": "greenhouse:brex:8934022002",
+   "family": "first_hire"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s39facd1c1a",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Director, Revenue Operations",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865086002",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "scc5325a0f1",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Director, Revenue Operations",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "revops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sd9c6f40eed",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s09126f4d83",
+   "title": "Analyst, Banking Operations (Domestic)",
+   "excerpt": "Work the domestic payments queue across ACH, checks, domestic wires and stablecoin, resolving cases in Salesforce with clear, customer-safe explanations.",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:brex:8924533002",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s1211a496bf",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s4444dee766",
+   "title": "Data Engineer",
+   "excerpt": "Experience with Salesforce data integration.",
+   "posted": "2026-04-24",
+   "posting_id": "greenhouse:brex:8523806002",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s5fea723315",
+   "title": "Account Manager I",
+   "excerpt": "Account Manager I",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:brex:8956699002",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s5fd94c4a00",
+   "title": "Accounting Partnerships Manager",
+   "excerpt": "Accounting Partnerships Manager",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:brex:8950778002",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "sade26381ff",
+   "title": "Accounting Partnerships Manager",
+   "excerpt": "Accounting Partnerships Manager",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:brex:8950781002",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Brex published the \\\"Director, Revenue Operations\\\" posting on 2026-10-02, and it asks the hire to \\\"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\\\" [4]\"}, {\"text\": \"The same posting asks for \\\"Extensive experience with Salesforce and other GTM systems\\\" [6].\"}, {\"text\": \"Brex also published \\\"Account Manager I\\\" on 2026-11-20 and \\\"Startup & VC Partnerships Manager\\\" on 2026-11-06 [1][8].\"}], \"priority\": {\"text\": \"Brex's likely priority is a revenue operations leader who will \\\"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\\\" [4].\"}, \"questions\": [\"What does the forecasting and pipeline cadence look like today for the sales team?\", \"How do you plan to approach territory carving and quota setting for the coming year?\", \"How do Salesforce and your other GTM systems fit together for revenue reporting?\"], \"unknowns\": [\"Whether the director role is new or a backfill\", \"Size and structure of the current revenue operations team\", \"Timeline for territory and quota planning\", \"Which GTM systems sit alongside Salesforce\"], \"first_touch\": {\"subject\": \"Brex revenue operations hiring\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Director, Revenue Operations\\\" posting Brex put up in October. It lists cadences for \\\"forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\\\" It also asks for \\\"Extensive experience with Salesforce and other GTM systems\\\" in the person you hire.\\n\\nWe work on revenue operations projects like forecasting, pipeline reporting, and territory planning. I'd like to learn how your team handles this work today.\\n\\nIs the director role a new seat on the team or a backfill?\\n\\n{sender_name}\", \"cites\": [4, 6]}}",
+   "meta": {
+    "ms": 17047,
+    "input_tokens": 2,
+    "output_tokens": 1698,
+    "cache_write_tokens": 5612,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0791732
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Brex published the \"Director, Revenue Operations\" posting on 2026-10-02, and it asks the hire to \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+     },
+     {
+      "text": "The same posting asks for \"Extensive experience with Salesforce and other GTM systems\" [6]."
+     },
+     {
+      "text": "Brex also published \"Account Manager I\" on 2026-11-20 and \"Startup & VC Partnerships Manager\" on 2026-11-06 [1][8]."
+     }
+    ],
+    "priority": {
+     "text": "Brex's likely priority is a revenue operations leader who will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4]."
+    },
+    "questions": [
+     "What does the forecasting and pipeline cadence look like today for the sales team?",
+     "How do you plan to approach territory carving and quota setting for the coming year?",
+     "How do Salesforce and your other GTM systems fit together for revenue reporting?"
+    ],
+    "unknowns": [
+     "Whether the director role is new or a backfill",
+     "Size and structure of the current revenue operations team",
+     "Timeline for territory and quota planning",
+     "Which GTM systems sit alongside Salesforce"
+    ],
+    "first_touch": {
+     "subject": "Brex revenue operations hiring",
+     "body": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting Brex put up in October. It lists cadences for \"forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" It also asks for \"Extensive experience with Salesforce and other GTM systems\" in the person you hire.\n\nWe work on revenue operations projects like forecasting, pipeline reporting, and territory planning. I'd like to learn how your team handles this work today.\n\nIs the director role a new seat on the team or a backfill?\n\n{sender_name}",
+     "cites": [
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Brex published the \"Director, Revenue Operations\" posting on 2026-10-02, and it asks the hire to \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The same posting asks for \"Extensive experience with Salesforce and other GTM systems\" [6].",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Brex also published \"Account Manager I\" on 2026-11-20 and \"Startup & VC Partnerships Manager\" on 2026-11-06 [1][8].",
+      "cites": [
+       1,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Brex's likely priority is a revenue operations leader who will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the forecasting and pipeline cadence look like today for the sales team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do you plan to approach territory carving and quota setting for the coming year?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do Salesforce and your other GTM systems fit together for revenue reporting?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the director role is new or a backfill",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size and structure of the current revenue operations team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Timeline for territory and quota planning",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which GTM systems sit alongside Salesforce",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting Brex put up in October. It lists cadences for \"forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" It also asks for \"Extensive experience with Salesforce and other GTM systems\" in the person you hire.\n\nWe work on revenue operations projects like forecasting, pipeline reporting, and territory planning. I'd like to learn how your team handles this work today.\n\nIs the director role a new seat on the team or a backfill?\n\n{sender_name}",
+      "cites": [
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Brex published the \"Director, Revenue Operations\" posting on 2026-10-02, and it asks the hire to \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+    },
+    {
+     "text": "The same posting asks for \"Extensive experience with Salesforce and other GTM systems\" [6]."
+    },
+    {
+     "text": "Brex also published \"Account Manager I\" on 2026-11-20 and \"Startup & VC Partnerships Manager\" on 2026-11-06 [1][8]."
+    }
+   ],
+   "priority": {
+    "text": "Brex's likely priority is a revenue operations leader who will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4]."
+   },
+   "questions": [
+    "What does the forecasting and pipeline cadence look like today for the sales team?",
+    "How do you plan to approach territory carving and quota setting for the coming year?",
+    "How do Salesforce and your other GTM systems fit together for revenue reporting?"
+   ],
+   "unknowns": [
+    "Whether the director role is new or a backfill",
+    "Size and structure of the current revenue operations team",
+    "Timeline for territory and quota planning",
+    "Which GTM systems sit alongside Salesforce"
+   ],
+   "first_touch": {
+    "subject": "Brex revenue operations hiring",
+    "body": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting Brex put up in October. It lists cadences for \"forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" It also asks for \"Extensive experience with Salesforce and other GTM systems\" in the person you hire.\n\nWe work on revenue operations projects like forecasting, pipeline reporting, and territory planning. I'd like to learn how your team handles this work today.\n\nIs the director role a new seat on the team or a backfill?\n\n{sender_name}",
+    "cites": [
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Brex published the \"Director, Revenue Operations\" posting on 2026-10-02, and it asks the hire to \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The same posting asks for \"Extensive experience with Salesforce and other GTM systems\" [6].",
+     "cites": [
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Brex also published \"Account Manager I\" on 2026-11-20 and \"Startup & VC Partnerships Manager\" on 2026-11-06 [1][8].",
+     "cites": [
+      1,
+      8
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Brex's likely priority is a revenue operations leader who will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does the forecasting and pipeline cadence look like today for the sales team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do you plan to approach territory carving and quota setting for the coming year?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do Salesforce and your other GTM systems fit together for revenue reporting?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the director role is new or a backfill",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size and structure of the current revenue operations team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Timeline for territory and quota planning",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which GTM systems sit alongside Salesforce",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting Brex put up in October. It lists cadences for \"forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" It also asks for \"Extensive experience with Salesforce and other GTM systems\" in the person you hire.\n\nWe work on revenue operations projects like forecasting, pipeline reporting, and territory planning. I'd like to learn how your team handles this work today.\n\nIs the director role a new seat on the team or a backfill?\n\n{sender_name}",
+     "cites": [
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.079173,
+ "ms": 17047
+}

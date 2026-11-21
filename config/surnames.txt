@@ -1,0 +1,75 @@
+# Common US surnames, written for this build to find people's names in posting text and remove them
+# (engine/redact.py). Surnames that are also everyday words, places or regions (Green, Young, Hill, Price, Banks, Case,
+# Fields, Mills as in General Mills, England as in New England, Cross as in Blue Cross) and every surname of two letters
+# or fewer are left out. A first name, a cue such as "reports to" or the place check still catches those people.
+Smith Johnson Williams Jones Garcia Miller Davis Rodriguez Martinez Hernandez Lopez Gonzalez Wilson Anderson Thomas
+Taylor Moore Jackson Martin Lee Perez Thompson Harris Sanchez Clark Ramirez Lewis Robinson Walker Allen Wright Scott
+Torres Nguyen Flores Adams Nelson Baker Rivera Campbell Mitchell Carter Roberts Gomez Phillips Evans Turner Diaz
+Parker Cruz Edwards Collins Reyes Stewart Morris Morales Murphy Cook Rogers Gutierrez Ortiz Morgan Cooper Peterson
+Bailey Reed Howard Ramos Kim Cox Richardson Watson Brooks Chavez Bennett Mendoza Ruiz Hughes Alvarez Castillo
+Sanders Patel Myers Ross Foster Jimenez Powell Jenkins Perry Russell Sullivan Fisher Henderson Coleman Simmons
+Patterson Reynolds Hamilton Graham Wallace Gonzales Cole Hayes Bryant Herrera Gibson Ellis Tran Medina Aguilar
+Murray Freeman Wells Webb Simpson Stevens Tucker Porter Hicks Crawford Henry Boyd Mason Kennedy Warren Dixon Burns
+Gordon Shaw Holmes Robertson Daniels Palmer Nichols Knight Ferguson Spencer Pierce Hawkins Dunn Perkins Hudson
+Romero Stephens Payne Berry Matthews Arnold Wagner Willis Watkins Olson Carroll Duncan Snyder Hart Cunningham
+Bradley Andrews Harper Fox Riley Armstrong Carpenter Weaver Greene Lawrence Elliott Sims Peters Kelley Franklin
+Lawson Ryan Schmidt Carr Vasquez Castro Wheeler Chapman Oliver Montgomery Richards Williamson Johnston Meyer Bishop
+McCoy Howell Morrison Hansen Fernandez Garza Burton Stanley George Jacobs Reid Fuller Lynch Dean Gilbert
+Garrett Welch Larson Frazier Burke Hanson Mendez Moreno Bowman Fowler Brewer Hoffman Carlson Silva Holland
+Douglas Fleming Jensen Vargas Byrd Davidson Hopkins Terry Wade Soto Walters Curtis Neal Caldwell Lowe Jennings
+Barnett Graves Horton Shelton Barrett Obrien Sutton Gregory McKinney Lucas Craig Rodriquez Chambers Holt Lambert
+Fletcher Watts Bates Hale Rhodes Pena Beck Newman Haynes McDaniel Vaughn Parks Dawson Santiago Norris Schultz Barker
+Guzman Munoz Keller Weber Leonard Walsh Lyons Ramsey Wolfe Schneider Mullins Benson Bowen Daniel Barber Cummings
+Hines Baldwin Griffith Valdez Hubbard Salazar Reeves Warner Stevenson Burgess Santos Tate Garner Mann Mack Moss
+Thornton Dennis McGee Farmer Delgado Vega Glover Manning Cohen Harmon Rodgers Robbins Newton Todd Blair Higgins
+Ingram Reese Cannon Strickland Townsend Potter Goodwin Walton Rowe Hampton Ortega Patton Swanson Joseph Francis
+Goodman Maldonado Yates Becker Erickson Hodges Rios Conner Adkins Webster Norman Malone Hammond Cobb Moody Quinn
+Blake Maxwell Pope Floyd Osborne Paul McCarthy Guerrero Lindsey Estrada Sandoval Gibbs Tyler Fitzgerald Stokes Doyle
+Sherman Saunders Colon Gill Alvarado Greer Padilla Simon Nunez Ballard Schwartz McBride Christensen Klein Pratt
+Briggs Parsons McLaughlin Zimmerman French Buchanan Moran Copeland Roy Pittman Brady McCormick Holloway Brock Poole
+Frank Logan Owen Marsh Wong Jefferson Morton Abbott Patrick Norton Huff Clayton Massey Lloyd Figueroa Carson Bowers
+Roberson Barton Harrington Casey Boone Cortez Clarke Mathis Singleton Wilkins Cain Bryan Underwood Hogan McKenzie
+Collier Luna Phelps McGuire Allison Bridges Wilkerson Atkins Wilcox Pitts Conley Marquez Burnett Richard
+Cochran Chase Davenport Ayala Sawyer Roman Vazquez Dickerson Hodge Acosta Flynn Espinoza Nicholson Monroe Wolf
+Morrow Kirk Randall Anthony Whitaker Oconnor Skinner Ware Molina Kirby Huffman Bradford Charles Gilmore Dominguez
+Oneal Bruce Lang Combs Kramer Heath Hancock Gallagher Gaines Shaffer Wiggins Mathews McClain Fischer Melton Hensley
+Dyer Cameron Grimes Contreras Wyatt Baxter Mosley Shepherd Larsen Hoover Beasley Glenn Petersen Whitehead Meyers
+Keith Garrison Vincent Shields Horn Olsen Schroeder Hartman Woodard Mueller Kemp Deleon Calhoun Wiley Eaton Cline
+Navarro Harrell Lester Humphrey Parrish Duran Hutchinson Hess Dorsey Bullock Robles Beard Dalton Avila Vance
+Blackwell York Johns Blankenship Trevino Salinas Campos Pruitt Moses Callahan Montoya Hardin Guerra McDowell Carey
+Stafford Gallegos Henson Wilkinson Booker Merritt Miranda Atkinson Orr Decker Hobbs Preston Tanner Knox Pacheco
+Stephenson Rojas Serrano Hickman Sweeney McClure Conway Walter Roth Maynard Farrell Lowery Hurst Nixon Weiss
+Trujillo Ellison Sloan Juarez McLean Randolph Leon Boyer Villarreal McCall Gentry Carrillo Kent Ayers Lara Shannon
+Sexton Hull Leblanc Browning Velasquez Leach Chang Sellers Herring Foley Bartlett Mercado Landry Durham Barr McKee
+Bauer Everett Bradshaw Pugh Velez Estes Dodson Morse Sheppard Camacho Bean Barron Livingston Middleton Spears
+Blevins Chen Kerr McConnell Hatfield Harding Ashley Solis Herman Giles Blackburn William Pennington Woodward Finley
+McIntosh Koch Solomon McCullough Dudley Nolan Blanchard Rivas Brennan Mejia Kane Benton Joyce Buckley Haley
+Valentine Maddox Russo McKnight Buck McMillan Crosby Berg Dotson Mays Roach Chan Richmond Meadows Faulkner Oneill
+Knapp Kline Barry Ochoa Jacobson Avery Hendricks Horne Shepard Hebert Cardenas McIntyre Whitney Waller Holman
+Donaldson Cantu Terrell Morin Gillespie Fuentes Tillman Sanford Bentley Peck Salas Rollins Gamble Dickson Santana
+Cabrera Cervantes Howe Hinton Hurley Spence Zamora Yang McNeil Suarez Petty Gould McFarland Sampson Carver Bray
+Rosario Macdonald Stout Hester Melendez Dillon Farley Hopper Galloway Potts Bernard Joyner Stein Aguirre Osborn
+Mercer Bender Franco Rowland Sykes Benjamin Travis Pickett Crane Sears Mayo Dunlap Hayden Wilder McKay Coffey
+McCarty Ewing Cooley Vaughan Bonner Cotton Stark Ferrell Cantrell Fulton Lynn Lott Calderon Rosa Pollard Hooper
+Burch Mullen Fry Riddle Levy David Odonnell Michael Britt Frederick Daugherty Berger Dillard Alston Jarvis Frye
+Riggs Chaney Odom Duffy Fitzpatrick Valenzuela Merrill Mayer Alford McPherson Acevedo Donovan Barrera Albert Cote
+Reilly Compton Raymond Mooney McGowan Clemons Wynn Nielsen Baird Stanton Snider Rosales Witt Stuart Hays Holden
+Rutledge Kinney Clements Castaneda Slater Hahn Conrad Burks Delaney Pate Lancaster Tyson Sharpe Whitfield
+Talley Macias Irwin Burris Ratliff McCray Madden Kaufman Goff Bolton McFadden Levine Byers Kirkland Kidd Workman
+Carney Dale McLeod Holcomb Finch Hendrix Sosa Haney Franks Sargent Nieves Downs Rasmussen Hewitt Lindsay
+Foreman Valencia Oneil Delacruz Vinson Dejesus Hyde Forbes Gilliam Guthrie Wooten Huber Barlow Boyle McMahon Buckner
+Rocha Puckett Langley Knowles Cooke Velazquez Whitley Noel Vang Shah Iyer Gupta Sharma Singh Kumar Reddy Rao Mehta
+Desai Joshi Chopra Kapoor Malhotra Agarwal Banerjee Bose Chatterjee Das Ghosh Mukherjee Nair Pillai Menon Krishnan
+Raman Subramanian Venkatesan Wang Zhang Liu Huang Zhao Zhou Sun Zhu Guo Lin Luo Gao Liang Zheng Xie Tang Han Feng
+Deng Cao Peng Zeng Xiao Tian Dong Pan Yuan Cai Jiang Cheng Wei Ding Ren Shen Yao Lui Tan Lim Ong Teo Goh Chua Koh
+Sato Suzuki Takahashi Tanaka Watanabe Ito Yamamoto Nakamura Kobayashi Kato Yoshida Yamada Sasaki Yamaguchi Matsumoto
+Inoue Kimura Hayashi Shimizu Yamazaki Mori Abe Ikeda Hashimoto Ishikawa Ogawa Okada Goto Hasegawa Murakami Kondo
+Ishii Choi Jung Kang Cho Yoon Jang Shin Seo Kwon Hwang Ahn Yoo Hong Jeon Bae Baek Pham Hoang Phan Dang Bui Ngo Duong
+Okafor Okonkwo Adeyemi Mensah Owusu Boateng Asante Diallo Toure Traore Ali Khan Hussain Ahmed Rahman Chowdhury
+Hassan Ibrahim Mahmoud Haddad Nasser Saleh Aziz Karim Abdullah Farouk Rossi Ferrari Esposito Bianchi Romano Colombo
+Ricci Marino Greco Bruno Gallo Conti DeLuca Costa Giordano Mancini Rizzo Lombardi Moretti Novak Kowalski Nowak
+Wisniewski Wojcik Kaminski Lewandowski Zielinski Szymanski Muller Schmitt Schulz Hoffmann Richter Schroder Neumann
+Schwarz Zimmermann Braun Kruger Hofmann Hartmann Lange Werner Krause Lehmann Kohler Herrmann Konig Kaiser Fuchs
+Scholz Moller Vogel Friedrich Gunther Winkler Lorenz Baumann Franke Albrecht Schuster Ludwig Bohm Kraus Schumacher
+Vogt Jager Otto Sommer Seidel Heinrich Brandt Haas Schreiber Graf Schulte Dietrich Ziegler Kuhn Kuehn Pohl Engel
+Busch Bergmann Voigt Sauer Wolff Pfeiffer

@@ -1,0 +1,524 @@
+{
+ "account": "OpenSpace",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "41e77b5f1c0cabb5",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:01:54+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "OpenSpace had 13 open roles on its public job board on 2026-11-20. The US held 0% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s59f1958f71",
+   "title": "Deal Desk Manager",
+   "excerpt": "Deal Desk Manager",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8205448003",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s912b9f3016",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Deal Desk Analyst",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sd3d32ce50c",
+   "title": "Sales Operations Manager",
+   "excerpt": "Partner directly with Sales leaders to support the forecasting cadence, inspect pipeline, identify risks, and drive forecast accuracy, opportunity hygiene, and adherence to sales processes.",
+   "posted": "2026-08-21",
+   "posting_id": "greenhouse:openspace:7930340003",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2763572fc0",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Hands-on experience creating customer quotes or order forms in Salesforce and a CPQ solution (Salesforce CPQ or comparable system) strongly preferred; candidates with equivalent order-form systems experience may be considered.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s35083146d2",
+   "title": "Inside Sales Representative",
+   "excerpt": "Keeping Salesforce accurate and current with all activities, contacts and lead status.",
+   "posted": "2026-10-26",
+   "posting_id": "greenhouse:openspace:8045063003",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s5400273e41",
+   "title": "Deal Desk Analyst",
+   "excerpt": "This role is suited to a detail-oriented, collaborative professional who already knows how to work in Salesforce and a CPQ/order-form workflow and is motivated to develop deeper skills in commercial contracting and deal execution.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:openspace:8200991003",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s6a960a2f1c",
+   "title": "Inside Sales Representative",
+   "excerpt": "Inside Sales Representative",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:openspace:8040476003",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sbb6da83254",
+   "title": "Sr. Product Marketing Manager",
+   "excerpt": "Sr. Product Marketing Manager",
+   "posted": "2026-10-14",
+   "posting_id": "greenhouse:openspace:8033548003",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"OpenSpace published a \\\"Deal Desk Manager\\\" posting and a \\\"Deal Desk Analyst\\\" posting on 2026-11-16, which is 4 days before the read date [1][2].\"}, {\"text\": \"The \\\"Deal Desk Analyst\\\" posting says experience creating quotes in \\\"Salesforce CPQ or comparable system\\\" is \\\"strongly preferred\\\" [4].\"}, {\"text\": \"The \\\"Sales Operations Manager\\\" posting from 2026-08-21 asks the hire to \\\"inspect pipeline\\\" and \\\"drive forecast accuracy\\\" [3].\"}], \"priority\": {\"text\": \"OpenSpace's likely priority is deal desk work in Salesforce and a \\\"CPQ/order-form workflow\\\" and sales operations work to \\\"support the forecasting cadence\\\" and drive \\\"opportunity hygiene\\\" [3][6].\"}, \"questions\": [\"How will the work be split between the \\\"Deal Desk Manager\\\" and the \\\"Deal Desk Analyst\\\" once both are hired?\", \"What does the forecasting cadence with sales leaders look like today?\", \"How do quotes and order forms move from Salesforce into contracting today?\"], \"unknowns\": [\"Size of the sales team\", \"Which regions the deal desk will support\", \"Who owns Salesforce administration today\", \"Whether the \\\"Sales Operations Manager\\\" role is still open\"], \"first_touch\": {\"subject\": \"Your new deal desk roles\", \"body\": \"Hi {first_name},\\n\\nI saw OpenSpace posted a \\\"Deal Desk Manager\\\" role and a \\\"Deal Desk Analyst\\\" role in November. The \\\"Deal Desk Analyst\\\" posting looks for someone who knows how to \\\"work in Salesforce and a CPQ/order-form workflow\\\" already. I also noticed the \\\"Sales Operations Manager\\\" posting from August talks about the \\\"forecasting cadence\\\" and \\\"opportunity hygiene\\\".\\n\\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\\n\\nWho will the new deal desk hires report to?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 6]}}",
+   "meta": {
+    "ms": 25344,
+    "input_tokens": 2,
+    "output_tokens": 2624,
+    "cache_write_tokens": 7079,
+    "cache_read_tokens": 0,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.10912
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16, which is 4 days before the read date [1][2]."
+     },
+     {
+      "text": "The \"Deal Desk Analyst\" posting says experience creating quotes in \"Salesforce CPQ or comparable system\" is \"strongly preferred\" [4]."
+     },
+     {
+      "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"inspect pipeline\" and \"drive forecast accuracy\" [3]."
+     }
+    ],
+    "priority": {
+     "text": "OpenSpace's likely priority is deal desk work in Salesforce and a \"CPQ/order-form workflow\" and sales operations work to \"support the forecasting cadence\" and drive \"opportunity hygiene\" [3][6]."
+    },
+    "questions": [
+     "How will the work be split between the \"Deal Desk Manager\" and the \"Deal Desk Analyst\" once both are hired?",
+     "What does the forecasting cadence with sales leaders look like today?",
+     "How do quotes and order forms move from Salesforce into contracting today?"
+    ],
+    "unknowns": [
+     "Size of the sales team",
+     "Which regions the deal desk will support",
+     "Who owns Salesforce administration today",
+     "Whether the \"Sales Operations Manager\" role is still open"
+    ],
+    "first_touch": {
+     "subject": "Your new deal desk roles",
+     "body": "Hi {first_name},\n\nI saw OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The \"Deal Desk Analyst\" posting looks for someone who knows how to \"work in Salesforce and a CPQ/order-form workflow\" already. I also noticed the \"Sales Operations Manager\" posting from August talks about the \"forecasting cadence\" and \"opportunity hygiene\".\n\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\n\nWho will the new deal desk hires report to?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16, which is 4 days before the read date [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": [
+       "writing: a pause comma before \"which\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Deal Desk Analyst\" posting says experience creating quotes in \"Salesforce CPQ or comparable system\" is \"strongly preferred\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"inspect pipeline\" and \"drive forecast accuracy\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "OpenSpace's likely priority is deal desk work in Salesforce and a \"CPQ/order-form workflow\" and sales operations work to \"support the forecasting cadence\" and drive \"opportunity hygiene\" [3][6].",
+      "cites": [
+       3,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How will the work be split between the \"Deal Desk Manager\" and the \"Deal Desk Analyst\" once both are hired?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the forecasting cadence with sales leaders look like today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do quotes and order forms move from Salesforce into contracting today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which regions the deal desk will support",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns Salesforce administration today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the \"Sales Operations Manager\" role is still open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The \"Deal Desk Analyst\" posting looks for someone who knows how to \"work in Salesforce and a CPQ/order-form workflow\" already. I also noticed the \"Sales Operations Manager\" posting from August talks about the \"forecasting cadence\" and \"opportunity hygiene\".\n\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\n\nWho will the new deal desk hires report to?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"OpenSpace published a \\\"Deal Desk Manager\\\" posting and a \\\"Deal Desk Analyst\\\" posting on 2026-11-16 [1][2].\"}, {\"text\": \"The \\\"Deal Desk Analyst\\\" posting says experience creating quotes in \\\"Salesforce CPQ or comparable system\\\" is \\\"strongly preferred\\\" [4].\"}, {\"text\": \"The \\\"Sales Operations Manager\\\" posting from 2026-08-21 asks the hire to \\\"inspect pipeline\\\" and \\\"drive forecast accuracy\\\" [3].\"}], \"priority\": {\"text\": \"OpenSpace's likely priority is deal desk work in Salesforce and a \\\"CPQ/order-form workflow\\\" and sales operations work to \\\"support the forecasting cadence\\\" and drive \\\"opportunity hygiene\\\" [3][6].\"}, \"questions\": [\"How will the work be split between the \\\"Deal Desk Manager\\\" and the \\\"Deal Desk Analyst\\\" once both are hired?\", \"What does the \\\"forecasting cadence\\\" with sales leaders look like today?\", \"How do quotes and order forms move from Salesforce into contracting today?\"], \"unknowns\": [\"Size of the sales team\", \"Which regions the deal desk will support\", \"Who owns Salesforce administration today\", \"Whether the \\\"Sales Operations Manager\\\" role is still open\"], \"first_touch\": {\"subject\": \"Your new deal desk roles\", \"body\": \"Hi {first_name},\\n\\nI saw OpenSpace posted a \\\"Deal Desk Manager\\\" role and a \\\"Deal Desk Analyst\\\" role in November. The \\\"Deal Desk Analyst\\\" posting looks for someone who already knows how to \\\"work in Salesforce and a CPQ/order-form workflow\\\" for the role. I also noticed the \\\"Sales Operations Manager\\\" posting from August talks about the \\\"forecasting cadence\\\" and \\\"opportunity hygiene\\\".\\n\\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\\n\\nWho will the new deal desk hires report to?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 6]}}",
+   "meta": {
+    "ms": 12129,
+    "input_tokens": 2,
+    "output_tokens": 1286,
+    "cache_write_tokens": 6447,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0776132
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2]."
+     },
+     {
+      "text": "The \"Deal Desk Analyst\" posting says experience creating quotes in \"Salesforce CPQ or comparable system\" is \"strongly preferred\" [4]."
+     },
+     {
+      "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"inspect pipeline\" and \"drive forecast accuracy\" [3]."
+     }
+    ],
+    "priority": {
+     "text": "OpenSpace's likely priority is deal desk work in Salesforce and a \"CPQ/order-form workflow\" and sales operations work to \"support the forecasting cadence\" and drive \"opportunity hygiene\" [3][6]."
+    },
+    "questions": [
+     "How will the work be split between the \"Deal Desk Manager\" and the \"Deal Desk Analyst\" once both are hired?",
+     "What does the \"forecasting cadence\" with sales leaders look like today?",
+     "How do quotes and order forms move from Salesforce into contracting today?"
+    ],
+    "unknowns": [
+     "Size of the sales team",
+     "Which regions the deal desk will support",
+     "Who owns Salesforce administration today",
+     "Whether the \"Sales Operations Manager\" role is still open"
+    ],
+    "first_touch": {
+     "subject": "Your new deal desk roles",
+     "body": "Hi {first_name},\n\nI saw OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The \"Deal Desk Analyst\" posting looks for someone who already knows how to \"work in Salesforce and a CPQ/order-form workflow\" for the role. I also noticed the \"Sales Operations Manager\" posting from August talks about the \"forecasting cadence\" and \"opportunity hygiene\".\n\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\n\nWho will the new deal desk hires report to?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Deal Desk Analyst\" posting says experience creating quotes in \"Salesforce CPQ or comparable system\" is \"strongly preferred\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"inspect pipeline\" and \"drive forecast accuracy\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "OpenSpace's likely priority is deal desk work in Salesforce and a \"CPQ/order-form workflow\" and sales operations work to \"support the forecasting cadence\" and drive \"opportunity hygiene\" [3][6].",
+      "cites": [
+       3,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How will the work be split between the \"Deal Desk Manager\" and the \"Deal Desk Analyst\" once both are hired?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the \"forecasting cadence\" with sales leaders look like today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do quotes and order forms move from Salesforce into contracting today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which regions the deal desk will support",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns Salesforce administration today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the \"Sales Operations Manager\" role is still open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The \"Deal Desk Analyst\" posting looks for someone who already knows how to \"work in Salesforce and a CPQ/order-form workflow\" for the role. I also noticed the \"Sales Operations Manager\" posting from August talks about the \"forecasting cadence\" and \"opportunity hygiene\".\n\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\n\nWho will the new deal desk hires report to?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2]."
+    },
+    {
+     "text": "The \"Deal Desk Analyst\" posting says experience creating quotes in \"Salesforce CPQ or comparable system\" is \"strongly preferred\" [4]."
+    },
+    {
+     "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"inspect pipeline\" and \"drive forecast accuracy\" [3]."
+    }
+   ],
+   "priority": {
+    "text": "OpenSpace's likely priority is deal desk work in Salesforce and a \"CPQ/order-form workflow\" and sales operations work to \"support the forecasting cadence\" and drive \"opportunity hygiene\" [3][6]."
+   },
+   "questions": [
+    "How will the work be split between the \"Deal Desk Manager\" and the \"Deal Desk Analyst\" once both are hired?",
+    "What does the \"forecasting cadence\" with sales leaders look like today?",
+    "How do quotes and order forms move from Salesforce into contracting today?"
+   ],
+   "unknowns": [
+    "Size of the sales team",
+    "Which regions the deal desk will support",
+    "Who owns Salesforce administration today",
+    "Whether the \"Sales Operations Manager\" role is still open"
+   ],
+   "first_touch": {
+    "subject": "Your new deal desk roles",
+    "body": "Hi {first_name},\n\nI saw OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The \"Deal Desk Analyst\" posting looks for someone who already knows how to \"work in Salesforce and a CPQ/order-form workflow\" for the role. I also noticed the \"Sales Operations Manager\" posting from August talks about the \"forecasting cadence\" and \"opportunity hygiene\".\n\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\n\nWho will the new deal desk hires report to?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "OpenSpace published a \"Deal Desk Manager\" posting and a \"Deal Desk Analyst\" posting on 2026-11-16 [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Deal Desk Analyst\" posting says experience creating quotes in \"Salesforce CPQ or comparable system\" is \"strongly preferred\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Sales Operations Manager\" posting from 2026-08-21 asks the hire to \"inspect pipeline\" and \"drive forecast accuracy\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "OpenSpace's likely priority is deal desk work in Salesforce and a \"CPQ/order-form workflow\" and sales operations work to \"support the forecasting cadence\" and drive \"opportunity hygiene\" [3][6].",
+     "cites": [
+      3,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How will the work be split between the \"Deal Desk Manager\" and the \"Deal Desk Analyst\" once both are hired?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does the \"forecasting cadence\" with sales leaders look like today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do quotes and order forms move from Salesforce into contracting today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which regions the deal desk will support",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns Salesforce administration today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the \"Sales Operations Manager\" role is still open",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw OpenSpace posted a \"Deal Desk Manager\" role and a \"Deal Desk Analyst\" role in November. The \"Deal Desk Analyst\" posting looks for someone who already knows how to \"work in Salesforce and a CPQ/order-form workflow\" for the role. I also noticed the \"Sales Operations Manager\" posting from August talks about the \"forecasting cadence\" and \"opportunity hygiene\".\n\nWe work with teams on CRM cleanup, pipeline reporting, and forecasting.\n\nWho will the new deal desk hires report to?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.186733,
+ "ms": 37473
+}

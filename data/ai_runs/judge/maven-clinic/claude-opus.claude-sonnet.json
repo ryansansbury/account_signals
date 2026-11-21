@@ -1,0 +1,61 @@
+{
+ "account": "Maven Clinic",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "f2bdf63f59710230",
+ "input_hash": "4f3b46a10cade1ed",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:04:37+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 4035,
+    "input_tokens": 2,
+    "output_tokens": 434,
+    "cache_write_tokens": 25163,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.10507630000000001
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [1] gives the title \"Director, GTM Operations & Architecture\" and publication date 2026-11-05, matching the sentence."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [2] is titled \"VP of Business Operations\", dated 2026-09-09, and its full text contains the quoted phrase \"forecast enrollment and revenue with confidence\"."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [4] is titled \"Director, Marketing Operations\", dated 2026-08-31, and contains the quoted dashboards sentence verbatim."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "The two quotes are accurate, but they come from different roles (enrollment forecasting for a VP; a marketing analytics stack), so calling revenue forecasting and reporting Maven's likely priority generalizes beyond what two postings show."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The role title with a November date, the September VP posting with its forecasting quote, and the August marketing ops posting with Salesforce and Looker in its analytics stack all match sources [1], [2] and [4]."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.105076,
+ "ms": 4035
+}

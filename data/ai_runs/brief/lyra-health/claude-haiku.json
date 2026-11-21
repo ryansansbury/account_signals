@@ -1,0 +1,515 @@
+{
+ "account": "Lyra Health",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "329c1380684db07f",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:53:17+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Lyra Health had 453 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 87% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "saa7cbc7749",
+   "title": "GTM Strategy and Operations Manager",
+   "excerpt": "GTM Strategy and Operations Manager",
+   "posted": "2026-11-13",
+   "posting_id": "lever:lyrahealth:6c499eef-4b2a-474e-b848-abeed767ded2",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sac08e9761c",
+   "title": "GTM Strategy and Operations Manager",
+   "excerpt": "Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.",
+   "posted": "2026-11-13",
+   "posting_id": "lever:lyrahealth:6c499eef-4b2a-474e-b848-abeed767ded2",
+   "family": "crm_move"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s47e68f3d8a",
+   "title": "Salesforce Developer",
+   "excerpt": "Salesforce Developer",
+   "posted": "2026-04-02",
+   "posting_id": "lever:lyrahealth:2263d6d2-3269-45b0-b18e-456db9bf4e60",
+   "family": "crm"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s562b45e61f",
+   "title": "Analytics Engineer",
+   "excerpt": "Analytics Engineer",
+   "posted": "2026-04-23",
+   "posting_id": "lever:lyrahealth:d976452a-4242-41a7-b401-490ccc64a05e",
+   "family": "analytics"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s023378f175",
+   "title": "Sr. Planning & Operations Associate (Employer Solutions)",
+   "excerpt": "Familiarity with leading sales and marketing tools and tech stack (including Salesforce, Outreach, Zoominfo, etc).",
+   "posted": "2026-09-15",
+   "posting_id": "lever:lyrahealth:e292ef0b-d056-4319-a865-0a42df815899",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s0974ca762c",
+   "title": "Global Pricing Operations Senior Associate",
+   "excerpt": "Experience with forecasting, data analysis, and developing financial models to support business decisions, with advanced proficiency in Excel/Google Sheets.",
+   "posted": "2026-09-04",
+   "posting_id": "lever:lyrahealth:2030b0c1-5896-4347-b622-050c28aba5fd",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s0ac8693318",
+   "title": "Sales Director - Mid-Market (South East)",
+   "excerpt": "Business Acumen: Strong pipeline management discipline and forecasting accuracy within Salesforce.",
+   "posted": "2026-11-21",
+   "posting_id": "lever:lyrahealth:401b3fff-8025-4884-8b64-6e25e3560d2e",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s2253e7f254",
+   "title": "Commercial Manager - Europe",
+   "excerpt": "Commercial Manager - Europe",
+   "posted": "2026-11-16",
+   "posting_id": "lever:lyrahealth:698e0cf4-9472-4f10-beb0-fb5549409709",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s899b9e0f38",
+   "title": "Channel Partnerships Manager",
+   "excerpt": "Channel Partnerships Manager",
+   "posted": "2026-11-03",
+   "posting_id": "lever:lyrahealth:818b2687-5d99-44f1-9d81-8bae8dc65c53",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "saf59c28859",
+   "title": "Engagement Marketing Lead",
+   "excerpt": "Engagement Marketing Lead",
+   "posted": "2026-11-03",
+   "posting_id": "lever:lyrahealth:87026dd3-68d6-4ad7-9857-5f13d9f6294a",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2].\"}, {\"text\": \"Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2].\"}, {\"text\": \"Four postings went up in the last 30 days and carry the titles 'GTM Strategy and Operations Manager', 'Commercial Manager - Europe', 'Channel Partnerships Manager', and 'Engagement Marketing Lead' [1][8][9][10].\"}], \"priority\": {\"text\": \"The likely priority is revenue work on pipeline tracking in the CRM, and the 'GTM Strategy and Operations Manager' posting describes it as 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2].\"}, \"questions\": [\"Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?\", \"How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?\", \"What does pipeline tracking look like in the CRM today?\"], \"unknowns\": [\"Whether open roles are new headcount or backfills\", \"Who owns the CRM and the current Salesforce setup\", \"Why the 'Sales Director - Mid-Market (South East)' posting is dated after the read date\"], \"first_touch\": {\"subject\": \"Questions about CRM work at Lyra Health\", \"body\": \"Hi {first_name},\\n\\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It mentions working with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility. Your team also posted a 'Salesforce Developer' role in April.\\n\\nWho leads that CRM work on your side today?\\n\\n{sender_name}\", \"cites\": [1, 2, 3]}}",
+   "meta": {
+    "ms": 30104,
+    "input_tokens": 2,
+    "output_tokens": 7019,
+    "cache_write_tokens": 5611,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0046473600000000006
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2]."
+     },
+     {
+      "text": "Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2]."
+     },
+     {
+      "text": "Four postings went up in the last 30 days and carry the titles 'GTM Strategy and Operations Manager', 'Commercial Manager - Europe', 'Channel Partnerships Manager', and 'Engagement Marketing Lead' [1][8][9][10]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work on pipeline tracking in the CRM, and the 'GTM Strategy and Operations Manager' posting describes it as 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2]."
+    },
+    "questions": [
+     "Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?",
+     "How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?",
+     "What does pipeline tracking look like in the CRM today?"
+    ],
+    "unknowns": [
+     "Whether open roles are new headcount or backfills",
+     "Who owns the CRM and the current Salesforce setup",
+     "Why the 'Sales Director - Mid-Market (South East)' posting is dated after the read date"
+    ],
+    "first_touch": {
+     "subject": "Questions about CRM work at Lyra Health",
+     "body": "Hi {first_name},\n\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It mentions working with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility. Your team also posted a 'Salesforce Developer' role in April.\n\nWho leads that CRM work on your side today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Four postings went up in the last 30 days and carry the titles 'GTM Strategy and Operations Manager', 'Commercial Manager - Europe', 'Channel Partnerships Manager', and 'Engagement Marketing Lead' [1][8][9][10].",
+      "cites": [
+       1,
+       8,
+       9,
+       10
+      ],
+      "problems": [
+       "writing: dash"
+      ]
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work on pipeline tracking in the CRM, and the 'GTM Strategy and Operations Manager' posting describes it as 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does pipeline tracking look like in the CRM today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether open roles are new headcount or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the CRM and the current Salesforce setup",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Why the 'Sales Director - Mid-Market (South East)' posting is dated after the read date",
+      "cites": [],
+      "problems": [
+       "writing: dash"
+      ]
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It mentions working with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility. Your team also posted a 'Salesforce Developer' role in April.\n\nWho leads that CRM work on your side today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2].\"}, {\"text\": \"Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2].\"}, {\"text\": \"Four postings went up in the last 30 days [1][8][9][10]. Two of them carry the titles 'Channel Partnerships Manager' and 'Engagement Marketing Lead' [9][10].\"}], \"priority\": {\"text\": \"The likely priority is revenue work in the CRM, and the 'GTM Strategy and Operations Manager' posting describes 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2].\"}, \"questions\": [\"Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?\", \"How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?\", \"What does pipeline tracking look like in the CRM today?\"], \"unknowns\": [\"Whether open roles are new headcount or backfills\", \"Who owns the CRM and the current Salesforce setup\"], \"first_touch\": {\"subject\": \"Questions about CRM work at Lyra Health\", \"body\": \"Hi {first_name},\\n\\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It asks the role to \\\"Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility\\\". Lyra Health also posted a 'Salesforce Developer' role in April.\\n\\nWho leads that CRM work on your side today?\\n\\n{sender_name}\", \"cites\": [1, 2, 3]}}",
+   "meta": {
+    "ms": 25629,
+    "input_tokens": 2,
+    "output_tokens": 6314,
+    "cache_write_tokens": 6473,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.004467260000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2]."
+     },
+     {
+      "text": "Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2]."
+     },
+     {
+      "text": "Four postings went up in the last 30 days [1][8][9][10]. Two of them carry the titles 'Channel Partnerships Manager' and 'Engagement Marketing Lead' [9][10]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work in the CRM, and the 'GTM Strategy and Operations Manager' posting describes 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2]."
+    },
+    "questions": [
+     "Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?",
+     "How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?",
+     "What does pipeline tracking look like in the CRM today?"
+    ],
+    "unknowns": [
+     "Whether open roles are new headcount or backfills",
+     "Who owns the CRM and the current Salesforce setup"
+    ],
+    "first_touch": {
+     "subject": "Questions about CRM work at Lyra Health",
+     "body": "Hi {first_name},\n\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It asks the role to \"Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility\". Lyra Health also posted a 'Salesforce Developer' role in April.\n\nWho leads that CRM work on your side today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Four postings went up in the last 30 days [1][8][9][10]. Two of them carry the titles 'Channel Partnerships Manager' and 'Engagement Marketing Lead' [9][10].",
+      "cites": [
+       1,
+       8,
+       9,
+       10,
+       9,
+       10
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work in the CRM, and the 'GTM Strategy and Operations Manager' posting describes 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does pipeline tracking look like in the CRM today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether open roles are new headcount or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the CRM and the current Salesforce setup",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It asks the role to \"Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility\". Lyra Health also posted a 'Salesforce Developer' role in April.\n\nWho leads that CRM work on your side today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2]."
+    },
+    {
+     "text": "Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2]."
+    },
+    {
+     "text": "Four postings went up in the last 30 days [1][8][9][10]. Two of them carry the titles 'Channel Partnerships Manager' and 'Engagement Marketing Lead' [9][10]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work in the CRM, and the 'GTM Strategy and Operations Manager' posting describes 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2]."
+   },
+   "questions": [
+    "Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?",
+    "How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?",
+    "What does pipeline tracking look like in the CRM today?"
+   ],
+   "unknowns": [
+    "Whether open roles are new headcount or backfills",
+    "Who owns the CRM and the current Salesforce setup"
+   ],
+   "first_touch": {
+    "subject": "Questions about CRM work at Lyra Health",
+    "body": "Hi {first_name},\n\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It asks the role to \"Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility\". Lyra Health also posted a 'Salesforce Developer' role in April.\n\nWho leads that CRM work on your side today?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The 'GTM Strategy and Operations Manager' posting went up on 2026-11-13 and is 7 days old on the read date [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Its quote asks the role to 'Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Four postings went up in the last 30 days [1][8][9][10]. Two of them carry the titles 'Channel Partnerships Manager' and 'Engagement Marketing Lead' [9][10].",
+     "cites": [
+      1,
+      8,
+      9,
+      10,
+      9,
+      10
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work in the CRM, and the 'GTM Strategy and Operations Manager' posting describes 'CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility' [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team will own the CRM changes that the 'GTM Strategy and Operations Manager' role is meant to support?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How is the work in the 'Salesforce Developer' role split from the work in the 'Analytics Engineer' role today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does pipeline tracking look like in the CRM today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether open roles are new headcount or backfills",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns the CRM and the current Salesforce setup",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed the 'GTM Strategy and Operations Manager' posting went up in November. It asks the role to \"Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility\". Lyra Health also posted a 'Salesforce Developer' role in April.\n\nWho leads that CRM work on your side today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.009115,
+ "ms": 55733
+}

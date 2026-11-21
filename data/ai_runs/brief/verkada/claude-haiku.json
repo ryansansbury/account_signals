@@ -1,0 +1,401 @@
+{
+ "account": "Verkada",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "dfe096ae6a3bc0cd",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:49:49+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Verkada had 335 open roles on its public job board on 2026-11-20. The US held 12% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s5f9195fd42",
+   "title": "Sales Strategy and Operations | Channel Programs Specialist",
+   "excerpt": "Sales Strategy and Operations | Channel Programs Specialist",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:verkada:5291267007",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s8828db7b69",
+   "title": "Executive Assistant to VP of Sales",
+   "excerpt": "Executive Assistant to VP of Sales",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:verkada:5294009007",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s4bd992a4b8",
+   "title": "MBA Full-Time Hire - Sales Strategy & Operations",
+   "excerpt": "MBA Full-Time Hire - Sales Strategy & Operations",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:verkada:5275057007",
+   "family": "salesops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sbd2e844cff",
+   "title": "Regional Sales Director, Enterprise - Muni",
+   "excerpt": "Market Penetration: Guide representatives in identifying and securing new opportunities in greenfield markets, ensuring the achievement of quarterly quotas with 1-3 qualified net-new logos per quarter.",
+   "posted": "2026-11-04",
+   "posting_id": "greenhouse:verkada:5281762007",
+   "family": "territory"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sac63d92fa6",
+   "title": "Federal Enterprise Account Executive (Veteran Affairs)",
+   "excerpt": "Meet or exceed individual quotas by penetrating greenfield accounts and securing at least 1 qualified net new logo per quarter.",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:verkada:5259963007",
+   "family": "territory"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s0d03ab4ce7",
+   "title": "Director of Business Systems Product Management",
+   "excerpt": "A partner order has to land cleanly in NetSuite.",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:verkada:5238205007",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s14655d5337",
+   "title": "Channel Sales Manager, Ohio Valley",
+   "excerpt": "Proficiency in Salesforce, Excel, and business intelligence tools.",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:verkada:5106588007",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s29cb18ea73",
+   "title": "Data Trust Associate, Global Revenue Informatics",
+   "excerpt": "Data Pipeline Tooling: Hands-on experience with dbt or Apache Airflow is a significant plus.",
+   "posted": "2026-03-02",
+   "posting_id": "greenhouse:verkada:5064464007",
+   "family": "stack"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sd8253498dd",
+   "title": "Enterprise Account Executive, Brazil",
+   "excerpt": "Enterprise Account Executive, Brazil",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:verkada:5291122007",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s60d7b4660d",
+   "title": "Enterprise Account Executive, Public Sector South - UK",
+   "excerpt": "Enterprise Account Executive, Public Sector South - UK",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:verkada:5300387007",
+   "family": "pace"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "sb2b0247047",
+   "title": "Enterprise Account Executive, Public Sector North - UK",
+   "excerpt": "Enterprise Account Executive, Public Sector North - UK",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:verkada:5297849007",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Verkada had 335 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Three postings titled \\\"Enterprise Account Executive\\\" went up on 2026-11-19 and 2026-11-20 [9][10][11].\"}, {\"text\": \"The postings \\\"Sales Strategy and Operations | Channel Programs Specialist\\\" [1] and \\\"MBA Full-Time Hire - Sales Strategy & Operations\\\" [3] both went up in the last 30 days.\"}], \"priority\": {\"text\": \"The likely priority is the enterprise selling work that the postings describe through \\\"quarterly quotas\\\" and \\\"individual quotas\\\" [4][5] and through \\\"Enterprise Account Executive\\\" roles [9][10][11].\"}, \"questions\": [\"How does your team set quarterly quotas for account executives in new territories?\", \"Which systems does the sales team use to track deals today?\", \"How will the public sector hires divide up their territories once they start?\"], \"unknowns\": [\"Whether these roles are new headcount or replacements\", \"Which sales leaders own each open role\", \"How many open roles sit in sales\"], \"first_touch\": {\"subject\": \"Enterprise and public sector sales hiring\", \"body\": \"Hi {first_name},\\n\\nVerkada has posted several sales roles lately. The \\\"Enterprise Account Executive\\\" title appears for Brazil and for \\\"Public Sector South\\\" and \\\"Public Sector North\\\" in the UK. All of them were posted in November. A \\\"Federal Enterprise Account Executive (Veteran Affairs)\\\" role posted in October asks for at least 1 qualified net new logo per quarter, and a \\\"Regional Sales Director\\\" role posted in November asks for 1-3 qualified net-new logos per quarter.\\n\\nIs quota planning for these new territories handled by one team today?\\n\\n{sender_name}\", \"cites\": [4, 5, 9, 10, 11]}}",
+   "meta": {
+    "ms": 38792,
+    "input_tokens": 2,
+    "output_tokens": 8871,
+    "cache_write_tokens": 5691,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00558936
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Three postings titled \"Enterprise Account Executive\" went up on 2026-11-19 and 2026-11-20 [9][10][11]."
+     },
+     {
+      "text": "The postings \"Sales Strategy and Operations | Channel Programs Specialist\" [1] and \"MBA Full-Time Hire - Sales Strategy & Operations\" [3] both went up in the last 30 days."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the enterprise selling work that the postings describe through \"quarterly quotas\" and \"individual quotas\" [4][5] and through \"Enterprise Account Executive\" roles [9][10][11]."
+    },
+    "questions": [
+     "How does your team set quarterly quotas for account executives in new territories?",
+     "Which systems does the sales team use to track deals today?",
+     "How will the public sector hires divide up their territories once they start?"
+    ],
+    "unknowns": [
+     "Whether these roles are new headcount or replacements",
+     "Which sales leaders own each open role",
+     "How many open roles sit in sales"
+    ],
+    "first_touch": {
+     "subject": "Enterprise and public sector sales hiring",
+     "body": "Hi {first_name},\n\nVerkada has posted several sales roles lately. The \"Enterprise Account Executive\" title appears for Brazil and for \"Public Sector South\" and \"Public Sector North\" in the UK. All of them were posted in November. A \"Federal Enterprise Account Executive (Veteran Affairs)\" role posted in October asks for at least 1 qualified net new logo per quarter, and a \"Regional Sales Director\" role posted in November asks for 1-3 qualified net-new logos per quarter.\n\nIs quota planning for these new territories handled by one team today?\n\n{sender_name}",
+     "cites": [
+      4,
+      5,
+      9,
+      10,
+      11
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Three postings titled \"Enterprise Account Executive\" went up on 2026-11-19 and 2026-11-20 [9][10][11].",
+      "cites": [
+       9,
+       10,
+       11
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The postings \"Sales Strategy and Operations | Channel Programs Specialist\" [1] and \"MBA Full-Time Hire - Sales Strategy & Operations\" [3] both went up in the last 30 days.",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the enterprise selling work that the postings describe through \"quarterly quotas\" and \"individual quotas\" [4][5] and through \"Enterprise Account Executive\" roles [9][10][11].",
+      "cites": [
+       4,
+       5,
+       9,
+       10,
+       11
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does your team set quarterly quotas for account executives in new territories?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems does the sales team use to track deals today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How will the public sector hires divide up their territories once they start?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether these roles are new headcount or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which sales leaders own each open role",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How many open roles sit in sales",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nVerkada has posted several sales roles lately. The \"Enterprise Account Executive\" title appears for Brazil and for \"Public Sector South\" and \"Public Sector North\" in the UK. All of them were posted in November. A \"Federal Enterprise Account Executive (Veteran Affairs)\" role posted in October asks for at least 1 qualified net new logo per quarter, and a \"Regional Sales Director\" role posted in November asks for 1-3 qualified net-new logos per quarter.\n\nIs quota planning for these new territories handled by one team today?\n\n{sender_name}",
+      "cites": [
+       4,
+       5,
+       9,
+       10,
+       11
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "Three postings titled \"Enterprise Account Executive\" went up on 2026-11-19 and 2026-11-20 [9][10][11]."
+    },
+    {
+     "text": "The postings \"Sales Strategy and Operations | Channel Programs Specialist\" [1] and \"MBA Full-Time Hire - Sales Strategy & Operations\" [3] both went up in the last 30 days."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the enterprise selling work that the postings describe through \"quarterly quotas\" and \"individual quotas\" [4][5] and through \"Enterprise Account Executive\" roles [9][10][11]."
+   },
+   "questions": [
+    "How does your team set quarterly quotas for account executives in new territories?",
+    "Which systems does the sales team use to track deals today?",
+    "How will the public sector hires divide up their territories once they start?"
+   ],
+   "unknowns": [
+    "Whether these roles are new headcount or replacements",
+    "Which sales leaders own each open role",
+    "How many open roles sit in sales"
+   ],
+   "first_touch": {
+    "subject": "Enterprise and public sector sales hiring",
+    "body": "Hi {first_name},\n\nVerkada has posted several sales roles lately. The \"Enterprise Account Executive\" title appears for Brazil and for \"Public Sector South\" and \"Public Sector North\" in the UK. All of them were posted in November. A \"Federal Enterprise Account Executive (Veteran Affairs)\" role posted in October asks for at least 1 qualified net new logo per quarter, and a \"Regional Sales Director\" role posted in November asks for 1-3 qualified net-new logos per quarter.\n\nIs quota planning for these new territories handled by one team today?\n\n{sender_name}",
+    "cites": [
+     4,
+     5,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Verkada had 335 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Three postings titled \"Enterprise Account Executive\" went up on 2026-11-19 and 2026-11-20 [9][10][11].",
+     "cites": [
+      9,
+      10,
+      11
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The postings \"Sales Strategy and Operations | Channel Programs Specialist\" [1] and \"MBA Full-Time Hire - Sales Strategy & Operations\" [3] both went up in the last 30 days.",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the enterprise selling work that the postings describe through \"quarterly quotas\" and \"individual quotas\" [4][5] and through \"Enterprise Account Executive\" roles [9][10][11].",
+     "cites": [
+      4,
+      5,
+      9,
+      10,
+      11
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does your team set quarterly quotas for account executives in new territories?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which systems does the sales team use to track deals today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How will the public sector hires divide up their territories once they start?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether these roles are new headcount or replacements",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which sales leaders own each open role",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How many open roles sit in sales",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nVerkada has posted several sales roles lately. The \"Enterprise Account Executive\" title appears for Brazil and for \"Public Sector South\" and \"Public Sector North\" in the UK. All of them were posted in November. A \"Federal Enterprise Account Executive (Veteran Affairs)\" role posted in October asks for at least 1 qualified net new logo per quarter, and a \"Regional Sales Director\" role posted in November asks for 1-3 qualified net-new logos per quarter.\n\nIs quota planning for these new territories handled by one team today?\n\n{sender_name}",
+     "cites": [
+      4,
+      5,
+      9,
+      10,
+      11
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.005589,
+ "ms": 38792
+}

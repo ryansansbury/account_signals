@@ -1,0 +1,369 @@
+{
+ "account": "Rubrik",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "37561125f970b788",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:54:50+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Rubrik had 184 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Palo Alto, CA. The US held 47% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s4d654af10e",
+   "title": "Sales Operations - Senior Analyst (Japan)",
+   "excerpt": "Sales Operations - Senior Analyst (Japan)",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:rubrik:8324126",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sd6f8856115",
+   "title": "Sales Operations - Senior Analyst (Japan)",
+   "excerpt": "Operational Excellence: Own Japan’s “Rhythm of the Business,” including the forecast process, Quarterly Business Reviews (QBRs) and pipeline hygiene, to ensure high predictability.",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:rubrik:8324126",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sd0bbdf449c",
+   "title": "Finance Manager, GTM",
+   "excerpt": "They will manage Headcount, T&E expense, and support key deliverables like annual planning, bookings forecast, BvA analysis, monthly/quarterly financial reporting and ad hoc analysis of the business.",
+   "posted": "2026-10-13",
+   "posting_id": "greenhouse:rubrik:8273254",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s00682777c5",
+   "title": "Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships",
+   "excerpt": "Working knowledge of Coupa and NetSuite preferred.",
+   "posted": "2026-09-22",
+   "posting_id": "greenhouse:rubrik:8114559",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s03ec8fe5b7",
+   "title": "Territory Account Executive",
+   "excerpt": "Familiarity with Salesforce for pipeline management and forecasting..",
+   "posted": "2026-10-14",
+   "posting_id": "greenhouse:rubrik:8158839",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s091dfeb26f",
+   "title": "Staff Product Manager, IT - GTM",
+   "excerpt": "Strong understanding of the B2B sales process, seller pain points, and the technology ecosystem that supports them (e.g., Salesforce, Clari, CPQ).",
+   "posted": "2026-05-04",
+   "posting_id": "greenhouse:rubrik:7885055",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s3494c77de1",
+   "title": "Sales Development Representative, UK",
+   "excerpt": "Sales Development Representative, UK",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:rubrik:8395608",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sc62dbc294b",
+   "title": "Sales Specialist - Cloud",
+   "excerpt": "Sales Specialist - Cloud",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:rubrik:8385230",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s0ace09de66",
+   "title": "Regional Director Specialist Sales, EMEA (Identity)",
+   "excerpt": "Regional Director Specialist Sales, EMEA (Identity)",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:rubrik:8391704",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Four postings went up in the last 30 days [1][7][8][9].\"}, {\"text\": \"The Japan sales operations posting from 2026-11-02 names the \\\"forecast process\\\" and \\\"pipeline hygiene\\\" [2].\"}, {\"text\": \"The posting \\\"Territory Account Executive\\\" from 2026-10-14 lists \\\"Familiarity with Salesforce for pipeline management and forecasting\\\" [5].\"}], \"priority\": {\"text\": \"The likely priority is revenue work on the \\\"forecast process,\\\" \\\"pipeline hygiene,\\\" and \\\"pipeline management and forecasting\\\" [2][5].\"}, \"questions\": [\"Who runs forecasting on your sales team today?\", \"Which CRM and forecasting tools does your team use day to day?\", \"How do the UK and EMEA sales hires fit into your plan for the next two quarters?\"], \"unknowns\": [\"Who owns forecasting today\", \"Which CRM and forecasting tools the team uses\", \"Whether the recent sales hiring ties to one plan\"], \"first_touch\": {\"subject\": \"Forecasting and pipeline work on your sales team\", \"body\": \"Hi {first_name},\\n\\nI noticed your Japan sales operations role from November calls for owning the \\\"forecast process\\\" and \\\"pipeline hygiene.\\\" The \\\"Territory Account Executive\\\" role from October also lists \\\"Familiarity with Salesforce for pipeline management and forecasting.\\\"\\n\\nWho handles forecasting on your team today? I would like to hear how it runs.\\n\\n{sender_name}\", \"cites\": [1, 2, 5]}}",
+   "meta": {
+    "ms": 46359,
+    "input_tokens": 2,
+    "output_tokens": 10795,
+    "cache_write_tokens": 5662,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.006545560000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Four postings went up in the last 30 days [1][7][8][9]."
+     },
+     {
+      "text": "The Japan sales operations posting from 2026-11-02 names the \"forecast process\" and \"pipeline hygiene\" [2]."
+     },
+     {
+      "text": "The posting \"Territory Account Executive\" from 2026-10-14 lists \"Familiarity with Salesforce for pipeline management and forecasting\" [5]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work on the \"forecast process,\" \"pipeline hygiene,\" and \"pipeline management and forecasting\" [2][5]."
+    },
+    "questions": [
+     "Who runs forecasting on your sales team today?",
+     "Which CRM and forecasting tools does your team use day to day?",
+     "How do the UK and EMEA sales hires fit into your plan for the next two quarters?"
+    ],
+    "unknowns": [
+     "Who owns forecasting today",
+     "Which CRM and forecasting tools the team uses",
+     "Whether the recent sales hiring ties to one plan"
+    ],
+    "first_touch": {
+     "subject": "Forecasting and pipeline work on your sales team",
+     "body": "Hi {first_name},\n\nI noticed your Japan sales operations role from November calls for owning the \"forecast process\" and \"pipeline hygiene.\" The \"Territory Account Executive\" role from October also lists \"Familiarity with Salesforce for pipeline management and forecasting.\"\n\nWho handles forecasting on your team today? I would like to hear how it runs.\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Four postings went up in the last 30 days [1][7][8][9].",
+      "cites": [
+       1,
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The Japan sales operations posting from 2026-11-02 names the \"forecast process\" and \"pipeline hygiene\" [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The posting \"Territory Account Executive\" from 2026-10-14 lists \"Familiarity with Salesforce for pipeline management and forecasting\" [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work on the \"forecast process,\" \"pipeline hygiene,\" and \"pipeline management and forecasting\" [2][5].",
+      "cites": [
+       2,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who runs forecasting on your sales team today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which CRM and forecasting tools does your team use day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do the UK and EMEA sales hires fit into your plan for the next two quarters?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM and forecasting tools the team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the recent sales hiring ties to one plan",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed your Japan sales operations role from November calls for owning the \"forecast process\" and \"pipeline hygiene.\" The \"Territory Account Executive\" role from October also lists \"Familiarity with Salesforce for pipeline management and forecasting.\"\n\nWho handles forecasting on your team today? I would like to hear how it runs.\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Four postings went up in the last 30 days [1][7][8][9]."
+    },
+    {
+     "text": "The Japan sales operations posting from 2026-11-02 names the \"forecast process\" and \"pipeline hygiene\" [2]."
+    },
+    {
+     "text": "The posting \"Territory Account Executive\" from 2026-10-14 lists \"Familiarity with Salesforce for pipeline management and forecasting\" [5]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work on the \"forecast process,\" \"pipeline hygiene,\" and \"pipeline management and forecasting\" [2][5]."
+   },
+   "questions": [
+    "Who runs forecasting on your sales team today?",
+    "Which CRM and forecasting tools does your team use day to day?",
+    "How do the UK and EMEA sales hires fit into your plan for the next two quarters?"
+   ],
+   "unknowns": [
+    "Who owns forecasting today",
+    "Which CRM and forecasting tools the team uses",
+    "Whether the recent sales hiring ties to one plan"
+   ],
+   "first_touch": {
+    "subject": "Forecasting and pipeline work on your sales team",
+    "body": "Hi {first_name},\n\nI noticed your Japan sales operations role from November calls for owning the \"forecast process\" and \"pipeline hygiene.\" The \"Territory Account Executive\" role from October also lists \"Familiarity with Salesforce for pipeline management and forecasting.\"\n\nWho handles forecasting on your team today? I would like to hear how it runs.\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Four postings went up in the last 30 days [1][7][8][9].",
+     "cites": [
+      1,
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The Japan sales operations posting from 2026-11-02 names the \"forecast process\" and \"pipeline hygiene\" [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The posting \"Territory Account Executive\" from 2026-10-14 lists \"Familiarity with Salesforce for pipeline management and forecasting\" [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work on the \"forecast process,\" \"pipeline hygiene,\" and \"pipeline management and forecasting\" [2][5].",
+     "cites": [
+      2,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who runs forecasting on your sales team today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which CRM and forecasting tools does your team use day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do the UK and EMEA sales hires fit into your plan for the next two quarters?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM and forecasting tools the team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the recent sales hiring ties to one plan",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed your Japan sales operations role from November calls for owning the \"forecast process\" and \"pipeline hygiene.\" The \"Territory Account Executive\" role from October also lists \"Familiarity with Salesforce for pipeline management and forecasting.\"\n\nWho handles forecasting on your team today? I would like to hear how it runs.\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.006546,
+ "ms": 46359
+}

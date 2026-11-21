@@ -1,0 +1,61 @@
+{
+ "account": "OneTrust",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "5b1e68d943e31f2f",
+ "input_hash": "fe6732ca4534625a",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:14+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3584,
+    "input_tokens": 2,
+    "output_tokens": 400,
+    "cache_write_tokens": 21305,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0893043
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Salesforce Administrator posting is dated 2026-11-09 and contains the quoted phrase about Lead to Cash processes within the Salesforce ecosystem."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The Senior Principal Sales Strategy Manager posting is dated 2026-10-19 and lists sales forecasting and reporting among its duties."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Senior Revenue Analyst posting is dated 2026-10-29 per its source line."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "The Salesforce role is a Lead to Cash admin job and the forecasting duty is one item in a sales strategy role, so a CRM and forecasting priority is a stretch beyond what the postings show."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The email correctly cites the November Salesforce Administrator and October Senior Principal Sales Strategy Manager postings, and the described content (work inside Salesforce, forecasting and reporting) matches the postings."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.089304,
+ "ms": 3584
+}

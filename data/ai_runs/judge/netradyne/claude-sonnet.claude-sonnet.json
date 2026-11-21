@@ -1,0 +1,61 @@
+{
+ "account": "Netradyne",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "0e2d5680f0334a1c",
+ "input_hash": "5119c1806b0e3c88",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:35+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 5942,
+    "input_tokens": 2,
+    "output_tokens": 813,
+    "cache_write_tokens": 27387,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.11776230000000001
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The deal desk posting is dated 2026-11-09, which is 11 days before the 2026-11-20 read date."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The title and 2026-10-09 date match, and the quote appears verbatim in the posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The UK & Ireland Head of Sales posting is dated 2026-09-08 and contains the quoted forecasting and pipeline line."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The quoted phrases come from the cited postings, and the deal desk hire is a fair inference about likely priorities."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October RevOps role, the November deal desk role, and the September UK&I head of sales posting with its forecasting and pipeline line all match the cited sources."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.117762,
+ "ms": 5942
+}

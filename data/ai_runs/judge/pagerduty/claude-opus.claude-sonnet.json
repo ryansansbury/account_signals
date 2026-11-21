@@ -1,0 +1,61 @@
+{
+ "account": "PagerDuty",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "a1084e240215a4dd",
+ "input_hash": "7c4bedf0528930ef",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:27+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7693,
+    "input_tokens": 2,
+    "output_tokens": 808,
+    "cache_write_tokens": 30707,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1309923
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-10-19 date and the quoted line \"Improve forecast accuracy and pipeline health.\" all match the Director posting."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The August 2026 FP&A posting gives that title and says the hire owns the planning, forecasting and measurement of the \"sales engine\", including \"ARR and revenue forecasting\"."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The 2026-06-02 Sales Strategy and Operations Manager posting contains the quoted Excel/Google Sheets line about financial modeling and compensation plan simulations."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both quotes come from the cited postings, and reading forecasting as a likely priority is a fair inference from the Director and FP&A roles."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October Director role, the August FP&A role and both quoted phrases match the cited postings, and the forecasting framing is a reasonable inference."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.130992,
+ "ms": 7693
+}

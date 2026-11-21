@@ -1,0 +1,61 @@
+{
+ "account": "Verkada",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "dfe096ae6a3bc0cd",
+ "input_hash": "92c7a56af5107682",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:38+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3267,
+    "input_tokens": 2,
+    "output_tokens": 381,
+    "cache_write_tokens": 28545,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.11807430000000001
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [0] states 335 open roles on the public job board on 2026-11-20, which matches."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source lines give 2026-11-10 for the Channel Programs Specialist posting [1] and 2026-10-28 for the MBA Full-Time Hire posting [3], matching the titles and dates."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Posting [5] dated 2026-10-16 contains the phrase 'securing at least 1 qualified net new logo per quarter'."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Posting [5] stresses greenfield penetration and net new logos and includes the quote 'Meet or exceed individual quotas', so a priority on greenfield selling is a fair reading."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "Titles match [1] and [3], and November and October match the 2026-11-10 and 2026-10-28 dates, so the email's account claims are accurate."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.118074,
+ "ms": 3267
+}

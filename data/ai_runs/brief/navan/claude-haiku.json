@@ -1,0 +1,391 @@
+{
+ "account": "Navan",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "0838eca8147c02c3",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:49:09+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Navan had 192 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 59% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s2908351230",
+   "title": "GTM Systems Manager",
+   "excerpt": "GTM Systems Manager",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:tripactions:8381986",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "se21c0012d6",
+   "title": "Senior Deal Desk Analyst",
+   "excerpt": "Senior Deal Desk Analyst",
+   "posted": "2026-10-07",
+   "posting_id": "greenhouse:tripactions:8263272",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s3ed5aa1c44",
+   "title": "Senior Deal Desk Analyst",
+   "excerpt": "Senior Deal Desk Analyst",
+   "posted": "2026-10-06",
+   "posting_id": "greenhouse:tripactions:8239885",
+   "family": "salesops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s00e5360e56",
+   "title": "Senior Business Systems Engineer, Salesforce CPQ Developer",
+   "excerpt": "Senior Business Systems Engineer, Salesforce CPQ Developer",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:tripactions:8248395",
+   "family": "crm"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s5532c250f0",
+   "title": "Senior GTM Engineer",
+   "excerpt": "Senior GTM Engineer",
+   "posted": "2026-09-15",
+   "posting_id": "greenhouse:tripactions:8204930",
+   "family": "revops"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s01b0582dcf",
+   "title": "Proposal Analyst - EMEA",
+   "excerpt": "Technically savvy, with experience using CRM systems (e.g., Salesforce), collaboration tools (e.g., Slack), Google Suite and MS Office.",
+   "posted": "2026-08-31",
+   "posting_id": "greenhouse:tripactions:8164987",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s24fe8fe04d",
+   "title": "Commercial Account Executive",
+   "excerpt": "Oversee all sales activity within your account list and ensure accurate monthly forecasting of revenue in Salesforce.",
+   "posted": "2026-09-02",
+   "posting_id": "greenhouse:tripactions:8147457",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s3412b6c47e",
+   "title": "Workplace Operations Coordinator",
+   "excerpt": "Utilize project management tools (G-Suite, Slack, Jira) to prioritize and complete high-volume tasks with minimal supervision.",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:tripactions:8354085",
+   "family": "stack"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sdc255d462b",
+   "title": "Customer Success Manager",
+   "excerpt": "Customer Success Manager",
+   "posted": "2026-11-17",
+   "posting_id": "greenhouse:tripactions:8394195",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s48723029fb",
+   "title": "Field Marketing Manager",
+   "excerpt": "Field Marketing Manager",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:tripactions:8369942",
+   "family": "pace"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "s9b4b5218b6",
+   "title": "Field Marketing Manager",
+   "excerpt": "Field Marketing Manager",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:tripactions:8384755",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Navan posted \\\"GTM Systems Manager\\\" and \\\"Senior Deal Desk Analyst\\\" twice in the last 60 days [1][2][3].\"}, {\"text\": \"A \\\"Commercial Account Executive\\\" posting from 2026-09-02 says the role will \\\"ensure accurate monthly forecasting of revenue in Salesforce\\\" [7].\"}, {\"text\": \"The \\\"Senior GTM Engineer\\\" posting went up on 2026-09-15 [5].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work these postings describe through \\\"Senior Deal Desk Analyst\\\" roles and \\\"monthly forecasting of revenue in Salesforce\\\" [2][3][7].\"}, \"questions\": [\"Which team owns the work in the \\\"Senior Deal Desk Analyst\\\" postings?\", \"What does the \\\"GTM Systems Manager\\\" role own day to day?\", \"How does the team produce its monthly revenue forecast today?\"], \"unknowns\": [\"Team sizes and hiring budgets\", \"Which CRM and forecasting tools the team uses day to day\", \"Whether these roles are already filled\"], \"first_touch\": {\"subject\": \"Questions about Navan's deal desk and forecasting roles\", \"body\": \"Hi {first_name},\\n\\nNavan has several open roles that stood out to me. The \\\"GTM Systems Manager\\\" role went up in November, and two \\\"Senior Deal Desk Analyst\\\" postings went up in October. A \\\"Commercial Account Executive\\\" posting from September says the role will \\\"ensure accurate monthly forecasting of revenue in Salesforce.\\\"\\n\\nWhich tools does your team use to build its monthly forecast today?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 7]}}",
+   "meta": {
+    "ms": 39994,
+    "input_tokens": 2,
+    "output_tokens": 8955,
+    "cache_write_tokens": 5570,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00560716
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Navan posted \"GTM Systems Manager\" and \"Senior Deal Desk Analyst\" twice in the last 60 days [1][2][3]."
+     },
+     {
+      "text": "A \"Commercial Account Executive\" posting from 2026-09-02 says the role will \"ensure accurate monthly forecasting of revenue in Salesforce\" [7]."
+     },
+     {
+      "text": "The \"Senior GTM Engineer\" posting went up on 2026-09-15 [5]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work these postings describe through \"Senior Deal Desk Analyst\" roles and \"monthly forecasting of revenue in Salesforce\" [2][3][7]."
+    },
+    "questions": [
+     "Which team owns the work in the \"Senior Deal Desk Analyst\" postings?",
+     "What does the \"GTM Systems Manager\" role own day to day?",
+     "How does the team produce its monthly revenue forecast today?"
+    ],
+    "unknowns": [
+     "Team sizes and hiring budgets",
+     "Which CRM and forecasting tools the team uses day to day",
+     "Whether these roles are already filled"
+    ],
+    "first_touch": {
+     "subject": "Questions about Navan's deal desk and forecasting roles",
+     "body": "Hi {first_name},\n\nNavan has several open roles that stood out to me. The \"GTM Systems Manager\" role went up in November, and two \"Senior Deal Desk Analyst\" postings went up in October. A \"Commercial Account Executive\" posting from September says the role will \"ensure accurate monthly forecasting of revenue in Salesforce.\"\n\nWhich tools does your team use to build its monthly forecast today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Navan posted \"GTM Systems Manager\" and \"Senior Deal Desk Analyst\" twice in the last 60 days [1][2][3].",
+      "cites": [
+       1,
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Commercial Account Executive\" posting from 2026-09-02 says the role will \"ensure accurate monthly forecasting of revenue in Salesforce\" [7].",
+      "cites": [
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Senior GTM Engineer\" posting went up on 2026-09-15 [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work these postings describe through \"Senior Deal Desk Analyst\" roles and \"monthly forecasting of revenue in Salesforce\" [2][3][7].",
+      "cites": [
+       2,
+       3,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns the work in the \"Senior Deal Desk Analyst\" postings?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the \"GTM Systems Manager\" role own day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the team produce its monthly revenue forecast today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Team sizes and hiring budgets",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM and forecasting tools the team uses day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether these roles are already filled",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nNavan has several open roles that stood out to me. The \"GTM Systems Manager\" role went up in November, and two \"Senior Deal Desk Analyst\" postings went up in October. A \"Commercial Account Executive\" posting from September says the role will \"ensure accurate monthly forecasting of revenue in Salesforce.\"\n\nWhich tools does your team use to build its monthly forecast today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Navan posted \"GTM Systems Manager\" and \"Senior Deal Desk Analyst\" twice in the last 60 days [1][2][3]."
+    },
+    {
+     "text": "A \"Commercial Account Executive\" posting from 2026-09-02 says the role will \"ensure accurate monthly forecasting of revenue in Salesforce\" [7]."
+    },
+    {
+     "text": "The \"Senior GTM Engineer\" posting went up on 2026-09-15 [5]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the revenue work these postings describe through \"Senior Deal Desk Analyst\" roles and \"monthly forecasting of revenue in Salesforce\" [2][3][7]."
+   },
+   "questions": [
+    "Which team owns the work in the \"Senior Deal Desk Analyst\" postings?",
+    "What does the \"GTM Systems Manager\" role own day to day?",
+    "How does the team produce its monthly revenue forecast today?"
+   ],
+   "unknowns": [
+    "Team sizes and hiring budgets",
+    "Which CRM and forecasting tools the team uses day to day",
+    "Whether these roles are already filled"
+   ],
+   "first_touch": {
+    "subject": "Questions about Navan's deal desk and forecasting roles",
+    "body": "Hi {first_name},\n\nNavan has several open roles that stood out to me. The \"GTM Systems Manager\" role went up in November, and two \"Senior Deal Desk Analyst\" postings went up in October. A \"Commercial Account Executive\" posting from September says the role will \"ensure accurate monthly forecasting of revenue in Salesforce.\"\n\nWhich tools does your team use to build its monthly forecast today?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     7
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Navan posted \"GTM Systems Manager\" and \"Senior Deal Desk Analyst\" twice in the last 60 days [1][2][3].",
+     "cites": [
+      1,
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Commercial Account Executive\" posting from 2026-09-02 says the role will \"ensure accurate monthly forecasting of revenue in Salesforce\" [7].",
+     "cites": [
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Senior GTM Engineer\" posting went up on 2026-09-15 [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the revenue work these postings describe through \"Senior Deal Desk Analyst\" roles and \"monthly forecasting of revenue in Salesforce\" [2][3][7].",
+     "cites": [
+      2,
+      3,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team owns the work in the \"Senior Deal Desk Analyst\" postings?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does the \"GTM Systems Manager\" role own day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the team produce its monthly revenue forecast today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Team sizes and hiring budgets",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM and forecasting tools the team uses day to day",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether these roles are already filled",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nNavan has several open roles that stood out to me. The \"GTM Systems Manager\" role went up in November, and two \"Senior Deal Desk Analyst\" postings went up in October. A \"Commercial Account Executive\" posting from September says the role will \"ensure accurate monthly forecasting of revenue in Salesforce.\"\n\nWhich tools does your team use to build its monthly forecast today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      7
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.005607,
+ "ms": 39994
+}

@@ -1,0 +1,147 @@
+# Each account's SEC identity (owner/sec.py) with the evidence behind it. No person's name.
+company,cik,source,ticker,confidence,evidence
+AG1,,,,unmatched,no name in the tickers or the Form D data sets
+Algolia,,,,unmatched,no name in the tickers or the Form D data sets
+Alvys,,,,unmatched,no name in the tickers or the Form D data sets
+Amperon,1737403,form d,,medium,2 Form D filings by the same name
+Antora Energy,2082245,form d,,high,2 Form D filings by the same name and filed from a state where it hires
+Apptronik,1918029,form d,,high,3 Form D filings by the same name and filed from a state where it hires
+Arrive Logistics,,,,unmatched,no name in the tickers or the Form D data sets
+Astranis,,,,unmatched,no name in the tickers or the Form D data sets
+Augury,,,,unmatched,no name in the tickers or the Form D data sets
+BARK,1819574,ticker,BARK,high,a ticker by the same name
+Bandwidth,1514416,ticker,BAND,high,a ticker by the same name and its business address is in a state where it hires
+Banza,,,,unmatched,no name in the tickers or the Form D data sets
+Bazaarvoice,,,,unmatched,no name in the tickers or the Form D data sets
+Bedrock Energy,,,,unmatched,no name in the tickers or the Form D data sets
+Bombas,1617078,form d,,high,2 Form D filings by the same name and filed from a state where it hires
+Brex,,,,unmatched,no name in the tickers or the Form D data sets
+Bright Machines,,,,unmatched,no name in the tickers or the Form D data sets
+Carta,,,,unmatched,no name in the tickers or the Form D data sets
+Clever,,,,unmatched,no name in the tickers or the Form D data sets
+Clover Health,,,,unmatched,no name in the tickers or the Form D data sets
+Cockroach Labs,,,,unmatched,no name in the tickers or the Form D data sets
+Cohere Health,1851745,form d,,medium,2 Form D filings by the same name
+Collective Health,,,,unmatched,no name in the tickers or the Form D data sets
+Commonwealth Fusion Systems,,,,unmatched,no name in the tickers or the Form D data sets
+Dataiku,,,,unmatched,no name in the tickers or the Form D data sets
+DigitalOcean,1582961,ticker,DOCN,high,a ticker by the same name
+Divergent Technologies,,,,unmatched,no name in the tickers or the Form D data sets
+Dropbox,1467623,ticker,DBX,high,a ticker by the same name
+Elation Health,,,,unmatched,no name in the tickers or the Form D data sets
+Entrata,2028464,ticker,ENT,high,a ticker by the same name and its business address is in a state where it hires
+Everlaw,,,,unmatched,no name in the tickers or the Form D data sets
+Everlywell,,,,unmatched,no name in the tickers or the Form D data sets
+Expel,,,,unmatched,no name in the tickers or the Form D data sets
+Fictiv,,,,unmatched,no name in the tickers or the Form D data sets
+Figma,1579878,ticker,FIG,high,a ticker by the same name and filed from a state where it hires
+Filevine,,,,unmatched,no name in the tickers or the Form D data sets
+Flatiron Health,,,,unmatched,no name in the tickers or the Form D data sets
+Formic,,,,unmatched,only a shortened name fits and not in its states
+FourKites,,,,unmatched,no name in the tickers or the Form D data sets
+Freedom Solar,,,,unmatched,no name in the tickers or the Form D data sets
+Glossier,,,,unmatched,no name in the tickers or the Form D data sets
+GoodLeap,,,,unmatched,no name in the tickers or the Form D data sets
+Gopuff,,,,unmatched,no name in the tickers or the Form D data sets
+Grafana Labs,,,,unmatched,no name in the tickers or the Form D data sets
+Gridware,,,,unmatched,no name in the tickers or the Form D data sets
+Grove Collaborative,1841761,ticker,GROV,high,a ticker by the same name
+Harry's,,,,unmatched,no name in the tickers or the Form D data sets
+Headspace,,,,unmatched,no name in the tickers or the Form D data sets
+HealthJoy,,,,unmatched,no name in the tickers or the Form D data sets
+Hermeus,1831988,form d,,high,4 Form D filings by the same name and filed from a state where it hires
+Hungryroot,,,,unmatched,no name in the tickers or the Form D data sets
+Huntress,,,,unmatched,only a shortened name fits and not in its states
+Included Health,,,,unmatched,no name in the tickers or the Form D data sets
+Infinitum,,,,unmatched,no name in the tickers or the Form D data sets
+Jamf,,,,unmatched,no name in the tickers or the Form D data sets
+Komodo Health,,,,unmatched,no name in the tickers or the Form D data sets
+Lattice,,,,unmatched,only a shortened name fits and not in its states
+LeanTaaS,,,,unmatched,no name in the tickers or the Form D data sets
+Lightmatter,1768622,form d,,high,1 Form D filing by the same name and filed from a state where it hires
+Liquid Death,,,,unmatched,no name in the tickers or the Form D data sets
+Loadsmart,,,,unmatched,no name in the tickers or the Form D data sets
+Lucid Software,,,,unmatched,only a shortened name fits and not in its states
+Lunar Energy,,,,unmatched,no name in the tickers or the Form D data sets
+Lyra Health,,,,unmatched,no name in the tickers or the Form D data sets
+Mainspring Energy,,,,unmatched,no name in the tickers or the Form D data sets
+Manscaped,,,,unmatched,no name in the tickers or the Form D data sets
+Maven Clinic,,,,unmatched,no name in the tickers or the Form D data sets
+Misfits Market,,,,unmatched,no name in the tickers or the Form D data sets
+MongoDB,1441816,ticker,MDB,high,a ticker by the same name and its business address is in a state where it hires
+Motive,,,,unmatched,the only filer by its name sits in a state where it doesn't hire
+Nanit,,,,unmatched,no name in the tickers or the Form D data sets
+Navan,1639723,ticker,NAVN,high,a ticker by the same name and its business address is in a state where it hires
+NetDocuments,,,,unmatched,no name in the tickers or the Form D data sets
+Netradyne,,,,unmatched,no name in the tickers or the Form D data sets
+Netskope,2063196,ticker,NTSK,high,a ticker by the same name and its business address is in a state where it hires
+New Relic,,,,unmatched,no name in the tickers or the Form D data sets
+Newsela,,,,unmatched,no name in the tickers or the Form D data sets
+Nexamp,1481062,form d,,high,2 Form D filings by the same name and filed from a state where it hires
+Nomi Health,,,,unmatched,no name in the tickers or the Form D data sets
+Nuro,,,,unmatched,no name in the tickers or the Form D data sets
+Olipop,1754003,form d,,medium,1 Form D filing by the same name
+Olo,,,,unmatched,no name in the tickers or the Form D data sets
+Omada Health,1611115,ticker,OMDA,high,a ticker by the same name
+Once Upon a Farm,1696556,ticker,OFRM,high,a ticker by the same name
+OneTrust,,,,unmatched,no name in the tickers or the Form D data sets
+OpenSpace,,,,unmatched,no name in the tickers or the Form D data sets
+Optimal Dynamics,1811941,form d,,medium,1 Form D filing by the same name
+Origis Energy,,,,unmatched,no name in the tickers or the Form D data sets
+Oscar Health,1568651,ticker,OSCR,high,a ticker by the same name and its business address is in a state where it hires
+Outrider,,,,unmatched,only a shortened name fits and not in its states
+PagerDuty,1568100,ticker,PD,high,a ticker by the same name and its business address is in a state where it hires
+Palmetto,,,,unmatched,no name in the tickers or the Form D data sets
+Paperless Parts,,,,unmatched,no name in the tickers or the Form D data sets
+Parachute Home,,,,unmatched,no name in the tickers or the Form D data sets
+PathAI,,,,unmatched,no name in the tickers or the Form D data sets
+Peloton,,,,unmatched,no name in the tickers or the Form D data sets
+Pickle Robot,,,,unmatched,the only filer by its name sits in a state where it doesn't hire
+Platform Science,,,,unmatched,no name in the tickers or the Form D data sets
+Podium,,,,unmatched,no name in the tickers or the Form D data sets
+Quantum Metric,,,,unmatched,no name in the tickers or the Form D data sets
+Qventus,,,,unmatched,no name in the tickers or the Form D data sets
+Re:Build Manufacturing,,,,unmatched,no name in the tickers or the Form D data sets
+Redwood Materials,,,,unmatched,no name in the tickers or the Form D data sets
+Relativity,,,,unmatched,no name in the tickers or the Form D data sets
+Rent the Runway,1468327,ticker,RENT,high,a ticker by the same name
+Rondo Energy,,,,unmatched,no name in the tickers or the Form D data sets
+Rubrik,1943896,ticker,RBRK,high,a ticker by the same name and its business address is in a state where it hires
+Ruggable,,,,unmatched,no name in the tickers or the Form D data sets
+Saatva,,,,unmatched,no name in the tickers or the Form D data sets
+Sana Benefits,,,,unmatched,no name in the tickers or the Form D data sets
+Secureframe,,,,unmatched,no name in the tickers or the Form D data sets
+ShipMonk,,,,unmatched,no name in the tickers or the Form D data sets
+Sila Nanotechnologies,1530888,form d,,high,2 Form D filings by the same name and filed from a state where it hires
+Silicon Ranch,1626649,form d,,high,2 Form D filings by the same name and filed from a state where it hires
+Smartling,,,,unmatched,no name in the tickers or the Form D data sets
+Solar Landscape,,,,unmatched,no name in the tickers or the Form D data sets
+Sprout Social,1517375,ticker,SPT,high,a ticker by the same name and its business address is in a state where it hires
+Squarespace,,,,unmatched,no name in the tickers or the Form D data sets
+Starburst,,,,unmatched,only a shortened name fits and not in its states
+StockX,,,,unmatched,no name in the tickers or the Form D data sets
+Strive Health,,,,unmatched,no name in the tickers or the Form D data sets
+Suki,,,,unmatched,no name in the tickers or the Form D data sets
+Sumo Logic,,,,unmatched,no name in the tickers or the Form D data sets
+Supergoop,,,,unmatched,no name in the tickers or the Form D data sets
+Sweetgreen,1477815,ticker,SG,high,a ticker by the same name and its business address is in a state where it hires
+Talkspace,,,,unmatched,no name in the tickers or the Form D data sets
+Textio,,,,unmatched,no name in the tickers or the Form D data sets
+The Farmer's Dog,,,,unmatched,no name in the tickers or the Form D data sets
+ThirdLove,,,,unmatched,no name in the tickers or the Form D data sets
+Truckstop,,,,unmatched,no name in the tickers or the Form D data sets
+Tulip Interfaces,1701525,form d,,high,1 Form D filing by the same name and filed from a state where it hires
+Turvo,,,,unmatched,no name in the tickers or the Form D data sets
+Twilio,1447669,ticker,TWLO,high,a ticker by the same name
+Twingate,,,,unmatched,no name in the tickers or the Form D data sets
+Upstart,1647639,ticker,UPST,high,a ticker by the same name and its business address is in a state where it hires
+Ursa Major,,,,unmatched,no name in the tickers or the Form D data sets
+Verkada,1688873,form d,,medium,4 Form D filings by the same name
+Vital Farms,1579733,ticker,VITL,high,a ticker by the same name
+Wasabi Technologies,,,,unmatched,no name in the tickers or the Form D data sets
+Watershed,,,,unmatched,only a shortened name fits and not in its states
+Weave,,,,unmatched,no name in the tickers or the Form D data sets
+Xometry,1657573,ticker,XMTR,high,a ticker by the same name and its business address is in a state where it hires
+ZenBusiness,,,,unmatched,no name in the tickers or the Form D data sets
+Zocdoc,,,,unmatched,no name in the tickers or the Form D data sets
+project44,,,,unmatched,no name in the tickers or the Form D data sets

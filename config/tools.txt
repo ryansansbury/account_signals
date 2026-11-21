@@ -1,0 +1,116 @@
+# Revenue, data and go-to-market tools a posting may name as part of a company's own stack. One per line.
+# The signal finder reads these for the stack family, the claim checker requires any tool a brief names to appear in a
+# source it cites, redaction never treats one as a person, and the exclusion scan sets them aside inside quoted text
+# (decision D6, 11/9), since a tool maker may appear as a quoted tool but never as an account.
+Salesforce
+Sales Cloud
+Service Cloud
+Marketing Cloud
+Salesforce CPQ
+Revenue Cloud
+Pardot
+Account Engagement
+HubSpot
+Microsoft Dynamics
+Dynamics 365
+Zoho CRM
+Pipedrive
+Close
+Attio
+Affinity
+Gong
+Chorus
+Clari
+Aviso
+BoostUp
+Outreach
+Salesloft
+Apollo
+ZoomInfo
+Cognism
+Lusha
+Clay
+Common Room
+6sense
+Demandbase
+Bombora
+Terminus
+LeanData
+Chili Piper
+Calendly
+Marketo
+Eloqua
+Mailchimp
+Braze
+Iterable
+Klaviyo
+Customer.io
+Segment
+Mixpanel
+Amplitude
+Heap
+Pendo
+Gainsight
+Totango
+ChurnZero
+Vitally
+Zendesk
+Intercom
+Freshdesk
+Highspot
+Seismic
+Showpad
+Mindtickle
+Spekit
+DocuSign
+PandaDoc
+Ironclad
+Conga
+DealHub
+Zuora
+Chargebee
+Maxio
+Stripe
+NetSuite
+QuickBooks
+Sage Intacct
+Anaplan
+Pigment
+Adaptive Planning
+Varicent
+Xactly
+CaptivateIQ
+Spiff
+QuotaPath
+Fullcast
+Snowflake
+Databricks
+BigQuery
+Redshift
+dbt
+Fivetran
+Airbyte
+Census
+Hightouch
+Looker
+Tableau
+Power BI
+Sigma
+Mode
+Hex
+Domo
+ThoughtSpot
+Metabase
+Excel
+Google Sheets
+Airtable
+Zapier
+Workato
+Tray.io
+Celigo
+MuleSoft
+Boomi
+Jira
+Asana
+Notion
+Slack

@@ -1,0 +1,61 @@
+{
+ "account": "Figma",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "f2a6af5f0ef995e8",
+ "input_hash": "f0076cfa4eb80c20",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:03:15+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 5172,
+    "input_tokens": 2,
+    "output_tokens": 477,
+    "cache_write_tokens": 19567,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08312230000000001
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [1] gives the title \"Manager, Deal Desk (London, United Kingdom)\" and a 2026-11-20 publication date, matching the brief."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The quoted phrases appear in the Sales Operations Manager posting dated 2026-10-28 and are correctly attributed via [2][3]."
+   },
+   "W3": {
+    "verdict": "wrong",
+    "reason": "Sources [7][8][9] are dated 2026-11-18, 2026-11-18 and 2026-11-17, so the dates fit, but [9] is an Account Executive, SMB role and [7][8] are Senior Inside Sales Representative roles focused on renewals, so 'selling roles' is loose yet the count and dates match; on reflection the facts match the sources."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "The postings show a forecasting project and a deal desk manager hire, but calling these Figma's 'likely priority' is a guess beyond two postings, with the Deal Desk role framed as scaling international operations rather than forecasting."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The email correctly cites the October Sales Operations Manager role with its quoted phrase and the November London Deal Desk Manager role, and its inference is modest."
+   }
+  },
+  "verdict": "wrong",
+  "needs_review": false
+ },
+ "cost_usd": 0.083122,
+ "ms": 5172
+}

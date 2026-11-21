@@ -1,0 +1,15 @@
+{
+  "note": "Territories by the region of the account's hiring hub and its size by open roles, two seats each, round-robin rotation in score order with a cap of three tier A accounts per seat, and a first-touch deadline per tier in business days from the read date. Seats are labels, never people. Set on 11/9 before any board was read.",
+  "regions": {
+    "West": ["WA", "OR", "CA", "NV", "AK", "HI"],
+    "Mountain": ["MT", "ID", "WY", "UT", "CO", "AZ", "NM"],
+    "Midwest": ["ND", "SD", "NE", "KS", "MN", "IA", "MO", "WI", "IL", "MI", "IN", "OH"],
+    "South": ["TX", "OK", "AR", "LA", "MS", "AL", "TN", "KY", "GA", "FL", "SC", "NC", "VA", "WV"],
+    "Northeast": ["ME", "NH", "VT", "MA", "RI", "CT", "NY", "NJ", "PA", "DE", "MD", "DC"]
+  },
+  "remote_region": "National",
+  "enterprise_from": 50,
+  "seats": 2,
+  "caps": {"A": 3},
+  "deadline_days": {"A": 2, "B": 5, "C": 10}
+}

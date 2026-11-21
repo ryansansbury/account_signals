@@ -1,0 +1,128 @@
+{
+ "splits": {
+  "briefs": {
+   "claude-haiku": {
+    "briefs": 23,
+    "first_valid_json": 21,
+    "first_passed": 13,
+    "repaired": 10,
+    "needs_review": 2,
+    "first_citation_problems": 0,
+    "first_unsupported": 3,
+    "final_unsupported": 0,
+    "final_rule_problems": 0,
+    "final_writing_problems": 2,
+    "unsupported_by_kind": {
+     "number": 1,
+     "name": 2
+    },
+    "cost_per_brief": 0.00723,
+    "seconds_per_brief": 47.5,
+    "tokens_in_per_brief": 3,
+    "tokens_out_per_brief": 11077,
+    "clears_bars": false
+   },
+   "claude-opus": {
+    "briefs": 23,
+    "first_valid_json": 23,
+    "first_passed": 18,
+    "repaired": 5,
+    "needs_review": 0,
+    "first_citation_problems": 0,
+    "first_unsupported": 1,
+    "final_unsupported": 0,
+    "final_rule_problems": 0,
+    "final_writing_problems": 0,
+    "unsupported_by_kind": {
+     "number": 1
+    },
+    "cost_per_brief": 0.107001,
+    "seconds_per_brief": 24.1,
+    "tokens_in_per_brief": 2,
+    "tokens_out_per_brief": 2558,
+    "clears_bars": true
+   },
+   "claude-sonnet": {
+    "briefs": 23,
+    "first_valid_json": 23,
+    "first_passed": 11,
+    "repaired": 12,
+    "needs_review": 0,
+    "first_citation_problems": 0,
+    "first_unsupported": 0,
+    "final_unsupported": 0,
+    "final_rule_problems": 0,
+    "final_writing_problems": 0,
+    "unsupported_by_kind": {},
+    "cost_per_brief": 0.069704,
+    "seconds_per_brief": 23.6,
+    "tokens_in_per_brief": 3,
+    "tokens_out_per_brief": 3385,
+    "clears_bars": true
+   }
+  },
+  "dev": {
+   "claude-haiku": {
+    "briefs": 5,
+    "first_valid_json": 5,
+    "first_passed": 3,
+    "repaired": 2,
+    "needs_review": 0,
+    "first_citation_problems": 0,
+    "first_unsupported": 3,
+    "final_unsupported": 0,
+    "final_rule_problems": 0,
+    "final_writing_problems": 0,
+    "unsupported_by_kind": {
+     "number": 1,
+     "quote": 2
+    },
+    "cost_per_brief": 0.006041,
+    "seconds_per_brief": 38.6,
+    "tokens_in_per_brief": 3,
+    "tokens_out_per_brief": 8841,
+    "clears_bars": true
+   },
+   "claude-opus": {
+    "briefs": 5,
+    "first_valid_json": 5,
+    "first_passed": 1,
+    "repaired": 4,
+    "needs_review": 0,
+    "first_citation_problems": 0,
+    "first_unsupported": 1,
+    "final_unsupported": 0,
+    "final_rule_problems": 0,
+    "final_writing_problems": 0,
+    "unsupported_by_kind": {
+     "number": 1
+    },
+    "cost_per_brief": 0.143782,
+    "seconds_per_brief": 29.0,
+    "tokens_in_per_brief": 4,
+    "tokens_out_per_brief": 2974,
+    "clears_bars": true
+   },
+   "claude-sonnet": {
+    "briefs": 5,
+    "first_valid_json": 5,
+    "first_passed": 2,
+    "repaired": 3,
+    "needs_review": 0,
+    "first_citation_problems": 0,
+    "first_unsupported": 0,
+    "final_unsupported": 0,
+    "final_rule_problems": 0,
+    "final_writing_problems": 0,
+    "unsupported_by_kind": {},
+    "cost_per_brief": 0.065679,
+    "seconds_per_brief": 20.7,
+    "tokens_in_per_brief": 3,
+    "tokens_out_per_brief": 2872,
+    "clears_bars": true
+   }
+  }
+ },
+ "route": "claude-haiku",
+ "route_reason": "cheapest model that clears the bars on dev"
+}

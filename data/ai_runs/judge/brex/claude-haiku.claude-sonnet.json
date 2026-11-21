@@ -1,0 +1,61 @@
+{
+ "account": "Brex",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "9f9c54aaa2e94333",
+ "input_hash": "5b22ac9e42b9aaed",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:02:46+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6750,
+    "input_tokens": 2,
+    "output_tokens": 842,
+    "cache_write_tokens": 19742,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0874723
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [0] gives 206 open roles on the public board on 2026-11-20, which matches."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The posting is dated 2026-10-02 in [3], and 2026-10-02 to 2026-11-20 is 49 days."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Both quotes appear word for word in the Director, Revenue Operations posting, the Salesforce line in [6] and the cadences line in [4]."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The quoted cadence duties and Salesforce/GTM systems requirement are in the cited posting, and reading them as a revenue operations priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October posting date and both quotes match the cited posting, and asking who handles those cadences is a fair inference."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.087472,
+ "ms": 6750
+}

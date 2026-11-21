@@ -1,0 +1,61 @@
+{
+ "account": "Maven Clinic",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "f2bdf63f59710230",
+ "input_hash": "c3ef92a0474a8b32",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:04:44+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 8071,
+    "input_tokens": 2,
+    "output_tokens": 538,
+    "cache_write_tokens": 25129,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.2119606
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-11-05 date and the revenue operations signal all match source [1]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-09-09 date and the quoted phrase all match source [2] and its posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-08-31 date and the quoted analytics stack line all match source [4] and its posting."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Revenue forecasting and reporting is a fair reading of the forecasting quote in [2] and the analytics stack ownership in [4]."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November GTM operations posting and the September VP posting on forecasting enrollment and revenue both match [1] and [2]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.211961,
+ "ms": 8071
+}

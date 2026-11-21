@@ -1,0 +1,61 @@
+{
+ "account": "OneTrust",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "5b1e68d943e31f2f",
+ "input_hash": "e35d21c5ca57b3fe",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:06:12+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6925,
+    "input_tokens": 2,
+    "output_tokens": 492,
+    "cache_write_tokens": 21338,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1807126
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-11-09 date and the Lead to Cash quote all match the cited Salesforce Administrator posting."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The architecture quote naming Sales Cloud, CPQ, E-commerce and Partner systems appears in the same cited posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-10-19 date and the forecasting, reporting and analytics quote match the cited sales strategy posting."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Calling Lead to Cash and sales forecasting a likely priority is a fair reading of the two cited postings that name them."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November and October timing, both titles and both quotes match the cited postings."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.180713,
+ "ms": 6925
+}

@@ -1,0 +1,61 @@
+{
+ "account": "OneTrust",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "5b1e68d943e31f2f",
+ "input_hash": "cece4bc3cb4cb877",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:09+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7513,
+    "input_tokens": 2,
+    "output_tokens": 1007,
+    "cache_write_tokens": 21224,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0950503
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Salesforce Administrator posting is dated 2026-11-09, which is 11 days before the 2026-11-20 read date."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The Senior Principal Sales Strategy Manager posting is dated 2026-10-19 and its duties include \"sales forecasting\"."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The three postings are dated 2026-11-19, 2026-11-18 and 2026-11-18, all within the stated range."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The \"Lead to Cash processes\" within Salesforce and \"sales forecasting\" quotes are in the cited postings, and the Sales Strategy role requires expert Salesforce CRM knowledge, so the inference is reasonable."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The \"crucial role\" and \"Lead to Cash processes\" wording, the November and October timing, and the \"sales forecasting\" duty all match the cited postings."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.09505,
+ "ms": 7513
+}

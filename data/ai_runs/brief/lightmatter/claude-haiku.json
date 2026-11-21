@@ -1,0 +1,349 @@
+{
+ "account": "Lightmatter",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "07cdc127dc3db613",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:48:28+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Lightmatter had 82 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Mountain View, CA. The US held 88% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s6a305060c9",
+   "title": "Sr. Sales Operations Specialist",
+   "excerpt": "Sr. Sales Operations Specialist",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:lightmatter:5487059008",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s087fd50bcb",
+   "title": "FP&A Manager, Supply Chain & Revenue",
+   "excerpt": "You will have full ownership of revenue forecasting, sales pipeline auditing, COGS forecasting, wafer economics, yield optimization, and R&D compute infrastructure…",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:lightmatter:5478938008",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sca25d86611",
+   "title": "Sr. Sales Operations Specialist",
+   "excerpt": "Own the forecasting process and cadence, including weekly pipeline reviews, monthly and quarterly forecast calls, and board-level revenue reporting.",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:lightmatter:5487059008",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s30dc8ffdf4",
+   "title": "Senior Digital & AI Marketing Expert",
+   "excerpt": "Manage paid search and HubSpot email programs, and keep our contact database up-to-date and compliant.",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:lightmatter:5478919008",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sa196a9d23c",
+   "title": "Data & AI Platform, Intern - Summer 2027",
+   "excerpt": "This team is Lightmatter's Central Data Platform, the Snowflake foundation that engineering, product, and analytics teams across the company build on.",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:lightmatter:5474807008",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s1c01bf4b31",
+   "title": "FP&A Manager, Supply Chain & Revenue",
+   "excerpt": "Familiarity with enterprise ERP, CRM, and FP&A tools (e.g., Salesforce, NetSuite, Anaplan, Pigment, Workday Adaptive).",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:lightmatter:5478938008",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s1b695181c6",
+   "title": "Senior Account Manager",
+   "excerpt": "Senior Account Manager",
+   "posted": "2026-08-24",
+   "posting_id": "greenhouse:lightmatter:5393601008",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Two postings went up on 2026-11-19 and are titled \\\"Sr. Sales Operations Specialist\\\" [1][3] and \\\"FP&A Manager, Supply Chain & Revenue\\\" [2].\"}, {\"text\": \"The FP&A posting gives its owner \\\"full ownership of revenue forecasting\\\" along with \\\"wafer economics\\\" [2].\"}, {\"text\": \"The \\\"Sr. Sales Operations Specialist\\\" posting asks for \\\"weekly pipeline reviews\\\" and \\\"board-level revenue reporting\\\" [1][3].\"}], \"priority\": {\"text\": \"The likely priority is the \\\"revenue forecasting\\\" work that these postings describe through \\\"Own the forecasting process and cadence\\\" [1][3] and \\\"sales pipeline auditing\\\" [2].\"}, \"questions\": [\"Who on your team owns the forecasting process today?\", \"Which system holds your pipeline data today?\", \"What timeline are you working toward for filling the sales operations role?\"], \"unknowns\": [\"Which CRM and forecasting tools the team uses now\", \"Whether these roles are new headcount or replacements\", \"How many people work in sales operations today\"], \"first_touch\": {\"subject\": \"A question about your forecasting process\", \"body\": \"Hi {first_name},\\n\\nI noticed Lightmatter posted a \\\"Sr. Sales Operations Specialist\\\" role in November. The posting asks the hire to \\\"Own the forecasting process and cadence\\\" and includes \\\"weekly pipeline reviews\\\" and \\\"board-level revenue reporting.\\\"\\n\\nWho on your team handles forecast reviews today?\\n\\n{sender_name}\", \"cites\": [1, 3]}}",
+   "meta": {
+    "ms": 43709,
+    "input_tokens": 2,
+    "output_tokens": 10124,
+    "cache_write_tokens": 5596,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.006196859999999999
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Two postings went up on 2026-11-19 and are titled \"Sr. Sales Operations Specialist\" [1][3] and \"FP&A Manager, Supply Chain & Revenue\" [2]."
+     },
+     {
+      "text": "The FP&A posting gives its owner \"full ownership of revenue forecasting\" along with \"wafer economics\" [2]."
+     },
+     {
+      "text": "The \"Sr. Sales Operations Specialist\" posting asks for \"weekly pipeline reviews\" and \"board-level revenue reporting\" [1][3]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the \"revenue forecasting\" work that these postings describe through \"Own the forecasting process and cadence\" [1][3] and \"sales pipeline auditing\" [2]."
+    },
+    "questions": [
+     "Who on your team owns the forecasting process today?",
+     "Which system holds your pipeline data today?",
+     "What timeline are you working toward for filling the sales operations role?"
+    ],
+    "unknowns": [
+     "Which CRM and forecasting tools the team uses now",
+     "Whether these roles are new headcount or replacements",
+     "How many people work in sales operations today"
+    ],
+    "first_touch": {
+     "subject": "A question about your forecasting process",
+     "body": "Hi {first_name},\n\nI noticed Lightmatter posted a \"Sr. Sales Operations Specialist\" role in November. The posting asks the hire to \"Own the forecasting process and cadence\" and includes \"weekly pipeline reviews\" and \"board-level revenue reporting.\"\n\nWho on your team handles forecast reviews today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Two postings went up on 2026-11-19 and are titled \"Sr. Sales Operations Specialist\" [1][3] and \"FP&A Manager, Supply Chain & Revenue\" [2].",
+      "cites": [
+       1,
+       3,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The FP&A posting gives its owner \"full ownership of revenue forecasting\" along with \"wafer economics\" [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Sr. Sales Operations Specialist\" posting asks for \"weekly pipeline reviews\" and \"board-level revenue reporting\" [1][3].",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the \"revenue forecasting\" work that these postings describe through \"Own the forecasting process and cadence\" [1][3] and \"sales pipeline auditing\" [2].",
+      "cites": [
+       1,
+       3,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who on your team owns the forecasting process today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which system holds your pipeline data today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What timeline are you working toward for filling the sales operations role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM and forecasting tools the team uses now",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether these roles are new headcount or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How many people work in sales operations today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Lightmatter posted a \"Sr. Sales Operations Specialist\" role in November. The posting asks the hire to \"Own the forecasting process and cadence\" and includes \"weekly pipeline reviews\" and \"board-level revenue reporting.\"\n\nWho on your team handles forecast reviews today?\n\n{sender_name}",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Two postings went up on 2026-11-19 and are titled \"Sr. Sales Operations Specialist\" [1][3] and \"FP&A Manager, Supply Chain & Revenue\" [2]."
+    },
+    {
+     "text": "The FP&A posting gives its owner \"full ownership of revenue forecasting\" along with \"wafer economics\" [2]."
+    },
+    {
+     "text": "The \"Sr. Sales Operations Specialist\" posting asks for \"weekly pipeline reviews\" and \"board-level revenue reporting\" [1][3]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the \"revenue forecasting\" work that these postings describe through \"Own the forecasting process and cadence\" [1][3] and \"sales pipeline auditing\" [2]."
+   },
+   "questions": [
+    "Who on your team owns the forecasting process today?",
+    "Which system holds your pipeline data today?",
+    "What timeline are you working toward for filling the sales operations role?"
+   ],
+   "unknowns": [
+    "Which CRM and forecasting tools the team uses now",
+    "Whether these roles are new headcount or replacements",
+    "How many people work in sales operations today"
+   ],
+   "first_touch": {
+    "subject": "A question about your forecasting process",
+    "body": "Hi {first_name},\n\nI noticed Lightmatter posted a \"Sr. Sales Operations Specialist\" role in November. The posting asks the hire to \"Own the forecasting process and cadence\" and includes \"weekly pipeline reviews\" and \"board-level revenue reporting.\"\n\nWho on your team handles forecast reviews today?\n\n{sender_name}",
+    "cites": [
+     1,
+     3
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Two postings went up on 2026-11-19 and are titled \"Sr. Sales Operations Specialist\" [1][3] and \"FP&A Manager, Supply Chain & Revenue\" [2].",
+     "cites": [
+      1,
+      3,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The FP&A posting gives its owner \"full ownership of revenue forecasting\" along with \"wafer economics\" [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Sr. Sales Operations Specialist\" posting asks for \"weekly pipeline reviews\" and \"board-level revenue reporting\" [1][3].",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the \"revenue forecasting\" work that these postings describe through \"Own the forecasting process and cadence\" [1][3] and \"sales pipeline auditing\" [2].",
+     "cites": [
+      1,
+      3,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who on your team owns the forecasting process today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which system holds your pipeline data today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What timeline are you working toward for filling the sales operations role?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM and forecasting tools the team uses now",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether these roles are new headcount or replacements",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How many people work in sales operations today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Lightmatter posted a \"Sr. Sales Operations Specialist\" role in November. The posting asks the hire to \"Own the forecasting process and cadence\" and includes \"weekly pipeline reviews\" and \"board-level revenue reporting.\"\n\nWho on your team handles forecast reviews today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.006197,
+ "ms": 43709
+}

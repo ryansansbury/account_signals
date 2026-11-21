@@ -1,0 +1,61 @@
+{
+ "account": "Navan",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "0838eca8147c02c3",
+ "input_hash": "5e245717edf3862a",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:05:21+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6598,
+    "input_tokens": 2,
+    "output_tokens": 530,
+    "cache_write_tokens": 21421,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.18213659999999998
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Both titles and dates (2026-11-12 and 2026-09-15) match sources [1] and [5]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Sources [2] and [3] are both titled Senior Deal Desk Analyst and dated 2026-10-07 and 2026-10-06."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The quoted phrase appears in source [7] and in its posting text."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The hedged priority fairly reflects the GTM systems, deal desk, and Salesforce forecasting work described in postings [1], [2] and [7]."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November, October and September months and the Salesforce forecasting mention match cited sources [1], [2], [3] and [7]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.182137,
+ "ms": 6598
+}

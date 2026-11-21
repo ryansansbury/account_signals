@@ -1,0 +1,146 @@
+company,industry,segment,provider,token,board,read_at,openings
+MongoDB,software,database platform,greenhouse,mongodb,https://job-boards.greenhouse.io/mongodb,2026-11-21T03:38:55+00:00,408
+Squarespace,software,website builder,greenhouse,squarespace,https://job-boards.greenhouse.io/squarespace,2026-11-21T03:38:55+00:00,20
+Figma,software,design collaboration,greenhouse,figma,https://job-boards.greenhouse.io/figma,2026-11-21T03:38:56+00:00,147
+Dropbox,software,file storage and collaboration,greenhouse,dropbox,https://job-boards.greenhouse.io/dropbox,2026-11-21T03:38:57+00:00,35
+Twilio,software,communications APIs,greenhouse,twilio,https://job-boards.greenhouse.io/twilio,2026-11-21T03:38:58+00:00,106
+Grafana Labs,software,observability,greenhouse,grafanalabs,https://job-boards.greenhouse.io/grafanalabs,2026-11-21T03:38:59+00:00,139
+Lattice,software,people management,greenhouse,lattice,https://job-boards.greenhouse.io/lattice,2026-11-21T03:39:00+00:00,4
+Brex,software,corporate cards and spend,greenhouse,brex,https://job-boards.greenhouse.io/brex,2026-11-21T03:39:01+00:00,206
+Navan,software,travel and expense,greenhouse,tripactions,https://job-boards.greenhouse.io/tripactions,2026-11-21T03:39:04+00:00,192
+Sumo Logic,software,log analytics,greenhouse,sumologic,https://job-boards.greenhouse.io/sumologic,2026-11-21T03:39:07+00:00,25
+PagerDuty,software,incident response,greenhouse,pagerduty,https://job-boards.greenhouse.io/pagerduty,2026-11-21T03:39:08+00:00,44
+Carta,software,equity management,greenhouse,carta,https://job-boards.greenhouse.io/carta,2026-11-21T03:39:12+00:00,76
+OpenSpace,software,construction site capture,greenhouse,openspace,https://job-boards.greenhouse.io/openspace,2026-11-21T03:39:15+00:00,13
+Cockroach Labs,software,distributed database,greenhouse,cockroachlabs,https://job-boards.greenhouse.io/cockroachlabs,2026-11-21T03:39:16+00:00,12
+Olo,software,restaurant ordering,lever,olo,https://jobs.lever.co/olo,2026-11-21T03:39:18+00:00,15
+Secureframe,software,compliance automation,lever,secureframe,https://jobs.lever.co/secureframe,2026-11-21T03:39:21+00:00,15
+Starburst,software,data lakehouse analytics,greenhouse,starburst,https://job-boards.greenhouse.io/starburst,2026-11-21T03:39:25+00:00,34
+Sprout Social,software,social media management,greenhouse,sproutsocial,https://job-boards.greenhouse.io/sproutsocial,2026-11-21T03:39:26+00:00,19
+Relativity,software,legal e-discovery,greenhouse,relativity,https://job-boards.greenhouse.io/relativity,2026-11-21T03:39:44+00:00,395
+OneTrust,software,privacy and trust software,greenhouse,onetrust,https://job-boards.greenhouse.io/onetrust,2026-11-21T03:39:45+00:00,80
+Quantum Metric,software,digital analytics,lever,quantummetric,https://jobs.lever.co/quantummetric,2026-11-21T03:39:47+00:00,8
+Bazaarvoice,software,reviews and user content,lever,bazaarvoice,https://jobs.lever.co/bazaarvoice,2026-11-21T03:40:05+00:00,11
+ZenBusiness,software,small business formation,greenhouse,zenbusiness,https://job-boards.greenhouse.io/zenbusiness,2026-11-21T03:40:06+00:00,2
+Lucid Software,software,visual collaboration,greenhouse,lucidsoftware,https://job-boards.greenhouse.io/lucidsoftware,2026-11-21T03:40:07+00:00,20
+Podium,software,customer messaging for local business,greenhouse,podium81,https://job-boards.greenhouse.io/podium81,2026-11-21T03:40:08+00:00,65
+Weave,software,patient communication for practices,greenhouse,weave,https://job-boards.greenhouse.io/weave,2026-11-21T03:40:09+00:00,1
+Entrata,software,property management software,lever,entrata,https://jobs.lever.co/entrata,2026-11-21T03:40:10+00:00,29
+Filevine,software,legal case management,lever,filevine,https://jobs.lever.co/filevine,2026-11-21T03:40:11+00:00,112
+Jamf,software,Apple device management,greenhouse,jamf,https://job-boards.greenhouse.io/jamf,2026-11-21T03:40:12+00:00,29
+Bandwidth,software,communications platform,greenhouse,bandwidth,https://job-boards.greenhouse.io/bandwidth,2026-11-21T03:40:27+00:00,20
+Upstart,software,AI lending platform,greenhouse,upstart,https://job-boards.greenhouse.io/upstart,2026-11-21T03:40:30+00:00,77
+Textio,software,HR writing and feedback,greenhouse,textio,https://job-boards.greenhouse.io/textio,2026-11-21T03:40:31+00:00,2
+Expel,software,managed detection and response,greenhouse,expel,https://job-boards.greenhouse.io/expel,2026-11-21T03:40:32+00:00,4
+Huntress,software,managed security for SMBs,greenhouse,huntress,https://job-boards.greenhouse.io/huntress,2026-11-21T03:40:33+00:00,47
+New Relic,software,observability platform,greenhouse,newrelic,https://job-boards.greenhouse.io/newrelic,2026-11-21T03:40:38+00:00,41
+project44,logistics,supply chain visibility,greenhouse,project44,https://job-boards.greenhouse.io/project44,2026-11-21T03:40:40+00:00,16
+FourKites,logistics,supply chain visibility,greenhouse,fourkites,https://job-boards.greenhouse.io/fourkites,2026-11-21T03:40:40+00:00,11
+Motive,logistics,fleet management,greenhouse,gomotive,https://job-boards.greenhouse.io/gomotive,2026-11-21T03:40:41+00:00,170
+Loadsmart,logistics,freight technology,lever,loadsmart,https://jobs.lever.co/loadsmart,2026-11-21T03:40:50+00:00,14
+Arrive Logistics,logistics,freight brokerage,greenhouse,arrivelogistics,https://job-boards.greenhouse.io/arrivelogistics,2026-11-21T03:40:50+00:00,2
+Outrider,logistics,autonomous yard operations,greenhouse,outrider,https://job-boards.greenhouse.io/outrider,2026-11-21T03:41:03+00:00,9
+Platform Science,logistics,connected vehicle platform,greenhouse,platformscience,https://job-boards.greenhouse.io/platformscience,2026-11-21T03:41:04+00:00,27
+Alvys,logistics,transportation management,greenhouse,alvys,https://job-boards.greenhouse.io/alvys,2026-11-21T03:41:11+00:00,7
+Turvo,logistics,collaborative TMS,lever,turvo,https://jobs.lever.co/turvo,2026-11-21T03:41:37+00:00,7
+Nuro,logistics,autonomous delivery,greenhouse,nuro,https://job-boards.greenhouse.io/nuro,2026-11-21T03:41:37+00:00,105
+ShipMonk,logistics,ecommerce fulfillment,greenhouse,shipmonk,https://job-boards.greenhouse.io/shipmonk,2026-11-21T03:41:38+00:00,54
+Truckstop,logistics,freight matching,greenhouse,truckstop,https://job-boards.greenhouse.io/truckstop,2026-11-21T03:41:39+00:00,11
+Optimal Dynamics,logistics,AI for trucking operations,greenhouse,optimaldynamics,https://job-boards.greenhouse.io/optimaldynamics,2026-11-21T03:41:41+00:00,2
+Netradyne,logistics,driver safety video,greenhouse,netradyne,https://job-boards.greenhouse.io/netradyne,2026-11-21T03:41:42+00:00,39
+Oscar Health,health care,health insurance,greenhouse,oscar,https://job-boards.greenhouse.io/oscar,2026-11-21T03:41:44+00:00,180
+Lyra Health,health care,employer mental health,lever,lyrahealth,https://jobs.lever.co/lyrahealth,2026-11-21T03:41:45+00:00,453
+Zocdoc,health care,patient booking marketplace,greenhouse,zocdoc,https://job-boards.greenhouse.io/zocdoc,2026-11-21T03:41:51+00:00,64
+Komodo Health,health care,healthcare data,greenhouse,komodohealth,https://job-boards.greenhouse.io/komodohealth,2026-11-21T03:41:52+00:00,19
+Flatiron Health,health care,oncology data and software,greenhouse,flatironhealth,https://job-boards.greenhouse.io/flatironhealth,2026-11-21T03:41:53+00:00,21
+Included Health,health care,employer navigation and care,lever,includedhealth,https://jobs.lever.co/includedhealth,2026-11-21T03:41:57+00:00,36
+Suki,health care,clinical voice assistant,greenhouse,suki,https://job-boards.greenhouse.io/suki,2026-11-21T03:41:57+00:00,10
+Talkspace,health care,virtual therapy,greenhouse,talkspace,https://job-boards.greenhouse.io/talkspace,2026-11-21T03:41:58+00:00,19
+Omada Health,health care,chronic condition care,greenhouse,omadahealth,https://job-boards.greenhouse.io/omadahealth,2026-11-21T03:42:03+00:00,23
+Cohere Health,health care,prior authorization,greenhouse,coherehealth,https://job-boards.greenhouse.io/coherehealth,2026-11-21T03:42:08+00:00,64
+Qventus,health care,hospital operations AI,greenhouse,qventus,https://job-boards.greenhouse.io/qventus,2026-11-21T03:42:09+00:00,15
+LeanTaaS,health care,hospital capacity software,lever,leantaas,https://jobs.lever.co/leantaas,2026-11-21T03:42:11+00:00,2
+Elation Health,health care,primary care EHR,greenhouse,elationhealth,https://job-boards.greenhouse.io/elationhealth,2026-11-21T03:42:17+00:00,17
+PathAI,health care,pathology AI,greenhouse,pathai,https://job-boards.greenhouse.io/pathai,2026-11-21T03:42:20+00:00,15
+Strive Health,health care,kidney care,greenhouse,strivehealth,https://job-boards.greenhouse.io/strivehealth,2026-11-21T03:42:21+00:00,20
+Everlywell,health care,at-home lab testing,lever,everlywell,https://jobs.lever.co/everlywell,2026-11-21T03:42:24+00:00,15
+Sana Benefits,health care,small business health plans,lever,sanabenefits,https://jobs.lever.co/sanabenefits,2026-11-21T03:42:25+00:00,6
+Maven Clinic,health care,women's and family health,greenhouse,mavenclinic,https://job-boards.greenhouse.io/mavenclinic,2026-11-21T03:42:26+00:00,34
+Headspace,health care,mental health for employers,greenhouse,hs,https://job-boards.greenhouse.io/hs,2026-11-21T03:42:27+00:00,4
+Nomi Health,health care,direct healthcare for employers,lever,nomihealth,https://jobs.lever.co/nomihealth,2026-11-21T03:42:42+00:00,5
+HealthJoy,health care,benefits navigation,greenhouse,healthjoy,https://job-boards.greenhouse.io/healthjoy,2026-11-21T03:42:48+00:00,3
+Clover Health,health care,Medicare Advantage,greenhouse,cloverhealth,https://job-boards.greenhouse.io/cloverhealth,2026-11-21T03:42:49+00:00,55
+Collective Health,health care,employer health benefits,greenhouse,collectivehealth,https://job-boards.greenhouse.io/collectivehealth,2026-11-21T03:42:58+00:00,4
+Bright Machines,manufacturing,software-defined manufacturing,lever,brightmachines,https://jobs.lever.co/brightmachines,2026-11-21T03:43:18+00:00,15
+Divergent Technologies,manufacturing,additive vehicle manufacturing,greenhouse,divergent,https://job-boards.greenhouse.io/divergent,2026-11-21T03:43:20+00:00,149
+Ursa Major,manufacturing,rocket engines,greenhouse,ursamajor,https://job-boards.greenhouse.io/ursamajor,2026-11-21T03:43:21+00:00,135
+Formic,manufacturing,robots as a service,greenhouse,formic,https://job-boards.greenhouse.io/formic,2026-11-21T03:43:26+00:00,40
+Xometry,manufacturing,on-demand manufacturing marketplace,greenhouse,xometry,https://job-boards.greenhouse.io/xometry,2026-11-21T03:43:28+00:00,136
+Fictiv,manufacturing,custom parts manufacturing,greenhouse,fictiv,https://job-boards.greenhouse.io/fictiv,2026-11-21T03:43:29+00:00,99
+Paperless Parts,manufacturing,quoting software for job shops,greenhouse,paperlessparts,https://job-boards.greenhouse.io/paperlessparts,2026-11-21T03:43:30+00:00,6
+Augury,manufacturing,machine health AI,greenhouse,augury,https://job-boards.greenhouse.io/augury,2026-11-21T03:43:30+00:00,12
+Re:Build Manufacturing,manufacturing,industrial manufacturing group,greenhouse,rebuildmanufacturing,https://job-boards.greenhouse.io/rebuildmanufacturing,2026-11-21T03:43:32+00:00,136
+Lightmatter,manufacturing,photonic computing,greenhouse,lightmatter,https://job-boards.greenhouse.io/lightmatter,2026-11-21T03:43:32+00:00,82
+Apptronik,manufacturing,humanoid robots,greenhouse,apptronik,https://job-boards.greenhouse.io/apptronik,2026-11-21T03:43:36+00:00,84
+Sila Nanotechnologies,manufacturing,battery materials,greenhouse,silananotechnologies,https://job-boards.greenhouse.io/silananotechnologies,2026-11-21T03:43:45+00:00,34
+Astranis,manufacturing,small geostationary satellites,greenhouse,astranis,https://job-boards.greenhouse.io/astranis,2026-11-21T03:43:52+00:00,170
+Hermeus,manufacturing,hypersonic aircraft,lever,hermeus,https://jobs.lever.co/hermeus,2026-11-21T03:43:53+00:00,78
+Pickle Robot,manufacturing,truck unloading robots,lever,picklerobot,https://jobs.lever.co/picklerobot,2026-11-21T03:44:00+00:00,11
+Tulip Interfaces,manufacturing,frontline operations platform,greenhouse,tulip,https://job-boards.greenhouse.io/tulip,2026-11-21T03:44:28+00:00,67
+Palmetto,energy,home solar and electrification,greenhouse,palmetto,https://job-boards.greenhouse.io/palmetto,2026-11-21T03:44:28+00:00,1
+Redwood Materials,energy,battery recycling,greenhouse,redwoodmaterials,https://job-boards.greenhouse.io/redwoodmaterials,2026-11-21T03:44:31+00:00,103
+Commonwealth Fusion Systems,energy,fusion power,lever,cfsenergy,https://jobs.lever.co/cfsenergy,2026-11-21T03:44:35+00:00,133
+Amperon,energy,energy demand forecasting,greenhouse,amperon,https://job-boards.greenhouse.io/amperon,2026-11-21T03:44:46+00:00,1
+Infinitum,energy,electric motors,greenhouse,infinitumelectric,https://job-boards.greenhouse.io/infinitumelectric,2026-11-21T03:44:48+00:00,19
+GoodLeap,energy,home solar financing,lever,goodleap,https://jobs.lever.co/goodleap,2026-11-21T03:44:48+00:00,19
+Rondo Energy,energy,industrial heat batteries,greenhouse,rondoenergy,https://job-boards.greenhouse.io/rondoenergy,2026-11-21T03:44:59+00:00,12
+Antora Energy,energy,thermal batteries,greenhouse,antora,https://job-boards.greenhouse.io/antora,2026-11-21T03:45:00+00:00,46
+Watershed,energy,enterprise climate software,greenhouse,watershed,https://job-boards.greenhouse.io/watershed,2026-11-21T03:45:02+00:00,8
+Lunar Energy,energy,home energy systems,greenhouse,lunarenergy,https://job-boards.greenhouse.io/lunarenergy,2026-11-21T03:45:04+00:00,22
+Freedom Solar,energy,solar installation,lever,freedomsolarpower,https://jobs.lever.co/freedomsolarpower,2026-11-21T03:45:09+00:00,12
+Mainspring Energy,energy,linear generators,lever,mainspringenergy,https://jobs.lever.co/mainspringenergy,2026-11-21T03:45:12+00:00,91
+Gridware,energy,grid monitoring,lever,gridware,https://jobs.lever.co/gridware,2026-11-21T03:45:25+00:00,19
+Solar Landscape,energy,community solar,lever,solarlandscape,https://jobs.lever.co/solarlandscape,2026-11-21T03:45:26+00:00,18
+Liquid Death,consumer,canned water and drinks,greenhouse,liquiddeath,https://job-boards.greenhouse.io/liquiddeath,2026-11-21T03:45:26+00:00,2
+Olipop,consumer,prebiotic soda,greenhouse,olipop,https://job-boards.greenhouse.io/olipop,2026-11-21T03:45:27+00:00,10
+Vital Farms,consumer,pasture-raised eggs,greenhouse,vitalfarms,https://job-boards.greenhouse.io/vitalfarms,2026-11-21T03:45:33+00:00,9
+Once Upon a Farm,consumer,organic kids food,lever,onceuponafarm,https://jobs.lever.co/onceuponafarm,2026-11-21T03:45:35+00:00,2
+Bombas,consumer,socks and apparel,greenhouse,bombas,https://job-boards.greenhouse.io/bombas,2026-11-21T03:46:03+00:00,7
+Glossier,consumer,beauty,greenhouse,glossier,https://job-boards.greenhouse.io/glossier,2026-11-21T03:46:07+00:00,18
+Harry's,consumer,personal care brands,greenhouse,harrys,https://job-boards.greenhouse.io/harrys,2026-11-21T03:46:16+00:00,13
+Grove Collaborative,consumer,sustainable household goods,greenhouse,grovecollaborative,https://job-boards.greenhouse.io/grovecollaborative,2026-11-21T03:46:17+00:00,5
+Misfits Market,consumer,online grocery,greenhouse,misfitsmarket,https://job-boards.greenhouse.io/misfitsmarket,2026-11-21T03:46:18+00:00,51
+Hungryroot,consumer,grocery and recipes,greenhouse,hungryroot,https://job-boards.greenhouse.io/hungryroot,2026-11-21T03:46:21+00:00,5
+Sweetgreen,consumer,restaurants,greenhouse,sweetgreen,https://job-boards.greenhouse.io/sweetgreen,2026-11-21T03:46:21+00:00,19
+Ruggable,consumer,washable rugs,greenhouse,ruggable,https://job-boards.greenhouse.io/ruggable,2026-11-21T03:46:22+00:00,10
+Parachute Home,consumer,home goods,greenhouse,parachutehome,https://job-boards.greenhouse.io/parachutehome,2026-11-21T03:46:24+00:00,2
+Banza,consumer,chickpea pasta,greenhouse,banza,https://job-boards.greenhouse.io/banza,2026-11-21T03:46:29+00:00,2
+Verkada,software,video security and access control,greenhouse,verkada,https://job-boards.greenhouse.io/verkada,2026-11-21T03:46:46+00:00,335
+Rubrik,software,data security,greenhouse,rubrik,https://job-boards.greenhouse.io/rubrik,2026-11-21T03:46:47+00:00,187
+Netskope,software,cloud security,greenhouse,netskope,https://job-boards.greenhouse.io/netskope,2026-11-21T03:46:48+00:00,116
+Algolia,software,search and discovery,greenhouse,algolia,https://job-boards.greenhouse.io/algolia,2026-11-21T03:46:50+00:00,22
+Smartling,software,translation management,greenhouse,smartling,https://job-boards.greenhouse.io/smartling,2026-11-21T03:46:51+00:00,11
+Clever,software,K-12 single sign-on,greenhouse,clever,https://job-boards.greenhouse.io/clever,2026-11-21T03:46:54+00:00,9
+Newsela,software,K-12 instructional content,greenhouse,newsela,https://job-boards.greenhouse.io/newsela,2026-11-21T03:46:54+00:00,9
+Dataiku,software,AI and analytics platform,greenhouse,dataiku,https://job-boards.greenhouse.io/dataiku,2026-11-21T03:46:56+00:00,13
+Wasabi Technologies,software,cloud object storage,greenhouse,wasabi,https://job-boards.greenhouse.io/wasabi,2026-11-21T03:46:57+00:00,6
+DigitalOcean,software,developer cloud,greenhouse,digitalocean98,https://job-boards.greenhouse.io/digitalocean98,2026-11-21T03:46:58+00:00,80
+Twingate,software,zero trust network access,lever,twingate,https://jobs.lever.co/twingate,2026-11-21T03:47:00+00:00,3
+Everlaw,software,legal e-discovery,greenhouse,everlaw,https://job-boards.greenhouse.io/everlaw,2026-11-21T03:47:02+00:00,33
+NetDocuments,software,legal document management,greenhouse,netdocuments,https://job-boards.greenhouse.io/netdocuments,2026-11-21T03:47:02+00:00,18
+Nexamp,energy,community solar and storage,greenhouse,nexamp,https://job-boards.greenhouse.io/nexamp,2026-11-21T03:47:12+00:00,23
+Silicon Ranch,energy,solar power,greenhouse,siliconranch,https://job-boards.greenhouse.io/siliconranch,2026-11-21T03:47:25+00:00,17
+Origis Energy,energy,solar and storage developer,greenhouse,origisenergy,https://job-boards.greenhouse.io/origisenergy,2026-11-21T03:47:26+00:00,13
+Bedrock Energy,energy,geothermal heating and cooling,lever,bedrockenergy,https://jobs.lever.co/bedrockenergy,2026-11-21T03:47:29+00:00,6
+Peloton,consumer,connected fitness,greenhouse,peloton,https://job-boards.greenhouse.io/peloton,2026-11-21T03:47:39+00:00,42
+AG1,consumer,nutrition drinks,greenhouse,ag1,https://job-boards.greenhouse.io/ag1,2026-11-21T03:47:42+00:00,9
+Gopuff,consumer,instant delivery,lever,gopuff,https://jobs.lever.co/gopuff,2026-11-21T03:47:43+00:00,724
+Rent the Runway,consumer,clothing rental,greenhouse,renttherunway,https://job-boards.greenhouse.io/renttherunway,2026-11-21T03:47:47+00:00,24
+StockX,consumer,resale marketplace,greenhouse,stockx,https://job-boards.greenhouse.io/stockx,2026-11-21T03:47:48+00:00,28
+BARK,consumer,dog products,greenhouse,bark,https://job-boards.greenhouse.io/bark,2026-11-21T03:47:49+00:00,1
+The Farmer's Dog,consumer,fresh pet food,greenhouse,thefarmersdog,https://job-boards.greenhouse.io/thefarmersdog,2026-11-21T03:47:50+00:00,19
+Nanit,consumer,baby monitors,greenhouse,nanit,https://job-boards.greenhouse.io/nanit,2026-11-21T03:47:51+00:00,6
+Saatva,consumer,mattresses,greenhouse,saatva,https://job-boards.greenhouse.io/saatva,2026-11-21T03:47:53+00:00,6
+ThirdLove,consumer,apparel,greenhouse,thirdlove,https://job-boards.greenhouse.io/thirdlove,2026-11-21T03:47:54+00:00,14
+Supergoop,consumer,sunscreen and skincare,greenhouse,supergoop,https://job-boards.greenhouse.io/supergoop,2026-11-21T03:47:55+00:00,6
+Manscaped,consumer,grooming products,greenhouse,manscaped,https://job-boards.greenhouse.io/manscaped,2026-11-21T03:47:56+00:00,4

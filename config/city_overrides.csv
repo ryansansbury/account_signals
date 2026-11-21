@@ -1,0 +1,4 @@
+city,state,lat,lon,why
+San Francisco,CA,37.7793,-122.4193,the census internal point sits offshore by the Farallon Islands; this is the city center
+South San Francisco,CA,37.6547,-122.4077,the census internal point falls in the bay; this is the city center
+Alameda,CA,37.7652,-122.2416,the census internal point falls in the bay; this is the city center

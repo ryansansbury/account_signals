@@ -1,0 +1,490 @@
+{
+ "account": "Figma",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "f2a6af5f0ef995e8",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:51:51+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Figma had 147 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Francisco, CA. The US held 28% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sff62105450",
+   "title": "Manager, Deal Desk (London, United Kingdom)",
+   "excerpt": "Manager, Deal Desk (London, United Kingdom)",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:figma:6264943004",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s74049128af",
+   "title": "Sales Operations Manager",
+   "excerpt": "Sales Operations Manager",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:figma:6235320004",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sf073fbda0c",
+   "title": "Sales Operations Manager",
+   "excerpt": "Assist the forecasting process for Mid-Market, Enterprise & Strategic, bringing rigor and repeatability to pipeline reviews .",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:figma:6235320004",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s00e9865ca7",
+   "title": "Sales Operations Manager",
+   "excerpt": "Strong analytical and technical skills, with proven expertise in Salesforce, SQL and BI tools (specifically Sigma).",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:figma:6235320004",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s07ff3f9147",
+   "title": "Data & Integration Engineer, Business Systems",
+   "excerpt": "While it’s not required, it’s an added plus if you also have: Experience with dbt, Airflow, or comparable transformation and orchestration tools, as well as change data capture, streaming pipelines, schema evolution, and historical backfills.",
+   "posted": "2026-10-27",
+   "posting_id": "greenhouse:figma:6233040004",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s098c09a313",
+   "title": "Business Systems Analyst",
+   "excerpt": "Serve as a hands-on admin across our broader support tooling, including Sprinklr, Gainsight, MaestroQA, Assembled, among others.",
+   "posted": "2026-10-07",
+   "posting_id": "greenhouse:figma:6215865004",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s9bd3bd2277",
+   "title": "Senior Inside Sales Representative (Berlin, Germany)",
+   "excerpt": "Senior Inside Sales Representative (Berlin, Germany)",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:figma:6263992004",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sc686001df1",
+   "title": "Senior Inside Sales Representative (Paris, France)",
+   "excerpt": "Senior Inside Sales Representative (Paris, France)",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:figma:6263994004",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sc5ee568e3d",
+   "title": "Account Executive, SMB (Tokyo, Japan)",
+   "excerpt": "Account Executive, SMB (Tokyo, Japan)",
+   "posted": "2026-11-17",
+   "posting_id": "greenhouse:figma:6253947004",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The sales operations postings in the last 30 days are \\\"Manager, Deal Desk (London, United Kingdom)\\\" published on 2026-11-20 [1] and \\\"Sales Operations Manager\\\" published on 2026-10-28 [2].\"}, {\"text\": \"Three sales roles from the last 30 days are \\\"Senior Inside Sales Representative (Berlin, Germany)\\\" published on 2026-11-18 [7], \\\"Senior Inside Sales Representative (Paris, France)\\\" published on 2026-11-18 [8], and \\\"Account Executive, SMB (Tokyo, Japan)\\\" published on 2026-11-17 [9].\"}], \"priority\": {\"text\": \"The likely priority is revenue work, and the cited postings describe a \\\"Manager, Deal Desk\\\" role [1], a \\\"Sales Operations Manager\\\" posting that asks to \\\"Assist the forecasting process for Mid-Market, Enterprise & Strategic\\\" [3], and \\\"proven expertise in Salesforce, SQL and BI tools\\\" [4].\"}, \"questions\": [\"Who runs forecasting for each segment today?\", \"Which region will the deal desk role cover?\", \"Which tools does the sales operations team use for pipeline reviews today?\"], \"unknowns\": [\"Which team the deal desk and sales operations roles report into\", \"How the current CRM and reporting tools are set up\"], \"first_touch\": {\"subject\": \"Your deal desk and sales operations roles\", \"body\": \"Hi {first_name},\\n\\nI noticed Figma's job board has a \\\"Manager, Deal Desk\\\" role in London posted in November. It also lists a \\\"Sales Operations Manager\\\" posting from October that asks for \\\"proven expertise in Salesforce, SQL and BI tools.\\\"\\n\\nWhich team will the deal desk work with most closely?\\n\\n{sender_name}\", \"cites\": [1, 2, 4]}}",
+   "meta": {
+    "ms": 37077,
+    "input_tokens": 2,
+    "output_tokens": 8969,
+    "cache_write_tokens": 5624,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00562496
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The sales operations postings in the last 30 days are \"Manager, Deal Desk (London, United Kingdom)\" published on 2026-11-20 [1] and \"Sales Operations Manager\" published on 2026-10-28 [2]."
+     },
+     {
+      "text": "Three sales roles from the last 30 days are \"Senior Inside Sales Representative (Berlin, Germany)\" published on 2026-11-18 [7], \"Senior Inside Sales Representative (Paris, France)\" published on 2026-11-18 [8], and \"Account Executive, SMB (Tokyo, Japan)\" published on 2026-11-17 [9]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work, and the cited postings describe a \"Manager, Deal Desk\" role [1], a \"Sales Operations Manager\" posting that asks to \"Assist the forecasting process for Mid-Market, Enterprise & Strategic\" [3], and \"proven expertise in Salesforce, SQL and BI tools\" [4]."
+    },
+    "questions": [
+     "Who runs forecasting for each segment today?",
+     "Which region will the deal desk role cover?",
+     "Which tools does the sales operations team use for pipeline reviews today?"
+    ],
+    "unknowns": [
+     "Which team the deal desk and sales operations roles report into",
+     "How the current CRM and reporting tools are set up"
+    ],
+    "first_touch": {
+     "subject": "Your deal desk and sales operations roles",
+     "body": "Hi {first_name},\n\nI noticed Figma's job board has a \"Manager, Deal Desk\" role in London posted in November. It also lists a \"Sales Operations Manager\" posting from October that asks for \"proven expertise in Salesforce, SQL and BI tools.\"\n\nWhich team will the deal desk work with most closely?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The sales operations postings in the last 30 days are \"Manager, Deal Desk (London, United Kingdom)\" published on 2026-11-20 [1] and \"Sales Operations Manager\" published on 2026-10-28 [2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Three sales roles from the last 30 days are \"Senior Inside Sales Representative (Berlin, Germany)\" published on 2026-11-18 [7], \"Senior Inside Sales Representative (Paris, France)\" published on 2026-11-18 [8], and \"Account Executive, SMB (Tokyo, Japan)\" published on 2026-11-17 [9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": [
+       "number: 30"
+      ]
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work, and the cited postings describe a \"Manager, Deal Desk\" role [1], a \"Sales Operations Manager\" posting that asks to \"Assist the forecasting process for Mid-Market, Enterprise & Strategic\" [3], and \"proven expertise in Salesforce, SQL and BI tools\" [4].",
+      "cites": [
+       1,
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who runs forecasting for each segment today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which region will the deal desk role cover?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which tools does the sales operations team use for pipeline reviews today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which team the deal desk and sales operations roles report into",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How the current CRM and reporting tools are set up",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Figma's job board has a \"Manager, Deal Desk\" role in London posted in November. It also lists a \"Sales Operations Manager\" posting from October that asks for \"proven expertise in Salesforce, SQL and BI tools.\"\n\nWhich team will the deal desk work with most closely?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The board has a \\\"Manager, Deal Desk (London, United Kingdom)\\\" posting published on 2026-11-20 [1] and a \\\"Sales Operations Manager\\\" posting published on 2026-10-28 [2].\"}, {\"text\": \"The board also lists three sales roles, \\\"Senior Inside Sales Representative (Berlin, Germany),\\\" \\\"Senior Inside Sales Representative (Paris, France),\\\" and \\\"Account Executive, SMB (Tokyo, Japan)\\\" [7][8][9].\"}, {\"text\": \"Two were published on 2026-11-18 and the third on 2026-11-17 [7][8][9].\"}], \"priority\": {\"text\": \"The likely priority is revenue work, and the cited postings describe a \\\"Manager, Deal Desk\\\" role [1], a \\\"Sales Operations Manager\\\" posting that asks to \\\"Assist the forecasting process for Mid-Market, Enterprise & Strategic\\\" [3], and \\\"proven expertise in Salesforce, SQL and BI tools\\\" [4].\"}, \"questions\": [\"Who runs forecasting for each segment today?\", \"Which region will the deal desk role cover?\", \"Which tools does the sales operations team use for pipeline reviews today?\"], \"unknowns\": [\"Which team the deal desk and sales operations roles report into\", \"How the current CRM and reporting tools are set up\"], \"first_touch\": {\"subject\": \"Your deal desk and sales operations roles\", \"body\": \"Hi {first_name},\\n\\nI noticed Figma's job board has a \\\"Manager, Deal Desk\\\" role in London posted in November. It also lists a \\\"Sales Operations Manager\\\" posting from October that asks for \\\"proven expertise in Salesforce, SQL and BI tools.\\\"\\n\\nWhich team will the deal desk work with most closely?\\n\\n{sender_name}\", \"cites\": [1, 2, 4]}}",
+   "meta": {
+    "ms": 28580,
+    "input_tokens": 2,
+    "output_tokens": 6855,
+    "cache_write_tokens": 6366,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00471636
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The board has a \"Manager, Deal Desk (London, United Kingdom)\" posting published on 2026-11-20 [1] and a \"Sales Operations Manager\" posting published on 2026-10-28 [2]."
+     },
+     {
+      "text": "The board also lists three sales roles, \"Senior Inside Sales Representative (Berlin, Germany),\" \"Senior Inside Sales Representative (Paris, France),\" and \"Account Executive, SMB (Tokyo, Japan)\" [7][8][9]."
+     },
+     {
+      "text": "Two were published on 2026-11-18 and the third on 2026-11-17 [7][8][9]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work, and the cited postings describe a \"Manager, Deal Desk\" role [1], a \"Sales Operations Manager\" posting that asks to \"Assist the forecasting process for Mid-Market, Enterprise & Strategic\" [3], and \"proven expertise in Salesforce, SQL and BI tools\" [4]."
+    },
+    "questions": [
+     "Who runs forecasting for each segment today?",
+     "Which region will the deal desk role cover?",
+     "Which tools does the sales operations team use for pipeline reviews today?"
+    ],
+    "unknowns": [
+     "Which team the deal desk and sales operations roles report into",
+     "How the current CRM and reporting tools are set up"
+    ],
+    "first_touch": {
+     "subject": "Your deal desk and sales operations roles",
+     "body": "Hi {first_name},\n\nI noticed Figma's job board has a \"Manager, Deal Desk\" role in London posted in November. It also lists a \"Sales Operations Manager\" posting from October that asks for \"proven expertise in Salesforce, SQL and BI tools.\"\n\nWhich team will the deal desk work with most closely?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The board has a \"Manager, Deal Desk (London, United Kingdom)\" posting published on 2026-11-20 [1] and a \"Sales Operations Manager\" posting published on 2026-10-28 [2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The board also lists three sales roles, \"Senior Inside Sales Representative (Berlin, Germany),\" \"Senior Inside Sales Representative (Paris, France),\" and \"Account Executive, SMB (Tokyo, Japan)\" [7][8][9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": [
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "Two were published on 2026-11-18 and the third on 2026-11-17 [7][8][9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work, and the cited postings describe a \"Manager, Deal Desk\" role [1], a \"Sales Operations Manager\" posting that asks to \"Assist the forecasting process for Mid-Market, Enterprise & Strategic\" [3], and \"proven expertise in Salesforce, SQL and BI tools\" [4].",
+      "cites": [
+       1,
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who runs forecasting for each segment today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which region will the deal desk role cover?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which tools does the sales operations team use for pipeline reviews today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which team the deal desk and sales operations roles report into",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How the current CRM and reporting tools are set up",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Figma's job board has a \"Manager, Deal Desk\" role in London posted in November. It also lists a \"Sales Operations Manager\" posting from October that asks for \"proven expertise in Salesforce, SQL and BI tools.\"\n\nWhich team will the deal desk work with most closely?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The board has a \"Manager, Deal Desk (London, United Kingdom)\" posting published on 2026-11-20 [1] and a \"Sales Operations Manager\" posting published on 2026-10-28 [2]."
+    },
+    {
+     "text": "The board also lists three sales roles, \"Senior Inside Sales Representative (Berlin, Germany),\" \"Senior Inside Sales Representative (Paris, France),\" and \"Account Executive, SMB (Tokyo, Japan)\" [7][8][9]."
+    },
+    {
+     "text": "Two were published on 2026-11-18 and the third on 2026-11-17 [7][8][9]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work, and the cited postings describe a \"Manager, Deal Desk\" role [1], a \"Sales Operations Manager\" posting that asks to \"Assist the forecasting process for Mid-Market, Enterprise & Strategic\" [3], and \"proven expertise in Salesforce, SQL and BI tools\" [4]."
+   },
+   "questions": [
+    "Who runs forecasting for each segment today?",
+    "Which region will the deal desk role cover?",
+    "Which tools does the sales operations team use for pipeline reviews today?"
+   ],
+   "unknowns": [
+    "Which team the deal desk and sales operations roles report into",
+    "How the current CRM and reporting tools are set up"
+   ],
+   "first_touch": {
+    "subject": "Your deal desk and sales operations roles",
+    "body": "Hi {first_name},\n\nI noticed Figma's job board has a \"Manager, Deal Desk\" role in London posted in November. It also lists a \"Sales Operations Manager\" posting from October that asks for \"proven expertise in Salesforce, SQL and BI tools.\"\n\nWhich team will the deal desk work with most closely?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The board has a \"Manager, Deal Desk (London, United Kingdom)\" posting published on 2026-11-20 [1] and a \"Sales Operations Manager\" posting published on 2026-10-28 [2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The board also lists three sales roles, \"Senior Inside Sales Representative (Berlin, Germany),\" \"Senior Inside Sales Representative (Paris, France),\" and \"Account Executive, SMB (Tokyo, Japan)\" [7][8][9].",
+     "cites": [
+      7,
+      8,
+      9
+     ],
+     "problems": [
+      "writing: one comma that reads as a pause"
+     ]
+    },
+    {
+     "field": "why_now",
+     "text": "Two were published on 2026-11-18 and the third on 2026-11-17 [7][8][9].",
+     "cites": [
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work, and the cited postings describe a \"Manager, Deal Desk\" role [1], a \"Sales Operations Manager\" posting that asks to \"Assist the forecasting process for Mid-Market, Enterprise & Strategic\" [3], and \"proven expertise in Salesforce, SQL and BI tools\" [4].",
+     "cites": [
+      1,
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who runs forecasting for each segment today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which region will the deal desk role cover?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which tools does the sales operations team use for pipeline reviews today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which team the deal desk and sales operations roles report into",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How the current CRM and reporting tools are set up",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Figma's job board has a \"Manager, Deal Desk\" role in London posted in November. It also lists a \"Sales Operations Manager\" posting from October that asks for \"proven expertise in Salesforce, SQL and BI tools.\"\n\nWhich team will the deal desk work with most closely?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": false
+  },
+  "repaired": true,
+  "needs_review": true
+ },
+ "cost_usd": 0.010341,
+ "ms": 65657
+}

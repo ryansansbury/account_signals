@@ -1,0 +1,61 @@
+{
+ "account": "Lightmatter",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "07cdc127dc3db613",
+ "input_hash": "997b63c9ca7733b1",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:04:04+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7406,
+    "input_tokens": 2,
+    "output_tokens": 1013,
+    "cache_write_tokens": 14251,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0672183
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [1] gives the title and a 2026-11-19 publish date, and both match the part."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Both phrases appear verbatim in the Sales Operations posting's forecasting responsibilities, which [3] quotes."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The FP&A posting is dated 2026-11-19 and names both \"revenue forecasting\" and \"sales pipeline auditing\" in its role description, and its responsibilities repeat both."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Two November postings stress forecasting and pipeline discipline, and the quoted phrases are in them, so calling this a likely priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The title, November timing, forecasting and pipeline review duties, and the FP&A role's revenue forecasting and pipeline auditing all match the cited postings."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.067218,
+ "ms": 7406
+}

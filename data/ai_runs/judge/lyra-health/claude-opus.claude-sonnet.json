@@ -1,0 +1,61 @@
+{
+ "account": "Lyra Health",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "329c1380684db07f",
+ "input_hash": "a5198e5ab007f74e",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:04:27+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7715,
+    "input_tokens": 2,
+    "output_tokens": 1005,
+    "cache_write_tokens": 23253,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1031463
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The posting's date of 2026-11-13 and the quoted CRM (Salesforce) responsibility both match sources [1][2] and the full text."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The quote matches the Business Acumen requirement in the Sales Director posting [7]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The creation dates 2026-11-16, 2026-11-03 and 2026-11-03 are all within 30 days of the 2026-11-20 read date."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both quotes are real, and reading a CRM enhancement duty plus a Salesforce pipeline requirement as a likely priority is a fair, modest inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November posting, both quotes and the Salesforce pipeline framing match the cited postings [1][2][7]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.103146,
+ "ms": 7715
+}

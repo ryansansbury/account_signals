@@ -1,0 +1,354 @@
+{
+ "account": "Entrata",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "b5687a55d36feddb",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:04:23+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Entrata had 29 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Lehi, UT. The US held 55% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s11c2fe25a0",
+   "title": "Deal Desk Analyst II",
+   "excerpt": "Deal Desk Analyst II",
+   "posted": "2026-11-16",
+   "posting_id": "lever:entrata:722a854d-d4a8-48c3-8a7f-c40b5d7ed503",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "seea571fbd1",
+   "title": "Regional Vice President of Sales, West Region (IC-Enterprise)",
+   "excerpt": "Regional Vice President of Sales, West Region (IC-Enterprise)",
+   "posted": "2026-05-18",
+   "posting_id": "lever:entrata:8f6b75c0-5157-4db4-b600-6fa18303e16d",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s01c813c3ad",
+   "title": "Regional Vice President of Sales, East Region (IC-Enterprise)",
+   "excerpt": "Regional Vice President of Sales, East Region (IC-Enterprise)",
+   "posted": "2026-04-01",
+   "posting_id": "lever:entrata:dd699465-497c-49a2-8720-000db1d1feb0",
+   "family": "leadership"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s934a5cf394",
+   "title": "Outbound BDR",
+   "excerpt": "Outbound BDR",
+   "posted": "2026-11-10",
+   "posting_id": "lever:entrata:a297cf8f-ca51-46ce-bfab-25d169b78948",
+   "family": "pace"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s8f66c14bac",
+   "title": "Regional Vice President Product Sales (AI)",
+   "excerpt": "Regional Vice President Product Sales (AI)",
+   "posted": "2026-10-06",
+   "posting_id": "lever:entrata:f91be6ec-b3b9-4bc4-a9a2-05246f32acb7",
+   "family": "pace"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s7ab38f0759",
+   "title": "Enterprise Inside Sales Executive",
+   "excerpt": "Enterprise Inside Sales Executive",
+   "posted": "2026-07-27",
+   "posting_id": "lever:entrata:b5f583d7-97ad-4526-bf5f-640449cf1c04",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Entrata published a \\\"Deal Desk Analyst II\\\" posting on 2026-11-16 [1].\"}, {\"text\": \"It also posted \\\"Outbound BDR\\\" on 2026-11-10 and \\\"Regional Vice President Product Sales (AI)\\\" on 2026-10-06 [4][5].\"}, {\"text\": \"Its public job board listed 29 open roles on 2026-11-20 [0].\"}], \"priority\": {\"text\": \"The likely priority is selling, shown by open roles titled \\\"Deal Desk Analyst II\\\", \\\"Outbound BDR\\\", and \\\"Enterprise Inside Sales Executive\\\" [1][4][6].\"}, \"questions\": [\"What will the \\\"Deal Desk Analyst II\\\" role own day to day?\", \"How are territories and quotas set for the new sales hires?\", \"Which reports do sales leaders use today to follow pipeline and forecasts?\"], \"unknowns\": [\"Which CRM the sales team uses\", \"How large the sales and sales operations teams are\", \"Who owns revenue operations projects\", \"Budget and timing for any revenue operations work\"], \"first_touch\": {\"subject\": \"Entrata sales hiring and deal desk\", \"body\": \"Hi {first_name},\\n\\nI noticed Entrata posted a \\\"Deal Desk Analyst II\\\" role in November. There is also an \\\"Outbound BDR\\\" role from November and an \\\"Enterprise Inside Sales Executive\\\" role from July.\\n\\nI work with teams on revenue operations such as CRM cleanup, pipeline reporting, forecasting, and territory planning. Would it be useful to compare notes on how your sales team is set up for the year ahead?\\n\\n{sender_name}\", \"cites\": [1, 4, 6]}}",
+   "meta": {
+    "ms": 16439,
+    "input_tokens": 2,
+    "output_tokens": 2298,
+    "cache_write_tokens": 5221,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0440226
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Entrata published a \"Deal Desk Analyst II\" posting on 2026-11-16 [1]."
+     },
+     {
+      "text": "It also posted \"Outbound BDR\" on 2026-11-10 and \"Regional Vice President Product Sales (AI)\" on 2026-10-06 [4][5]."
+     },
+     {
+      "text": "Its public job board listed 29 open roles on 2026-11-20 [0]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is selling, shown by open roles titled \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" [1][4][6]."
+    },
+    "questions": [
+     "What will the \"Deal Desk Analyst II\" role own day to day?",
+     "How are territories and quotas set for the new sales hires?",
+     "Which reports do sales leaders use today to follow pipeline and forecasts?"
+    ],
+    "unknowns": [
+     "Which CRM the sales team uses",
+     "How large the sales and sales operations teams are",
+     "Who owns revenue operations projects",
+     "Budget and timing for any revenue operations work"
+    ],
+    "first_touch": {
+     "subject": "Entrata sales hiring and deal desk",
+     "body": "Hi {first_name},\n\nI noticed Entrata posted a \"Deal Desk Analyst II\" role in November. There is also an \"Outbound BDR\" role from November and an \"Enterprise Inside Sales Executive\" role from July.\n\nI work with teams on revenue operations such as CRM cleanup, pipeline reporting, forecasting, and territory planning. Would it be useful to compare notes on how your sales team is set up for the year ahead?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Entrata published a \"Deal Desk Analyst II\" posting on 2026-11-16 [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "It also posted \"Outbound BDR\" on 2026-11-10 and \"Regional Vice President Product Sales (AI)\" on 2026-10-06 [4][5].",
+      "cites": [
+       4,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Its public job board listed 29 open roles on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is selling, shown by open roles titled \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" [1][4][6].",
+      "cites": [
+       1,
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What will the \"Deal Desk Analyst II\" role own day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are territories and quotas set for the new sales hires?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which reports do sales leaders use today to follow pipeline and forecasts?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the sales team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How large the sales and sales operations teams are",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue operations projects",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for any revenue operations work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Entrata posted a \"Deal Desk Analyst II\" role in November. There is also an \"Outbound BDR\" role from November and an \"Enterprise Inside Sales Executive\" role from July.\n\nI work with teams on revenue operations such as CRM cleanup, pipeline reporting, forecasting, and territory planning. Would it be useful to compare notes on how your sales team is set up for the year ahead?\n\n{sender_name}",
+      "cites": [
+       1,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Entrata published a \"Deal Desk Analyst II\" posting on 2026-11-16 [1]."
+    },
+    {
+     "text": "It also posted \"Outbound BDR\" on 2026-11-10 and \"Regional Vice President Product Sales (AI)\" on 2026-10-06 [4][5]."
+    },
+    {
+     "text": "Its public job board listed 29 open roles on 2026-11-20 [0]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is selling, shown by open roles titled \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" [1][4][6]."
+   },
+   "questions": [
+    "What will the \"Deal Desk Analyst II\" role own day to day?",
+    "How are territories and quotas set for the new sales hires?",
+    "Which reports do sales leaders use today to follow pipeline and forecasts?"
+   ],
+   "unknowns": [
+    "Which CRM the sales team uses",
+    "How large the sales and sales operations teams are",
+    "Who owns revenue operations projects",
+    "Budget and timing for any revenue operations work"
+   ],
+   "first_touch": {
+    "subject": "Entrata sales hiring and deal desk",
+    "body": "Hi {first_name},\n\nI noticed Entrata posted a \"Deal Desk Analyst II\" role in November. There is also an \"Outbound BDR\" role from November and an \"Enterprise Inside Sales Executive\" role from July.\n\nI work with teams on revenue operations such as CRM cleanup, pipeline reporting, forecasting, and territory planning. Would it be useful to compare notes on how your sales team is set up for the year ahead?\n\n{sender_name}",
+    "cites": [
+     1,
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Entrata published a \"Deal Desk Analyst II\" posting on 2026-11-16 [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "It also posted \"Outbound BDR\" on 2026-11-10 and \"Regional Vice President Product Sales (AI)\" on 2026-10-06 [4][5].",
+     "cites": [
+      4,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Its public job board listed 29 open roles on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is selling, shown by open roles titled \"Deal Desk Analyst II\", \"Outbound BDR\", and \"Enterprise Inside Sales Executive\" [1][4][6].",
+     "cites": [
+      1,
+      4,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What will the \"Deal Desk Analyst II\" role own day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are territories and quotas set for the new sales hires?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which reports do sales leaders use today to follow pipeline and forecasts?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM the sales team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How large the sales and sales operations teams are",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue operations projects",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for any revenue operations work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Entrata posted a \"Deal Desk Analyst II\" role in November. There is also an \"Outbound BDR\" role from November and an \"Enterprise Inside Sales Executive\" role from July.\n\nI work with teams on revenue operations such as CRM cleanup, pipeline reporting, forecasting, and territory planning. Would it be useful to compare notes on how your sales team is set up for the year ahead?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.044023,
+ "ms": 16439
+}

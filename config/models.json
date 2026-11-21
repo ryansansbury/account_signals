@@ -1,0 +1,36 @@
+{
+  "note": "The models the briefs and the second read are recorded with (11/20). Every call goes through the Claude Code command line (claude -p) on the owner's Claude plan, so no key is read and nothing here names one. Each call runs in a fresh empty folder with every tool off. A call's cost is the figure the command line reports for it, which is what the same call would bill at API prices. The route is the cheapest model that clears the bars on the dev round. The November 9 run's records, written by Claude Sonnet 5.5, Claude Haiku 5.5 and GPT-6 Luna through their APIs, are in data/ai_runs/archive/read-2026-11-09/.",
+  "compare": [
+    "claude-opus",
+    "claude-sonnet",
+    "claude-haiku"
+  ],
+  "judges": [
+    "claude-opus",
+    "claude-sonnet"
+  ],
+  "default": "claude-sonnet",
+  "models": [
+    {
+      "id": "claude-opus",
+      "label": "Claude Opus 5.5",
+      "vendor": "Anthropic",
+      "via": "claude-cli",
+      "model": "claude-opus-5-5"
+    },
+    {
+      "id": "claude-sonnet",
+      "label": "Claude Sonnet 5.5",
+      "vendor": "Anthropic",
+      "via": "claude-cli",
+      "model": "claude-sonnet-5-5"
+    },
+    {
+      "id": "claude-haiku",
+      "label": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "via": "claude-cli",
+      "model": "claude-haiku-5-5"
+    }
+  ]
+}

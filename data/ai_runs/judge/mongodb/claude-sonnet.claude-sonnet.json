@@ -1,0 +1,57 @@
+{
+ "account": "MongoDB",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "1658fd90285a1282",
+ "input_hash": "d56dd328bda293bf",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:04:58+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7431,
+    "input_tokens": 2,
+    "output_tokens": 1083,
+    "cache_write_tokens": 27924,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1226103
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [3] is the Principal GTM Operations Analyst posting published 2026-11-13, and its text names \"territory design\" and \"forecasting\"."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [8] gives Salesforce Developer III as 2026-09-10 and source [7] gives Senior Sales Compensation Engineer as 2026-09-11, matching the brief."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "The posting does describe territory design and forecasting, but a \"likely priority\" of sales planning work is an inference the quoted lines only loosely support."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The Principal GTM Operations Analyst posting is from November (2026-11-13) with the quoted terms, and the Senior Sales Compensation Engineer posting is from September (2026-09-11)."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.12261,
+ "ms": 7431
+}

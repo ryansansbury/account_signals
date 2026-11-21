@@ -1,0 +1,376 @@
+{
+ "account": "Brex",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "9f9c54aaa2e94333",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:52:19+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Brex had 206 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Francisco, CA. The US held 82% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sbbb08e4217",
+   "title": "Startup & VC Partnerships Manager",
+   "excerpt": "On the partnerships side, you'll identify and cultivate partners from the ground up, build tailored go-to-market plans for each one, onboard them into the Brex ecosystem, and manage the relationship over time.",
+   "posted": "2026-11-06",
+   "posting_id": "greenhouse:brex:8934022002",
+   "family": "first_hire"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s39facd1c1a",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Director, Revenue Operations",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865086002",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "scc5325a0f1",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Director, Revenue Operations",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "revops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sd9c6f40eed",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s09126f4d83",
+   "title": "Analyst, Banking Operations (Domestic)",
+   "excerpt": "Work the domestic payments queue across ACH, checks, domestic wires and stablecoin, resolving cases in Salesforce with clear, customer-safe explanations.",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:brex:8924533002",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s1211a496bf",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s4444dee766",
+   "title": "Data Engineer",
+   "excerpt": "Experience with Salesforce data integration.",
+   "posted": "2026-04-24",
+   "posting_id": "greenhouse:brex:8523806002",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s5fea723315",
+   "title": "Account Manager I",
+   "excerpt": "Account Manager I",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:brex:8956699002",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s5fd94c4a00",
+   "title": "Accounting Partnerships Manager",
+   "excerpt": "Accounting Partnerships Manager",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:brex:8950778002",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "sade26381ff",
+   "title": "Accounting Partnerships Manager",
+   "excerpt": "Accounting Partnerships Manager",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:brex:8950781002",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Brex had 206 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"The \\\"Director, Revenue Operations\\\" posting was published 49 days before the read date on 2026-10-02 [3].\"}, {\"text\": \"That posting asks for \\\"Extensive experience with Salesforce and other GTM systems\\\" and for owning \\\"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\\\" [4][6].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work that the \\\"Director, Revenue Operations\\\" posting describes by owning \\\"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\\\" and by asking for \\\"Extensive experience with Salesforce and other GTM systems\\\" [3][4][6].\"}, \"questions\": [\"Who would the \\\"Director, Revenue Operations\\\" role report to?\", \"How are forecasting and territory planning run today, and which tools support them?\", \"Is the Salesforce work tied to the other GTM systems the posting mentions?\"], \"unknowns\": [\"Whether the Director role has already been filled\", \"Size of the revenue operations team and its budget\", \"Which CRM and GTM tools Brex uses day to day\"], \"first_touch\": {\"subject\": \"Question on the Revenue Operations director search\", \"body\": \"Hi {first_name},\\n\\nI noticed Brex has a \\\"Director, Revenue Operations\\\" posting that went up in October. It asks for \\\"Extensive experience with Salesforce and other GTM systems\\\" and says the role owns \\\"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\\\"\\n\\nWho on your team handles those cadences today?\\n\\n{sender_name}\", \"cites\": [3, 4, 6]}}",
+   "meta": {
+    "ms": 26923,
+    "input_tokens": 2,
+    "output_tokens": 6185,
+    "cache_write_tokens": 5637,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00423556
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Brex had 206 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "The \"Director, Revenue Operations\" posting was published 49 days before the read date on 2026-10-02 [3]."
+     },
+     {
+      "text": "That posting asks for \"Extensive experience with Salesforce and other GTM systems\" and for owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4][6]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work that the \"Director, Revenue Operations\" posting describes by owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" and by asking for \"Extensive experience with Salesforce and other GTM systems\" [3][4][6]."
+    },
+    "questions": [
+     "Who would the \"Director, Revenue Operations\" role report to?",
+     "How are forecasting and territory planning run today, and which tools support them?",
+     "Is the Salesforce work tied to the other GTM systems the posting mentions?"
+    ],
+    "unknowns": [
+     "Whether the Director role has already been filled",
+     "Size of the revenue operations team and its budget",
+     "Which CRM and GTM tools Brex uses day to day"
+    ],
+    "first_touch": {
+     "subject": "Question on the Revenue Operations director search",
+     "body": "Hi {first_name},\n\nI noticed Brex has a \"Director, Revenue Operations\" posting that went up in October. It asks for \"Extensive experience with Salesforce and other GTM systems\" and says the role owns \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\"\n\nWho on your team handles those cadences today?\n\n{sender_name}",
+     "cites": [
+      3,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Brex had 206 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Director, Revenue Operations\" posting was published 49 days before the read date on 2026-10-02 [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "That posting asks for \"Extensive experience with Salesforce and other GTM systems\" and for owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4][6].",
+      "cites": [
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work that the \"Director, Revenue Operations\" posting describes by owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" and by asking for \"Extensive experience with Salesforce and other GTM systems\" [3][4][6].",
+      "cites": [
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who would the \"Director, Revenue Operations\" role report to?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are forecasting and territory planning run today, and which tools support them?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is the Salesforce work tied to the other GTM systems the posting mentions?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Director role has already been filled",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the revenue operations team and its budget",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM and GTM tools Brex uses day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Brex has a \"Director, Revenue Operations\" posting that went up in October. It asks for \"Extensive experience with Salesforce and other GTM systems\" and says the role owns \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\"\n\nWho on your team handles those cadences today?\n\n{sender_name}",
+      "cites": [
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Brex had 206 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "The \"Director, Revenue Operations\" posting was published 49 days before the read date on 2026-10-02 [3]."
+    },
+    {
+     "text": "That posting asks for \"Extensive experience with Salesforce and other GTM systems\" and for owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4][6]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the revenue work that the \"Director, Revenue Operations\" posting describes by owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" and by asking for \"Extensive experience with Salesforce and other GTM systems\" [3][4][6]."
+   },
+   "questions": [
+    "Who would the \"Director, Revenue Operations\" role report to?",
+    "How are forecasting and territory planning run today, and which tools support them?",
+    "Is the Salesforce work tied to the other GTM systems the posting mentions?"
+   ],
+   "unknowns": [
+    "Whether the Director role has already been filled",
+    "Size of the revenue operations team and its budget",
+    "Which CRM and GTM tools Brex uses day to day"
+   ],
+   "first_touch": {
+    "subject": "Question on the Revenue Operations director search",
+    "body": "Hi {first_name},\n\nI noticed Brex has a \"Director, Revenue Operations\" posting that went up in October. It asks for \"Extensive experience with Salesforce and other GTM systems\" and says the role owns \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\"\n\nWho on your team handles those cadences today?\n\n{sender_name}",
+    "cites": [
+     3,
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Brex had 206 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Director, Revenue Operations\" posting was published 49 days before the read date on 2026-10-02 [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "That posting asks for \"Extensive experience with Salesforce and other GTM systems\" and for owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" [4][6].",
+     "cites": [
+      4,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the revenue work that the \"Director, Revenue Operations\" posting describes by owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design\" and by asking for \"Extensive experience with Salesforce and other GTM systems\" [3][4][6].",
+     "cites": [
+      3,
+      4,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who would the \"Director, Revenue Operations\" role report to?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are forecasting and territory planning run today, and which tools support them?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Is the Salesforce work tied to the other GTM systems the posting mentions?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the Director role has already been filled",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the revenue operations team and its budget",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM and GTM tools Brex uses day to day",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Brex has a \"Director, Revenue Operations\" posting that went up in October. It asks for \"Extensive experience with Salesforce and other GTM systems\" and says the role owns \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\"\n\nWho on your team handles those cadences today?\n\n{sender_name}",
+     "cites": [
+      3,
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.004236,
+ "ms": 26923
+}

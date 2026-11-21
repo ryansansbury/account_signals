@@ -1,0 +1,530 @@
+{
+ "account": "Brex",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "9f9c54aaa2e94333",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:38:42+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Brex had 206 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Francisco, CA. The US held 82% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sbbb08e4217",
+   "title": "Startup & VC Partnerships Manager",
+   "excerpt": "On the partnerships side, you'll identify and cultivate partners from the ground up, build tailored go-to-market plans for each one, onboard them into the Brex ecosystem, and manage the relationship over time.",
+   "posted": "2026-11-06",
+   "posting_id": "greenhouse:brex:8934022002",
+   "family": "first_hire"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s39facd1c1a",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Director, Revenue Operations",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865086002",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "scc5325a0f1",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Director, Revenue Operations",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "revops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sd9c6f40eed",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s09126f4d83",
+   "title": "Analyst, Banking Operations (Domestic)",
+   "excerpt": "Work the domestic payments queue across ACH, checks, domestic wires and stablecoin, resolving cases in Salesforce with clear, customer-safe explanations.",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:brex:8924533002",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s1211a496bf",
+   "title": "Director, Revenue Operations",
+   "excerpt": "Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.",
+   "posted": "2026-10-02",
+   "posting_id": "greenhouse:brex:8865089002",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s4444dee766",
+   "title": "Data Engineer",
+   "excerpt": "Experience with Salesforce data integration.",
+   "posted": "2026-04-24",
+   "posting_id": "greenhouse:brex:8523806002",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s5fea723315",
+   "title": "Account Manager I",
+   "excerpt": "Account Manager I",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:brex:8956699002",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s5fd94c4a00",
+   "title": "Accounting Partnerships Manager",
+   "excerpt": "Accounting Partnerships Manager",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:brex:8950778002",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "sade26381ff",
+   "title": "Accounting Partnerships Manager",
+   "excerpt": "Accounting Partnerships Manager",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:brex:8950781002",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The job board shows a \\\"Director, Revenue Operations\\\" posting published 2026-10-02 [3].\"}, {\"text\": \"That posting says the role will \\\"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\\\" [4]\"}, {\"text\": \"It also asks for \\\"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\\\" [6]\"}], \"priority\": {\"text\": \"The likely priority is revenue operations leadership for the sales team, since the \\\"Director, Revenue Operations\\\" posting describes owning \\\"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\\\" [4]\"}, \"questions\": [\"How are forecasting and pipeline cadences run today across the sales team?\", \"What would the new Director of Revenue Operations need to see in Salesforce during the first 90 days?\", \"How are territories and quotas set and adjusted at the moment?\"], \"unknowns\": [\"Sales team size\", \"Current forecasting process\", \"Who the Director would report to\", \"Timeline for filling the role\"], \"first_touch\": {\"subject\": \"Your Revenue Operations opening\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Director, Revenue Operations\\\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\\n\\n{sender_name}\", \"cites\": [3, 4, 6]}}",
+   "meta": {
+    "ms": 16512,
+    "input_tokens": 2,
+    "output_tokens": 2237,
+    "cache_write_tokens": 5616,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0449926
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The job board shows a \"Director, Revenue Operations\" posting published 2026-10-02 [3]."
+     },
+     {
+      "text": "That posting says the role will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+     },
+     {
+      "text": "It also asks for \"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\" [6]"
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue operations leadership for the sales team, since the \"Director, Revenue Operations\" posting describes owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+    },
+    "questions": [
+     "How are forecasting and pipeline cadences run today across the sales team?",
+     "What would the new Director of Revenue Operations need to see in Salesforce during the first 90 days?",
+     "How are territories and quotas set and adjusted at the moment?"
+    ],
+    "unknowns": [
+     "Sales team size",
+     "Current forecasting process",
+     "Who the Director would report to",
+     "Timeline for filling the role"
+    ],
+    "first_touch": {
+     "subject": "Your Revenue Operations opening",
+     "body": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\n\n{sender_name}",
+     "cites": [
+      3,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The job board shows a \"Director, Revenue Operations\" posting published 2026-10-02 [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "That posting says the role will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "It also asks for \"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\" [6]",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue operations leadership for the sales team, since the \"Director, Revenue Operations\" posting describes owning \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+      "cites": [
+       4
+      ],
+      "problems": [
+       "writing: a pause comma before \"since\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How are forecasting and pipeline cadences run today across the sales team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would the new Director of Revenue Operations need to see in Salesforce during the first 90 days?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are territories and quotas set and adjusted at the moment?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Sales team size",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who the Director would report to",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Timeline for filling the role",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\n\n{sender_name}",
+      "cites": [
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The job board shows a \\\"Director, Revenue Operations\\\" posting published 2026-10-02 [3].\"}, {\"text\": \"That posting says the role will \\\"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\\\" [4]\"}, {\"text\": \"It also asks for \\\"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\\\" [6]\"}], \"priority\": {\"text\": \"The likely priority is revenue operations work on \\\"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\\\" [4]\"}, \"questions\": [\"How are forecasting and pipeline cadences run today across the sales team?\", \"What would the new revenue operations leader need to see in Salesforce early on?\", \"How are territories and quotas set and adjusted at the moment?\"], \"unknowns\": [\"Sales team size\", \"Current forecasting process\", \"Who the hire would report to\", \"Timeline for filling the role\"], \"first_touch\": {\"subject\": \"Your Revenue Operations opening\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Director, Revenue Operations\\\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\\n\\n{sender_name}\", \"cites\": [3, 4, 6]}}",
+   "meta": {
+    "ms": 10134,
+    "input_tokens": 2,
+    "output_tokens": 1551,
+    "cache_write_tokens": 6340,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0410286
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The job board shows a \"Director, Revenue Operations\" posting published 2026-10-02 [3]."
+     },
+     {
+      "text": "That posting says the role will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+     },
+     {
+      "text": "It also asks for \"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\" [6]"
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue operations work on \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+    },
+    "questions": [
+     "How are forecasting and pipeline cadences run today across the sales team?",
+     "What would the new revenue operations leader need to see in Salesforce early on?",
+     "How are territories and quotas set and adjusted at the moment?"
+    ],
+    "unknowns": [
+     "Sales team size",
+     "Current forecasting process",
+     "Who the hire would report to",
+     "Timeline for filling the role"
+    ],
+    "first_touch": {
+     "subject": "Your Revenue Operations opening",
+     "body": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\n\n{sender_name}",
+     "cites": [
+      3,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The job board shows a \"Director, Revenue Operations\" posting published 2026-10-02 [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "That posting says the role will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "It also asks for \"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\" [6]",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue operations work on \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are forecasting and pipeline cadences run today across the sales team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would the new revenue operations leader need to see in Salesforce early on?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are territories and quotas set and adjusted at the moment?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Sales team size",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who the hire would report to",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Timeline for filling the role",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\n\n{sender_name}",
+      "cites": [
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The job board shows a \"Director, Revenue Operations\" posting published 2026-10-02 [3]."
+    },
+    {
+     "text": "That posting says the role will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+    },
+    {
+     "text": "It also asks for \"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\" [6]"
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue operations work on \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]"
+   },
+   "questions": [
+    "How are forecasting and pipeline cadences run today across the sales team?",
+    "What would the new revenue operations leader need to see in Salesforce early on?",
+    "How are territories and quotas set and adjusted at the moment?"
+   ],
+   "unknowns": [
+    "Sales team size",
+    "Current forecasting process",
+    "Who the hire would report to",
+    "Timeline for filling the role"
+   ],
+   "first_touch": {
+    "subject": "Your Revenue Operations opening",
+    "body": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\n\n{sender_name}",
+    "cites": [
+     3,
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The job board shows a \"Director, Revenue Operations\" posting published 2026-10-02 [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "That posting says the role will \"Own and improve upon cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "It also asks for \"Extensive experience with Salesforce and other GTM systems, including examples of AI-driven efficiency improvements.\" [6]",
+     "cites": [
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue operations work on \"cadences for forecasting, pipeline, capacity planning, rep productivity, territory carving, quota setting, and incentive design.\" [4]",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are forecasting and pipeline cadences run today across the sales team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What would the new revenue operations leader need to see in Salesforce early on?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are territories and quotas set and adjusted at the moment?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Sales team size",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current forecasting process",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who the hire would report to",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Timeline for filling the role",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw the \"Director, Revenue Operations\" posting that went up in October. It talks about forecasting, pipeline, and quota work, and it asks for Salesforce experience. We help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side is looking after that work right now?\n\n{sender_name}",
+     "cites": [
+      3,
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.086021,
+ "ms": 26646
+}

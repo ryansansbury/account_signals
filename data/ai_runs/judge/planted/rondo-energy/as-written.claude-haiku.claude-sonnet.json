@@ -1,0 +1,61 @@
+{
+ "account": "Rondo Energy",
+ "split": "dev",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": "as written",
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "8c484852622f391e",
+ "input_hash": "532a275be759b9b8",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T04:24:09+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6886,
+    "input_tokens": 2,
+    "output_tokens": 897,
+    "cache_write_tokens": 9036,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.045198300000000004
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [2] is dated 2026-10-01, which is 50 days before the 2026-11-20 read date."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The posting at [2] says the power-to-power storage and power generation applications \"open a new market.\""
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [1] is dated 2026-10-29, which is 22 days before the read date."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The posting at [2] says the director will \"take the lead on your own accounts\" and centers on sales, so a sales priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "Both postings are dated October, and the quoted phrases \"take the lead on your own accounts\" and \"expands into new countries\" appear in [2] and [1]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.045198,
+ "ms": 6886
+}

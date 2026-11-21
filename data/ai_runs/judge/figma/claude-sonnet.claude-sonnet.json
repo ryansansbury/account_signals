@@ -1,0 +1,61 @@
+{
+ "account": "Figma",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "f2a6af5f0ef995e8",
+ "input_hash": "7841b1f56f0233d7",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:03:22+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7347,
+    "input_tokens": 2,
+    "output_tokens": 1051,
+    "cache_write_tokens": 19550,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0887943
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [1] is the London Deal Desk manager posting, published 2026-11-20, as W1 says."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The 2026-10-28 Sales Operations Manager posting contains both quoted phrases, \"Assist the forecasting process for Mid-Market\" and \"rigor and repeatability to pipeline reviews\"."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Berlin and Paris postings are dated 2026-11-18 and the Tokyo one 2026-11-17, all within 7 days of the 2026-11-20 read date, and all are sales roles."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The quote matches the posting, and a forecasting and pipeline-review priority is a fair inference from a sales ops role that lists forecasting and pipeline reviews among its duties."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The London deal desk role (November), the October Sales Operations Manager posting mentioning forecasting and pipeline reviews, and the November Berlin, Paris and Tokyo sales roles all match the cited sources."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.088794,
+ "ms": 7347
+}

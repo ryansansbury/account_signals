@@ -1,0 +1,61 @@
+{
+ "account": "Motive",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "56db664c79ededa3",
+ "input_hash": "754649442f381690",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:01+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6179,
+    "input_tokens": 2,
+    "output_tokens": 805,
+    "cache_write_tokens": 27477,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1180423
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Title and 2026-10-20 date match source [4], and its text lists both \"pipeline reporting\" and \"forecasting\" among the processes the hire owns."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Titles and dates match the source lines for [7] (2026-09-18) and [6] (2026-09-23)."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Title and 2026-10-08 date match the source line for [2]."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Forecasting and pipeline reporting appear in [4], and the Deal Desk role in [7] centers on pricing and AI tooling for the Deal Desk, so the inferred priority is a fair reading."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "October for [4] and September for [7] are right, the quoted \"pipeline reporting\" and \"forecasting\" are in [4], and the Deal Desk role is a real posting."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.118042,
+ "ms": 6179
+}

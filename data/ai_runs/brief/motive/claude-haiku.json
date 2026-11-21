@@ -1,0 +1,528 @@
+{
+ "account": "Motive",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "56db664c79ededa3",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:44:47+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Motive had 170 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Francisco, CA. The US held 75% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s4535fad6e9",
+   "title": "Manager/Senior Manager FP&A- GTM",
+   "excerpt": "Own the monthly, quarterly, and annual forecasting processes for assigned GTM functions, ensuring clear assumptions, strong governance, and timely delivery.",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:gomotive:8922857002",
+   "family": "forecasting"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s0a615666bb",
+   "title": "Senior Manager, GTM Operations",
+   "excerpt": "Senior Manager, GTM Operations",
+   "posted": "2026-10-08",
+   "posting_id": "greenhouse:gomotive:8859354002",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sb87a505cc4",
+   "title": "Business Intelligence Analyst II",
+   "excerpt": "Business Intelligence Analyst II",
+   "posted": "2026-10-30",
+   "posting_id": "greenhouse:gomotive:8925908002",
+   "family": "analytics"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s60e21eaac0",
+   "title": "Associate Manager, Business Strategy & Operations",
+   "excerpt": "Own key operating processes, including forecasting, business reviews, KPI reporting, pipeline reporting, and productivity analysis.",
+   "posted": "2026-10-20",
+   "posting_id": "greenhouse:gomotive:8899725002",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sf00f864e64",
+   "title": "Senior Analytics Engineer - GTM",
+   "excerpt": "Senior Analytics Engineer - GTM",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:gomotive:8900270002",
+   "family": "analytics"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s2634068651",
+   "title": "Sales Operations Manager, Implementation",
+   "excerpt": "Sales Operations Manager, Implementation",
+   "posted": "2026-09-23",
+   "posting_id": "greenhouse:gomotive:8697087002",
+   "family": "salesops"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s64bd7e2a8b",
+   "title": "Program Manager, Deal Desk Operations",
+   "excerpt": "Program Manager, Deal Desk Operations",
+   "posted": "2026-09-18",
+   "posting_id": "greenhouse:gomotive:8693228002",
+   "family": "salesops"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s240c85a376",
+   "title": "Senior Salesforce Engineer - CPQ",
+   "excerpt": "Senior Salesforce Engineer - CPQ",
+   "posted": "2026-09-11",
+   "posting_id": "greenhouse:gomotive:8781587002",
+   "family": "crm"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sa89ea53cf0",
+   "title": "Account Executive, Strategic",
+   "excerpt": "Motive is searching for an Account Executive that will be instrumental in building the sales organization from the ground up in our newest regional market, Mexico.",
+   "posted": "2026-08-21",
+   "posting_id": "greenhouse:gomotive:8706368002",
+   "family": "first_hire"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s93c08b1c03",
+   "title": "RevOps Strategic Initiatives Manager",
+   "excerpt": "RevOps Strategic Initiatives Manager",
+   "posted": "2026-07-31",
+   "posting_id": "greenhouse:gomotive:8654142002",
+   "family": "revops"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "s03161b684e",
+   "title": "Senior Collections Analyst",
+   "excerpt": "Operational Rigor: Strong proficiency in Excel (pivot tables, modeling) and project management tools (Asana/JIRA).",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:gomotive:8886671002",
+   "family": "stack"
+  },
+  "12": {
+   "kind": "signal",
+   "sid": "s070544a57e",
+   "title": "Senior Collections Analyst",
+   "excerpt": "Systems Expertise: Advanced proficiency in Zuora (required) or a similar major ERP/Billing system (NetSuite, SAP).",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:gomotive:8886671002",
+   "family": "stack"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Motive posted \\\"Associate Manager, Business Strategy & Operations\\\" on 2026-10-20, and that posting names \\\"pipeline reporting\\\" and \\\"forecasting\\\" [4].\"}, {\"text\": \"Motive also posted \\\"Sales Operations Manager, Implementation\\\" on 2026-09-23 [6] and \\\"Program Manager, Deal Desk Operations\\\" on 2026-09-18 [7].\"}, {\"text\": \"Motive posted \\\"Senior Manager, GTM Operations\\\" on 2026-10-08 [2].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work these postings describe, mostly \\\"forecasting\\\" and \\\"pipeline reporting\\\" [1][4].\"}, \"questions\": [\"Who owns the forecasting process for the GTM functions today?\", \"How is the deal desk work divided across the team?\", \"Which of these roles are open now, and which teams will they support?\"], \"unknowns\": [\"Whether these roles are already filled or still open\", \"Which tools the revenue team uses day to day\", \"How the sales and go-to-market teams are organized\"], \"first_touch\": {\"subject\": \"Motive's pipeline and deal desk roles\", \"body\": \"Hi {first_name},\\n\\nI noticed Motive posted \\\"Associate Manager, Business Strategy & Operations\\\" in October. That role asks the hire to own \\\"pipeline reporting\\\" and \\\"forecasting.\\\" Motive also posted \\\"Program Manager, Deal Desk Operations\\\" in September.\\n\\nWho on your team leads the deal desk today?\\n\\n{sender_name}\", \"cites\": [4, 7]}}",
+   "meta": {
+    "ms": 40228,
+    "input_tokens": 2,
+    "output_tokens": 9402,
+    "cache_write_tokens": 5756,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00586786
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Motive posted \"Associate Manager, Business Strategy & Operations\" on 2026-10-20, and that posting names \"pipeline reporting\" and \"forecasting\" [4]."
+     },
+     {
+      "text": "Motive also posted \"Sales Operations Manager, Implementation\" on 2026-09-23 [6] and \"Program Manager, Deal Desk Operations\" on 2026-09-18 [7]."
+     },
+     {
+      "text": "Motive posted \"Senior Manager, GTM Operations\" on 2026-10-08 [2]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work these postings describe, mostly \"forecasting\" and \"pipeline reporting\" [1][4]."
+    },
+    "questions": [
+     "Who owns the forecasting process for the GTM functions today?",
+     "How is the deal desk work divided across the team?",
+     "Which of these roles are open now, and which teams will they support?"
+    ],
+    "unknowns": [
+     "Whether these roles are already filled or still open",
+     "Which tools the revenue team uses day to day",
+     "How the sales and go-to-market teams are organized"
+    ],
+    "first_touch": {
+     "subject": "Motive's pipeline and deal desk roles",
+     "body": "Hi {first_name},\n\nI noticed Motive posted \"Associate Manager, Business Strategy & Operations\" in October. That role asks the hire to own \"pipeline reporting\" and \"forecasting.\" Motive also posted \"Program Manager, Deal Desk Operations\" in September.\n\nWho on your team leads the deal desk today?\n\n{sender_name}",
+     "cites": [
+      4,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Motive posted \"Associate Manager, Business Strategy & Operations\" on 2026-10-20, and that posting names \"pipeline reporting\" and \"forecasting\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Motive also posted \"Sales Operations Manager, Implementation\" on 2026-09-23 [6] and \"Program Manager, Deal Desk Operations\" on 2026-09-18 [7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Motive posted \"Senior Manager, GTM Operations\" on 2026-10-08 [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work these postings describe, mostly \"forecasting\" and \"pipeline reporting\" [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": [
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "Who owns the forecasting process for the GTM functions today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is the deal desk work divided across the team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of these roles are open now, and which teams will they support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether these roles are already filled or still open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools the revenue team uses day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How the sales and go-to-market teams are organized",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Motive posted \"Associate Manager, Business Strategy & Operations\" in October. That role asks the hire to own \"pipeline reporting\" and \"forecasting.\" Motive also posted \"Program Manager, Deal Desk Operations\" in September.\n\nWho on your team leads the deal desk today?\n\n{sender_name}",
+      "cites": [
+       4,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Motive posted \\\"Associate Manager, Business Strategy & Operations\\\" on 2026-10-20 [4]. That posting names \\\"pipeline reporting\\\" and \\\"forecasting\\\" [4].\"}, {\"text\": \"Motive also posted \\\"Program Manager, Deal Desk Operations\\\" on 2026-09-18 [7] and \\\"Sales Operations Manager, Implementation\\\" on 2026-09-23 [6].\"}, {\"text\": \"Motive posted \\\"Senior Manager, GTM Operations\\\" on 2026-10-08 [2].\"}], \"priority\": {\"text\": \"The likely priority is the \\\"forecasting\\\" and \\\"pipeline reporting\\\" work in \\\"Associate Manager, Business Strategy & Operations\\\" [4] and the \\\"Deal Desk Operations\\\" work in \\\"Program Manager, Deal Desk Operations\\\" [7].\"}, \"questions\": [\"Who owns the forecasting process for the GTM functions today?\", \"How is the deal desk work divided across the team?\", \"Which of these roles are still open and which teams will they support?\"], \"unknowns\": [\"Whether these roles are already filled or still open\", \"Which tools the revenue team uses day to day\", \"How the sales and go-to-market teams are organized\"], \"first_touch\": {\"subject\": \"Motive's pipeline and deal desk roles\", \"body\": \"Hi {first_name},\\n\\nI noticed Motive posted \\\"Associate Manager, Business Strategy & Operations\\\" in October. That role asks the hire to own \\\"pipeline reporting\\\" and \\\"forecasting.\\\" Motive also posted \\\"Program Manager, Deal Desk Operations\\\" in September.\\n\\nWho on your team handles the \\\"deal desk\\\" work today?\\n\\n{sender_name}\", \"cites\": [4, 7]}}",
+   "meta": {
+    "ms": 18485,
+    "input_tokens": 2,
+    "output_tokens": 4326,
+    "cache_write_tokens": 6409,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0034604600000000003
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Motive posted \"Associate Manager, Business Strategy & Operations\" on 2026-10-20 [4]. That posting names \"pipeline reporting\" and \"forecasting\" [4]."
+     },
+     {
+      "text": "Motive also posted \"Program Manager, Deal Desk Operations\" on 2026-09-18 [7] and \"Sales Operations Manager, Implementation\" on 2026-09-23 [6]."
+     },
+     {
+      "text": "Motive posted \"Senior Manager, GTM Operations\" on 2026-10-08 [2]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the \"forecasting\" and \"pipeline reporting\" work in \"Associate Manager, Business Strategy & Operations\" [4] and the \"Deal Desk Operations\" work in \"Program Manager, Deal Desk Operations\" [7]."
+    },
+    "questions": [
+     "Who owns the forecasting process for the GTM functions today?",
+     "How is the deal desk work divided across the team?",
+     "Which of these roles are still open and which teams will they support?"
+    ],
+    "unknowns": [
+     "Whether these roles are already filled or still open",
+     "Which tools the revenue team uses day to day",
+     "How the sales and go-to-market teams are organized"
+    ],
+    "first_touch": {
+     "subject": "Motive's pipeline and deal desk roles",
+     "body": "Hi {first_name},\n\nI noticed Motive posted \"Associate Manager, Business Strategy & Operations\" in October. That role asks the hire to own \"pipeline reporting\" and \"forecasting.\" Motive also posted \"Program Manager, Deal Desk Operations\" in September.\n\nWho on your team handles the \"deal desk\" work today?\n\n{sender_name}",
+     "cites": [
+      4,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Motive posted \"Associate Manager, Business Strategy & Operations\" on 2026-10-20 [4]. That posting names \"pipeline reporting\" and \"forecasting\" [4].",
+      "cites": [
+       4,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Motive also posted \"Program Manager, Deal Desk Operations\" on 2026-09-18 [7] and \"Sales Operations Manager, Implementation\" on 2026-09-23 [6].",
+      "cites": [
+       7,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Motive posted \"Senior Manager, GTM Operations\" on 2026-10-08 [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the \"forecasting\" and \"pipeline reporting\" work in \"Associate Manager, Business Strategy & Operations\" [4] and the \"Deal Desk Operations\" work in \"Program Manager, Deal Desk Operations\" [7].",
+      "cites": [
+       4,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the forecasting process for the GTM functions today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is the deal desk work divided across the team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of these roles are still open and which teams will they support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether these roles are already filled or still open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools the revenue team uses day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How the sales and go-to-market teams are organized",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Motive posted \"Associate Manager, Business Strategy & Operations\" in October. That role asks the hire to own \"pipeline reporting\" and \"forecasting.\" Motive also posted \"Program Manager, Deal Desk Operations\" in September.\n\nWho on your team handles the \"deal desk\" work today?\n\n{sender_name}",
+      "cites": [
+       4,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Motive posted \"Associate Manager, Business Strategy & Operations\" on 2026-10-20 [4]. That posting names \"pipeline reporting\" and \"forecasting\" [4]."
+    },
+    {
+     "text": "Motive also posted \"Program Manager, Deal Desk Operations\" on 2026-09-18 [7] and \"Sales Operations Manager, Implementation\" on 2026-09-23 [6]."
+    },
+    {
+     "text": "Motive posted \"Senior Manager, GTM Operations\" on 2026-10-08 [2]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the \"forecasting\" and \"pipeline reporting\" work in \"Associate Manager, Business Strategy & Operations\" [4] and the \"Deal Desk Operations\" work in \"Program Manager, Deal Desk Operations\" [7]."
+   },
+   "questions": [
+    "Who owns the forecasting process for the GTM functions today?",
+    "How is the deal desk work divided across the team?",
+    "Which of these roles are still open and which teams will they support?"
+   ],
+   "unknowns": [
+    "Whether these roles are already filled or still open",
+    "Which tools the revenue team uses day to day",
+    "How the sales and go-to-market teams are organized"
+   ],
+   "first_touch": {
+    "subject": "Motive's pipeline and deal desk roles",
+    "body": "Hi {first_name},\n\nI noticed Motive posted \"Associate Manager, Business Strategy & Operations\" in October. That role asks the hire to own \"pipeline reporting\" and \"forecasting.\" Motive also posted \"Program Manager, Deal Desk Operations\" in September.\n\nWho on your team handles the \"deal desk\" work today?\n\n{sender_name}",
+    "cites": [
+     4,
+     7
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Motive posted \"Associate Manager, Business Strategy & Operations\" on 2026-10-20 [4]. That posting names \"pipeline reporting\" and \"forecasting\" [4].",
+     "cites": [
+      4,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Motive also posted \"Program Manager, Deal Desk Operations\" on 2026-09-18 [7] and \"Sales Operations Manager, Implementation\" on 2026-09-23 [6].",
+     "cites": [
+      7,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Motive posted \"Senior Manager, GTM Operations\" on 2026-10-08 [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the \"forecasting\" and \"pipeline reporting\" work in \"Associate Manager, Business Strategy & Operations\" [4] and the \"Deal Desk Operations\" work in \"Program Manager, Deal Desk Operations\" [7].",
+     "cites": [
+      4,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns the forecasting process for the GTM functions today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How is the deal desk work divided across the team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which of these roles are still open and which teams will they support?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether these roles are already filled or still open",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which tools the revenue team uses day to day",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How the sales and go-to-market teams are organized",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Motive posted \"Associate Manager, Business Strategy & Operations\" in October. That role asks the hire to own \"pipeline reporting\" and \"forecasting.\" Motive also posted \"Program Manager, Deal Desk Operations\" in September.\n\nWho on your team handles the \"deal desk\" work today?\n\n{sender_name}",
+     "cites": [
+      4,
+      7
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.009328,
+ "ms": 58713
+}

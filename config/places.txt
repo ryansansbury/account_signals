@@ -1,0 +1,7 @@
+# Regions that are places and never a company mention, like the cities in config/cities.csv (11/20). The claim
+# checker's own word list names them, and a company that shares a word with one is still found anywhere else.
+Central Coast
+East Coast
+Gulf Coast
+Pacific Coast
+West Coast

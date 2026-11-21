@@ -1,0 +1,61 @@
+{
+ "account": "New Relic",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "60253b62eaa4723c",
+ "input_hash": "58eb623694c1f2cd",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:44+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7118,
+    "input_tokens": 2,
+    "output_tokens": 993,
+    "cache_write_tokens": 19213,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08686630000000001
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The posting is dated 2026-11-16, which is 4 days before the read date, and the quoted phrases \"territory strategy\" and \"revenue forecasting\" appear in it."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The posting says \"owning the roadmap for our tech stack\" and lists Salesforce and Salesloft in that stack."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The five cited postings are distinct and dated 2026-10-22 to 2026-11-16, all within 30 days of 2026-11-20, and they are sales or revenue operations roles."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The posting names territory strategy, revenue forecasting and \"defining our data governance\" (the last in cited source [6]), so calling them likely priorities is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November date, the quoted phrases, Salesforce and Salesloft in the stack, and the October Order To Cash posting all match the cited sources."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.086866,
+ "ms": 7118
+}

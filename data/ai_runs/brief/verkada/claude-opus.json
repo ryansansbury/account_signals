@@ -1,0 +1,403 @@
+{
+ "account": "Verkada",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "dfe096ae6a3bc0cd",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:27:25+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Verkada had 335 open roles on its public job board on 2026-11-20. The US held 12% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s5f9195fd42",
+   "title": "Sales Strategy and Operations | Channel Programs Specialist",
+   "excerpt": "Sales Strategy and Operations | Channel Programs Specialist",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:verkada:5291267007",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s8828db7b69",
+   "title": "Executive Assistant to VP of Sales",
+   "excerpt": "Executive Assistant to VP of Sales",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:verkada:5294009007",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s4bd992a4b8",
+   "title": "MBA Full-Time Hire - Sales Strategy & Operations",
+   "excerpt": "MBA Full-Time Hire - Sales Strategy & Operations",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:verkada:5275057007",
+   "family": "salesops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sbd2e844cff",
+   "title": "Regional Sales Director, Enterprise - Muni",
+   "excerpt": "Market Penetration: Guide representatives in identifying and securing new opportunities in greenfield markets, ensuring the achievement of quarterly quotas with 1-3 qualified net-new logos per quarter.",
+   "posted": "2026-11-04",
+   "posting_id": "greenhouse:verkada:5281762007",
+   "family": "territory"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sac63d92fa6",
+   "title": "Federal Enterprise Account Executive (Veteran Affairs)",
+   "excerpt": "Meet or exceed individual quotas by penetrating greenfield accounts and securing at least 1 qualified net new logo per quarter.",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:verkada:5259963007",
+   "family": "territory"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s0d03ab4ce7",
+   "title": "Director of Business Systems Product Management",
+   "excerpt": "A partner order has to land cleanly in NetSuite.",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:verkada:5238205007",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s14655d5337",
+   "title": "Channel Sales Manager, Ohio Valley",
+   "excerpt": "Proficiency in Salesforce, Excel, and business intelligence tools.",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:verkada:5106588007",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s29cb18ea73",
+   "title": "Data Trust Associate, Global Revenue Informatics",
+   "excerpt": "Data Pipeline Tooling: Hands-on experience with dbt or Apache Airflow is a significant plus.",
+   "posted": "2026-03-02",
+   "posting_id": "greenhouse:verkada:5064464007",
+   "family": "stack"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sd8253498dd",
+   "title": "Enterprise Account Executive, Brazil",
+   "excerpt": "Enterprise Account Executive, Brazil",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:verkada:5291122007",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s60d7b4660d",
+   "title": "Enterprise Account Executive, Public Sector South - UK",
+   "excerpt": "Enterprise Account Executive, Public Sector South - UK",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:verkada:5300387007",
+   "family": "pace"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "sb2b0247047",
+   "title": "Enterprise Account Executive, Public Sector North - UK",
+   "excerpt": "Enterprise Account Executive, Public Sector North - UK",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:verkada:5297849007",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Verkada published \\\"Sales Strategy and Operations | Channel Programs Specialist\\\" on 2026-11-10 and \\\"MBA Full-Time Hire - Sales Strategy & Operations\\\" on 2026-10-28 [1][3].\"}, {\"text\": \"The \\\"Regional Sales Director, Enterprise - Muni\\\" posting asks for \\\"1-3 qualified net-new logos per quarter\\\" and the \\\"Federal Enterprise Account Executive (Veteran Affairs)\\\" posting asks for \\\"at least 1 qualified net new logo per quarter\\\" [4][5].\"}, {\"text\": \"\\\"Enterprise Account Executive, Brazil\\\" went up on 2026-11-20 and two UK public sector \\\"Enterprise Account Executive\\\" roles went up on 2026-11-19 [9][10][11].\"}], \"priority\": {\"text\": \"Verkada's likely priority is \\\"securing new opportunities in greenfield markets\\\", \\\"penetrating greenfield accounts\\\", and \\\"the achievement of quarterly quotas\\\" [4][5].\"}, \"questions\": [\"How are quotas set for roles that target net-new logos in greenfield markets?\", \"What will the new \\\"Sales Strategy & Operations\\\" hires spend most of their time on?\", \"How do partner orders reach NetSuite today?\"], \"unknowns\": [\"Size of the current sales team\", \"How territories are assigned today\", \"Who owns forecasting and pipeline reporting\", \"Which systems the sales operations team owns\"], \"first_touch\": {\"subject\": \"Your new sales strategy and operations roles\", \"body\": \"Hi {first_name},\\n\\nI saw Verkada posted \\\"Sales Strategy and Operations | Channel Programs Specialist\\\" in November and \\\"MBA Full-Time Hire - Sales Strategy & Operations\\\" in October.\\n\\nThe \\\"Regional Sales Director, Enterprise - Muni\\\" posting also asks for \\\"1-3 qualified net-new logos per quarter\\\" in \\\"greenfield markets\\\" and caught my eye.\\n\\nWe work with revenue teams on pipeline reporting, forecasting, and territory planning.\\n\\nWho on your team owns territory planning today?\\n\\n{sender_name}\", \"cites\": [1, 3, 4]}}",
+   "meta": {
+    "ms": 25627,
+    "input_tokens": 2,
+    "output_tokens": 2751,
+    "cache_write_tokens": 5665,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1006572
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3]."
+     },
+     {
+      "text": "The \"Regional Sales Director, Enterprise - Muni\" posting asks for \"1-3 qualified net-new logos per quarter\" and the \"Federal Enterprise Account Executive (Veteran Affairs)\" posting asks for \"at least 1 qualified net new logo per quarter\" [4][5]."
+     },
+     {
+      "text": "\"Enterprise Account Executive, Brazil\" went up on 2026-11-20 and two UK public sector \"Enterprise Account Executive\" roles went up on 2026-11-19 [9][10][11]."
+     }
+    ],
+    "priority": {
+     "text": "Verkada's likely priority is \"securing new opportunities in greenfield markets\", \"penetrating greenfield accounts\", and \"the achievement of quarterly quotas\" [4][5]."
+    },
+    "questions": [
+     "How are quotas set for roles that target net-new logos in greenfield markets?",
+     "What will the new \"Sales Strategy & Operations\" hires spend most of their time on?",
+     "How do partner orders reach NetSuite today?"
+    ],
+    "unknowns": [
+     "Size of the current sales team",
+     "How territories are assigned today",
+     "Who owns forecasting and pipeline reporting",
+     "Which systems the sales operations team owns"
+    ],
+    "first_touch": {
+     "subject": "Your new sales strategy and operations roles",
+     "body": "Hi {first_name},\n\nI saw Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October.\n\nThe \"Regional Sales Director, Enterprise - Muni\" posting also asks for \"1-3 qualified net-new logos per quarter\" in \"greenfield markets\" and caught my eye.\n\nWe work with revenue teams on pipeline reporting, forecasting, and territory planning.\n\nWho on your team owns territory planning today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3].",
+      "cites": [
+       1,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Regional Sales Director, Enterprise - Muni\" posting asks for \"1-3 qualified net-new logos per quarter\" and the \"Federal Enterprise Account Executive (Veteran Affairs)\" posting asks for \"at least 1 qualified net new logo per quarter\" [4][5].",
+      "cites": [
+       4,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "\"Enterprise Account Executive, Brazil\" went up on 2026-11-20 and two UK public sector \"Enterprise Account Executive\" roles went up on 2026-11-19 [9][10][11].",
+      "cites": [
+       9,
+       10,
+       11
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Verkada's likely priority is \"securing new opportunities in greenfield markets\", \"penetrating greenfield accounts\", and \"the achievement of quarterly quotas\" [4][5].",
+      "cites": [
+       4,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are quotas set for roles that target net-new logos in greenfield markets?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What will the new \"Sales Strategy & Operations\" hires spend most of their time on?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do partner orders reach NetSuite today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the current sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How territories are assigned today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting and pipeline reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which systems the sales operations team owns",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October.\n\nThe \"Regional Sales Director, Enterprise - Muni\" posting also asks for \"1-3 qualified net-new logos per quarter\" in \"greenfield markets\" and caught my eye.\n\nWe work with revenue teams on pipeline reporting, forecasting, and territory planning.\n\nWho on your team owns territory planning today?\n\n{sender_name}",
+      "cites": [
+       1,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3]."
+    },
+    {
+     "text": "The \"Regional Sales Director, Enterprise - Muni\" posting asks for \"1-3 qualified net-new logos per quarter\" and the \"Federal Enterprise Account Executive (Veteran Affairs)\" posting asks for \"at least 1 qualified net new logo per quarter\" [4][5]."
+    },
+    {
+     "text": "\"Enterprise Account Executive, Brazil\" went up on 2026-11-20 and two UK public sector \"Enterprise Account Executive\" roles went up on 2026-11-19 [9][10][11]."
+    }
+   ],
+   "priority": {
+    "text": "Verkada's likely priority is \"securing new opportunities in greenfield markets\", \"penetrating greenfield accounts\", and \"the achievement of quarterly quotas\" [4][5]."
+   },
+   "questions": [
+    "How are quotas set for roles that target net-new logos in greenfield markets?",
+    "What will the new \"Sales Strategy & Operations\" hires spend most of their time on?",
+    "How do partner orders reach NetSuite today?"
+   ],
+   "unknowns": [
+    "Size of the current sales team",
+    "How territories are assigned today",
+    "Who owns forecasting and pipeline reporting",
+    "Which systems the sales operations team owns"
+   ],
+   "first_touch": {
+    "subject": "Your new sales strategy and operations roles",
+    "body": "Hi {first_name},\n\nI saw Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October.\n\nThe \"Regional Sales Director, Enterprise - Muni\" posting also asks for \"1-3 qualified net-new logos per quarter\" in \"greenfield markets\" and caught my eye.\n\nWe work with revenue teams on pipeline reporting, forecasting, and territory planning.\n\nWho on your team owns territory planning today?\n\n{sender_name}",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Verkada published \"Sales Strategy and Operations | Channel Programs Specialist\" on 2026-11-10 and \"MBA Full-Time Hire - Sales Strategy & Operations\" on 2026-10-28 [1][3].",
+     "cites": [
+      1,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Regional Sales Director, Enterprise - Muni\" posting asks for \"1-3 qualified net-new logos per quarter\" and the \"Federal Enterprise Account Executive (Veteran Affairs)\" posting asks for \"at least 1 qualified net new logo per quarter\" [4][5].",
+     "cites": [
+      4,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "\"Enterprise Account Executive, Brazil\" went up on 2026-11-20 and two UK public sector \"Enterprise Account Executive\" roles went up on 2026-11-19 [9][10][11].",
+     "cites": [
+      9,
+      10,
+      11
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Verkada's likely priority is \"securing new opportunities in greenfield markets\", \"penetrating greenfield accounts\", and \"the achievement of quarterly quotas\" [4][5].",
+     "cites": [
+      4,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are quotas set for roles that target net-new logos in greenfield markets?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What will the new \"Sales Strategy & Operations\" hires spend most of their time on?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do partner orders reach NetSuite today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the current sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How territories are assigned today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting and pipeline reporting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which systems the sales operations team owns",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw Verkada posted \"Sales Strategy and Operations | Channel Programs Specialist\" in November and \"MBA Full-Time Hire - Sales Strategy & Operations\" in October.\n\nThe \"Regional Sales Director, Enterprise - Muni\" posting also asks for \"1-3 qualified net-new logos per quarter\" in \"greenfield markets\" and caught my eye.\n\nWe work with revenue teams on pipeline reporting, forecasting, and territory planning.\n\nWho on your team owns territory planning today?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.100657,
+ "ms": 25627
+}

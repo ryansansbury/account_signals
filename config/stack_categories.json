@@ -1,0 +1,20 @@
+{
+ "note": "The group each tool in config/tools.txt belongs to, for the stack layer. A tool missing here reads as other.",
+ "categories": {
+  "CRM": ["Salesforce", "Sales Cloud", "Service Cloud", "HubSpot", "Microsoft Dynamics", "Dynamics 365", "Zoho CRM", "Pipedrive", "Close", "Attio", "Affinity"],
+  "marketing automation": ["Marketing Cloud", "Pardot", "Account Engagement", "Marketo", "Eloqua", "Mailchimp", "Braze", "Iterable", "Klaviyo", "Customer.io"],
+  "sales engagement": ["Outreach", "Salesloft", "Apollo", "Chili Piper", "Calendly", "LeanData"],
+  "revenue intelligence": ["Gong", "Chorus", "Clari", "Aviso", "BoostUp"],
+  "data and intent": ["ZoomInfo", "Cognism", "Lusha", "Clay", "Common Room", "6sense", "Demandbase", "Bombora", "Terminus"],
+  "product analytics": ["Segment", "Mixpanel", "Amplitude", "Heap", "Pendo"],
+  "customer success": ["Gainsight", "Totango", "ChurnZero", "Vitally"],
+  "support desk": ["Zendesk", "Intercom", "Freshdesk"],
+  "enablement": ["Highspot", "Seismic", "Showpad", "Mindtickle", "Spekit"],
+  "quote to cash": ["Salesforce CPQ", "Revenue Cloud", "DocuSign", "PandaDoc", "Ironclad", "Conga", "DealHub", "Zuora", "Chargebee", "Maxio", "Stripe"],
+  "finance and planning": ["NetSuite", "QuickBooks", "Sage Intacct", "Anaplan", "Pigment", "Adaptive Planning"],
+  "sales compensation": ["Varicent", "Xactly", "CaptivateIQ", "Spiff", "QuotaPath", "Fullcast"],
+  "data stack": ["Snowflake", "Databricks", "BigQuery", "Redshift", "dbt", "Fivetran", "Airbyte", "Census", "Hightouch"],
+  "BI": ["Looker", "Tableau", "Power BI", "Sigma", "Mode", "Hex", "Domo", "ThoughtSpot", "Metabase"],
+  "integration": ["Zapier", "Workato", "Tray.io", "Celigo", "MuleSoft", "Boomi"]
+ }
+}

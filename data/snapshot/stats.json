@@ -1,0 +1,37 @@
+{
+ "seed": 338,
+ "boards_read": 145,
+ "postings": 7708,
+ "us_postings": 5578,
+ "postings_in_a_city": 4109,
+ "signals": 3145,
+ "signals_by_family": {
+  "crm": 20,
+  "forecasting": 26,
+  "leadership": 10,
+  "pace": 1536,
+  "revops": 32,
+  "salesops": 38,
+  "stack": 1443,
+  "territory": 20,
+  "analytics": 15,
+  "first_hire": 3,
+  "crm_move": 2
+ },
+ "removed": {
+  "link": 542,
+  "name": 948,
+  "tag": 2011,
+  "email": 2132,
+  "handle": 761,
+  "phone": 306
+ },
+ "left_out": {
+  "signal naming an excluded company": 65,
+  "department naming an excluded company, blanked": 2,
+  "empty board": 11,
+  "board didn't name the company": 2,
+  "excluded or no longer seeded": 5
+ },
+ "read_on": "2026-11-20"
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Omada Health",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "aea847e79e9ffba4",
+ "input_hash": "a2df95ee49c87397",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:06:00+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 10976,
+    "input_tokens": 2,
+    "output_tokens": 1289,
+    "cache_write_tokens": 28241,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1259383
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "overreaches",
+    "reason": "The three titles and November dates match and fall within 30 days, but the Enterprise and Mid Market postings call these individual contributor selling roles, not sales leadership."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The title and 2026-08-25 publish date match source [2], and it was still on the board at the read date."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The title and 2026-11-11 date match source [1]."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "The three role names and the Revenue Operations posting are real, but calling the hires \"new regional leaders\" misreads individual contributor seller roles."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The three Regional Vice President titles with November dates and the August Senior Manager, Revenue Operations posting all match sources [2][7][8][9]."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.125938,
+ "ms": 10976
+}

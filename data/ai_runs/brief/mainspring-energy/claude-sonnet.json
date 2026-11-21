@@ -1,0 +1,455 @@
+{
+ "account": "Mainspring Energy",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "f110611ce97676f5",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:05:42+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Menlo Park, CA. The US held 95% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "se3acf60546",
+   "title": "Fleet Operations & Analytics Engineer",
+   "excerpt": "Fleet Operations & Analytics Engineer",
+   "posted": "2026-10-06",
+   "posting_id": "lever:mainspringenergy:5b7ff74e-c82a-4ec1-b52f-7d7a27edb672",
+   "family": "analytics"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s98d7c22ec4",
+   "title": "Senior Fleet Operations & Analytics Engineer",
+   "excerpt": "Senior Fleet Operations & Analytics Engineer",
+   "posted": "2026-06-17",
+   "posting_id": "lever:mainspringenergy:4ab4270a-2869-42f6-ac65-530f4a90e231",
+   "family": "analytics"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Mainspring Energy had 91 open roles on its public job board on 2026-11-20. [0]\"}, {\"text\": \"One posting is titled \\\"Fleet Operations & Analytics Engineer\\\" and was created 2026-10-06, which is 45 days before the read date. [1]\"}, {\"text\": \"Another posting is titled \\\"Senior Fleet Operations & Analytics Engineer\\\" and was created 2026-06-17. [2]\"}], \"priority\": {\"text\": \"The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM. [1][2]\"}, \"questions\": [\"Who owns pipeline and forecast reporting at Mainspring today?\", \"How are customer deals tracked and managed in your systems right now?\", \"What does the analytics work in the fleet operations roles feed into across the business?\"], \"unknowns\": [\"Whether any sales or revenue roles are open\", \"Which CRM is in use\", \"Who owns sales reporting\", \"Size of the sales team\"], \"first_touch\": {\"subject\": \"Your fleet analytics roles\", \"body\": \"Hi {first_name},\\n\\nI saw that Mainspring Energy posted a \\\"Fleet Operations & Analytics Engineer\\\" role in October. A \\\"Senior Fleet Operations & Analytics Engineer\\\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 13009,
+    "input_tokens": 2,
+    "output_tokens": 1854,
+    "cache_write_tokens": 5063,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0389506
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20. [0]"
+     },
+     {
+      "text": "One posting is titled \"Fleet Operations & Analytics Engineer\" and was created 2026-10-06, which is 45 days before the read date. [1]"
+     },
+     {
+      "text": "Another posting is titled \"Senior Fleet Operations & Analytics Engineer\" and was created 2026-06-17. [2]"
+     }
+    ],
+    "priority": {
+     "text": "The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM. [1][2]"
+    },
+    "questions": [
+     "Who owns pipeline and forecast reporting at Mainspring today?",
+     "How are customer deals tracked and managed in your systems right now?",
+     "What does the analytics work in the fleet operations roles feed into across the business?"
+    ],
+    "unknowns": [
+     "Whether any sales or revenue roles are open",
+     "Which CRM is in use",
+     "Who owns sales reporting",
+     "Size of the sales team"
+    ],
+    "first_touch": {
+     "subject": "Your fleet analytics roles",
+     "body": "Hi {first_name},\n\nI saw that Mainspring Energy posted a \"Fleet Operations & Analytics Engineer\" role in October. A \"Senior Fleet Operations & Analytics Engineer\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20. [0]",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "One posting is titled \"Fleet Operations & Analytics Engineer\" and was created 2026-10-06, which is 45 days before the read date. [1]",
+      "cites": [
+       1
+      ],
+      "problems": [
+       "writing: a pause comma before \"which\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "Another posting is titled \"Senior Fleet Operations & Analytics Engineer\" and was created 2026-06-17. [2]",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM. [1][2]",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns pipeline and forecast reporting at Mainspring today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are customer deals tracked and managed in your systems right now?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the analytics work in the fleet operations roles feed into across the business?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether any sales or revenue roles are open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM is in use",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns sales reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Mainspring Energy posted a \"Fleet Operations & Analytics Engineer\" role in October. A \"Senior Fleet Operations & Analytics Engineer\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"A posting titled \\\"Fleet Operations & Analytics Engineer\\\" was created 45 days before the read date [1].\"}, {\"text\": \"A posting titled \\\"Senior Fleet Operations & Analytics Engineer\\\" was created 2026-06-17 [2].\"}], \"priority\": {\"text\": \"The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM [1][2].\"}, \"questions\": [\"Who owns pipeline and forecast reporting at Mainspring today?\", \"How are customer deals tracked and managed in your systems right now?\", \"What does the analytics work in the fleet operations roles feed into across the business?\"], \"unknowns\": [\"Whether any sales or revenue roles are open\", \"Which CRM is in use\", \"Who owns sales reporting\", \"Size of the sales team\"], \"first_touch\": {\"subject\": \"Your fleet analytics roles\", \"body\": \"Hi {first_name},\\n\\nI saw that Mainspring Energy posted a \\\"Fleet Operations & Analytics Engineer\\\" role in October. A \\\"Senior Fleet Operations & Analytics Engineer\\\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 8081,
+    "input_tokens": 2,
+    "output_tokens": 1184,
+    "cache_write_tokens": 5775,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0350986
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "A posting titled \"Fleet Operations & Analytics Engineer\" was created 45 days before the read date [1]."
+     },
+     {
+      "text": "A posting titled \"Senior Fleet Operations & Analytics Engineer\" was created 2026-06-17 [2]."
+     }
+    ],
+    "priority": {
+     "text": "The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM [1][2]."
+    },
+    "questions": [
+     "Who owns pipeline and forecast reporting at Mainspring today?",
+     "How are customer deals tracked and managed in your systems right now?",
+     "What does the analytics work in the fleet operations roles feed into across the business?"
+    ],
+    "unknowns": [
+     "Whether any sales or revenue roles are open",
+     "Which CRM is in use",
+     "Who owns sales reporting",
+     "Size of the sales team"
+    ],
+    "first_touch": {
+     "subject": "Your fleet analytics roles",
+     "body": "Hi {first_name},\n\nI saw that Mainspring Energy posted a \"Fleet Operations & Analytics Engineer\" role in October. A \"Senior Fleet Operations & Analytics Engineer\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A posting titled \"Fleet Operations & Analytics Engineer\" was created 45 days before the read date [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A posting titled \"Senior Fleet Operations & Analytics Engineer\" was created 2026-06-17 [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns pipeline and forecast reporting at Mainspring today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are customer deals tracked and managed in your systems right now?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the analytics work in the fleet operations roles feed into across the business?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether any sales or revenue roles are open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM is in use",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns sales reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Mainspring Energy posted a \"Fleet Operations & Analytics Engineer\" role in October. A \"Senior Fleet Operations & Analytics Engineer\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "A posting titled \"Fleet Operations & Analytics Engineer\" was created 45 days before the read date [1]."
+    },
+    {
+     "text": "A posting titled \"Senior Fleet Operations & Analytics Engineer\" was created 2026-06-17 [2]."
+    }
+   ],
+   "priority": {
+    "text": "The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM [1][2]."
+   },
+   "questions": [
+    "Who owns pipeline and forecast reporting at Mainspring today?",
+    "How are customer deals tracked and managed in your systems right now?",
+    "What does the analytics work in the fleet operations roles feed into across the business?"
+   ],
+   "unknowns": [
+    "Whether any sales or revenue roles are open",
+    "Which CRM is in use",
+    "Who owns sales reporting",
+    "Size of the sales team"
+   ],
+   "first_touch": {
+    "subject": "Your fleet analytics roles",
+    "body": "Hi {first_name},\n\nI saw that Mainspring Energy posted a \"Fleet Operations & Analytics Engineer\" role in October. A \"Senior Fleet Operations & Analytics Engineer\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\n\n{sender_name}",
+    "cites": [
+     1,
+     2
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A posting titled \"Fleet Operations & Analytics Engineer\" was created 45 days before the read date [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A posting titled \"Senior Fleet Operations & Analytics Engineer\" was created 2026-06-17 [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The cited postings describe fleet operations and analytics engineering work and describe no revenue work such as selling, pipeline, forecasts, or the CRM [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns pipeline and forecast reporting at Mainspring today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are customer deals tracked and managed in your systems right now?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does the analytics work in the fleet operations roles feed into across the business?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether any sales or revenue roles are open",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM is in use",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns sales reporting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that Mainspring Energy posted a \"Fleet Operations & Analytics Engineer\" role in October. A \"Senior Fleet Operations & Analytics Engineer\" role went up in June. I work with teams on CRM cleanup, pipeline reporting, forecasting, and territory planning. Who would be the right person to talk to about sales reporting at Mainspring?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.074049,
+ "ms": 21090
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Komodo Health",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "83f81013c3dbf4af",
+ "input_hash": "5a5a125c53233d40",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:03:47+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7951,
+    "input_tokens": 2,
+    "output_tokens": 928,
+    "cache_write_tokens": 18323,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0826563
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Business Operations Manager, Revenue posting is dated 2026-11-20 and the Web & GTM Engineer posting 2026-11-06, as the sources give them."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The Sales Development Representative posting is dated 2026-10-09 and the quoted line appears in its full text."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Account Executive - AVP, Sales (Tech Partnerships) posting contains the quoted Salesforce data-entry line verbatim."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "It reads the account's current priority from one Salesforce data-entry duty in a posting dated 2026-02-13, about nine months before the read date, which does not show what the account needs now."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "Both roles were published in November, the SDR posting is from October with the quote matching, and all three cited sources support the claims."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.082656,
+ "ms": 7951
+}

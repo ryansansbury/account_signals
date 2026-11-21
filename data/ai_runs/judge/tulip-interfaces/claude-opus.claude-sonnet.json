@@ -1,0 +1,61 @@
+{
+ "account": "Tulip Interfaces",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "54401f17e5517dd7",
+ "input_hash": "e3cdaa1634ce4f1f",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:25+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 10249,
+    "input_tokens": 2,
+    "output_tokens": 1356,
+    "cache_write_tokens": 18586,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08798829999999999
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Both titles and dates (2026-08-26 and 2026-08-25) match sources [1] and [2]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The quoted phrase appears word for word in the Senior Revenue Operations Manager, Sales posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The account executive posting is dated 2026-10-28, and the three postings dated 10-30, 10-28 and 10-15 all fall within 40 days of 2026-11-20."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both quotes appear in the cited postings ([6] for Salesforce redesign, [4] for renewal forecasting), and a revenue-ops and forecasting priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The August dates, the March Post Sales posting, and all quoted phrases match the cited postings, and the inference about forecasting is reasonable."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.087988,
+ "ms": 10249
+}

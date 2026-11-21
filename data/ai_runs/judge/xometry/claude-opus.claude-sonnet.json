@@ -1,0 +1,61 @@
+{
+ "account": "Xometry",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "5dcea58c94b0cc47",
+ "input_hash": "f0aa785cc6a812aa",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:46+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3952,
+    "input_tokens": 2,
+    "output_tokens": 362,
+    "cache_write_tokens": 19538,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08185629999999999
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The posting is dated 2026-11-05 and the quoted phrase about quota and forecasting models appears verbatim in the full text."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The posting is dated 2026-10-21 and the quoted CPQ, contracts and change-order line appears verbatim in its requirements."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Staff Product Manager posting is dated 2026-10-16 and the Account Executive III posting is dated 2026-11-10, matching the source lines."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Both quotes are in the posting, which centers on owning sales analytics and quota and forecasting models, so inferring a sales analytics and forecasting priority is fair."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "Both postings are described with the right titles, months and verbatim quotes, and the question about quota and forecasting work follows from the posting."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.081856,
+ "ms": 3952
+}

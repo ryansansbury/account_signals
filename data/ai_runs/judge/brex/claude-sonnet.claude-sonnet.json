@@ -1,0 +1,61 @@
+{
+ "account": "Brex",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "9f9c54aaa2e94333",
+ "input_hash": "4c7a86f899758517",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:02:53+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6085,
+    "input_tokens": 2,
+    "output_tokens": 740,
+    "cache_write_tokens": 19671,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0861683
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Source [3] is a \"Director, Revenue Operations\" posting published 2026-10-02, as stated."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The quoted responsibility about forecasting, pipeline, capacity planning, territory carving, quota setting and incentive design appears word for word in the posting behind [4]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Salesforce and GTM systems requirement, including AI-driven efficiency improvements, is quoted accurately from the posting behind [6]."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The quote matches the posting, and reading its forecasting, pipeline and quota-setting cadences as a likely priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The posting went up 2026-10-02 and mentions forecasting, pipeline, quota work and Salesforce experience, all matching [3][4][6]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.086168,
+ "ms": 6085
+}

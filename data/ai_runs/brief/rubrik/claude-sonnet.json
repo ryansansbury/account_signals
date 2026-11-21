@@ -1,0 +1,533 @@
+{
+ "account": "Rubrik",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "37561125f970b788",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:39:59+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Rubrik had 184 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Palo Alto, CA. The US held 47% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s4d654af10e",
+   "title": "Sales Operations - Senior Analyst (Japan)",
+   "excerpt": "Sales Operations - Senior Analyst (Japan)",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:rubrik:8324126",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sd6f8856115",
+   "title": "Sales Operations - Senior Analyst (Japan)",
+   "excerpt": "Operational Excellence: Own Japan’s “Rhythm of the Business,” including the forecast process, Quarterly Business Reviews (QBRs) and pipeline hygiene, to ensure high predictability.",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:rubrik:8324126",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sd0bbdf449c",
+   "title": "Finance Manager, GTM",
+   "excerpt": "They will manage Headcount, T&E expense, and support key deliverables like annual planning, bookings forecast, BvA analysis, monthly/quarterly financial reporting and ad hoc analysis of the business.",
+   "posted": "2026-10-13",
+   "posting_id": "greenhouse:rubrik:8273254",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s00682777c5",
+   "title": "Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships",
+   "excerpt": "Working knowledge of Coupa and NetSuite preferred.",
+   "posted": "2026-09-22",
+   "posting_id": "greenhouse:rubrik:8114559",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s03ec8fe5b7",
+   "title": "Territory Account Executive",
+   "excerpt": "Familiarity with Salesforce for pipeline management and forecasting..",
+   "posted": "2026-10-14",
+   "posting_id": "greenhouse:rubrik:8158839",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s091dfeb26f",
+   "title": "Staff Product Manager, IT - GTM",
+   "excerpt": "Strong understanding of the B2B sales process, seller pain points, and the technology ecosystem that supports them (e.g., Salesforce, Clari, CPQ).",
+   "posted": "2026-05-04",
+   "posting_id": "greenhouse:rubrik:7885055",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s3494c77de1",
+   "title": "Sales Development Representative, UK",
+   "excerpt": "Sales Development Representative, UK",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:rubrik:8395608",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sc62dbc294b",
+   "title": "Sales Specialist - Cloud",
+   "excerpt": "Sales Specialist - Cloud",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:rubrik:8385230",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s0ace09de66",
+   "title": "Regional Director Specialist Sales, EMEA (Identity)",
+   "excerpt": "Regional Director Specialist Sales, EMEA (Identity)",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:rubrik:8391704",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\":[{\"text\":\"The \\\"Sales Operations - Senior Analyst (Japan)\\\" posting went up on 2026-11-02 and asks the hire to own the \\\"forecast process\\\" and \\\"pipeline hygiene\\\" for Japan. [1][2]\"},{\"text\":\"A \\\"Territory Account Executive\\\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]\"},{\"text\":\"Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]\"}],\"priority\":{\"text\":\"Rubrik's likely priority is forecast and pipeline work, which the Japan sales operations posting describes as the \\\"forecast process\\\" and \\\"pipeline hygiene\\\" and the \\\"Territory Account Executive\\\" posting describes as Salesforce use for \\\"pipeline management and forecasting\\\". [2][5]\"},\"questions\":[\"How does Rubrik run its forecast process across regions today?\",\"Which team owns pipeline reporting and how do they use Salesforce for it?\",\"What would make the Japan forecast and pipeline routine a success in the next year?\"],\"unknowns\":[\"Who owns forecasting and pipeline reporting\",\"How Salesforce is configured and maintained\",\"Whether the Japan approach will extend to other regions\",\"Budget and timing for revenue operations work\"],\"first_touch\":{\"subject\":\"Forecasting and pipeline at Rubrik\",\"body\":\"Hi {first_name},\\n\\nI noticed that Rubrik's \\\"Sales Operations - Senior Analyst (Japan)\\\" posting from November asks the hire to own the \\\"forecast process\\\" and \\\"pipeline hygiene\\\". The \\\"Territory Account Executive\\\" posting from October also mentions Salesforce for pipeline management and forecasting.\\n\\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\\n\\n{sender_name}\",\"cites\":[1,2,5]}}",
+   "meta": {
+    "ms": 16220,
+    "input_tokens": 2,
+    "output_tokens": 2301,
+    "cache_write_tokens": 5640,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.04572860000000001
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own the \"forecast process\" and \"pipeline hygiene\" for Japan. [1][2]"
+     },
+     {
+      "text": "A \"Territory Account Executive\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]"
+     },
+     {
+      "text": "Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]"
+     }
+    ],
+    "priority": {
+     "text": "Rubrik's likely priority is forecast and pipeline work, which the Japan sales operations posting describes as the \"forecast process\" and \"pipeline hygiene\" and the \"Territory Account Executive\" posting describes as Salesforce use for \"pipeline management and forecasting\". [2][5]"
+    },
+    "questions": [
+     "How does Rubrik run its forecast process across regions today?",
+     "Which team owns pipeline reporting and how do they use Salesforce for it?",
+     "What would make the Japan forecast and pipeline routine a success in the next year?"
+    ],
+    "unknowns": [
+     "Who owns forecasting and pipeline reporting",
+     "How Salesforce is configured and maintained",
+     "Whether the Japan approach will extend to other regions",
+     "Budget and timing for revenue operations work"
+    ],
+    "first_touch": {
+     "subject": "Forecasting and pipeline at Rubrik",
+     "body": "Hi {first_name},\n\nI noticed that Rubrik's \"Sales Operations - Senior Analyst (Japan)\" posting from November asks the hire to own the \"forecast process\" and \"pipeline hygiene\". The \"Territory Account Executive\" posting from October also mentions Salesforce for pipeline management and forecasting.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own the \"forecast process\" and \"pipeline hygiene\" for Japan. [1][2]",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Territory Account Executive\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Rubrik's likely priority is forecast and pipeline work, which the Japan sales operations posting describes as the \"forecast process\" and \"pipeline hygiene\" and the \"Territory Account Executive\" posting describes as Salesforce use for \"pipeline management and forecasting\". [2][5]",
+      "cites": [
+       2,
+       5
+      ],
+      "problems": [
+       "writing: a pause comma before \"which\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How does Rubrik run its forecast process across regions today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns pipeline reporting and how do they use Salesforce for it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would make the Japan forecast and pipeline routine a success in the next year?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting and pipeline reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How Salesforce is configured and maintained",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Japan approach will extend to other regions",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for revenue operations work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed that Rubrik's \"Sales Operations - Senior Analyst (Japan)\" posting from November asks the hire to own the \"forecast process\" and \"pipeline hygiene\". The \"Territory Account Executive\" posting from October also mentions Salesforce for pipeline management and forecasting.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\":[{\"text\":\"The \\\"Sales Operations - Senior Analyst (Japan)\\\" posting went up on 2026-11-02 and asks the hire to own the \\\"forecast process\\\" and \\\"pipeline hygiene\\\" for Japan. [1][2]\"},{\"text\":\"A \\\"Territory Account Executive\\\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]\"},{\"text\":\"Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]\"}],\"priority\":{\"text\":\"Rubrik's likely priority is forecast and pipeline work as the Japan sales operations posting names the \\\"forecast process\\\" and \\\"pipeline hygiene\\\" and the \\\"Territory Account Executive\\\" posting names Salesforce use for \\\"pipeline management and forecasting\\\". [2][5]\"},\"questions\":[\"How does Rubrik run its forecast process across regions today?\",\"Which team owns pipeline reporting and how do they use Salesforce for it?\",\"What would make the Japan forecast and pipeline routine a success in the next year?\"],\"unknowns\":[\"Who owns forecasting and pipeline reporting\",\"How Salesforce is configured and maintained\",\"Whether the Japan approach will extend to other regions\",\"Budget and timing for revenue operations work\"],\"first_touch\":{\"subject\":\"Forecasting and pipeline at Rubrik\",\"body\":\"Hi {first_name},\\n\\nI noticed that Rubrik's \\\"Sales Operations - Senior Analyst (Japan)\\\" posting from November asks the hire to own the \\\"forecast process\\\" and \\\"pipeline hygiene\\\". The \\\"Territory Account Executive\\\" posting from October also mentions Salesforce for pipeline management and forecasting.\\n\\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\\n\\n{sender_name}\",\"cites\":[1,2,5]}}",
+   "meta": {
+    "ms": 8814,
+    "input_tokens": 2,
+    "output_tokens": 1346,
+    "cache_write_tokens": 6498,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0396106
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own the \"forecast process\" and \"pipeline hygiene\" for Japan. [1][2]"
+     },
+     {
+      "text": "A \"Territory Account Executive\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]"
+     },
+     {
+      "text": "Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]"
+     }
+    ],
+    "priority": {
+     "text": "Rubrik's likely priority is forecast and pipeline work as the Japan sales operations posting names the \"forecast process\" and \"pipeline hygiene\" and the \"Territory Account Executive\" posting names Salesforce use for \"pipeline management and forecasting\". [2][5]"
+    },
+    "questions": [
+     "How does Rubrik run its forecast process across regions today?",
+     "Which team owns pipeline reporting and how do they use Salesforce for it?",
+     "What would make the Japan forecast and pipeline routine a success in the next year?"
+    ],
+    "unknowns": [
+     "Who owns forecasting and pipeline reporting",
+     "How Salesforce is configured and maintained",
+     "Whether the Japan approach will extend to other regions",
+     "Budget and timing for revenue operations work"
+    ],
+    "first_touch": {
+     "subject": "Forecasting and pipeline at Rubrik",
+     "body": "Hi {first_name},\n\nI noticed that Rubrik's \"Sales Operations - Senior Analyst (Japan)\" posting from November asks the hire to own the \"forecast process\" and \"pipeline hygiene\". The \"Territory Account Executive\" posting from October also mentions Salesforce for pipeline management and forecasting.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own the \"forecast process\" and \"pipeline hygiene\" for Japan. [1][2]",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Territory Account Executive\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Rubrik's likely priority is forecast and pipeline work as the Japan sales operations posting names the \"forecast process\" and \"pipeline hygiene\" and the \"Territory Account Executive\" posting names Salesforce use for \"pipeline management and forecasting\". [2][5]",
+      "cites": [
+       2,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does Rubrik run its forecast process across regions today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns pipeline reporting and how do they use Salesforce for it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would make the Japan forecast and pipeline routine a success in the next year?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting and pipeline reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How Salesforce is configured and maintained",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Japan approach will extend to other regions",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for revenue operations work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed that Rubrik's \"Sales Operations - Senior Analyst (Japan)\" posting from November asks the hire to own the \"forecast process\" and \"pipeline hygiene\". The \"Territory Account Executive\" posting from October also mentions Salesforce for pipeline management and forecasting.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own the \"forecast process\" and \"pipeline hygiene\" for Japan. [1][2]"
+    },
+    {
+     "text": "A \"Territory Account Executive\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]"
+    },
+    {
+     "text": "Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]"
+    }
+   ],
+   "priority": {
+    "text": "Rubrik's likely priority is forecast and pipeline work as the Japan sales operations posting names the \"forecast process\" and \"pipeline hygiene\" and the \"Territory Account Executive\" posting names Salesforce use for \"pipeline management and forecasting\". [2][5]"
+   },
+   "questions": [
+    "How does Rubrik run its forecast process across regions today?",
+    "Which team owns pipeline reporting and how do they use Salesforce for it?",
+    "What would make the Japan forecast and pipeline routine a success in the next year?"
+   ],
+   "unknowns": [
+    "Who owns forecasting and pipeline reporting",
+    "How Salesforce is configured and maintained",
+    "Whether the Japan approach will extend to other regions",
+    "Budget and timing for revenue operations work"
+   ],
+   "first_touch": {
+    "subject": "Forecasting and pipeline at Rubrik",
+    "body": "Hi {first_name},\n\nI noticed that Rubrik's \"Sales Operations - Senior Analyst (Japan)\" posting from November asks the hire to own the \"forecast process\" and \"pipeline hygiene\". The \"Territory Account Executive\" posting from October also mentions Salesforce for pipeline management and forecasting.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own the \"forecast process\" and \"pipeline hygiene\" for Japan. [1][2]",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Territory Account Executive\" posting from 2026-10-14 asks for familiarity with Salesforce for pipeline management and forecasting. [5]",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Three sales postings were published on 2026-11-19 or 2026-11-20 across the UK, cloud, and EMEA identity areas. [7][8][9]",
+     "cites": [
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Rubrik's likely priority is forecast and pipeline work as the Japan sales operations posting names the \"forecast process\" and \"pipeline hygiene\" and the \"Territory Account Executive\" posting names Salesforce use for \"pipeline management and forecasting\". [2][5]",
+     "cites": [
+      2,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does Rubrik run its forecast process across regions today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team owns pipeline reporting and how do they use Salesforce for it?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What would make the Japan forecast and pipeline routine a success in the next year?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting and pipeline reporting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How Salesforce is configured and maintained",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the Japan approach will extend to other regions",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for revenue operations work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed that Rubrik's \"Sales Operations - Senior Analyst (Japan)\" posting from November asks the hire to own the \"forecast process\" and \"pipeline hygiene\". The \"Territory Account Executive\" posting from October also mentions Salesforce for pipeline management and forecasting.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, and forecasting. Who looks after forecasting and pipeline reporting at Rubrik today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.085339,
+ "ms": 25034
+}

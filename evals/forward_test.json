@@ -1,0 +1,51 @@
+{
+ "title": "The forward test of the v1 score",
+ "question": "Did the companies the v1 score ranked higher on November 9 go on to open revenue operations roles in the next four weeks more often than their open roles alone would predict?",
+ "frozen_before": "the first weekly read after the November 9 read. evals/forward.py froze with it and holds the counting and the statistics.",
+ "base_day": "2026-11-09",
+ "outcome_on_or_after": "2026-12-06",
+ "accounts": 161,
+ "base": {
+  "file": "data/raw/weekly/base-2026-11-09.json",
+  "sha256": "e3ab98321c02a402135be53d5516e1f52e05cca3b0dd9742c996a8abbf1d482c",
+  "holds": "every posting id and title each account had open in the November 9 read"
+ },
+ "predictions": {
+  "file": "data/raw/weekly/predictions-2026-11-09.json",
+  "sha256": "7bc4c4044d874e13eee95414d3bbf79e840c50ba54d0003f8e91b0a5c8fc9224",
+  "holds": "each account's v1 score, tier, and open roles from the November 9 read"
+ },
+ "score": "Each account's v1 score at the default weights as the ranking gave it from the November 9 read after the November 11 exclusion run. No weight, rule, or signal changes for the test.",
+ "baseline": "Each account's open roles on November 9 as the plainest guess at who keeps hiring.",
+ "new_role": "A posting seen in a weekly read inside the window whose id and title were both absent on November 9 and that isn't an evergreen posting. Titles compare in lower case with notes in parentheses dropped. Each new title counts once, and a repost of a role that was already open isn't new.",
+ "revops_families": [
+  "revops",
+  "salesops",
+  "crm"
+ ],
+ "outcomes": {
+  "primary": "Whether an account opened at least one new revenue operations role in the window. Such a role is one the v1 revops, salesops, or crm title family matches.",
+  "secondary": "How many new go-to-market titles an account opened in the window by the v1 hiring pace rule.",
+  "descriptive": "Whether a Form D was filed in the window for each account matched to an SEC identity. It's reported with no test because few are expected."
+ },
+ "statistics": {
+  "bootstrap_resamples": 2000,
+  "seed": 20261115,
+  "level": 0.95,
+  "primary": "The area under the ROC curve of the score and of the baseline. Each comes with a 95% percentile interval from 2,000 bootstrap resamples of the accounts, and their difference gets an interval the same way. The outcome rate in each tier comes with a Wilson 95% interval.",
+  "secondary": "Spearman's correlation of the score and of the baseline with the count. Each gets its interval from the same resamples, and so does their difference."
+ },
+ "reading": {
+  "predicts": "The score predicts the primary outcome when its AUC interval sits above 0.5.",
+  "beats_baseline": "The score beats the baseline when the interval of the AUC difference sits above 0.",
+  "either_way": "The page states the result in the same words whichever way it comes out."
+ },
+ "promotion": "A new signal (a funding filing before November 9, a stack fact, or a hiring trend measured before the window) joins the v2 score only if adding it to the v1 score raises the primary AUC with the interval of the gain above 0. Signals measured inside the window never join because that would read the outcome.",
+ "left_out": "An account the private exclusion list drops after the freeze leaves the test. It's counted and never named. A board that's gone in every read inside the window counts as no new roles and is counted.",
+ "caveats": [
+  "Four weeks is short, and the window holds the Thanksgiving week when hiring slows.",
+  "Greenhouse gives a posting's last update and not its first publication. A new id is the sign of a new role, and the test never reads a posting's date.",
+  "A role opened and closed between two weekly reads is missed.",
+  "The full predictions file stays private because it can name a company the exclusion list removes later. Its hash is here, and the result lists the prediction for every account still on the page."
+ ]
+}

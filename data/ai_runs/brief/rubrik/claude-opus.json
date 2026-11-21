@@ -1,0 +1,391 @@
+{
+ "account": "Rubrik",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "37561125f970b788",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:29:37+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Rubrik had 184 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Palo Alto, CA. The US held 47% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s4d654af10e",
+   "title": "Sales Operations - Senior Analyst (Japan)",
+   "excerpt": "Sales Operations - Senior Analyst (Japan)",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:rubrik:8324126",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sd6f8856115",
+   "title": "Sales Operations - Senior Analyst (Japan)",
+   "excerpt": "Operational Excellence: Own Japan’s “Rhythm of the Business,” including the forecast process, Quarterly Business Reviews (QBRs) and pipeline hygiene, to ensure high predictability.",
+   "posted": "2026-11-02",
+   "posting_id": "greenhouse:rubrik:8324126",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sd0bbdf449c",
+   "title": "Finance Manager, GTM",
+   "excerpt": "They will manage Headcount, T&E expense, and support key deliverables like annual planning, bookings forecast, BvA analysis, monthly/quarterly financial reporting and ad hoc analysis of the business.",
+   "posted": "2026-10-13",
+   "posting_id": "greenhouse:rubrik:8273254",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s00682777c5",
+   "title": "Senior Strategic Sourcing Manager, Cloud & Strategic Partnerships",
+   "excerpt": "Working knowledge of Coupa and NetSuite preferred.",
+   "posted": "2026-09-22",
+   "posting_id": "greenhouse:rubrik:8114559",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s03ec8fe5b7",
+   "title": "Territory Account Executive",
+   "excerpt": "Familiarity with Salesforce for pipeline management and forecasting..",
+   "posted": "2026-10-14",
+   "posting_id": "greenhouse:rubrik:8158839",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s091dfeb26f",
+   "title": "Staff Product Manager, IT - GTM",
+   "excerpt": "Strong understanding of the B2B sales process, seller pain points, and the technology ecosystem that supports them (e.g., Salesforce, Clari, CPQ).",
+   "posted": "2026-05-04",
+   "posting_id": "greenhouse:rubrik:7885055",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s3494c77de1",
+   "title": "Sales Development Representative, UK",
+   "excerpt": "Sales Development Representative, UK",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:rubrik:8395608",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sc62dbc294b",
+   "title": "Sales Specialist - Cloud",
+   "excerpt": "Sales Specialist - Cloud",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:rubrik:8385230",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s0ace09de66",
+   "title": "Regional Director Specialist Sales, EMEA (Identity)",
+   "excerpt": "Regional Director Specialist Sales, EMEA (Identity)",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:rubrik:8391704",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Sales Operations - Senior Analyst (Japan)\\\" posting went up on 2026-11-02 and asks the hire to own \\\"the forecast process\\\" and \\\"pipeline hygiene\\\" for Japan [1][2].\"}, {\"text\": \"Rubrik posted three sales roles in the last two days of the board read [7][8][9].\"}, {\"text\": \"The \\\"Territory Account Executive\\\" posting from 2026-10-14 asks for \\\"Familiarity with Salesforce for pipeline management and forecasting\\\" [5].\"}], \"priority\": {\"text\": \"Rubrik's likely priority is Japan's \\\"Rhythm of the Business\\\" and the posting ties it to \\\"the forecast process\\\" and \\\"pipeline hygiene\\\" to \\\"ensure high predictability\\\" [1][2].\"}, \"questions\": [\"How does the forecast process run in Japan today?\", \"What does pipeline hygiene look like for your sales teams in Salesforce?\", \"How do sales operations and the GTM finance team work together on the bookings forecast?\"], \"unknowns\": [\"Who owns forecasting outside Japan\", \"Whether Clari is in use today\", \"Size of the sales operations team\", \"Budget or timing for outside help\"], \"first_touch\": {\"subject\": \"Japan forecast process and pipeline hygiene\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Sales Operations - Senior Analyst (Japan)\\\" posting that went up in November. It asks the hire to own \\\"the forecast process\\\" along with QBRs and \\\"pipeline hygiene\\\" for Japan.\\n\\nI also noticed three sales roles that went up in November.\\n\\nWe help revenue teams with pipeline reporting and forecasting work. Is the Japan forecast run the same way as your other regions?\\n\\n{sender_name}\", \"cites\": [1, 2, 7, 8, 9]}}",
+   "meta": {
+    "ms": 27011,
+    "input_tokens": 2,
+    "output_tokens": 2793,
+    "cache_write_tokens": 5638,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1012812
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own \"the forecast process\" and \"pipeline hygiene\" for Japan [1][2]."
+     },
+     {
+      "text": "Rubrik posted three sales roles in the last two days of the board read [7][8][9]."
+     },
+     {
+      "text": "The \"Territory Account Executive\" posting from 2026-10-14 asks for \"Familiarity with Salesforce for pipeline management and forecasting\" [5]."
+     }
+    ],
+    "priority": {
+     "text": "Rubrik's likely priority is Japan's \"Rhythm of the Business\" and the posting ties it to \"the forecast process\" and \"pipeline hygiene\" to \"ensure high predictability\" [1][2]."
+    },
+    "questions": [
+     "How does the forecast process run in Japan today?",
+     "What does pipeline hygiene look like for your sales teams in Salesforce?",
+     "How do sales operations and the GTM finance team work together on the bookings forecast?"
+    ],
+    "unknowns": [
+     "Who owns forecasting outside Japan",
+     "Whether Clari is in use today",
+     "Size of the sales operations team",
+     "Budget or timing for outside help"
+    ],
+    "first_touch": {
+     "subject": "Japan forecast process and pipeline hygiene",
+     "body": "Hi {first_name},\n\nI saw the \"Sales Operations - Senior Analyst (Japan)\" posting that went up in November. It asks the hire to own \"the forecast process\" along with QBRs and \"pipeline hygiene\" for Japan.\n\nI also noticed three sales roles that went up in November.\n\nWe help revenue teams with pipeline reporting and forecasting work. Is the Japan forecast run the same way as your other regions?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      7,
+      8,
+      9
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own \"the forecast process\" and \"pipeline hygiene\" for Japan [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Rubrik posted three sales roles in the last two days of the board read [7][8][9].",
+      "cites": [
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Territory Account Executive\" posting from 2026-10-14 asks for \"Familiarity with Salesforce for pipeline management and forecasting\" [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Rubrik's likely priority is Japan's \"Rhythm of the Business\" and the posting ties it to \"the forecast process\" and \"pipeline hygiene\" to \"ensure high predictability\" [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the forecast process run in Japan today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does pipeline hygiene look like for your sales teams in Salesforce?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do sales operations and the GTM finance team work together on the bookings forecast?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting outside Japan",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether Clari is in use today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales operations team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget or timing for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Sales Operations - Senior Analyst (Japan)\" posting that went up in November. It asks the hire to own \"the forecast process\" along with QBRs and \"pipeline hygiene\" for Japan.\n\nI also noticed three sales roles that went up in November.\n\nWe help revenue teams with pipeline reporting and forecasting work. Is the Japan forecast run the same way as your other regions?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       7,
+       8,
+       9
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own \"the forecast process\" and \"pipeline hygiene\" for Japan [1][2]."
+    },
+    {
+     "text": "Rubrik posted three sales roles in the last two days of the board read [7][8][9]."
+    },
+    {
+     "text": "The \"Territory Account Executive\" posting from 2026-10-14 asks for \"Familiarity with Salesforce for pipeline management and forecasting\" [5]."
+    }
+   ],
+   "priority": {
+    "text": "Rubrik's likely priority is Japan's \"Rhythm of the Business\" and the posting ties it to \"the forecast process\" and \"pipeline hygiene\" to \"ensure high predictability\" [1][2]."
+   },
+   "questions": [
+    "How does the forecast process run in Japan today?",
+    "What does pipeline hygiene look like for your sales teams in Salesforce?",
+    "How do sales operations and the GTM finance team work together on the bookings forecast?"
+   ],
+   "unknowns": [
+    "Who owns forecasting outside Japan",
+    "Whether Clari is in use today",
+    "Size of the sales operations team",
+    "Budget or timing for outside help"
+   ],
+   "first_touch": {
+    "subject": "Japan forecast process and pipeline hygiene",
+    "body": "Hi {first_name},\n\nI saw the \"Sales Operations - Senior Analyst (Japan)\" posting that went up in November. It asks the hire to own \"the forecast process\" along with QBRs and \"pipeline hygiene\" for Japan.\n\nI also noticed three sales roles that went up in November.\n\nWe help revenue teams with pipeline reporting and forecasting work. Is the Japan forecast run the same way as your other regions?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     7,
+     8,
+     9
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Sales Operations - Senior Analyst (Japan)\" posting went up on 2026-11-02 and asks the hire to own \"the forecast process\" and \"pipeline hygiene\" for Japan [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Rubrik posted three sales roles in the last two days of the board read [7][8][9].",
+     "cites": [
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Territory Account Executive\" posting from 2026-10-14 asks for \"Familiarity with Salesforce for pipeline management and forecasting\" [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Rubrik's likely priority is Japan's \"Rhythm of the Business\" and the posting ties it to \"the forecast process\" and \"pipeline hygiene\" to \"ensure high predictability\" [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the forecast process run in Japan today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does pipeline hygiene look like for your sales teams in Salesforce?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do sales operations and the GTM finance team work together on the bookings forecast?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting outside Japan",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether Clari is in use today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales operations team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget or timing for outside help",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw the \"Sales Operations - Senior Analyst (Japan)\" posting that went up in November. It asks the hire to own \"the forecast process\" along with QBRs and \"pipeline hygiene\" for Japan.\n\nI also noticed three sales roles that went up in November.\n\nWe help revenue teams with pipeline reporting and forecasting work. Is the Japan forecast run the same way as your other regions?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      7,
+      8,
+      9
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.101281,
+ "ms": 27011
+}

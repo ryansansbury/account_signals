@@ -1,0 +1,61 @@
+{
+ "account": "Loadsmart",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "636a8cff2bd7dec0",
+ "input_hash": "5889ece851d7c27a",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:04:11+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 10997,
+    "input_tokens": 2,
+    "output_tokens": 801,
+    "cache_write_tokens": 17699,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1577806
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "All five cited postings were created between 2026-11-03 and 2026-11-18, which is within 30 days of the 2026-11-20 read date."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Source [6] gives the Enterprise Sales Executive posting a creation date of 2026-11-18."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Source [2] gives a creation date of 2026-09-22, which is 59 days before 2026-11-20."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "Posting [3] does describe building and running Salesloft sequences and posting [5] lists CRM experience with Salesforce preferred, which fairly supports a revenue-work priority."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The September, October and November dates match sources [2], [1] and [6], and the Salesloft quote matches the GTM Engineer posting."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.157781,
+ "ms": 10997
+}

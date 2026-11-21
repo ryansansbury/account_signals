@@ -1,0 +1,61 @@
+{
+ "account": "Motive",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "56db664c79ededa3",
+ "input_hash": "dcfff8a2745577c8",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:03+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3065,
+    "input_tokens": 2,
+    "output_tokens": 337,
+    "cache_write_tokens": 27614,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.11391029999999999
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Title, 2026-10-29 date and the quoted forecasting sentence all match posting [1]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Title, 2026-10-20 date and the quoted sentence match posting [4]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Titles and dates of [2] (2026-10-08), [7] (2026-09-18) and [8] (2026-09-11) match the source lines."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "The quoted phrases are in [1] and [4], but \"likely priority\" is a stretch from two postings that mention forecasting and pipeline reporting among many duties."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October postings, titles and quoted phrases match [1] and [4], and the email only infers interest in forecasting and pipeline reporting."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.11391,
+ "ms": 3065
+}

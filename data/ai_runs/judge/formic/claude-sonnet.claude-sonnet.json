@@ -1,0 +1,61 @@
+{
+ "account": "Formic",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "de4986a2c013349f",
+ "input_hash": "41f37457a13bfb1e",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:03:36+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7492,
+    "input_tokens": 2,
+    "output_tokens": 954,
+    "cache_write_tokens": 31200,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1344243
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Head of Sales posting is dated 2026-11-18, and its text contains the phrases \"pipeline analysis\", \"forecasting\" and \"deal economics\"."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The Automation Sales Manager posting is dated 2026-10-30 and contains the exact line \"Proficiency with Salesforce or comparable CRM systems.\""
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The GTM Engineer posting's source line gives 2026-07-27, which matches."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The Head of Sales posting names those skills and Salesforce or similar CRM tools, and also says the role will build forecasting and CRM discipline, so the inference is fair."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November Head of Sales, October Automation Sales Manager and July GTM Engineer timing all match, and both sales postings mention Salesforce as a skill without the email claiming they use it."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.134424,
+ "ms": 7492
+}

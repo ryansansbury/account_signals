@@ -1,0 +1,1201 @@
+# Gazetteer places of two or more words that hold a common first name or surname, so the
+# personal-data scan reads San Luis Obispo as a place on any machine. Written by the pipeline.
+Adams Center
+Adams Lake
+Adams Run
+Albert City
+Albert Lea
+Alexander City
+Ali Chuk
+Ali Chukson
+Ali Molina
+Allen Park
+Allison Gap
+Allison Park
+Alma Center
+Alondra Park
+Amanda Park
+Amelia Court House
+Anderson Creek
+Anderson Island
+Andrews AFB
+Ann Arbor
+Anna Maria
+Arnold City
+Arnold Line
+Ashley Heights
+Atkinson Mills
+Ave Maria
+Avery Creek
+Avila Beach
+Ayers Ranch Colony
+Badger Lee
+Bailey Lakes
+Baker City
+Baldwin City
+Baldwin Park
+Barker Heights
+Barker Ten Mile
+Barton Creek
+Barton Hills
+Bates City
+Baxter Estates
+Baxter Springs
+Baxter Village
+Bay St. Louis
+Bean Station
+Beaver Marsh
+Beaver Meadows
+Bell Arthur
+Ben Arnold
+Ben Avon
+Ben Avon Heights
+Ben Bolt
+Ben Lomond
+Ben Wheeler
+Benjamin Perez
+Bennett Springs
+Benton City
+Benton Harbor
+Benton Heights
+Benton Park
+Benton Ridge
+Berry College
+Berry Creek
+Berry Hill
+Bethany Beach
+Beverly Beach
+Beverly Hills
+Beverly Shores
+Big Horn
+Big Wells
+Bishop Hill
+Bishop Hills
+Black Jack
+Blue Berry Hill
+Blue Jay
+Bluff Dale
+Bolton Landing
+Bolton Valley
+Bonner Springs
+Bonnie Brae
+Boone Grove
+Bradford Woods
+Bradley Beach
+Bradley Gardens
+Bradley Junction
+Brady Lake
+Brandy Station
+Brian Head
+Brittany Farms
+Brittany Farms-The Highlands
+Brock Hall
+Brooks Mill
+Bruce Crossing
+Bryce Canyon City
+Buchanan Dam
+Buchanan Lake Village
+Buck Creek
+Buck Grove
+Buck Meadows
+Buck Run
+Burke Centre
+Burns City
+Burns Flat
+Burns Harbor
+Burnt Store Marina
+Butte Meadows
+Cabin John
+Calhoun City
+Calhoun Falls
+Cameron Colony
+Cameron Park
+Camp Barrett
+Camp Douglas
+Camp Nelson
+Camp Sherman
+Campbell Hill
+Campbell Station
+Canal Fulton
+Cannon AFB
+Cannon Ball
+Cannon Beach
+Cannon Falls
+Cantu Addition
+Cape Charles
+Cape St. Claire
+Cape Vincent
+Captain Cook
+Carl Junction
+Carolina Meadows
+Carroll Valley
+Carson City
+Carson Valley
+Carter Lake
+Carter Springs
+Castle Dale
+Castle Shannon
+Castro Valley
+Caño Martin Peña
+Central Aguirre
+Charles City
+Charles Town
+Charlotte Court House
+Charlotte Hall
+Charlotte Harbor
+Charlotte Park
+Chase City
+Chase Crossing
+Chelsea Cove
+Chevy Chase
+Chevy Chase Heights
+Chevy Chase Section Five
+Chevy Chase Section Three
+Chevy Chase View
+Chevy Chase Village
+Cheyenne Wells
+Christopher Creek
+City of the Sun
+Claire City
+Clara City
+Clarence Center
+Clark Colony
+Clark Fork
+Clark Mills
+Cobb Island
+Cole Camp
+Collins Colony
+Conway Springs
+Cooke City
+Cooper City
+Cooper Landing
+Costa Mesa
+Cotton City
+Cotton Plant
+Cotton Town
+Cotton Valley
+Craig Beach
+Crystal Bay
+Crystal Beach
+Crystal City
+Crystal Downs Country Club
+Crystal Falls
+Crystal Lake
+Crystal Lake Park
+Crystal Lakes
+Crystal Lawns
+Crystal Mountain
+Crystal Rock
+Crystal Springs
+Dale City
+Dalton City
+Dalton Gardens
+Dana Point
+Daniels Farm
+Davenport Center
+David City
+Davis City
+Davis Junction
+Dawson Springs
+De Leon
+De Leon Springs
+De Soto
+De Witt
+Del Carmen
+Dennis Acres
+Dennis Port
+Dickerson City
+Dickson City
+Dillon Beach
+Dixon Lane
+Dixon Lane-MeadowCreek
+Doctor Phillips
+Dodson Branch
+Donovan Estates
+Double Horn
+Douglas City
+Douglas Flat
+Doña Ana
+Duane Lake
+Duncan Falls
+Duncan Ranch Colony
+Dunn Center
+Dunn Loring
+Dustin Acres
+Dutch John
+E. Lopez
+Earl Park
+East Bernard
+East Brady
+East Burke
+East Charlotte
+East Dennis
+East Douglas
+East Durham
+East Earl
+East Franklin
+East Gillespie
+East Hampton
+East Hampton North
+East Hazel Crest
+East Hodge
+East Lynn
+East Rancho Dominguez
+East Randolph
+East Richmond Heights
+East San Gabriel
+East Spencer
+East St. Louis
+East Troy
+East York
+Eaton Estates
+Eaton Rapids
+Eau Claire
+Edgar Springs
+Edwards AFB
+El Castillo
+El Paso de Robles
+El Paso de Robles (Paso Robles)
+Elias-Fela Solis
+Elizabeth City
+Elizabeth Lake
+Elk Horn
+Ellis Grove
+Ellison Bay
+Encore at Monroe
+Erin Springs
+Estes Park
+Evans City
+Evans Mills
+Ewa Gentry
+Farmer City
+Finley Point
+Fisher Island
+Fleming Island
+Flowing Wells
+Floyd Hill
+Forest Meadows
+Fort Ann
+Fort Atkinson
+Fort Benton
+Fort Calhoun
+Fort Campbell North
+Fort Carson
+Fort Clark Springs
+Fort Cobb
+Fort Collins
+Fort Davis
+Fort Edward
+Fort Gaines
+Fort Gibson
+Fort Hancock
+Fort Irwin
+Fort Jennings
+Fort Johnson
+Fort Johnson North
+Fort Johnson South
+Fort Jones
+Fort Kent
+Fort Knox
+Fort Lee
+Fort Leonard Wood
+Fort Lewis
+Fort Mitchell
+Fort Montgomery
+Fort Morgan
+Fort Myers
+Fort Myers Beach
+Fort Myers Shores
+Fort Payne
+Fort Peck
+Fort Pierce
+Fort Pierce North
+Fort Pierce South
+Fort Riley
+Fort Scott
+Fort Shaw
+Fort Smith
+Fort Stewart
+Fort Thomas
+Fort Thompson
+Fort Walton Beach
+Fort Wayne
+Fort Wright
+Fort Yates
+Foster Brook
+Foster Center
+Foster City
+Four Bridges
+Fox Chapel
+Fox Chase
+Fox Crossing
+Fox Farm
+Fox Farm-College
+Fox Island
+Fox Lake
+Fox Lake Hills
+Fox Park
+Fox Point
+Francis Creek
+Franklin Center
+Franklin Farm
+Franklin Forge
+Franklin Furnace
+Franklin Grove
+Franklin Lakes
+Franklin Park
+Franklin Springs
+Franklin Square
+Franklin Town
+Franks Field
+Frazier Park
+Freeman Spur
+French Camp
+French Gulch
+French Island
+French Lick
+French Settlement
+French Valley
+Fuller Acres
+Fuller Heights
+Garrett Park
+Gary City
+George Mason
+George West
+Gibson City
+Gibson Flats
+Gilbert Creek
+Gilmore City
+Glen Allen
+Glen Campbell
+Glen Dale
+Glen Jean
+Glen Osborne
+Glen St. Mary
+Glenn Dale
+Glenn Heights
+Glenn Springs
+Gloria Glens Park
+Gordon Heights
+Grace City
+Grand Marsh
+Great Meadows
+Green Meadows
+Griffith Creek
+Guadalupe Guerra
+Guthrie Center
+H. Rivera Colón
+Hale Center
+Hamilton Branch
+Hamilton City
+Hamilton College
+Hamilton Square
+Hampton Bays
+Hampton Beach
+Hampton Manor
+Hampton Oaks
+Harper Woods
+Harrington Park
+Harris Hill
+Harrison City
+Harrison Lake
+Havre de Grace
+Hayden Lake
+Hayes Center
+Hazel Crest
+Hazel Dell
+Hazel Green
+Hazel Park
+Hazel Run
+Heath Springs
+Henderson Point
+Henry Fork
+Hidden Meadows
+Highland Meadows
+Hill 'n Dale
+Hoffman Estates
+Hoffman Lake
+Holden Beach
+Holden Heights
+Holden Lakes
+Holland Patent
+Holly Grove
+Holly Hill
+Holly Hills
+Holly Lake Ranch
+Holly Pond
+Holly Ridge
+Holly Springs
+Holmes Beach
+Homer C Jones
+Homestead Meadows North
+Homestead Meadows South
+Hooper Bay
+Hopkins Park
+Horn Hill
+Horn Lake
+Horton Bay
+Howard City
+Howard City (Boelus)
+Howard Lake
+Hubbard Lake
+Huber Heights
+Huber Ridge
+Hudson Bend
+Hudson Crossroads
+Hudson Falls
+Hudson Lake
+Hudson Oaks
+Hughes Springs
+Hutchinson Island South
+Hyde Park
+Indian Wells
+Jackson Center
+Jackson Heights
+Jackson Junction
+Jackson Lake
+Jackson Springs
+Jacob City
+James City
+James Island
+James Town
+Jan Phyl Village
+Jane Lew
+Jardin de San Julian
+Jasmine Estates
+Jean Lafitte
+Jefferson City
+Jefferson Heights
+Jefferson Hills
+Jefferson Valley
+Jefferson Valley-Yorktown
+Jeffrey City
+Jennings Lodge
+Jensen Beach
+Jerry City
+Jim Falls
+Jim Thorpe
+John Day
+John Sevier
+Johns Creek
+Johnson City
+Johnson Creek
+Johnson Lane
+Johnson Park
+Johnson Prairie
+Johnson Siding
+Johnson Village
+Johnston City
+Jones Creek
+Jones Mills
+Jones Valley
+Joseph City
+Joshua Tree
+Judith Gap
+K. I. Sawyer
+Kemp Mill
+Ken Caryl
+Kendall Park
+Kendall West
+Kennedy Meadows
+Kenneth City
+Kenny Lake
+Kent Acres
+Kent City
+Kent Estates
+Kent Narrows
+King Arthur Park
+King George
+King William
+Kiryas Joel
+Kit Carson
+Knox City
+La Carla
+La Conner
+La Esperanza
+La Russell
+La Tina Ranch
+Lake Alfred
+Lake Ann
+Lake Annette
+Lake Arthur
+Lake Arthur Estates
+Lake Benton
+Lake Bruce
+Lake Bryan
+Lake Caroline
+Lake Carroll
+Lake Catherine
+Lake Charles
+Lake Clarke Shores
+Lake Crystal
+Lake Davis
+Lake Don Pedro
+Lake Dunlap
+Lake Eliza
+Lake Everett
+Lake George
+Lake Goodwin
+Lake Hamilton
+Lake Hart
+Lake Helen
+Lake Henry
+Lake Hughes
+Lake Isabella
+Lake Jackson
+Lake Kathryn
+Lake Kerr
+Lake Lillian
+Lake Lindsey
+Lake Lorraine
+Lake Louise
+Lake Mack
+Lake Mary
+Lake Mary Jane
+Lake Mary Ronan
+Lake Mathews
+Lake Medina Shores
+Lake Meredith Estates
+Lake Morton
+Lake Murray of Richland
+Lake Norman of Catawba
+Lake Norman of Iredell
+Lake Preston
+Lake Roberts
+Lake Roberts Heights
+Lake San Marcos
+Lake St. Louis
+Lake Stevens
+Lake Wilson
+Lance Creek
+Langley Park
+Larsen Bay
+Las Flores
+Lawrence Creek
+Lawrence Park
+Lawson Heights
+Le Claire
+Le Roy
+Lee Acres
+Lee Center
+Lee Mont
+Lee Vining
+Lenox Dale
+Leon Valley
+Lester Prairie
+Lewis Run
+Lewis and Clark Village
+Liborio Negrón Torres
+Lily Lake
+Little Browning
+Little Meadows
+Little York
+Livingston Manor
+Livingston Wheeler
+Lloyd Harbor
+Loch Lloyd
+Loch Lynn Heights
+Logan Creek
+Logan Elm Village
+Loma Linda
+Loma Linda East
+Loma Linda West
+Lone Jack
+Lone Wolf
+Lorenz Park
+Los Alvarez
+Lower Allen
+Lucas Valley
+Lucas Valley-Marinwood
+Luis Lloréns Torres
+Luis Lopez
+Luis M. Cintrón
+Luna Pier
+Lynchburg, Moore County
+Lynn Center
+Lynn Haven
+Lyons Falls
+Lyons Switch
+Maggie Valley
+Manuel Garcia
+Manuel Garcia II
+Marco Island
+Marco Shores
+Marco Shores-Hammock Bay
+Marcus Hook
+Maria Stein
+Mariah Hill
+Marina del Rey
+Marlboro Meadows
+Marlene Village
+Martha Lake
+Martin City
+Martin Lake
+Martinez Lake
+Mary Esther
+Mason City
+Mason Neck
+Max Meadows
+Maxwell Colony
+Mays Chapel
+Mays Landing
+Mays Lick
+McConnell AFB
+McGee Creek
+McGuire AFB
+McKee City
+McKinney Acres
+Meadows Place
+Meadows of Dan
+Mercer Island
+Merritt Island
+Merritt Park
+Meyers Lake
+Miguel Barrera
+Mila Doce
+Miller City
+Miller Colony
+Miller Place
+Mineral Wells
+Mitchell Heights
+Monroe Center
+Monroe City
+Monroe Manor
+Monroe North
+Montgomery City
+Montgomery Creek
+Montgomery Village
+Moody AFB
+Moore Haven
+Moore Station
+Moose Wilson Road
+Moreno Valley
+Morgan City
+Morgan Farm
+Morgan Heights
+Morgan Hill
+Morning Sun
+Morris Chapel
+Morris Plains
+Morris Run
+Morrison Bluff
+Morrison Crossroads
+Morse Bluff
+Morton Grove
+Moses Lake
+Moses Lake North
+Moss Beach
+Moss Bluff
+Moss Landing
+Moss Point
+Mount Blanchard
+Mount Carroll
+Mount Cobb
+Mount Cory
+Mount Crawford
+Mount Eaton
+Mount Holly
+Mount Holly Springs
+Mount Jackson
+Mount Juliet
+Mount Lena
+Mount Leonard
+Mount Morris
+Mount Oliver
+Mount Taylor
+Mount Wilson
+Mount Wolf
+Mountain Dale
+Mountain Meadows
+Murray City
+Murray Hill
+Myers Corner
+Myers Flat
+Narciso Pena
+Nelson Lagoon
+New Douglas
+New Franklin
+New Hamilton
+New Hampton
+New Holland
+New Hyde Park
+New Kent
+New Meadows
+New Morgan
+New Preston
+New Richmond
+New Ross
+New Sharon
+New Stanton
+New Troy
+New Underwood
+New Wells
+New York
+New York Mills
+Newman Grove
+Newton Falls
+Newton Grove
+Newton Hamilton
+Nichols Hills
+Nora Springs
+Norman Park
+Norris Canyon
+Norris City
+North Adams
+North Browning
+North Caldwell
+North Chevy Chase
+North Collins
+North Conway
+North Edwards
+North Fort Lewis
+North Fort Myers
+North Grosvenor Dale
+North Hampton
+North Henderson
+North Hobbs
+North Hodge
+North Hudson
+North Hurley
+North Hyde Park
+North Irwin
+North Johns
+North Lawrence
+North Logan
+North Merritt Island
+North New Hyde Park
+North Newton
+North Perry
+North Randall
+North Richmond
+North Robinson
+North San Juan
+North San Pedro
+North St. Paul
+North Troy
+North Warren
+North Webster
+North York
+Norton Center
+Norton Shores
+Old Monroe
+Oliver Springs
+Olivia Lopez de Gutierrez
+Pablo Pena
+Palmer Heights
+Palmer Lake
+Palmer Ranch
+Palmer Town
+Parcelas de Navarro
+Parker City
+Parker School
+Parker Strip
+Paso Robles
+Patrick AFB
+Patrick Springs
+Patterson Heights
+Patterson Springs
+Patton Village
+Paul Smiths
+Payne Gap
+Payne Springs
+Pedro Bay
+Pelican Marsh
+Pennington Gap
+Perry Hall
+Perry Heights
+Perry Park
+Phelps City
+Phil Campbell
+Pico Rivera
+Pierce City
+Pittman Center
+Pleasant Dale
+Point Baker
+Point Isabel
+Point Reyes Station
+Point Roberts
+Ponce de Leon
+Port Alexander
+Port Allen
+Port Arthur
+Port Charlotte
+Port Clarence
+Port Costa
+Port Edwards
+Port Elizabeth
+Port Gamble Tribal Community
+Port Gibson
+Port Graham
+Port Henry
+Port Isabel
+Port Jefferson
+Port Jefferson Station
+Port Morris
+Port Murray
+Port Norris
+Port St. Joe
+Port St. John
+Port Townsend
+Port Vincent
+Port William
+Porter Heights
+Potter Lake
+Potter Valley
+Potts Camp
+Powder Horn
+Preston Heights
+Prince Frederick
+Prince George
+Princess Anne
+Princeton Meadows
+Pueblito del Carmen
+Puerto de Luna
+Punta Santiago
+Queen Anne
+Rafael Capó
+Rafael González
+Rafael Hernández
+Rafael Pena
+Rancho San Diego
+Rancho Santa Margarita
+Randolph AFB
+Randolph Town
+Ratliff City
+Raymond City
+Redbird Smith
+Reed City
+Reed Creek
+Reed Point
+Regency at Monroe
+Regino Ramirez
+Reid Hope King
+Rena Lara
+Renaissance at Monroe
+Reynolds Heights
+Richmond Dale
+Richmond Heights
+Richmond Hill
+Richmond West
+Rio Linda
+Rising Sun
+Rob Roy
+Robert Lee
+Robin Glen
+Robin Glen-Indiantown
+Robinson Mill
+Rodney Village
+Rodriguez Camp
+Rogers City
+Rolling Meadows
+Roman Forest
+Rosa Sánchez
+Ross Corner
+Rowland Heights
+Roy Lake
+Ruidoso Downs
+Russell Gardens
+Russell Springs
+Ryan Park
+Sammy Martinez
+San Antonio
+San Antonio Heights
+San Bruno
+San Carlos
+San Carlos I
+San Carlos II
+San Carlos Park
+San Diego
+San Diego Country Estates
+San Felipe
+San Felipe Pueblo
+San Francisco
+San Gabriel
+San Jon
+San Jose
+San Juan
+San Juan Bautista
+San Juan Capistrano
+San Leon
+San Lorenzo
+San Lucas
+San Luis
+San Luis Obispo
+San Manuel
+San Marcos
+San Marino
+San Martin
+San Miguel
+San Pablo
+San Pedro
+San Rafael
+San Ramon
+San Simon
+San Tan Valley
+Santa Ana
+Santa Ana Pueblo
+Santa Anna
+Santa Barbara
+Santa Clara
+Santa Clara Pueblo
+Santa Cruz
+Santa Isabel
+Santa Margarita
+Santa Maria
+Santa Monica
+Santa Paula
+Santa Rita
+Santa Rita Ranch
+Santa Rosa
+Santa Rosa Valley
+Santa Teresa
+Sarah Ann
+Sault Ste. Marie
+Saunders Lake
+Scotch Meadows
+Scott AFB
+Scott City
+Seth Ward
+Shady Dale
+Shannon City
+Shannon Colony
+Shannon Hills
+Sharon Center
+Sharon Hill
+Sharon Springs
+Shaw Heights
+Sims Chapel
+Smith Center
+Smith Corner
+Smith Island
+Smith Mills
+Smith Valley
+Smith Village
+Sour John
+South Bethany
+South Browning
+South Dennis
+South Fulton
+South Henderson
+South Holland
+South Hutchinson
+South Lancaster
+South Monroe
+South Patrick Shores
+South Rosemary
+South Russell
+South San Francisco
+South San Gabriel
+South San Jose Hills
+South St. Paul
+South Van Horn
+South Wayne
+South Weber
+South Webster
+South Whitley
+South Williamson
+Southampton Meadows
+Spencer Mountain
+St. Andrews
+St. Ann
+St. Ann Highlands
+St. Anne
+St. Anthony
+St. Bernard
+St. Charles
+St. David
+St. Edward
+St. Elizabeth
+St. Francis
+St. Gabriel
+St. George
+St. George Island
+St. Helen
+St. Henry
+St. Jacob
+St. James
+St. James City
+St. Joe
+St. John
+St. John Fisher College
+St. Johns
+St. Joseph
+St. Lawrence
+St. Leo
+St. Leon
+St. Leonard
+St. Louis
+St. Louis Park
+St. Lucas
+St. Marie
+St. Martin
+St. Mary
+St. Mary of the Woods
+St. Matthews
+St. Michael
+St. Paul
+St. Paul Park
+St. Pete Beach
+St. Peter
+St. Peters
+St. Robert
+St. Rosa
+St. Stephen
+St. Stephens
+St. Thomas
+St. Vincent
+St. Vincent College
+St. Xavier
+Stacey Street
+Stafford Lakes Village
+Stafford Springs
+Stark City
+Ste. Marie
+Stephens City
+Stevens Creek
+Stevens Point
+Stevens Village
+Stevenson Ranch
+Stewart Manor
+Sullivan City
+Sullivan Gardens
+Sun City
+Sun City Center
+Sun City West
+Sun Lakes
+Sun Prairie
+Sun Valley
+Sun Valley Lake
+Sun Village
+Susan Moore
+Swall Meadows
+Tara Hills
+Tate City
+Taylor Corners
+Taylor Creek
+Taylor Ferry
+Taylor Lake Village
+Taylor Landing
+Taylor Mill
+Taylor Ridge
+Taylor Springs
+Terrell Hills
+The Meadows
+Thompson Falls
+Thompson Springs
+Three Bridges
+Todd Creek
+Todd Mission
+Tom Bean
+Tomás de Castro
+Tracy City
+Travis Ranch
+Troy Grove
+Troy Hills
+Trujillo Alto
+Turner Colony
+Twin Bridges
+Twin Brooks
+Tyler Run
+Tyrone Forge
+Union Dale
+University of California-Santa Barbara
+University of Pittsburgh Bradford
+Valencia West
+Valley Wells
+Van Horn
+Van Horne
+Vega Alta
+Vega Baja
+Vera Cruz
+Villa Esperanza
+Villa Hugo I
+Villa Hugo II
+Violet Hill
+Vista Santa Rosa
+Wade Hampton
+Wakefield-Peace Dale
+Walker Lake
+Walker Mill
+Walker Valley
+Wallace Ridge
+Walton Hills
+Walton Park
+Ware Place
+Ware Shoals
+Warner Robins
+Warner Valley
+Warren AFB
+Warren City
+Warren Park
+Watkins Glen
+Watts Mills
+Wayne City
+Wayne Heights
+Wayne Lakes
+Webb City
+Weber City
+Webster City
+Webster County
+Webster Groves
+Webster Springs
+Wells Branch
+Wells Bridge
+Wells Tannery
+Wesley Chapel
+Wesley Hills
+West Alexander
+West Bishop
+West Burke
+West Carson
+West Charlotte
+West Dennis
+West Elizabeth
+West Hammond
+West Hampton Dunes
+West Harrison
+West Hurley
+West Jefferson
+West Livingston
+West Logan
+West Middleton
+West Monroe
+West New York
+West Newton
+West Rancho Dominguez
+West Roy Lake
+West St. Paul
+West Sullivan
+West Warren
+West York
+Wheeler AFB
+White Heath
+White Marsh
+Whitley City
+Whitley Gardens
+Whitney Point
+Wiley Ford
+Wilkinson Heights
+William Paterson University of New Jersey
+Williams Acres
+Williams Bay
+Williams Canyon
+Williams Creek
+Willis Wharf
+Wilson City
+Wilson Creek
+Wolf Creek
+Wolf Creek Colony
+Wolf Lake
+Wolf Point
+Wolf Trap
+Wolfe City
+Wood Dale
+Wright City
+Yates Center
+Yates City
+Yorba Linda
+York Harbor
+York Haven
+York Springs
+Young Harris

@@ -1,0 +1,557 @@
+{
+ "account": "Xometry",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "5dcea58c94b0cc47",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:25:26+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Xometry had 136 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was North Bethesda, MD. The US held 77% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s08cffea7d0",
+   "title": "Director of Global Revenue Accounting",
+   "excerpt": "Partner with FP&A on revenue flux analyses, variance commentary, and forecasting accuracy.",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:xometry:5294529007",
+   "family": "forecasting"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s7f5b49ecd3",
+   "title": "Senior Sales Operations Analyst",
+   "excerpt": "Senior Sales Operations Analyst",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:xometry:5286505007",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s7ef560b799",
+   "title": "Senior Sales Operations Analyst",
+   "excerpt": "In this role, you'll own the Sales analytics function end-to-end — architecting the dashboard and data ecosystem, building the quota and forecasting models the business runs on, and setting the standards other analysts follow.",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:xometry:5286505007",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s584eccba81",
+   "title": "Staff Salesforce Engineer, Thomas",
+   "excerpt": "Staff Salesforce Engineer, Thomas",
+   "posted": "2026-10-21",
+   "posting_id": "greenhouse:xometry:5268781007",
+   "family": "crm"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sf0bc06494b",
+   "title": "Staff Product Manager, Sales Operations",
+   "excerpt": "Staff Product Manager, Sales Operations",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:xometry:5264592007",
+   "family": "salesops"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s0d2465f1f3",
+   "title": "Senior Lifecycle Marketing Manager",
+   "excerpt": "Hands-on experience with marketing automation and CRM platforms—HubSpot and Salesforce experience preferred .",
+   "posted": "2026-10-23",
+   "posting_id": "greenhouse:xometry:5273974007",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s3ab051068f",
+   "title": "Director of Global Revenue Accounting",
+   "excerpt": "Hands-on experience with NetSuite, Oracle, or SAP, and with a dedicated revenue subledger .",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:xometry:5294529007",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s41e88cc8ef",
+   "title": "Staff Salesforce Engineer, Thomas",
+   "excerpt": "Experience with Salesforce CPQ, contracts, and the change-order lifecycle .",
+   "posted": "2026-10-21",
+   "posting_id": "greenhouse:xometry:5268781007",
+   "family": "stack"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "sa510955415",
+   "title": "International Partner Marketing Lead",
+   "excerpt": "International Partner Marketing Lead",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:xometry:5293198007",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "sd9ba51ca3c",
+   "title": "Revenue Accounting Lead/Manager",
+   "excerpt": "Revenue Accounting Lead/Manager",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:xometry:5293356007",
+   "family": "pace"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "s86a382d246",
+   "title": "Account Executive III, Marketplace Sales",
+   "excerpt": "Account Executive III, Marketplace Sales",
+   "posted": "2026-11-10",
+   "posting_id": "greenhouse:xometry:5290692007",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Senior Sales Operations Analyst\\\" posting went up on 2026-11-05 and says the role will be \\\"building the quota and forecasting models the business runs on\\\" [2][3].\"}, {\"text\": \"The \\\"Staff Salesforce Engineer, Thomas\\\" posting from 2026-10-21 asks for \\\"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\\\" [4][8].\"}, {\"text\": \"The \\\"Staff Product Manager, Sales Operations\\\" posting is dated 2026-10-16, and the \\\"Account Executive III, Marketplace Sales\\\" posting is dated 2026-11-10 [5][11].\"}], \"priority\": {\"text\": \"Xometry's likely priority is sales analytics and forecasting, since the \\\"Senior Sales Operations Analyst\\\" will \\\"own the Sales analytics function end-to-end\\\" and work on \\\"building the quota and forecasting models the business runs on\\\" [2][3].\"}, \"questions\": [\"How is the Sales analytics function set up today before the new analyst starts?\", \"Which quota and forecasting models does the sales team rely on now?\", \"What does the Salesforce team plan to build in CPQ over the next year?\"], \"unknowns\": [\"Size of the sales team\", \"Current forecasting process and tools\", \"Who owns the CRM roadmap\", \"Budget for outside help\"], \"first_touch\": {\"subject\": \"Sales analytics hiring at Xometry\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Senior Sales Operations Analyst\\\" posting from November. It says the role will \\\"own the Sales analytics function end-to-end\\\" and work on \\\"building the quota and forecasting models the business runs on.\\\"\\n\\nI also noticed the \\\"Staff Salesforce Engineer, Thomas\\\" posting from October. It asks for \\\"Experience with Salesforce CPQ, contracts, and the change-order lifecycle.\\\"\\n\\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\\n\\n{sender_name}\", \"cites\": [2, 3, 4, 8]}}",
+   "meta": {
+    "ms": 24585,
+    "input_tokens": 2,
+    "output_tokens": 2688,
+    "cache_write_tokens": 5696,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.09964519999999999
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Senior Sales Operations Analyst\" posting went up on 2026-11-05 and says the role will be \"building the quota and forecasting models the business runs on\" [2][3]."
+     },
+     {
+      "text": "The \"Staff Salesforce Engineer, Thomas\" posting from 2026-10-21 asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\" [4][8]."
+     },
+     {
+      "text": "The \"Staff Product Manager, Sales Operations\" posting is dated 2026-10-16, and the \"Account Executive III, Marketplace Sales\" posting is dated 2026-11-10 [5][11]."
+     }
+    ],
+    "priority": {
+     "text": "Xometry's likely priority is sales analytics and forecasting, since the \"Senior Sales Operations Analyst\" will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\" [2][3]."
+    },
+    "questions": [
+     "How is the Sales analytics function set up today before the new analyst starts?",
+     "Which quota and forecasting models does the sales team rely on now?",
+     "What does the Salesforce team plan to build in CPQ over the next year?"
+    ],
+    "unknowns": [
+     "Size of the sales team",
+     "Current forecasting process and tools",
+     "Who owns the CRM roadmap",
+     "Budget for outside help"
+    ],
+    "first_touch": {
+     "subject": "Sales analytics hiring at Xometry",
+     "body": "Hi {first_name},\n\nI saw the \"Senior Sales Operations Analyst\" posting from November. It says the role will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on.\"\n\nI also noticed the \"Staff Salesforce Engineer, Thomas\" posting from October. It asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle.\"\n\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\n\n{sender_name}",
+     "cites": [
+      2,
+      3,
+      4,
+      8
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Senior Sales Operations Analyst\" posting went up on 2026-11-05 and says the role will be \"building the quota and forecasting models the business runs on\" [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Staff Salesforce Engineer, Thomas\" posting from 2026-10-21 asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\" [4][8].",
+      "cites": [
+       4,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Staff Product Manager, Sales Operations\" posting is dated 2026-10-16, and the \"Account Executive III, Marketplace Sales\" posting is dated 2026-11-10 [5][11].",
+      "cites": [
+       5,
+       11
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Xometry's likely priority is sales analytics and forecasting, since the \"Senior Sales Operations Analyst\" will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\" [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": [
+       "writing: a pause comma before \"since\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How is the Sales analytics function set up today before the new analyst starts?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which quota and forecasting models does the sales team rely on now?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the Salesforce team plan to build in CPQ over the next year?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process and tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the CRM roadmap",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Senior Sales Operations Analyst\" posting from November. It says the role will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on.\"\n\nI also noticed the \"Staff Salesforce Engineer, Thomas\" posting from October. It asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle.\"\n\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\n\n{sender_name}",
+      "cites": [
+       2,
+       3,
+       4,
+       8
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Senior Sales Operations Analyst\\\" posting went up on 2026-11-05 and says the role will be \\\"building the quota and forecasting models the business runs on\\\" [2][3].\"}, {\"text\": \"The \\\"Staff Salesforce Engineer, Thomas\\\" posting from 2026-10-21 asks for \\\"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\\\" [4][8].\"}, {\"text\": \"The \\\"Staff Product Manager, Sales Operations\\\" posting is dated 2026-10-16, and the \\\"Account Executive III, Marketplace Sales\\\" posting is dated 2026-11-10 [5][11].\"}], \"priority\": {\"text\": \"Xometry's likely priority is sales analytics and forecasting work as the \\\"Senior Sales Operations Analyst\\\" will \\\"own the Sales analytics function end-to-end\\\" and work on \\\"building the quota and forecasting models the business runs on\\\" [2][3].\"}, \"questions\": [\"How is the Sales analytics function set up today before the new analyst starts?\", \"Which quota and forecasting models does the sales team rely on now?\", \"What does the Salesforce team plan to build in CPQ over the next year?\"], \"unknowns\": [\"Size of the sales team\", \"Current forecasting process and tools\", \"Who owns the CRM roadmap\", \"Budget for outside help\"], \"first_touch\": {\"subject\": \"Sales analytics hiring at Xometry\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Senior Sales Operations Analyst\\\" posting from November. It says the role will \\\"own the Sales analytics function end-to-end\\\" and work on \\\"building the quota and forecasting models the business runs on\\\".\\n\\nI also noticed the \\\"Staff Salesforce Engineer, Thomas\\\" posting from October. It asks for \\\"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\\\".\\n\\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\\n\\n{sender_name}\", \"cites\": [2, 3, 4, 8]}}",
+   "meta": {
+    "ms": 11801,
+    "input_tokens": 2,
+    "output_tokens": 1260,
+    "cache_write_tokens": 6589,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0782292
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Senior Sales Operations Analyst\" posting went up on 2026-11-05 and says the role will be \"building the quota and forecasting models the business runs on\" [2][3]."
+     },
+     {
+      "text": "The \"Staff Salesforce Engineer, Thomas\" posting from 2026-10-21 asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\" [4][8]."
+     },
+     {
+      "text": "The \"Staff Product Manager, Sales Operations\" posting is dated 2026-10-16, and the \"Account Executive III, Marketplace Sales\" posting is dated 2026-11-10 [5][11]."
+     }
+    ],
+    "priority": {
+     "text": "Xometry's likely priority is sales analytics and forecasting work as the \"Senior Sales Operations Analyst\" will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\" [2][3]."
+    },
+    "questions": [
+     "How is the Sales analytics function set up today before the new analyst starts?",
+     "Which quota and forecasting models does the sales team rely on now?",
+     "What does the Salesforce team plan to build in CPQ over the next year?"
+    ],
+    "unknowns": [
+     "Size of the sales team",
+     "Current forecasting process and tools",
+     "Who owns the CRM roadmap",
+     "Budget for outside help"
+    ],
+    "first_touch": {
+     "subject": "Sales analytics hiring at Xometry",
+     "body": "Hi {first_name},\n\nI saw the \"Senior Sales Operations Analyst\" posting from November. It says the role will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\".\n\nI also noticed the \"Staff Salesforce Engineer, Thomas\" posting from October. It asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\".\n\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\n\n{sender_name}",
+     "cites": [
+      2,
+      3,
+      4,
+      8
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Senior Sales Operations Analyst\" posting went up on 2026-11-05 and says the role will be \"building the quota and forecasting models the business runs on\" [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Staff Salesforce Engineer, Thomas\" posting from 2026-10-21 asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\" [4][8].",
+      "cites": [
+       4,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Staff Product Manager, Sales Operations\" posting is dated 2026-10-16, and the \"Account Executive III, Marketplace Sales\" posting is dated 2026-11-10 [5][11].",
+      "cites": [
+       5,
+       11
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Xometry's likely priority is sales analytics and forecasting work as the \"Senior Sales Operations Analyst\" will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\" [2][3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is the Sales analytics function set up today before the new analyst starts?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which quota and forecasting models does the sales team rely on now?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the Salesforce team plan to build in CPQ over the next year?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process and tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns the CRM roadmap",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Senior Sales Operations Analyst\" posting from November. It says the role will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\".\n\nI also noticed the \"Staff Salesforce Engineer, Thomas\" posting from October. It asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\".\n\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\n\n{sender_name}",
+      "cites": [
+       2,
+       3,
+       4,
+       8
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Senior Sales Operations Analyst\" posting went up on 2026-11-05 and says the role will be \"building the quota and forecasting models the business runs on\" [2][3]."
+    },
+    {
+     "text": "The \"Staff Salesforce Engineer, Thomas\" posting from 2026-10-21 asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\" [4][8]."
+    },
+    {
+     "text": "The \"Staff Product Manager, Sales Operations\" posting is dated 2026-10-16, and the \"Account Executive III, Marketplace Sales\" posting is dated 2026-11-10 [5][11]."
+    }
+   ],
+   "priority": {
+    "text": "Xometry's likely priority is sales analytics and forecasting work as the \"Senior Sales Operations Analyst\" will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\" [2][3]."
+   },
+   "questions": [
+    "How is the Sales analytics function set up today before the new analyst starts?",
+    "Which quota and forecasting models does the sales team rely on now?",
+    "What does the Salesforce team plan to build in CPQ over the next year?"
+   ],
+   "unknowns": [
+    "Size of the sales team",
+    "Current forecasting process and tools",
+    "Who owns the CRM roadmap",
+    "Budget for outside help"
+   ],
+   "first_touch": {
+    "subject": "Sales analytics hiring at Xometry",
+    "body": "Hi {first_name},\n\nI saw the \"Senior Sales Operations Analyst\" posting from November. It says the role will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\".\n\nI also noticed the \"Staff Salesforce Engineer, Thomas\" posting from October. It asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\".\n\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\n\n{sender_name}",
+    "cites": [
+     2,
+     3,
+     4,
+     8
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Senior Sales Operations Analyst\" posting went up on 2026-11-05 and says the role will be \"building the quota and forecasting models the business runs on\" [2][3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Staff Salesforce Engineer, Thomas\" posting from 2026-10-21 asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\" [4][8].",
+     "cites": [
+      4,
+      8
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Staff Product Manager, Sales Operations\" posting is dated 2026-10-16, and the \"Account Executive III, Marketplace Sales\" posting is dated 2026-11-10 [5][11].",
+     "cites": [
+      5,
+      11
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Xometry's likely priority is sales analytics and forecasting work as the \"Senior Sales Operations Analyst\" will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\" [2][3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How is the Sales analytics function set up today before the new analyst starts?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which quota and forecasting models does the sales team rely on now?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does the Salesforce team plan to build in CPQ over the next year?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current forecasting process and tools",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns the CRM roadmap",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget for outside help",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw the \"Senior Sales Operations Analyst\" posting from November. It says the role will \"own the Sales analytics function end-to-end\" and work on \"building the quota and forecasting models the business runs on\".\n\nI also noticed the \"Staff Salesforce Engineer, Thomas\" posting from October. It asks for \"Experience with Salesforce CPQ, contracts, and the change-order lifecycle\".\n\nWe work with revenue teams on pipeline reporting, forecasting, and CRM projects. Who on your team is leading the quota and forecasting work?\n\n{sender_name}",
+     "cites": [
+      2,
+      3,
+      4,
+      8
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.177874,
+ "ms": 36386
+}

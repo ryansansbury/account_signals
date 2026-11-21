@@ -1,0 +1,535 @@
+{
+ "account": "Sumo Logic",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "811fa8b1fdadcf0c",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:39:32+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Sumo Logic had 25 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Austin, TX. The US held 27% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sf68ec9e28c",
+   "title": "Director, Sales Operations",
+   "excerpt": "Roll out enabling technologies, including CRM, to the field sales team.",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:sumologic:8292621",
+   "family": "crm_move"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sbc98f3cb1d",
+   "title": "Director, Sales Operations",
+   "excerpt": "Director, Sales Operations",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:sumologic:8292621",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s61fce981c1",
+   "title": "Deal Desk Analyst",
+   "excerpt": "Deal Desk Analyst",
+   "posted": "2026-10-15",
+   "posting_id": "greenhouse:sumologic:8284409",
+   "family": "salesops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s6a5437dd15",
+   "title": "Director, Sales Operations",
+   "excerpt": "You'll partner with sales leadership on headcount and capacity planning, territory planning, quota setting, compensation design, forecasting, reporting, and policy.",
+   "posted": "2026-10-16",
+   "posting_id": "greenhouse:sumologic:8292621",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s012fd85fae",
+   "title": "Account Executive",
+   "excerpt": "Salesforce.com power user .",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:sumologic:8392471",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s01c3a5d814",
+   "title": "Sales Development Representative I",
+   "excerpt": "Record every activity in Salesforce and your sales engagement tools.",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:sumologic:8356857",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s09fe4a1cb5",
+   "title": "Senior Data Engineer",
+   "excerpt": "The ideal candidate will have strong hands-on expertise in Databricks, Apache Spark, PySpark, Python, SQL, and Delta Lake, along with experience building production-grade data pipelines and enterprise integrations.",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:sumologic:8353318",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sf2622aefac",
+   "title": "Sales Development Representative",
+   "excerpt": "Sales Development Representative",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:sumologic:8381853",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s90547f8db3",
+   "title": "Technical Account Manager",
+   "excerpt": "Technical Account Manager",
+   "posted": "2026-11-09",
+   "posting_id": "greenhouse:sumologic:8364704",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s8a0ee6d172",
+   "title": "Sales Development Representative I",
+   "excerpt": "Sales Development Representative I",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:sumologic:8356819",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Director, Sales Operations\\\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1].\"}, {\"text\": \"The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4].\"}, {\"text\": \"A \\\"Deal Desk Analyst\\\" posting was published 2026-10-15, and an \\\"Account Executive\\\" posting published 2026-11-16 asks for a \\\"Salesforce.com power user\\\" [3][5].\"}], \"priority\": {\"text\": \"The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4].\"}, \"questions\": [\"How is the CRM rollout to the field sales team being planned and who owns it?\", \"How do territory planning, quota setting, and forecasting work together today?\", \"Where does the deal desk fit into how sales operations is organized?\"], \"unknowns\": [\"Who the Director, Sales Operations will report to\", \"Whether CRM is changing or only being extended\", \"Current forecasting and territory planning tools\", \"Budget and timing for any outside help\"], \"first_touch\": {\"subject\": \"Your sales operations hiring in October\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Director, Sales Operations\\\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \\\"Deal Desk Analyst\\\" role went up that month too.\\n\\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\\n\\n{sender_name}\", \"cites\": [1, 3, 4]}}",
+   "meta": {
+    "ms": 17977,
+    "input_tokens": 2,
+    "output_tokens": 2376,
+    "cache_write_tokens": 5559,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.046154600000000004
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Director, Sales Operations\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1]."
+     },
+     {
+      "text": "The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4]."
+     },
+     {
+      "text": "A \"Deal Desk Analyst\" posting was published 2026-10-15, and an \"Account Executive\" posting published 2026-11-16 asks for a \"Salesforce.com power user\" [3][5]."
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4]."
+    },
+    "questions": [
+     "How is the CRM rollout to the field sales team being planned and who owns it?",
+     "How do territory planning, quota setting, and forecasting work together today?",
+     "Where does the deal desk fit into how sales operations is organized?"
+    ],
+    "unknowns": [
+     "Who the Director, Sales Operations will report to",
+     "Whether CRM is changing or only being extended",
+     "Current forecasting and territory planning tools",
+     "Budget and timing for any outside help"
+    ],
+    "first_touch": {
+     "subject": "Your sales operations hiring in October",
+     "body": "Hi {first_name},\n\nI saw the \"Director, Sales Operations\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \"Deal Desk Analyst\" role went up that month too.\n\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Director, Sales Operations\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Deal Desk Analyst\" posting was published 2026-10-15, and an \"Account Executive\" posting published 2026-11-16 asks for a \"Salesforce.com power user\" [3][5].",
+      "cites": [
+       3,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is the CRM rollout to the field sales team being planned and who owns it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do territory planning, quota setting, and forecasting work together today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Where does the deal desk fit into how sales operations is organized?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who the Director, Sales Operations will report to",
+      "cites": [],
+      "problems": [
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "unknown",
+      "text": "Whether CRM is changing or only being extended",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting and territory planning tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for any outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Director, Sales Operations\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \"Deal Desk Analyst\" role went up that month too.\n\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\n\n{sender_name}",
+      "cites": [
+       1,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Director, Sales Operations\\\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1].\"}, {\"text\": \"The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4].\"}, {\"text\": \"A \\\"Deal Desk Analyst\\\" posting was published 2026-10-15, and an \\\"Account Executive\\\" posting published 2026-11-16 asks for a \\\"Salesforce.com power user\\\" [3][5].\"}], \"priority\": {\"text\": \"The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4].\"}, \"questions\": [\"How is the CRM rollout to the field sales team being planned and who owns it?\", \"How do territory planning, quota setting, and forecasting work together today?\", \"Where does the deal desk fit into how sales operations is organized?\"], \"unknowns\": [\"Who the sales operations director will report to\", \"Whether CRM is changing or only being extended\", \"Current forecasting and territory planning tools\", \"Budget and timing for any outside help\"], \"first_touch\": {\"subject\": \"Your sales operations hiring in October\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Director, Sales Operations\\\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \\\"Deal Desk Analyst\\\" role went up that month too.\\n\\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\\n\\n{sender_name}\", \"cites\": [1, 3, 4]}}",
+   "meta": {
+    "ms": 6744,
+    "input_tokens": 2,
+    "output_tokens": 1084,
+    "cache_write_tokens": 6247,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0359866
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Director, Sales Operations\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1]."
+     },
+     {
+      "text": "The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4]."
+     },
+     {
+      "text": "A \"Deal Desk Analyst\" posting was published 2026-10-15, and an \"Account Executive\" posting published 2026-11-16 asks for a \"Salesforce.com power user\" [3][5]."
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4]."
+    },
+    "questions": [
+     "How is the CRM rollout to the field sales team being planned and who owns it?",
+     "How do territory planning, quota setting, and forecasting work together today?",
+     "Where does the deal desk fit into how sales operations is organized?"
+    ],
+    "unknowns": [
+     "Who the sales operations director will report to",
+     "Whether CRM is changing or only being extended",
+     "Current forecasting and territory planning tools",
+     "Budget and timing for any outside help"
+    ],
+    "first_touch": {
+     "subject": "Your sales operations hiring in October",
+     "body": "Hi {first_name},\n\nI saw the \"Director, Sales Operations\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \"Deal Desk Analyst\" role went up that month too.\n\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Director, Sales Operations\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Deal Desk Analyst\" posting was published 2026-10-15, and an \"Account Executive\" posting published 2026-11-16 asks for a \"Salesforce.com power user\" [3][5].",
+      "cites": [
+       3,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4].",
+      "cites": [
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is the CRM rollout to the field sales team being planned and who owns it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do territory planning, quota setting, and forecasting work together today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Where does the deal desk fit into how sales operations is organized?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who the sales operations director will report to",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether CRM is changing or only being extended",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting and territory planning tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for any outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Director, Sales Operations\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \"Deal Desk Analyst\" role went up that month too.\n\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\n\n{sender_name}",
+      "cites": [
+       1,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Director, Sales Operations\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1]."
+    },
+    {
+     "text": "The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4]."
+    },
+    {
+     "text": "A \"Deal Desk Analyst\" posting was published 2026-10-15, and an \"Account Executive\" posting published 2026-11-16 asks for a \"Salesforce.com power user\" [3][5]."
+    }
+   ],
+   "priority": {
+    "text": "The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4]."
+   },
+   "questions": [
+    "How is the CRM rollout to the field sales team being planned and who owns it?",
+    "How do territory planning, quota setting, and forecasting work together today?",
+    "Where does the deal desk fit into how sales operations is organized?"
+   ],
+   "unknowns": [
+    "Who the sales operations director will report to",
+    "Whether CRM is changing or only being extended",
+    "Current forecasting and territory planning tools",
+    "Budget and timing for any outside help"
+   ],
+   "first_touch": {
+    "subject": "Your sales operations hiring in October",
+    "body": "Hi {first_name},\n\nI saw the \"Director, Sales Operations\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \"Deal Desk Analyst\" role went up that month too.\n\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\n\n{sender_name}",
+    "cites": [
+     1,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Director, Sales Operations\" posting was published 2026-10-16 and lists CRM among the technologies to roll out to the field sales team [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The same posting names territory planning, quota setting, compensation design, and forecasting as part of the work [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Deal Desk Analyst\" posting was published 2026-10-15, and an \"Account Executive\" posting published 2026-11-16 asks for a \"Salesforce.com power user\" [3][5].",
+     "cites": [
+      3,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The account's likely priority is sales operations work for the field sales team that covers rolling out CRM, territory planning, quota setting, compensation design, and forecasting [1][4].",
+     "cites": [
+      1,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How is the CRM rollout to the field sales team being planned and who owns it?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do territory planning, quota setting, and forecasting work together today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Where does the deal desk fit into how sales operations is organized?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who the sales operations director will report to",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether CRM is changing or only being extended",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current forecasting and territory planning tools",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for any outside help",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw the \"Director, Sales Operations\" posting that went up in October. It mentions rolling out CRM to the field sales team and work on territory planning, quota setting, and forecasting. A \"Deal Desk Analyst\" role went up that month too.\n\nWe help revenue teams with CRM, pipeline reporting, and forecasting work. Who is looking after the CRM rollout on your side?\n\n{sender_name}",
+     "cites": [
+      1,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.082141,
+ "ms": 24721
+}

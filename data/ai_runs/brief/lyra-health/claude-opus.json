@@ -1,0 +1,392 @@
+{
+ "account": "Lyra Health",
+ "model": "claude-opus",
+ "label": "Claude Opus 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "329c1380684db07f",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:28:46+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Lyra Health had 453 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 87% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "saa7cbc7749",
+   "title": "GTM Strategy and Operations Manager",
+   "excerpt": "GTM Strategy and Operations Manager",
+   "posted": "2026-11-13",
+   "posting_id": "lever:lyrahealth:6c499eef-4b2a-474e-b848-abeed767ded2",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sac08e9761c",
+   "title": "GTM Strategy and Operations Manager",
+   "excerpt": "Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.",
+   "posted": "2026-11-13",
+   "posting_id": "lever:lyrahealth:6c499eef-4b2a-474e-b848-abeed767ded2",
+   "family": "crm_move"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s47e68f3d8a",
+   "title": "Salesforce Developer",
+   "excerpt": "Salesforce Developer",
+   "posted": "2026-04-02",
+   "posting_id": "lever:lyrahealth:2263d6d2-3269-45b0-b18e-456db9bf4e60",
+   "family": "crm"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s562b45e61f",
+   "title": "Analytics Engineer",
+   "excerpt": "Analytics Engineer",
+   "posted": "2026-04-23",
+   "posting_id": "lever:lyrahealth:d976452a-4242-41a7-b401-490ccc64a05e",
+   "family": "analytics"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s023378f175",
+   "title": "Sr. Planning & Operations Associate (Employer Solutions)",
+   "excerpt": "Familiarity with leading sales and marketing tools and tech stack (including Salesforce, Outreach, Zoominfo, etc).",
+   "posted": "2026-09-15",
+   "posting_id": "lever:lyrahealth:e292ef0b-d056-4319-a865-0a42df815899",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s0974ca762c",
+   "title": "Global Pricing Operations Senior Associate",
+   "excerpt": "Experience with forecasting, data analysis, and developing financial models to support business decisions, with advanced proficiency in Excel/Google Sheets.",
+   "posted": "2026-09-04",
+   "posting_id": "lever:lyrahealth:2030b0c1-5896-4347-b622-050c28aba5fd",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s0ac8693318",
+   "title": "Sales Director - Mid-Market (South East)",
+   "excerpt": "Business Acumen: Strong pipeline management discipline and forecasting accuracy within Salesforce.",
+   "posted": "2026-11-21",
+   "posting_id": "lever:lyrahealth:401b3fff-8025-4884-8b64-6e25e3560d2e",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s2253e7f254",
+   "title": "Commercial Manager - Europe",
+   "excerpt": "Commercial Manager - Europe",
+   "posted": "2026-11-16",
+   "posting_id": "lever:lyrahealth:698e0cf4-9472-4f10-beb0-fb5549409709",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s899b9e0f38",
+   "title": "Channel Partnerships Manager",
+   "excerpt": "Channel Partnerships Manager",
+   "posted": "2026-11-03",
+   "posting_id": "lever:lyrahealth:818b2687-5d99-44f1-9d81-8bae8dc65c53",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "saf59c28859",
+   "title": "Engagement Marketing Lead",
+   "excerpt": "Engagement Marketing Lead",
+   "posted": "2026-11-03",
+   "posting_id": "lever:lyrahealth:87026dd3-68d6-4ad7-9857-5f13d9f6294a",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"GTM Strategy and Operations Manager\\\" posting went up on 2026-11-13 and asks the hire to \\\"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\\\" [1][2]\"}, {\"text\": \"The \\\"Sales Director - Mid-Market (South East)\\\" posting asks for \\\"Strong pipeline management discipline and forecasting accuracy within Salesforce.\\\" [7]\"}, {\"text\": \"The \\\"Commercial Manager - Europe\\\", \\\"Channel Partnerships Manager\\\", and \\\"Engagement Marketing Lead\\\" postings all went up in the last 30 days [8][9][10].\"}], \"priority\": {\"text\": \"Lyra Health's likely priority is CRM work that will \\\"improve pipeline tracking and operational visibility\\\" and sales work that calls for \\\"pipeline management discipline and forecasting accuracy within Salesforce\\\" [2][7].\"}, \"questions\": [\"How does the GTM team plan to work with the Systems teams on Salesforce changes?\", \"What does forecasting look like today for the mid-market sales team?\", \"Which pipeline reports matter most to your sales leaders right now?\"], \"unknowns\": [\"Who owns Salesforce administration today\", \"Current forecasting process and tools\", \"Budget and timing for CRM tooling changes\", \"Size of the sales team\"], \"first_touch\": {\"subject\": \"Pipeline tracking in Salesforce at Lyra Health\", \"body\": \"Hi {first_name},\\n\\nI noticed the \\\"GTM Strategy and Operations Manager\\\" role Lyra Health posted in November. It describes work to \\\"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\\\"\\n\\nThe \\\"Sales Director - Mid-Market (South East)\\\" posting also asks for \\\"forecasting accuracy within Salesforce.\\\"\\n\\nOur team works on CRM cleanup, pipeline reporting, and forecasting. Is pipeline tracking in Salesforce something your team is looking at this quarter?\\n\\n{sender_name}\", \"cites\": [1, 2, 7]}}",
+   "meta": {
+    "ms": 20443,
+    "input_tokens": 2,
+    "output_tokens": 2181,
+    "cache_write_tokens": 5583,
+    "cache_read_tokens": 1546,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08860120000000002
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"GTM Strategy and Operations Manager\" posting went up on 2026-11-13 and asks the hire to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\" [1][2]"
+     },
+     {
+      "text": "The \"Sales Director - Mid-Market (South East)\" posting asks for \"Strong pipeline management discipline and forecasting accuracy within Salesforce.\" [7]"
+     },
+     {
+      "text": "The \"Commercial Manager - Europe\", \"Channel Partnerships Manager\", and \"Engagement Marketing Lead\" postings all went up in the last 30 days [8][9][10]."
+     }
+    ],
+    "priority": {
+     "text": "Lyra Health's likely priority is CRM work that will \"improve pipeline tracking and operational visibility\" and sales work that calls for \"pipeline management discipline and forecasting accuracy within Salesforce\" [2][7]."
+    },
+    "questions": [
+     "How does the GTM team plan to work with the Systems teams on Salesforce changes?",
+     "What does forecasting look like today for the mid-market sales team?",
+     "Which pipeline reports matter most to your sales leaders right now?"
+    ],
+    "unknowns": [
+     "Who owns Salesforce administration today",
+     "Current forecasting process and tools",
+     "Budget and timing for CRM tooling changes",
+     "Size of the sales team"
+    ],
+    "first_touch": {
+     "subject": "Pipeline tracking in Salesforce at Lyra Health",
+     "body": "Hi {first_name},\n\nI noticed the \"GTM Strategy and Operations Manager\" role Lyra Health posted in November. It describes work to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\"\n\nThe \"Sales Director - Mid-Market (South East)\" posting also asks for \"forecasting accuracy within Salesforce.\"\n\nOur team works on CRM cleanup, pipeline reporting, and forecasting. Is pipeline tracking in Salesforce something your team is looking at this quarter?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"GTM Strategy and Operations Manager\" posting went up on 2026-11-13 and asks the hire to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\" [1][2]",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Sales Director - Mid-Market (South East)\" posting asks for \"Strong pipeline management discipline and forecasting accuracy within Salesforce.\" [7]",
+      "cites": [
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Commercial Manager - Europe\", \"Channel Partnerships Manager\", and \"Engagement Marketing Lead\" postings all went up in the last 30 days [8][9][10].",
+      "cites": [
+       8,
+       9,
+       10
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Lyra Health's likely priority is CRM work that will \"improve pipeline tracking and operational visibility\" and sales work that calls for \"pipeline management discipline and forecasting accuracy within Salesforce\" [2][7].",
+      "cites": [
+       2,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the GTM team plan to work with the Systems teams on Salesforce changes?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does forecasting look like today for the mid-market sales team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which pipeline reports matter most to your sales leaders right now?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns Salesforce administration today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process and tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for CRM tooling changes",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed the \"GTM Strategy and Operations Manager\" role Lyra Health posted in November. It describes work to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\"\n\nThe \"Sales Director - Mid-Market (South East)\" posting also asks for \"forecasting accuracy within Salesforce.\"\n\nOur team works on CRM cleanup, pipeline reporting, and forecasting. Is pipeline tracking in Salesforce something your team is looking at this quarter?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"GTM Strategy and Operations Manager\" posting went up on 2026-11-13 and asks the hire to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\" [1][2]"
+    },
+    {
+     "text": "The \"Sales Director - Mid-Market (South East)\" posting asks for \"Strong pipeline management discipline and forecasting accuracy within Salesforce.\" [7]"
+    },
+    {
+     "text": "The \"Commercial Manager - Europe\", \"Channel Partnerships Manager\", and \"Engagement Marketing Lead\" postings all went up in the last 30 days [8][9][10]."
+    }
+   ],
+   "priority": {
+    "text": "Lyra Health's likely priority is CRM work that will \"improve pipeline tracking and operational visibility\" and sales work that calls for \"pipeline management discipline and forecasting accuracy within Salesforce\" [2][7]."
+   },
+   "questions": [
+    "How does the GTM team plan to work with the Systems teams on Salesforce changes?",
+    "What does forecasting look like today for the mid-market sales team?",
+    "Which pipeline reports matter most to your sales leaders right now?"
+   ],
+   "unknowns": [
+    "Who owns Salesforce administration today",
+    "Current forecasting process and tools",
+    "Budget and timing for CRM tooling changes",
+    "Size of the sales team"
+   ],
+   "first_touch": {
+    "subject": "Pipeline tracking in Salesforce at Lyra Health",
+    "body": "Hi {first_name},\n\nI noticed the \"GTM Strategy and Operations Manager\" role Lyra Health posted in November. It describes work to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\"\n\nThe \"Sales Director - Mid-Market (South East)\" posting also asks for \"forecasting accuracy within Salesforce.\"\n\nOur team works on CRM cleanup, pipeline reporting, and forecasting. Is pipeline tracking in Salesforce something your team is looking at this quarter?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     7
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"GTM Strategy and Operations Manager\" posting went up on 2026-11-13 and asks the hire to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\" [1][2]",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Sales Director - Mid-Market (South East)\" posting asks for \"Strong pipeline management discipline and forecasting accuracy within Salesforce.\" [7]",
+     "cites": [
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Commercial Manager - Europe\", \"Channel Partnerships Manager\", and \"Engagement Marketing Lead\" postings all went up in the last 30 days [8][9][10].",
+     "cites": [
+      8,
+      9,
+      10
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Lyra Health's likely priority is CRM work that will \"improve pipeline tracking and operational visibility\" and sales work that calls for \"pipeline management discipline and forecasting accuracy within Salesforce\" [2][7].",
+     "cites": [
+      2,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the GTM team plan to work with the Systems teams on Salesforce changes?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does forecasting look like today for the mid-market sales team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which pipeline reports matter most to your sales leaders right now?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns Salesforce administration today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current forecasting process and tools",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for CRM tooling changes",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed the \"GTM Strategy and Operations Manager\" role Lyra Health posted in November. It describes work to \"evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.\"\n\nThe \"Sales Director - Mid-Market (South East)\" posting also asks for \"forecasting accuracy within Salesforce.\"\n\nOur team works on CRM cleanup, pipeline reporting, and forecasting. Is pipeline tracking in Salesforce something your team is looking at this quarter?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      7
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.088601,
+ "ms": 20443
+}

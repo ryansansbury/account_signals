@@ -1,0 +1,534 @@
+{
+ "account": "OneTrust",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "5b1e68d943e31f2f",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:50:43+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "OneTrust had 80 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Atlanta, GA. The US held 51% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s9cc74da3bd",
+   "title": "Salesforce Administrator",
+   "excerpt": "Salesforce Administrator",
+   "posted": "2026-11-09",
+   "posting_id": "greenhouse:onetrust:8350588",
+   "family": "crm"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s082a3fda1d",
+   "title": "Senior Principal Sales Strategy Manager",
+   "excerpt": "Senior Principal Sales Strategy Manager",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:onetrust:8278252",
+   "family": "salesops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s88b205f161",
+   "title": "Senior Revenue Analyst",
+   "excerpt": "Senior Revenue Analyst",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:onetrust:8303206",
+   "family": "analytics"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s544724e0c5",
+   "title": "Senior Principal Sales Strategy Manager",
+   "excerpt": "Support GTM strategy and design, process optimization, fiscal planning, business risk and opportunity assessment, sales forecasting, reporting, and analytics.",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:onetrust:8278252",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s02eff44c01",
+   "title": "Salesforce Administrator",
+   "excerpt": "Designing and documenting a flexible, scalable, and robust state-of-the-art architecture for Salesforce Sales Cloud, CPQ, E-commerce, and Partner systems.",
+   "posted": "2026-11-09",
+   "posting_id": "greenhouse:onetrust:8350588",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s050077de8d",
+   "title": "Salesforce Administrator",
+   "excerpt": "Reporting to the Director of Business Systems, the Salesforce Administrator will play a crucial role in ensuring the seamless and efficient execution of our Lead to Cash processes within the Salesforce ecosystem.",
+   "posted": "2026-11-09",
+   "posting_id": "greenhouse:onetrust:8350588",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s1171b1b83d",
+   "title": "Lead Corporate Counsel, Commercial",
+   "excerpt": "Ironclad experience .",
+   "posted": "2026-08-03",
+   "posting_id": "greenhouse:onetrust:8103818",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s54d5a05396",
+   "title": "Pre-sales Engineer (German speaker)",
+   "excerpt": "Pre-sales Engineer (German speaker)",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:onetrust:8401733",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s811a292384",
+   "title": "Business Development Representative (Polish Speaking)",
+   "excerpt": "Business Development Representative (Polish Speaking)",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:onetrust:8383052",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "sb5cb7c37a0",
+   "title": "Business Development Representative (Czech Speaking)",
+   "excerpt": "Business Development Representative (Czech Speaking)",
+   "posted": "2026-11-18",
+   "posting_id": "greenhouse:onetrust:8399427",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"A \\\"Salesforce Administrator\\\" posting was published 2026-11-09 and is 11 days before the read date [1][6].\"}, {\"text\": \"A \\\"Senior Principal Sales Strategy Manager\\\" posting published 2026-10-19 lists \\\"sales forecasting\\\" among its duties [2][4].\"}, {\"text\": \"Two postings titled \\\"Business Development Representative (Polish Speaking)\\\" and \\\"Business Development Representative (Czech Speaking)\\\" were published 2026-11-18 [9][10].\"}], \"priority\": {\"text\": \"The likely priority is revenue work in the CRM through \\\"Lead to Cash processes\\\" [1][6] and \\\"sales forecasting\\\" and reporting for GTM strategy [2][4].\"}, \"questions\": [\"Who owns the Salesforce work today and how does it connect to the \\\"Lead to Cash processes\\\"?\", \"Is the \\\"Senior Principal Sales Strategy Manager\\\" role new to the team or a replacement for someone?\", \"How many people work on \\\"sales forecasting\\\" today?\"], \"unknowns\": [\"Whether the postings reflect a hiring plan or one team's needs\", \"Which tools beyond Salesforce the sales team uses\", \"How many revenue roles are filled and how many remain open\"], \"first_touch\": {\"subject\": \"Question about your open Salesforce roles\", \"body\": \"Hi {first_name},\\n\\nOneTrust has a \\\"Salesforce Administrator\\\" role open that was posted in November. A \\\"Senior Principal Sales Strategy Manager\\\" role went up in October and mentions \\\"sales forecasting.\\\" Both roles sit close to the sales process.\\n\\nWho on your team handles Salesforce work today?\\n\\n{sender_name}\", \"cites\": [1, 2, 4]}}",
+   "meta": {
+    "ms": 30523,
+    "input_tokens": 2,
+    "output_tokens": 6848,
+    "cache_write_tokens": 5646,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00456886
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "A \"Salesforce Administrator\" posting was published 2026-11-09 and is 11 days before the read date [1][6]."
+     },
+     {
+      "text": "A \"Senior Principal Sales Strategy Manager\" posting published 2026-10-19 lists \"sales forecasting\" among its duties [2][4]."
+     },
+     {
+      "text": "Two postings titled \"Business Development Representative (Polish Speaking)\" and \"Business Development Representative (Czech Speaking)\" were published 2026-11-18 [9][10]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work in the CRM through \"Lead to Cash processes\" [1][6] and \"sales forecasting\" and reporting for GTM strategy [2][4]."
+    },
+    "questions": [
+     "Who owns the Salesforce work today and how does it connect to the \"Lead to Cash processes\"?",
+     "Is the \"Senior Principal Sales Strategy Manager\" role new to the team or a replacement for someone?",
+     "How many people work on \"sales forecasting\" today?"
+    ],
+    "unknowns": [
+     "Whether the postings reflect a hiring plan or one team's needs",
+     "Which tools beyond Salesforce the sales team uses",
+     "How many revenue roles are filled and how many remain open"
+    ],
+    "first_touch": {
+     "subject": "Question about your open Salesforce roles",
+     "body": "Hi {first_name},\n\nOneTrust has a \"Salesforce Administrator\" role open that was posted in November. A \"Senior Principal Sales Strategy Manager\" role went up in October and mentions \"sales forecasting.\" Both roles sit close to the sales process.\n\nWho on your team handles Salesforce work today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "A \"Salesforce Administrator\" posting was published 2026-11-09 and is 11 days before the read date [1][6].",
+      "cites": [
+       1,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Senior Principal Sales Strategy Manager\" posting published 2026-10-19 lists \"sales forecasting\" among its duties [2][4].",
+      "cites": [
+       2,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two postings titled \"Business Development Representative (Polish Speaking)\" and \"Business Development Representative (Czech Speaking)\" were published 2026-11-18 [9][10].",
+      "cites": [
+       9,
+       10
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work in the CRM through \"Lead to Cash processes\" [1][6] and \"sales forecasting\" and reporting for GTM strategy [2][4].",
+      "cites": [
+       1,
+       6,
+       2,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the Salesforce work today and how does it connect to the \"Lead to Cash processes\"?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is the \"Senior Principal Sales Strategy Manager\" role new to the team or a replacement for someone?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How many people work on \"sales forecasting\" today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the postings reflect a hiring plan or one team's needs",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools beyond Salesforce the sales team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How many revenue roles are filled and how many remain open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nOneTrust has a \"Salesforce Administrator\" role open that was posted in November. A \"Senior Principal Sales Strategy Manager\" role went up in October and mentions \"sales forecasting.\" Both roles sit close to the sales process.\n\nWho on your team handles Salesforce work today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       4
+      ],
+      "problems": [
+       "name: Both"
+      ]
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Salesforce Administrator\\\" posting was published 11 days before the read date [1][6].\"}, {\"text\": \"A \\\"Senior Principal Sales Strategy Manager\\\" posting was published on 2026-10-19 and lists \\\"sales forecasting\\\" among its duties [2][4].\"}, {\"text\": \"Three postings went up between 2026-11-18 and 2026-11-19 [8][9][10].\"}], \"priority\": {\"text\": \"The likely priority is revenue work in the CRM, described as \\\"Lead to Cash processes\\\" in one posting and as \\\"sales forecasting\\\" in another [1][4][6].\"}, \"questions\": [\"Who owns the Salesforce work today and how does it connect to the \\\"Lead to Cash processes\\\"?\", \"Is the \\\"Senior Principal Sales Strategy Manager\\\" role new to the team or a replacement for someone?\", \"How many people work on \\\"sales forecasting\\\" today?\"], \"unknowns\": [\"Whether the postings reflect a hiring plan or one team's needs\", \"Which tools beyond Salesforce the sales team uses\", \"How many revenue roles are filled and how many remain open\"], \"first_touch\": {\"subject\": \"Question about the Salesforce Administrator role\", \"body\": \"Hi {first_name},\\n\\nThe \\\"Salesforce Administrator\\\" role posted in November says it will play a \\\"crucial role\\\" in the \\\"Lead to Cash processes.\\\" A \\\"Senior Principal Sales Strategy Manager\\\" role went up in October and lists \\\"sales forecasting\\\" among its duties.\\n\\nWho on your team owns the Salesforce work today?\\n\\n{sender_name}\", \"cites\": [1, 2, 4, 6]}}",
+   "meta": {
+    "ms": 21818,
+    "input_tokens": 2,
+    "output_tokens": 5280,
+    "cache_write_tokens": 6350,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00392566
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Salesforce Administrator\" posting was published 11 days before the read date [1][6]."
+     },
+     {
+      "text": "A \"Senior Principal Sales Strategy Manager\" posting was published on 2026-10-19 and lists \"sales forecasting\" among its duties [2][4]."
+     },
+     {
+      "text": "Three postings went up between 2026-11-18 and 2026-11-19 [8][9][10]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue work in the CRM, described as \"Lead to Cash processes\" in one posting and as \"sales forecasting\" in another [1][4][6]."
+    },
+    "questions": [
+     "Who owns the Salesforce work today and how does it connect to the \"Lead to Cash processes\"?",
+     "Is the \"Senior Principal Sales Strategy Manager\" role new to the team or a replacement for someone?",
+     "How many people work on \"sales forecasting\" today?"
+    ],
+    "unknowns": [
+     "Whether the postings reflect a hiring plan or one team's needs",
+     "Which tools beyond Salesforce the sales team uses",
+     "How many revenue roles are filled and how many remain open"
+    ],
+    "first_touch": {
+     "subject": "Question about the Salesforce Administrator role",
+     "body": "Hi {first_name},\n\nThe \"Salesforce Administrator\" role posted in November says it will play a \"crucial role\" in the \"Lead to Cash processes.\" A \"Senior Principal Sales Strategy Manager\" role went up in October and lists \"sales forecasting\" among its duties.\n\nWho on your team owns the Salesforce work today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Salesforce Administrator\" posting was published 11 days before the read date [1][6].",
+      "cites": [
+       1,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Senior Principal Sales Strategy Manager\" posting was published on 2026-10-19 and lists \"sales forecasting\" among its duties [2][4].",
+      "cites": [
+       2,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Three postings went up between 2026-11-18 and 2026-11-19 [8][9][10].",
+      "cites": [
+       8,
+       9,
+       10
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue work in the CRM, described as \"Lead to Cash processes\" in one posting and as \"sales forecasting\" in another [1][4][6].",
+      "cites": [
+       1,
+       4,
+       6
+      ],
+      "problems": [
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "Who owns the Salesforce work today and how does it connect to the \"Lead to Cash processes\"?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Is the \"Senior Principal Sales Strategy Manager\" role new to the team or a replacement for someone?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How many people work on \"sales forecasting\" today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the postings reflect a hiring plan or one team's needs",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools beyond Salesforce the sales team uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How many revenue roles are filled and how many remain open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nThe \"Salesforce Administrator\" role posted in November says it will play a \"crucial role\" in the \"Lead to Cash processes.\" A \"Senior Principal Sales Strategy Manager\" role went up in October and lists \"sales forecasting\" among its duties.\n\nWho on your team owns the Salesforce work today?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Salesforce Administrator\" posting was published 11 days before the read date [1][6]."
+    },
+    {
+     "text": "A \"Senior Principal Sales Strategy Manager\" posting was published on 2026-10-19 and lists \"sales forecasting\" among its duties [2][4]."
+    },
+    {
+     "text": "Three postings went up between 2026-11-18 and 2026-11-19 [8][9][10]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue work in the CRM, described as \"Lead to Cash processes\" in one posting and as \"sales forecasting\" in another [1][4][6]."
+   },
+   "questions": [
+    "Who owns the Salesforce work today and how does it connect to the \"Lead to Cash processes\"?",
+    "Is the \"Senior Principal Sales Strategy Manager\" role new to the team or a replacement for someone?",
+    "How many people work on \"sales forecasting\" today?"
+   ],
+   "unknowns": [
+    "Whether the postings reflect a hiring plan or one team's needs",
+    "Which tools beyond Salesforce the sales team uses",
+    "How many revenue roles are filled and how many remain open"
+   ],
+   "first_touch": {
+    "subject": "Question about the Salesforce Administrator role",
+    "body": "Hi {first_name},\n\nThe \"Salesforce Administrator\" role posted in November says it will play a \"crucial role\" in the \"Lead to Cash processes.\" A \"Senior Principal Sales Strategy Manager\" role went up in October and lists \"sales forecasting\" among its duties.\n\nWho on your team owns the Salesforce work today?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Salesforce Administrator\" posting was published 11 days before the read date [1][6].",
+     "cites": [
+      1,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Senior Principal Sales Strategy Manager\" posting was published on 2026-10-19 and lists \"sales forecasting\" among its duties [2][4].",
+     "cites": [
+      2,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Three postings went up between 2026-11-18 and 2026-11-19 [8][9][10].",
+     "cites": [
+      8,
+      9,
+      10
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue work in the CRM, described as \"Lead to Cash processes\" in one posting and as \"sales forecasting\" in another [1][4][6].",
+     "cites": [
+      1,
+      4,
+      6
+     ],
+     "problems": [
+      "writing: one comma that reads as a pause"
+     ]
+    },
+    {
+     "field": "question",
+     "text": "Who owns the Salesforce work today and how does it connect to the \"Lead to Cash processes\"?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Is the \"Senior Principal Sales Strategy Manager\" role new to the team or a replacement for someone?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How many people work on \"sales forecasting\" today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the postings reflect a hiring plan or one team's needs",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which tools beyond Salesforce the sales team uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How many revenue roles are filled and how many remain open",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nThe \"Salesforce Administrator\" role posted in November says it will play a \"crucial role\" in the \"Lead to Cash processes.\" A \"Senior Principal Sales Strategy Manager\" role went up in October and lists \"sales forecasting\" among its duties.\n\nWho on your team owns the Salesforce work today?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": false
+  },
+  "repaired": true,
+  "needs_review": true
+ },
+ "cost_usd": 0.008495,
+ "ms": 52341
+}

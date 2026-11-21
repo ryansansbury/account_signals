@@ -1,0 +1,292 @@
+{
+  "note": "The tuning rounds on the six dev accounts, at most two as set before the first run, each with what the dev run showed and what changed before the next run. The 25 scored accounts were never used in the two tuning rounds: an account in dev_accounts stays dev even when it climbs into the top 25. The prompt and the checks freeze after the last round. After the second read of version 1 fell short, version 2 (after_the_gate) drew on the judges' reasons for the scored briefs as well as the dev ones, as the rules set before the first run allow after a failed gate, and the first result stays on record here.",
+  "dev_accounts": [
+    "Ursa Major",
+    "Rondo Energy",
+    "Entrata",
+    "another dev account",
+    "Dropbox",
+    "Mainspring Energy",
+    "OpenSpace"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "dev_run": "2026-11-09 evening, three models on six dev accounts, $0.30",
+      "before": {
+        "claude-sonnet": {
+          "first_passed": 0,
+          "repaired": 6,
+          "needs_review": 0,
+          "first_unsupported": 45
+        },
+        "claude-haiku": {
+          "first_passed": 0,
+          "repaired": 6,
+          "needs_review": 4,
+          "first_unsupported": 42
+        },
+        "openai-luna": {
+          "first_passed": 0,
+          "repaired": 6,
+          "needs_review": 4,
+          "first_unsupported": 39
+        }
+      },
+      "found": "Most first-draft flags came from the checker, not the models. Dates written as 2026-11-09 were split into numbers, a closing period inside quotation marks failed the quote check, a possessive of the account's name read as a stranger's name, a pronoun 'one' counted as a number, a count was required to equal the postings cited when a first touch cites for the whole email, and '34 days before the read date' wasn't read as recency. Rechecked with the fixes, the 18 first drafts held 8 unsupported claims in place of 126. The rest of the blockers were the copy rules on commas.",
+      "changes": {
+        "checks": [
+          "dates written as 2026-11-09 are checked as dates against the cited postings and the read date",
+          "a quote's closing punctuation is set aside before it's matched",
+          "a possessive of a capitalized word is checked as the word",
+          "a number word counts as a claim only when it counts postings or roles",
+          "a count of postings may not exceed the distinct postings cited",
+          "'N days old' and 'N days before the read date' are checked like 'N days ago'"
+        ],
+        "prompt": [
+          "cite every posting you count in that same sentence",
+          "the comma rules spelled out, with the words a comma may never precede, no commas around an inserted phrase, and two sentences where one would need such a comma"
+        ]
+      },
+      "after": {
+        "dev_run": "2026-11-10 morning, the same six accounts, $0.21",
+        "claude-sonnet": {
+          "first_passed": 3,
+          "repaired": 3,
+          "needs_review": 1,
+          "first_unsupported": 2
+        },
+        "claude-haiku": {
+          "first_passed": 2,
+          "repaired": 4,
+          "needs_review": 1,
+          "first_unsupported": 2
+        },
+        "openai-luna": {
+          "first_passed": 4,
+          "repaired": 2,
+          "needs_review": 0,
+          "first_unsupported": 2
+        },
+        "route": "openai-luna, the cheapest model with no more than two of 25 needing review"
+      }
+    },
+    {
+      "round": 2,
+      "dev_run": "2026-11-10 morning, the same six accounts, $0.21",
+      "before": "round 1's after",
+      "found": "Both briefs left needing review failed on the checker, not the model. The writing check read the comma in 'Lehi, UT' as a pause, and the name check read 'Most' as a name where it opened a second sentence inside one item. The inputs caused two more flags. The board line [0] was itself written with pause commas, which a draft copied, and one posting could appear as two sources (40 of the 271 sources across the 31 brief accounts repeat a posting), so two drafts counted one posting as two. The checker also misread 'CRM-related' as a name, the read date written as 'November 9' with [0] cited, 'in the 10 days before that read date', and a window in a first touch, which it held against every posting the email cites. Rechecked with this round's checks, none of the 18 recorded briefs needs review and 11 first drafts pass where 9 did. The dev sources also showed the territory rule's 'is expanding' right about 6 times in 17, mostly a team or an organization growing, which signal pass 2 fixed.",
+      "changes": {
+        "checks": [
+          "a sentence can start after a full stop inside one item",
+          "a hyphenated word such as 'CRM-related' is checked by its capitalized parts",
+          "a month and day may match a date written in a cited source, such as the read date in [0]",
+          "'in the N days before the read date' is a window, and 'before that read date' reads like 'before the read date'",
+          "in a first touch, whose cites serve the whole email, a window needs one cited posting inside it",
+          "the writing check keeps a city and its state together ('Lehi, UT')",
+          "'in July' or 'from July' is checked against the months the cited postings went up, where it passed unchecked before"
+        ],
+        "inputs": [
+          "the board line [0] is three plain sentences that keep the comma rules, and names the US city with the most open roles in place of 'most in'",
+          "a hiring pace signal whose posting is already a source is left out",
+          "a signal from a posting that's already a source is marked 'same posting as [n]'"
+        ],
+        "prompt": [
+          "count a posting marked 'same posting as' once",
+          "say how recent a posting is with its date, with days before the read date, or with a window that holds every posting cited",
+          "a signal's kind comes from a keyword rule, so a quote that doesn't bear it out wins",
+          "since and plus join the words a comma may never precede",
+          "the first touch names the month a posting went up and never writes a date such as 2026-07-27"
+        ],
+        "signals": [
+          "signal pass 2 (docs/DECISIONS.md): 'is expanding' no longer counts when a team, an organization, its efforts or its offerings follow, or nothing does. 11 territory signals fell away (35 to 24), three accounts lost their brief (another dev account among them), and stage 1 froze again"
+        ]
+      },
+      "after": {
+        "dev_run": "2026-11-10 late morning, five of the same accounts and OpenSpace in place of another dev account, $0.22",
+        "claude-sonnet": {
+          "first_passed": 2,
+          "repaired": 4,
+          "needs_review": 0,
+          "first_unsupported": 0
+        },
+        "claude-haiku": {
+          "first_passed": 4,
+          "repaired": 2,
+          "needs_review": 1,
+          "first_unsupported": 0
+        },
+        "openai-luna": {
+          "first_passed": 6,
+          "repaired": 0,
+          "needs_review": 0,
+          "first_unsupported": 0
+        },
+        "route": "openai-luna, the cheapest model with none needing review",
+        "found": "No first draft from any model held an unsupported claim. Every flag left was the copy rules on commas (eight across four of Sonnet's first drafts, all fixed by the repair) or a reply cut off. Claude Haiku 5.5 reached the 4,000-token output cap on two first tries, since its own reasoning counts against the cap, and one of those repairs then broke a comma rule, which left the one brief that needs review.",
+        "then": "No third round. Before the scored run the output cap rose to 16,000 tokens for every model (agents/llm.py), and a reply cut off at the cap is named as one in the repair request (owner/record_briefs.py). Neither file is part of the freeze, and neither touches the prompt, the inputs or the checks. The dev records keep their results as they were. Stage 2 froze."
+      }
+    }
+  ],
+  "after_the_gate": [
+    {
+      "version": 2,
+      "why": "The second read of version 1 fell short. 13 of GPT-6 Luna's 25 scored briefs held up with both judges where the bar is 23, and the judges caught all 12 planted errors, so their verdict counts. Version 1's records and summaries are kept in data/ai_runs/archive/prompt-v1/.",
+      "version_1": {
+        "gate": {
+          "held": 13,
+          "of": 25,
+          "need": 23,
+          "planted_caught": 12,
+          "planted_of": 12
+        },
+        "hold_up_with_both_judges": {
+          "openai-luna": 13,
+          "claude-sonnet": 5,
+          "claude-haiku": 7
+        },
+        "judges_agreed": "55 of 75 briefs",
+        "cost_usd": 3.92
+      },
+      "found": "The why-now sentences held up 199 and 200 times in 207 with the two judges. The failures sat in the likely priority (31 and 28 overreaches in 75) and the email (15 and 21 flags). The priority named a problem, a gap, a misalignment or a need that no posting states, or linked two things the postings don't link, and the dev briefs as written showed the same. Two emails called a marketing web posting a revenue operations role because its signal's label said so ('GTM Engineer, Web'), one brief read 'matrixed reporting' as reporting work, and others counted one posting as several or made a preferred skill a requirement. The judges made mistakes of their own: one marked a listing title wrong because the posting's text named the role another way, one judged the sender's description of its own services, and one gave a verdict its own reason contradicted.",
+      "changes": {
+        "prompt": [
+          "the likely priority says where revenue operations help could fit, names the work the postings describe and the service it touches, is worded no more strongly than the postings show, and never states a problem, a gap, a misalignment or a need they don't state or links two things they don't link",
+          "the email suggests no problem the postings don't state, calls each posting by its title or its own words, and keeps each posting's wording as strong as it is",
+          "each posting goes by its title, since its signal's kind is a keyword rule's guess"
+        ],
+        "judge": [
+          "a listing title is the posting's title even when its text names the role another way",
+          "the sender's description of its own services isn't judged",
+          "the verdict agrees with its reason"
+        ],
+        "process": [
+          "the scored run, and the second read of scored briefs, refuse when a frozen file changed since its freeze",
+          "the dev and scored runs end with the second read"
+        ]
+      },
+      "after": {
+        "dev_run": "2026-11-10 10:11 to 10:18 AM, the same six accounts, $0.53 with the second read",
+        "claude-sonnet": {
+          "first_passed": 5,
+          "repaired": 1,
+          "needs_review": 0,
+          "first_unsupported": 0
+        },
+        "claude-haiku": {
+          "first_passed": 5,
+          "repaired": 1,
+          "needs_review": 0,
+          "first_unsupported": 0
+        },
+        "openai-luna": {
+          "first_passed": 4,
+          "repaired": 2,
+          "needs_review": 0,
+          "first_unsupported": 1
+        },
+        "second_read_on_dev": {
+          "hold_up_with_both_judges": {
+            "version_2": 2,
+            "version_1": 3,
+            "of": 6
+          },
+          "planted_caught": 12,
+          "planted_of": 12
+        },
+        "found": "Every why-now sentence and every email in GPT-6 Luna's six dev briefs held up with both judges, where version 1's emails drew two flags. The likely priority drew seven overreaches in four briefs, where version 1's drew five. The prompt's example service, 'help with pipeline reporting', turned up in four of six priorities and drew three flags in two accounts whose postings never mention it. Four flags fault a fit the postings don't show: territory planning beside a regional sales role, and reporting help for a production controller. Version 2 isn't frozen, and the scored run waits."
+      }
+    },
+    {
+      "version": 3,
+      "why": "Version 2 on dev fixed the emails and left the likely priority overreaching in four of GPT-6 Luna's six dev briefs, three times from the prompt's own example service copied into postings that never name it.",
+      "changes": {
+        "prompt": [
+          "the priority's example sentence is gone, so no sample service can be copied",
+          "the priority names the account's likely priority as the revenue work the cited postings describe, in their own words",
+          "a revenue operations service is named only when a cited posting describes that service's work itself",
+          "when the cited postings describe no revenue work, the priority says so and names the work they do describe"
+        ],
+        "judge": [],
+        "process": [
+          "the scored run follows only if at least five of Luna's six dev briefs hold up with both judges, and otherwise the page shows each brief's verdict with the shortfall stated"
+        ]
+      },
+      "after": {
+        "dev_run": "2026-11-10 2:01 to 2:11 PM, the same six accounts, $0.57 with the second read",
+        "claude-sonnet": {
+          "first_passed": 3,
+          "repaired": 3,
+          "needs_review": 1,
+          "first_unsupported": 0
+        },
+        "claude-haiku": {
+          "first_passed": 2,
+          "repaired": 4,
+          "needs_review": 3,
+          "first_unsupported": 1
+        },
+        "openai-luna": {
+          "first_passed": 6,
+          "repaired": 0,
+          "needs_review": 0,
+          "first_unsupported": 0
+        },
+        "second_read_on_dev": {
+          "hold_up_with_both_judges": {
+            "version_3": 2,
+            "version_2": 2,
+            "version_1": 3,
+            "of": 6
+          },
+          "hold_up_by_judge": {
+            "claude-sonnet": 3,
+            "openai-luna": 5,
+            "of": 6
+          },
+          "planted_caught": 12,
+          "planted_of": 12
+        },
+        "found": "GPT-6 Luna passed every check on all six first drafts, and no priority names a service its postings don't name. The GPT-6 Luna judge held five of the six. The Claude Sonnet 5.5 judge held three, and two of its flags call any likely priority drawn from hiring a guess, a reading of the brief's purpose more than of its facts. The other flags were a sales leadership label on a regional sales posting, a brief that said its postings describe no revenue work where one mentions reporting to sales teams, and a creation date written as the date the board listed a posting. Two of six held up with both judges, short of the five the rule set before the run.",
+        "then": "No more tuning, as decided before the run. The prompt froze as version 3 at 2:11 PM and the scored run goes ahead, with the page showing every brief's verdict and the shortfall stated."
+      },
+      "scored": {
+        "run": "2026-11-10 2:15 to 2:50 PM, the top 25 by three models and the second read, 251 calls, $4.26",
+        "claude-sonnet": {
+          "first_passed": 8,
+          "repaired": 17,
+          "needs_review": 2,
+          "hold_up_with_both_judges": 16
+        },
+        "claude-haiku": {
+          "first_passed": 13,
+          "repaired": 12,
+          "needs_review": 3,
+          "hold_up_with_both_judges": 13
+        },
+        "openai-luna": {
+          "first_passed": 22,
+          "repaired": 3,
+          "needs_review": 1,
+          "hold_up_with_both_judges": 18
+        },
+        "hold_up_with_both_judges_version_1": {
+          "openai-luna": 13,
+          "claude-sonnet": 5,
+          "claude-haiku": 7
+        },
+        "judges_agreed": "51 of 75 briefs",
+        "gate": {
+          "held": 18,
+          "of": 25,
+          "need": 23,
+          "planted_caught": 12,
+          "planted_of": 12,
+          "trusted": true,
+          "passes": false
+        },
+        "found": "Version 3 lifted every model's count of briefs holding up with both judges, the routed model's from 13 to 18 of 25. The bar of 23 still wasn't met. The page shows every brief's verdict and the judges' reasons, and How it works and the README state the shortfall."
+      }
+    }
+  ]
+}

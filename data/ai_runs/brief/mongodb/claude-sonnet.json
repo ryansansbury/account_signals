@@ -1,0 +1,512 @@
+{
+ "account": "MongoDB",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "1658fd90285a1282",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:35:42+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "MongoDB had 408 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 34% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s506a97acca",
+   "title": "Principal GTM Operations Analyst",
+   "excerpt": "Principal GTM Operations Analyst",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8335237",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s823fe3c629",
+   "title": "Principal GTM Operations Analyst",
+   "excerpt": "Principal GTM Operations Analyst",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8386087",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s882e43f65e",
+   "title": "Principal GTM Operations Analyst",
+   "excerpt": "…and insights that help our sales organization make better, faster decisions across our people, segmentation, territory design, forecasting, and account prioritization.",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8386087",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s1b75b3bcf5",
+   "title": "Manager, Sales Development - Italian",
+   "excerpt": "…across our sales organization, you will be a crucial part of uncovering new opportunities, determining how to unlock new territories, and driving revenue into our pipeline.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:mongodb:8385839",
+   "family": "territory"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s33b54ab821",
+   "title": "SVP, Revenue Marketing",
+   "excerpt": "Marketing-sourced revenue: Own the sales-led marketing revenue target, regional forecasts, and performance; Anticipate pipeline gaps, diagnose performance, and adjust investment and execution to deliver the number.",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:mongodb:8331479",
+   "family": "forecasting"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s671fcc15de",
+   "title": "SVP, Revenue Marketing",
+   "excerpt": "SVP, Revenue Marketing",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:mongodb:8331479",
+   "family": "leadership"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s32704d2f28",
+   "title": "Senior Sales Compensation Engineer",
+   "excerpt": "Senior Sales Compensation Engineer",
+   "posted": "2026-09-11",
+   "posting_id": "greenhouse:mongodb:8121701",
+   "family": "salesops"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s275ed94b59",
+   "title": "Salesforce Developer III",
+   "excerpt": "Salesforce Developer III",
+   "posted": "2026-09-10",
+   "posting_id": "greenhouse:mongodb:8122751",
+   "family": "crm"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s7dd39f2ae2",
+   "title": "Commercial Growth Account Executive - Acquisition",
+   "excerpt": "MongoDB is expanding its presence in the Israeli startup ecosystem.",
+   "posted": "2026-08-21",
+   "posting_id": "greenhouse:mongodb:8143761",
+   "family": "territory"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "s08f668a6ea",
+   "title": "Senior Salesforce Developer",
+   "excerpt": "Senior Salesforce Developer",
+   "posted": "2026-07-14",
+   "posting_id": "greenhouse:mongodb:8008794",
+   "family": "crm"
+  },
+  "11": {
+   "kind": "signal",
+   "sid": "s0cd86fbf15",
+   "title": "Manager, Customer Success Operations",
+   "excerpt": "You can navigate your way around Salesforce with relative ease.",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:mongodb:8383215",
+   "family": "stack"
+  },
+  "12": {
+   "kind": "signal",
+   "sid": "s15a86e3c52",
+   "title": "Senior Manager, Revenue",
+   "excerpt": "Experience with ERP and CRM systems; NetSuite and Salesforce experience preferred.",
+   "posted": "2026-09-21",
+   "posting_id": "greenhouse:mongodb:8201521",
+   "family": "stack"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Principal GTM Operations Analyst\\\" posting was published 2026-11-13 and describes insights for decisions across \\\"territory design\\\" and \\\"forecasting\\\" [3].\"}, {\"text\": \"The board also shows \\\"Salesforce Developer III\\\" published 2026-09-10 and \\\"Senior Sales Compensation Engineer\\\" published 2026-09-11 [7][8].\"}], \"priority\": {\"text\": \"The likely priority is sales planning work, where the \\\"Principal GTM Operations Analyst\\\" posting describes insights that help the sales organization make \\\"faster decisions\\\" on \\\"territory design\\\" and \\\"forecasting\\\" [3].\"}, \"questions\": [\"How will the team use the insights described in the \\\"Principal GTM Operations Analyst\\\" role?\", \"How do sales planning and Salesforce work get shared between teams today?\", \"What would make a sales compensation or forecasting project a priority for the next quarter?\"], \"unknowns\": [\"Team size and reporting lines\", \"Current forecasting process and tools\", \"Budget and timing for outside help\", \"Whether the Salesforce roles replace staff or add to it\"], \"first_touch\": {\"subject\": \"Your GTM operations and territory work\", \"body\": \"Hi {first_name},\\n\\nI noticed the \\\"Principal GTM Operations Analyst\\\" posting that went up in November. It talks about insights for \\\"territory design\\\" and \\\"forecasting\\\" across the sales organization. I also saw the \\\"Senior Sales Compensation Engineer\\\" posting from September.\\n\\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\\n\\n{sender_name}\", \"cites\": [3, 7]}}",
+   "meta": {
+    "ms": 29972,
+    "input_tokens": 2,
+    "output_tokens": 4181,
+    "cache_write_tokens": 5742,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0649366
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Principal GTM Operations Analyst\" posting was published 2026-11-13 and describes insights for decisions across \"territory design\" and \"forecasting\" [3]."
+     },
+     {
+      "text": "The board also shows \"Salesforce Developer III\" published 2026-09-10 and \"Senior Sales Compensation Engineer\" published 2026-09-11 [7][8]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is sales planning work, where the \"Principal GTM Operations Analyst\" posting describes insights that help the sales organization make \"faster decisions\" on \"territory design\" and \"forecasting\" [3]."
+    },
+    "questions": [
+     "How will the team use the insights described in the \"Principal GTM Operations Analyst\" role?",
+     "How do sales planning and Salesforce work get shared between teams today?",
+     "What would make a sales compensation or forecasting project a priority for the next quarter?"
+    ],
+    "unknowns": [
+     "Team size and reporting lines",
+     "Current forecasting process and tools",
+     "Budget and timing for outside help",
+     "Whether the Salesforce roles replace staff or add to it"
+    ],
+    "first_touch": {
+     "subject": "Your GTM operations and territory work",
+     "body": "Hi {first_name},\n\nI noticed the \"Principal GTM Operations Analyst\" posting that went up in November. It talks about insights for \"territory design\" and \"forecasting\" across the sales organization. I also saw the \"Senior Sales Compensation Engineer\" posting from September.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\n\n{sender_name}",
+     "cites": [
+      3,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Principal GTM Operations Analyst\" posting was published 2026-11-13 and describes insights for decisions across \"territory design\" and \"forecasting\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The board also shows \"Salesforce Developer III\" published 2026-09-10 and \"Senior Sales Compensation Engineer\" published 2026-09-11 [7][8].",
+      "cites": [
+       7,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is sales planning work, where the \"Principal GTM Operations Analyst\" posting describes insights that help the sales organization make \"faster decisions\" on \"territory design\" and \"forecasting\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": [
+       "writing: a pause comma before \"where\"",
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "How will the team use the insights described in the \"Principal GTM Operations Analyst\" role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do sales planning and Salesforce work get shared between teams today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would make a sales compensation or forecasting project a priority for the next quarter?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Team size and reporting lines",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process and tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Salesforce roles replace staff or add to it",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed the \"Principal GTM Operations Analyst\" posting that went up in November. It talks about insights for \"territory design\" and \"forecasting\" across the sales organization. I also saw the \"Senior Sales Compensation Engineer\" posting from September.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\n\n{sender_name}",
+      "cites": [
+       3,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The \\\"Principal GTM Operations Analyst\\\" posting was published 2026-11-13 and describes insights for decisions across \\\"territory design\\\" and \\\"forecasting\\\" [3].\"}, {\"text\": \"The board also shows \\\"Salesforce Developer III\\\" published 2026-09-10 and \\\"Senior Sales Compensation Engineer\\\" published 2026-09-11 [7][8].\"}], \"priority\": {\"text\": \"The likely priority is sales planning work that the \\\"Principal GTM Operations Analyst\\\" posting describes as insights across \\\"territory design\\\" and \\\"forecasting\\\" [3].\"}, \"questions\": [\"How will the team use the insights described in the \\\"Principal GTM Operations Analyst\\\" role?\", \"How do sales planning and Salesforce work get shared between teams today?\", \"What would make a sales compensation or forecasting project a priority for the next quarter?\"], \"unknowns\": [\"Team size and reporting lines\", \"Current forecasting process and tools\", \"Budget and timing for outside help\", \"Whether the Salesforce roles replace staff or add to it\"], \"first_touch\": {\"subject\": \"Your GTM operations and territory work\", \"body\": \"Hi {first_name},\\n\\nI noticed the \\\"Principal GTM Operations Analyst\\\" posting that went up in November. It talks about insights for \\\"territory design\\\" and \\\"forecasting\\\" across the sales organization. I also saw the \\\"Senior Sales Compensation Engineer\\\" posting from September.\\n\\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\\n\\n{sender_name}\", \"cites\": [3, 7]}}",
+   "meta": {
+    "ms": 8486,
+    "input_tokens": 2,
+    "output_tokens": 1313,
+    "cache_write_tokens": 6488,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0392406
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The \"Principal GTM Operations Analyst\" posting was published 2026-11-13 and describes insights for decisions across \"territory design\" and \"forecasting\" [3]."
+     },
+     {
+      "text": "The board also shows \"Salesforce Developer III\" published 2026-09-10 and \"Senior Sales Compensation Engineer\" published 2026-09-11 [7][8]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is sales planning work that the \"Principal GTM Operations Analyst\" posting describes as insights across \"territory design\" and \"forecasting\" [3]."
+    },
+    "questions": [
+     "How will the team use the insights described in the \"Principal GTM Operations Analyst\" role?",
+     "How do sales planning and Salesforce work get shared between teams today?",
+     "What would make a sales compensation or forecasting project a priority for the next quarter?"
+    ],
+    "unknowns": [
+     "Team size and reporting lines",
+     "Current forecasting process and tools",
+     "Budget and timing for outside help",
+     "Whether the Salesforce roles replace staff or add to it"
+    ],
+    "first_touch": {
+     "subject": "Your GTM operations and territory work",
+     "body": "Hi {first_name},\n\nI noticed the \"Principal GTM Operations Analyst\" posting that went up in November. It talks about insights for \"territory design\" and \"forecasting\" across the sales organization. I also saw the \"Senior Sales Compensation Engineer\" posting from September.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\n\n{sender_name}",
+     "cites": [
+      3,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The \"Principal GTM Operations Analyst\" posting was published 2026-11-13 and describes insights for decisions across \"territory design\" and \"forecasting\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The board also shows \"Salesforce Developer III\" published 2026-09-10 and \"Senior Sales Compensation Engineer\" published 2026-09-11 [7][8].",
+      "cites": [
+       7,
+       8
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is sales planning work that the \"Principal GTM Operations Analyst\" posting describes as insights across \"territory design\" and \"forecasting\" [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How will the team use the insights described in the \"Principal GTM Operations Analyst\" role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do sales planning and Salesforce work get shared between teams today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would make a sales compensation or forecasting project a priority for the next quarter?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Team size and reporting lines",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process and tools",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Salesforce roles replace staff or add to it",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed the \"Principal GTM Operations Analyst\" posting that went up in November. It talks about insights for \"territory design\" and \"forecasting\" across the sales organization. I also saw the \"Senior Sales Compensation Engineer\" posting from September.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\n\n{sender_name}",
+      "cites": [
+       3,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The \"Principal GTM Operations Analyst\" posting was published 2026-11-13 and describes insights for decisions across \"territory design\" and \"forecasting\" [3]."
+    },
+    {
+     "text": "The board also shows \"Salesforce Developer III\" published 2026-09-10 and \"Senior Sales Compensation Engineer\" published 2026-09-11 [7][8]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is sales planning work that the \"Principal GTM Operations Analyst\" posting describes as insights across \"territory design\" and \"forecasting\" [3]."
+   },
+   "questions": [
+    "How will the team use the insights described in the \"Principal GTM Operations Analyst\" role?",
+    "How do sales planning and Salesforce work get shared between teams today?",
+    "What would make a sales compensation or forecasting project a priority for the next quarter?"
+   ],
+   "unknowns": [
+    "Team size and reporting lines",
+    "Current forecasting process and tools",
+    "Budget and timing for outside help",
+    "Whether the Salesforce roles replace staff or add to it"
+   ],
+   "first_touch": {
+    "subject": "Your GTM operations and territory work",
+    "body": "Hi {first_name},\n\nI noticed the \"Principal GTM Operations Analyst\" posting that went up in November. It talks about insights for \"territory design\" and \"forecasting\" across the sales organization. I also saw the \"Senior Sales Compensation Engineer\" posting from September.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\n\n{sender_name}",
+    "cites": [
+     3,
+     7
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The \"Principal GTM Operations Analyst\" posting was published 2026-11-13 and describes insights for decisions across \"territory design\" and \"forecasting\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The board also shows \"Salesforce Developer III\" published 2026-09-10 and \"Senior Sales Compensation Engineer\" published 2026-09-11 [7][8].",
+     "cites": [
+      7,
+      8
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is sales planning work that the \"Principal GTM Operations Analyst\" posting describes as insights across \"territory design\" and \"forecasting\" [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How will the team use the insights described in the \"Principal GTM Operations Analyst\" role?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do sales planning and Salesforce work get shared between teams today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What would make a sales compensation or forecasting project a priority for the next quarter?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Team size and reporting lines",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current forecasting process and tools",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for outside help",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the Salesforce roles replace staff or add to it",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed the \"Principal GTM Operations Analyst\" posting that went up in November. It talks about insights for \"territory design\" and \"forecasting\" across the sales organization. I also saw the \"Senior Sales Compensation Engineer\" posting from September.\n\nWe help revenue teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to talk with about that kind of work?\n\n{sender_name}",
+     "cites": [
+      3,
+      7
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.104177,
+ "ms": 38458
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Loadsmart",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "636a8cff2bd7dec0",
+ "input_hash": "93f79c7f0d695e97",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:04:18+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 5805,
+    "input_tokens": 2,
+    "output_tokens": 801,
+    "cache_write_tokens": 17847,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.07948229999999999
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The titles and dates (2026-11-18, 2026-11-03, 2026-09-22) match sources [6], [8] and [2]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The GTM Engineer posting is dated 2026-10-06, its signal is a revenue operations role, and the text names Salesloft sequences."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Mexico City CSM posting is dated 2026-11-13 and says \"Experience with CRM, preferably Salesforce, is a plus.\""
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The three sales-role postings and the GTM Engineer's Salesloft sequence work fairly support an inference that selling is a priority."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October GTM Engineer posting with Salesloft sequences and the November Enterprise Sales Executive and Account Sales Representative postings all match the cited sources."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.079482,
+ "ms": 5805
+}

@@ -1,0 +1,342 @@
+{
+ "account": "Entrata",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "b5687a55d36feddb",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:06:38+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Entrata had 29 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Lehi, UT. The US held 55% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s11c2fe25a0",
+   "title": "Deal Desk Analyst II",
+   "excerpt": "Deal Desk Analyst II",
+   "posted": "2026-11-16",
+   "posting_id": "lever:entrata:722a854d-d4a8-48c3-8a7f-c40b5d7ed503",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "seea571fbd1",
+   "title": "Regional Vice President of Sales, West Region (IC-Enterprise)",
+   "excerpt": "Regional Vice President of Sales, West Region (IC-Enterprise)",
+   "posted": "2026-05-18",
+   "posting_id": "lever:entrata:8f6b75c0-5157-4db4-b600-6fa18303e16d",
+   "family": "leadership"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s01c813c3ad",
+   "title": "Regional Vice President of Sales, East Region (IC-Enterprise)",
+   "excerpt": "Regional Vice President of Sales, East Region (IC-Enterprise)",
+   "posted": "2026-04-01",
+   "posting_id": "lever:entrata:dd699465-497c-49a2-8720-000db1d1feb0",
+   "family": "leadership"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s934a5cf394",
+   "title": "Outbound BDR",
+   "excerpt": "Outbound BDR",
+   "posted": "2026-11-10",
+   "posting_id": "lever:entrata:a297cf8f-ca51-46ce-bfab-25d169b78948",
+   "family": "pace"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s8f66c14bac",
+   "title": "Regional Vice President Product Sales (AI)",
+   "excerpt": "Regional Vice President Product Sales (AI)",
+   "posted": "2026-10-06",
+   "posting_id": "lever:entrata:f91be6ec-b3b9-4bc4-a9a2-05246f32acb7",
+   "family": "pace"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s7ab38f0759",
+   "title": "Enterprise Inside Sales Executive",
+   "excerpt": "Enterprise Inside Sales Executive",
+   "posted": "2026-07-27",
+   "posting_id": "lever:entrata:b5f583d7-97ad-4526-bf5f-640449cf1c04",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The account had 29 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Two postings were created in the last 30 days [1][4]. The \\\"Deal Desk Analyst II\\\" posting was created on 2026-11-16 [1] and the \\\"Outbound BDR\\\" posting on 2026-11-10 [4].\"}, {\"text\": \"The \\\"Regional Vice President Product Sales (AI)\\\" posting was created on 2026-10-06 [5].\"}], \"priority\": {\"text\": \"The account's likely priority is revenue work, and the cited postings describe deal desk work in \\\"Deal Desk Analyst II\\\" [1] and sales leadership in \\\"Regional Vice President Product Sales (AI)\\\" [5].\"}, \"questions\": [\"Which of these open roles would your team fill first?\", \"How does your team track its pipeline and forecasts today?\", \"Who on the sales side would work most closely with the deal desk?\"], \"unknowns\": [\"Hiring budget and timing for each role\", \"Which systems the sales team uses today\", \"Whether the open roles are new seats or replacements\"], \"first_touch\": {\"subject\": \"Quick question on your open sales roles\", \"body\": \"Hi {first_name},\\n\\nI see \\\"Deal Desk Analyst II\\\" and \\\"Outbound BDR\\\" went up in November. \\\"Regional Vice President Product Sales (AI)\\\" went up in October.\\n\\nWhich of these roles is your team filling first?\\n\\n{sender_name}\", \"cites\": [1, 4, 5]}}",
+   "meta": {
+    "ms": 22438,
+    "input_tokens": 2,
+    "output_tokens": 5101,
+    "cache_write_tokens": 5242,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00361456
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The account had 29 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Two postings were created in the last 30 days [1][4]. The \"Deal Desk Analyst II\" posting was created on 2026-11-16 [1] and the \"Outbound BDR\" posting on 2026-11-10 [4]."
+     },
+     {
+      "text": "The \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [5]."
+     }
+    ],
+    "priority": {
+     "text": "The account's likely priority is revenue work, and the cited postings describe deal desk work in \"Deal Desk Analyst II\" [1] and sales leadership in \"Regional Vice President Product Sales (AI)\" [5]."
+    },
+    "questions": [
+     "Which of these open roles would your team fill first?",
+     "How does your team track its pipeline and forecasts today?",
+     "Who on the sales side would work most closely with the deal desk?"
+    ],
+    "unknowns": [
+     "Hiring budget and timing for each role",
+     "Which systems the sales team uses today",
+     "Whether the open roles are new seats or replacements"
+    ],
+    "first_touch": {
+     "subject": "Quick question on your open sales roles",
+     "body": "Hi {first_name},\n\nI see \"Deal Desk Analyst II\" and \"Outbound BDR\" went up in November. \"Regional Vice President Product Sales (AI)\" went up in October.\n\nWhich of these roles is your team filling first?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The account had 29 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two postings were created in the last 30 days [1][4]. The \"Deal Desk Analyst II\" posting was created on 2026-11-16 [1] and the \"Outbound BDR\" posting on 2026-11-10 [4].",
+      "cites": [
+       1,
+       4,
+       1,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The account's likely priority is revenue work, and the cited postings describe deal desk work in \"Deal Desk Analyst II\" [1] and sales leadership in \"Regional Vice President Product Sales (AI)\" [5].",
+      "cites": [
+       1,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which of these open roles would your team fill first?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does your team track its pipeline and forecasts today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who on the sales side would work most closely with the deal desk?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Hiring budget and timing for each role",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which systems the sales team uses today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the open roles are new seats or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI see \"Deal Desk Analyst II\" and \"Outbound BDR\" went up in November. \"Regional Vice President Product Sales (AI)\" went up in October.\n\nWhich of these roles is your team filling first?\n\n{sender_name}",
+      "cites": [
+       1,
+       4,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The account had 29 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "Two postings were created in the last 30 days [1][4]. The \"Deal Desk Analyst II\" posting was created on 2026-11-16 [1] and the \"Outbound BDR\" posting on 2026-11-10 [4]."
+    },
+    {
+     "text": "The \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [5]."
+    }
+   ],
+   "priority": {
+    "text": "The account's likely priority is revenue work, and the cited postings describe deal desk work in \"Deal Desk Analyst II\" [1] and sales leadership in \"Regional Vice President Product Sales (AI)\" [5]."
+   },
+   "questions": [
+    "Which of these open roles would your team fill first?",
+    "How does your team track its pipeline and forecasts today?",
+    "Who on the sales side would work most closely with the deal desk?"
+   ],
+   "unknowns": [
+    "Hiring budget and timing for each role",
+    "Which systems the sales team uses today",
+    "Whether the open roles are new seats or replacements"
+   ],
+   "first_touch": {
+    "subject": "Quick question on your open sales roles",
+    "body": "Hi {first_name},\n\nI see \"Deal Desk Analyst II\" and \"Outbound BDR\" went up in November. \"Regional Vice President Product Sales (AI)\" went up in October.\n\nWhich of these roles is your team filling first?\n\n{sender_name}",
+    "cites": [
+     1,
+     4,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The account had 29 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Two postings were created in the last 30 days [1][4]. The \"Deal Desk Analyst II\" posting was created on 2026-11-16 [1] and the \"Outbound BDR\" posting on 2026-11-10 [4].",
+     "cites": [
+      1,
+      4,
+      1,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Regional Vice President Product Sales (AI)\" posting was created on 2026-10-06 [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The account's likely priority is revenue work, and the cited postings describe deal desk work in \"Deal Desk Analyst II\" [1] and sales leadership in \"Regional Vice President Product Sales (AI)\" [5].",
+     "cites": [
+      1,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which of these open roles would your team fill first?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does your team track its pipeline and forecasts today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who on the sales side would work most closely with the deal desk?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Hiring budget and timing for each role",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which systems the sales team uses today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the open roles are new seats or replacements",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI see \"Deal Desk Analyst II\" and \"Outbound BDR\" went up in November. \"Regional Vice President Product Sales (AI)\" went up in October.\n\nWhich of these roles is your team filling first?\n\n{sender_name}",
+     "cites": [
+      1,
+      4,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.003615,
+ "ms": 22438
+}

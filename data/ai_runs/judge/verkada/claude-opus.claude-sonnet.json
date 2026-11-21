@@ -1,0 +1,61 @@
+{
+ "account": "Verkada",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "dfe096ae6a3bc0cd",
+ "input_hash": "856d4bf81bd185c2",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:34+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 7390,
+    "input_tokens": 2,
+    "output_tokens": 1026,
+    "cache_write_tokens": 28682,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1250723
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Both titles and their dates (2026-11-10 and 2026-10-28) match sources [1] and [3]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Both quoted quota phrases appear in the full text of postings [4] and [5]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Brazil role is dated 2026-11-20 and the two UK public sector roles 2026-11-19, matching [9][10][11]."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The quoted fragments appear in [4] and [5], and reading them as a priority on new-logo and greenfield acquisition is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The two titles with their November and October timing and the quoted quota and greenfield phrases match postings [1], [3] and [4]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.125072,
+ "ms": 7390
+}

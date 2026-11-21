@@ -1,0 +1,296 @@
+{
+ "account": "Rondo Energy",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "8c484852622f391e",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:07:58+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Rondo Energy had 12 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Alameda, CA. The US held 58% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s5dde86afef",
+   "title": "People Operations & Mobility Specialist",
+   "excerpt": "Support entity setups and p rovider -to-entity transitions as Rondo expands into new countries.",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:rondoenergy:4725911006",
+   "family": "territory"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s5c5f6ce3c9",
+   "title": "Director of Sales and Business Development, Middle East",
+   "excerpt": "You will support the region's flagship industrial and NOC pursuits, and you will take the lead on your own accounts, primarily in the power sector, where Rondo's power-to-power storage and power generation applications open a new market.",
+   "posted": "2026-10-01",
+   "posting_id": "greenhouse:rondoenergy:4718583006",
+   "family": "territory"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The posting \\\"Director of Sales and Business Development, Middle East\\\" was published 50 days before the read date [2].\"}, {\"text\": \"Its text says the applications \\\"open a new market\\\" [2].\"}, {\"text\": \"The posting \\\"People Operations & Mobility Specialist\\\" was published 22 days before the read date [1].\"}], \"priority\": {\"text\": \"The likely priority is the sales work in the \\\"Director of Sales and Business Development, Middle East\\\" posting [2] that asks the director to \\\"take the lead on your own accounts\\\" [2].\"}, \"questions\": [\"How many of the company's accounts will the new sales lead take on?\", \"What tools does the sales team use to track its pipeline today?\", \"Who handles the paperwork as the company moves into more countries?\"], \"unknowns\": [\"Whether the sales role is already filled\", \"How the sales team is sized today\", \"Which other roles are still open\"], \"first_touch\": {\"subject\": \"Quick question on your sales hiring\", \"body\": \"Hi {first_name},\\n\\nI noticed your team posted a \\\"Director of Sales and Business Development, Middle East\\\" role in October. The posting says the director will \\\"take the lead on your own accounts.\\\"\\n\\nYour \\\"People Operations & Mobility Specialist\\\" posting also went up in October, and it mentions that Rondo \\\"expands into new countries.\\\"\\n\\nIs that director role already filled?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 35437,
+    "input_tokens": 2,
+    "output_tokens": 7971,
+    "cache_write_tokens": 5179,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00503696
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The posting \"Director of Sales and Business Development, Middle East\" was published 50 days before the read date [2]."
+     },
+     {
+      "text": "Its text says the applications \"open a new market\" [2]."
+     },
+     {
+      "text": "The posting \"People Operations & Mobility Specialist\" was published 22 days before the read date [1]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the sales work in the \"Director of Sales and Business Development, Middle East\" posting [2] that asks the director to \"take the lead on your own accounts\" [2]."
+    },
+    "questions": [
+     "How many of the company's accounts will the new sales lead take on?",
+     "What tools does the sales team use to track its pipeline today?",
+     "Who handles the paperwork as the company moves into more countries?"
+    ],
+    "unknowns": [
+     "Whether the sales role is already filled",
+     "How the sales team is sized today",
+     "Which other roles are still open"
+    ],
+    "first_touch": {
+     "subject": "Quick question on your sales hiring",
+     "body": "Hi {first_name},\n\nI noticed your team posted a \"Director of Sales and Business Development, Middle East\" role in October. The posting says the director will \"take the lead on your own accounts.\"\n\nYour \"People Operations & Mobility Specialist\" posting also went up in October, and it mentions that Rondo \"expands into new countries.\"\n\nIs that director role already filled?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The posting \"Director of Sales and Business Development, Middle East\" was published 50 days before the read date [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Its text says the applications \"open a new market\" [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The posting \"People Operations & Mobility Specialist\" was published 22 days before the read date [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the sales work in the \"Director of Sales and Business Development, Middle East\" posting [2] that asks the director to \"take the lead on your own accounts\" [2].",
+      "cites": [
+       2,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How many of the company's accounts will the new sales lead take on?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What tools does the sales team use to track its pipeline today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who handles the paperwork as the company moves into more countries?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the sales role is already filled",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "How the sales team is sized today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which other roles are still open",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed your team posted a \"Director of Sales and Business Development, Middle East\" role in October. The posting says the director will \"take the lead on your own accounts.\"\n\nYour \"People Operations & Mobility Specialist\" posting also went up in October, and it mentions that Rondo \"expands into new countries.\"\n\nIs that director role already filled?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "The posting \"Director of Sales and Business Development, Middle East\" was published 50 days before the read date [2]."
+    },
+    {
+     "text": "Its text says the applications \"open a new market\" [2]."
+    },
+    {
+     "text": "The posting \"People Operations & Mobility Specialist\" was published 22 days before the read date [1]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the sales work in the \"Director of Sales and Business Development, Middle East\" posting [2] that asks the director to \"take the lead on your own accounts\" [2]."
+   },
+   "questions": [
+    "How many of the company's accounts will the new sales lead take on?",
+    "What tools does the sales team use to track its pipeline today?",
+    "Who handles the paperwork as the company moves into more countries?"
+   ],
+   "unknowns": [
+    "Whether the sales role is already filled",
+    "How the sales team is sized today",
+    "Which other roles are still open"
+   ],
+   "first_touch": {
+    "subject": "Quick question on your sales hiring",
+    "body": "Hi {first_name},\n\nI noticed your team posted a \"Director of Sales and Business Development, Middle East\" role in October. The posting says the director will \"take the lead on your own accounts.\"\n\nYour \"People Operations & Mobility Specialist\" posting also went up in October, and it mentions that Rondo \"expands into new countries.\"\n\nIs that director role already filled?\n\n{sender_name}",
+    "cites": [
+     1,
+     2
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "The posting \"Director of Sales and Business Development, Middle East\" was published 50 days before the read date [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Its text says the applications \"open a new market\" [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The posting \"People Operations & Mobility Specialist\" was published 22 days before the read date [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the sales work in the \"Director of Sales and Business Development, Middle East\" posting [2] that asks the director to \"take the lead on your own accounts\" [2].",
+     "cites": [
+      2,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How many of the company's accounts will the new sales lead take on?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What tools does the sales team use to track its pipeline today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who handles the paperwork as the company moves into more countries?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the sales role is already filled",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "How the sales team is sized today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which other roles are still open",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed your team posted a \"Director of Sales and Business Development, Middle East\" role in October. The posting says the director will \"take the lead on your own accounts.\"\n\nYour \"People Operations & Mobility Specialist\" posting also went up in October, and it mentions that Rondo \"expands into new countries.\"\n\nIs that director role already filled?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.005037,
+ "ms": 35437
+}

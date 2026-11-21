@@ -1,0 +1,220 @@
+{
+ "stages": {
+  "snapshot": {
+   "at": "2026-11-20T19:53:40-08:00",
+   "files": {
+    "data/snapshot/boards.csv": "918105a49be36299",
+    "data/snapshot/postings.jsonl": "51b042e18dd8187b",
+    "data/snapshot/signals.jsonl": "df8e9fb81b97af05",
+    "data/snapshot/stats.json": "464ca339c74982db",
+    "config/signals.json": "d5be18b9a874f23b",
+    "config/weights.json": "c6c51f75aebee2bd",
+    "config/fit.json": "a19c225da7d6b8a9",
+    "config/routing.json": "7da1e1cd9926ad1a",
+    "config/cities.csv": "692978b721093dd4",
+    "config/city_overrides.csv": "c421fdd473cecdba",
+    "config/tools.txt": "13304447f6ef836b",
+    "engine/signals.py": "a8b377102a619091",
+    "engine/score.py": "03ea6e8e0967ff59",
+    "engine/route.py": "b3d5b69f1453b888",
+    "site/scoring.js": "c87d45f8d6847e44",
+    "site/route.js": "bab9ebf7fb27e02e"
+   }
+  },
+  "prompt": {
+   "at": "2026-11-11T10:20:46-08:00",
+   "files": {
+    "prompts/brief.md": "512983c0f5880795",
+    "agents/inputs.py": "13943cdd8d7a28b2",
+    "agents/validate.py": "dd9269335848c880",
+    "engine/claims.py": "84a3f78546098a66",
+    "site/claims.js": "f031a4b7963c58a0",
+    "evals/score.py": "757e44303a43b21e"
+   }
+  },
+  "judge": {
+   "at": "2026-11-20T19:55:42-08:00",
+   "files": {
+    "prompts/judge.md": "aa532d4fc916d55e",
+    "agents/judge.py": "7424a242ddc2c0bc"
+   }
+  },
+  "forward": {
+   "at": "2026-11-11T10:56:13-08:00",
+   "files": {
+    "evals/forward_test.json": "e687d43fccfc860e",
+    "evals/forward.py": "6c6a54587ec2a697"
+   }
+  }
+ },
+ "history": [
+  {
+   "at": "2026-11-09T21:31:44-08:00",
+   "files": {
+    "data/snapshot/boards.csv": "785fb7c9ddc0491b",
+    "data/snapshot/postings.jsonl": "c1e50b155cdfca82",
+    "data/snapshot/signals.jsonl": "7c1349143f1f6ad2",
+    "data/snapshot/stats.json": "8dff493713f49044",
+    "config/signals.json": "95b0540fa7735c73",
+    "config/weights.json": "c6c51f75aebee2bd",
+    "config/fit.json": "a19c225da7d6b8a9",
+    "config/routing.json": "7da1e1cd9926ad1a",
+    "config/cities.csv": "e80efea7f863479f",
+    "config/city_overrides.csv": "c421fdd473cecdba",
+    "config/tools.txt": "13304447f6ef836b",
+    "engine/signals.py": "372ffe313075fa82",
+    "engine/score.py": "03ea6e8e0967ff59",
+    "engine/route.py": "b3d5b69f1453b888",
+    "site/scoring.js": "c87d45f8d6847e44",
+    "site/route.js": "bab9ebf7fb27e02e"
+   },
+   "stage": "snapshot",
+   "replaced_at": "2026-11-10T08:53:55-08:00"
+  },
+  {
+   "at": "2026-11-10T09:55:31-08:00",
+   "files": {
+    "prompts/judge.md": "750dc66a967624c9",
+    "agents/judge.py": "86f63e678457db00"
+   },
+   "stage": "judge",
+   "replaced_at": "2026-11-10T10:09:29-08:00"
+  },
+  {
+   "at": "2026-11-10T10:09:29-08:00",
+   "files": {
+    "prompts/judge.md": "5ab6e5f90487b2b3",
+    "agents/judge.py": "86f63e678457db00"
+   },
+   "stage": "judge",
+   "replaced_at": "2026-11-10T13:45:59-08:00"
+  },
+  {
+   "at": "2026-11-10T09:06:41-08:00",
+   "files": {
+    "prompts/brief.md": "32fa20c8b85f91c4",
+    "agents/inputs.py": "13943cdd8d7a28b2",
+    "agents/validate.py": "dd9269335848c880",
+    "engine/claims.py": "84a3f78546098a66",
+    "site/claims.js": "f031a4b7963c58a0",
+    "evals/score.py": "7e06c90609aeb4a0"
+   },
+   "stage": "prompt",
+   "replaced_at": "2026-11-10T14:11:41-08:00"
+  },
+  {
+   "at": "2026-11-10T08:53:55-08:00",
+   "files": {
+    "data/snapshot/boards.csv": "785fb7c9ddc0491b",
+    "data/snapshot/postings.jsonl": "6e6aac7c732c9fd5",
+    "data/snapshot/signals.jsonl": "ded5d334f6f30928",
+    "data/snapshot/stats.json": "03e4f44c6501d85b",
+    "config/signals.json": "d5be18b9a874f23b",
+    "config/weights.json": "c6c51f75aebee2bd",
+    "config/fit.json": "a19c225da7d6b8a9",
+    "config/routing.json": "7da1e1cd9926ad1a",
+    "config/cities.csv": "e80efea7f863479f",
+    "config/city_overrides.csv": "c421fdd473cecdba",
+    "config/tools.txt": "13304447f6ef836b",
+    "engine/signals.py": "372ffe313075fa82",
+    "engine/score.py": "03ea6e8e0967ff59",
+    "engine/route.py": "b3d5b69f1453b888",
+    "site/scoring.js": "c87d45f8d6847e44",
+    "site/route.js": "bab9ebf7fb27e02e"
+   },
+   "stage": "snapshot",
+   "replaced_at": "2026-11-11T10:20:46-08:00"
+  },
+  {
+   "at": "2026-11-10T14:11:41-08:00",
+   "files": {
+    "prompts/brief.md": "512983c0f5880795",
+    "agents/inputs.py": "13943cdd8d7a28b2",
+    "agents/validate.py": "dd9269335848c880",
+    "engine/claims.py": "84a3f78546098a66",
+    "site/claims.js": "f031a4b7963c58a0",
+    "evals/score.py": "7e06c90609aeb4a0"
+   },
+   "stage": "prompt",
+   "replaced_at": "2026-11-11T10:20:46-08:00"
+  },
+  {
+   "at": "2026-11-11T10:20:46-08:00",
+   "files": {
+    "data/snapshot/boards.csv": "348fc6d429f255d6",
+    "data/snapshot/postings.jsonl": "e23127d197d445ba",
+    "data/snapshot/signals.jsonl": "b46ef4f66c9ec9d6",
+    "data/snapshot/stats.json": "b6002bac23ab6e24",
+    "config/signals.json": "d5be18b9a874f23b",
+    "config/weights.json": "c6c51f75aebee2bd",
+    "config/fit.json": "a19c225da7d6b8a9",
+    "config/routing.json": "7da1e1cd9926ad1a",
+    "config/cities.csv": "a104150dcbd42236",
+    "config/city_overrides.csv": "c421fdd473cecdba",
+    "config/tools.txt": "13304447f6ef836b",
+    "engine/signals.py": "a8b377102a619091",
+    "engine/score.py": "03ea6e8e0967ff59",
+    "engine/route.py": "b3d5b69f1453b888",
+    "site/scoring.js": "c87d45f8d6847e44",
+    "site/route.js": "bab9ebf7fb27e02e"
+   },
+   "stage": "snapshot",
+   "replaced_at": "2026-11-11T11:08:39-08:00"
+  },
+  {
+   "at": "2026-11-11T11:08:39-08:00",
+   "files": {
+    "data/snapshot/boards.csv": "7fb172ae619a7cc1",
+    "data/snapshot/postings.jsonl": "9c5e51f03cb900f1",
+    "data/snapshot/signals.jsonl": "e7724d903da618db",
+    "data/snapshot/stats.json": "fa3f11eaa2d353a8",
+    "config/signals.json": "d5be18b9a874f23b",
+    "config/weights.json": "c6c51f75aebee2bd",
+    "config/fit.json": "a19c225da7d6b8a9",
+    "config/routing.json": "7da1e1cd9926ad1a",
+    "config/cities.csv": "9a3f6dd0c119dd8e",
+    "config/city_overrides.csv": "c421fdd473cecdba",
+    "config/tools.txt": "13304447f6ef836b",
+    "engine/signals.py": "a8b377102a619091",
+    "engine/score.py": "03ea6e8e0967ff59",
+    "engine/route.py": "b3d5b69f1453b888",
+    "site/scoring.js": "c87d45f8d6847e44",
+    "site/route.js": "bab9ebf7fb27e02e"
+   },
+   "stage": "snapshot",
+   "replaced_at": "2026-11-20T19:51:38-08:00"
+  },
+  {
+   "at": "2026-11-20T19:51:38-08:00",
+   "files": {
+    "data/snapshot/boards.csv": "be28b18a622d21e7",
+    "data/snapshot/postings.jsonl": "c22883d1ad89b563",
+    "data/snapshot/signals.jsonl": "8bfa0d87de5f6b64",
+    "data/snapshot/stats.json": "54094615bbaaff62",
+    "config/signals.json": "d5be18b9a874f23b",
+    "config/weights.json": "c6c51f75aebee2bd",
+    "config/fit.json": "a19c225da7d6b8a9",
+    "config/routing.json": "7da1e1cd9926ad1a",
+    "config/cities.csv": "35b586e5f7510ff8",
+    "config/city_overrides.csv": "c421fdd473cecdba",
+    "config/tools.txt": "13304447f6ef836b",
+    "engine/signals.py": "a8b377102a619091",
+    "engine/score.py": "03ea6e8e0967ff59",
+    "engine/route.py": "b3d5b69f1453b888",
+    "site/scoring.js": "c87d45f8d6847e44",
+    "site/route.js": "bab9ebf7fb27e02e"
+   },
+   "stage": "snapshot",
+   "replaced_at": "2026-11-20T19:53:40-08:00"
+  },
+  {
+   "at": "2026-11-10T13:45:59-08:00",
+   "files": {
+    "prompts/judge.md": "aa532d4fc916d55e",
+    "agents/judge.py": "86f63e678457db00"
+   },
+   "stage": "judge",
+   "replaced_at": "2026-11-20T19:55:42-08:00"
+  }
+ ]
+}

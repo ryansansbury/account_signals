@@ -1,0 +1,342 @@
+{
+ "account": "Divergent Technologies",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "aae922f0ef3a21e9",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:42:37+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Torrance, CA. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s1ba90a5c9a",
+   "title": "Senior Loads and Dynamics Engineer",
+   "excerpt": "Senior Loads and Dynamics Engineer",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:divergent:5481180008",
+   "family": "crm"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s0a9eceefe1",
+   "title": "Staff Business Intelligence Analyst (Finance)",
+   "excerpt": "Staff Business Intelligence Analyst (Finance)",
+   "posted": "2026-08-07",
+   "posting_id": "greenhouse:divergent:5382633008",
+   "family": "analytics"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s3bdbd4dedc",
+   "title": "Program Management Operations Specialist",
+   "excerpt": "Experience with work on the Jira platform (managing user access, maintaining workflows, developing dashboards and reports, troubleshooting technical issues, and ensuring Jira is aligned with organizational processes and operational needs).",
+   "posted": "2026-11-03",
+   "posting_id": "greenhouse:divergent:5468853008",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2a1213415a",
+   "title": "Operations Analyst",
+   "excerpt": "Microsoft Fabric or equivalent lakehouse platforms (Databricks, Snowflake): navigation and data extraction .",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:divergent:5459805008",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s638418f28c",
+   "title": "Staff Business Intelligence Analyst (Finance)",
+   "excerpt": "Knowledge of cloud data platforms (Azure, Snowflake, Fabric, etc.) .",
+   "posted": "2026-08-07",
+   "posting_id": "greenhouse:divergent:5382633008",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "scbb0909adc",
+   "title": "Commercial Bid and Quote Manager",
+   "excerpt": "Commercial Bid and Quote Manager",
+   "posted": "2026-11-03",
+   "posting_id": "greenhouse:divergent:5468946008",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Divergent Technologies had 149 open roles on its public job board on 2026-11-20. [0]\"}, {\"text\": \"The \\\"Commercial Bid and Quote Manager\\\" posting went up on 2026-11-03. [6]\"}, {\"text\": \"The \\\"Program Management Operations Specialist\\\" posting from 2026-11-03 asks for Jira experience, and the \\\"Operations Analyst\\\" posting from 2026-10-22 asks for \\\"Microsoft Fabric or equivalent lakehouse platforms\\\". [3][4]\"}], \"priority\": {\"text\": \"The likely priority is commercial bid and quote work, and the only sign is the title \\\"Commercial Bid and Quote Manager\\\". [6]\"}, \"questions\": [\"How are commercial bids and quotes created and tracked today?\", \"Which systems does the team use to report on bids, quotes, and pipeline?\", \"Who would own the numbers that come out of the bid and quote process?\"], \"unknowns\": [\"Which CRM the company uses\", \"Size of the sales team\", \"What the bid and quote role is responsible for\", \"Who owns revenue reporting\"], \"first_touch\": {\"subject\": \"A question about your bid and quote role\", \"body\": \"Hi {first_name},\\n\\nI noticed the \\\"Commercial Bid and Quote Manager\\\" posting on the Divergent Technologies job board from November. We work with revenue teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the right person to talk with about how bids and quotes are handled at your company?\\n\\n{sender_name}\", \"cites\": [6]}}",
+   "meta": {
+    "ms": 15310,
+    "input_tokens": 2,
+    "output_tokens": 2155,
+    "cache_write_tokens": 5404,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.043324600000000005
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20. [0]"
+     },
+     {
+      "text": "The \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03. [6]"
+     },
+     {
+      "text": "The \"Program Management Operations Specialist\" posting from 2026-11-03 asks for Jira experience, and the \"Operations Analyst\" posting from 2026-10-22 asks for \"Microsoft Fabric or equivalent lakehouse platforms\". [3][4]"
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is commercial bid and quote work, and the only sign is the title \"Commercial Bid and Quote Manager\". [6]"
+    },
+    "questions": [
+     "How are commercial bids and quotes created and tracked today?",
+     "Which systems does the team use to report on bids, quotes, and pipeline?",
+     "Who would own the numbers that come out of the bid and quote process?"
+    ],
+    "unknowns": [
+     "Which CRM the company uses",
+     "Size of the sales team",
+     "What the bid and quote role is responsible for",
+     "Who owns revenue reporting"
+    ],
+    "first_touch": {
+     "subject": "A question about your bid and quote role",
+     "body": "Hi {first_name},\n\nI noticed the \"Commercial Bid and Quote Manager\" posting on the Divergent Technologies job board from November. We work with revenue teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the right person to talk with about how bids and quotes are handled at your company?\n\n{sender_name}",
+     "cites": [
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20. [0]",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03. [6]",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Program Management Operations Specialist\" posting from 2026-11-03 asks for Jira experience, and the \"Operations Analyst\" posting from 2026-10-22 asks for \"Microsoft Fabric or equivalent lakehouse platforms\". [3][4]",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is commercial bid and quote work, and the only sign is the title \"Commercial Bid and Quote Manager\". [6]",
+      "cites": [
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are commercial bids and quotes created and tracked today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which systems does the team use to report on bids, quotes, and pipeline?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who would own the numbers that come out of the bid and quote process?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which CRM the company uses",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the sales team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "What the bid and quote role is responsible for",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns revenue reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed the \"Commercial Bid and Quote Manager\" posting on the Divergent Technologies job board from November. We work with revenue teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the right person to talk with about how bids and quotes are handled at your company?\n\n{sender_name}",
+      "cites": [
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20. [0]"
+    },
+    {
+     "text": "The \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03. [6]"
+    },
+    {
+     "text": "The \"Program Management Operations Specialist\" posting from 2026-11-03 asks for Jira experience, and the \"Operations Analyst\" posting from 2026-10-22 asks for \"Microsoft Fabric or equivalent lakehouse platforms\". [3][4]"
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is commercial bid and quote work, and the only sign is the title \"Commercial Bid and Quote Manager\". [6]"
+   },
+   "questions": [
+    "How are commercial bids and quotes created and tracked today?",
+    "Which systems does the team use to report on bids, quotes, and pipeline?",
+    "Who would own the numbers that come out of the bid and quote process?"
+   ],
+   "unknowns": [
+    "Which CRM the company uses",
+    "Size of the sales team",
+    "What the bid and quote role is responsible for",
+    "Who owns revenue reporting"
+   ],
+   "first_touch": {
+    "subject": "A question about your bid and quote role",
+    "body": "Hi {first_name},\n\nI noticed the \"Commercial Bid and Quote Manager\" posting on the Divergent Technologies job board from November. We work with revenue teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the right person to talk with about how bids and quotes are handled at your company?\n\n{sender_name}",
+    "cites": [
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20. [0]",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Commercial Bid and Quote Manager\" posting went up on 2026-11-03. [6]",
+     "cites": [
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Program Management Operations Specialist\" posting from 2026-11-03 asks for Jira experience, and the \"Operations Analyst\" posting from 2026-10-22 asks for \"Microsoft Fabric or equivalent lakehouse platforms\". [3][4]",
+     "cites": [
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is commercial bid and quote work, and the only sign is the title \"Commercial Bid and Quote Manager\". [6]",
+     "cites": [
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are commercial bids and quotes created and tracked today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which systems does the team use to report on bids, quotes, and pipeline?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who would own the numbers that come out of the bid and quote process?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which CRM the company uses",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the sales team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "What the bid and quote role is responsible for",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns revenue reporting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed the \"Commercial Bid and Quote Manager\" posting on the Divergent Technologies job board from November. We work with revenue teams on CRM cleanup, pipeline reporting, and forecasting. Who would be the right person to talk with about how bids and quotes are handled at your company?\n\n{sender_name}",
+     "cites": [
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.043325,
+ "ms": 15310
+}

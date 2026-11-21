@@ -1,0 +1,147 @@
+# Each account's own web domain from its postings (engine/domains.py). Counts of postings only.
+company,domain,confidence,name_match,own_host,links,mentions
+AG1,drinkag1.com,high,yes,0,9,0
+Algolia,algolia.com,high,yes,0,0,28
+Alvys,alvys.com,high,yes,0,6,0
+Amperon,,unmatched,no,0,0,0
+Antora Energy,,unmatched,no,0,0,0
+Apptronik,,unmatched,no,0,0,0
+Arrive Logistics,arrivelogistics.com,high,yes,0,0,3
+Astranis,,unmatched,no,0,0,0
+Augury,augury.com,high,yes,12,0,0
+BARK,,unmatched,no,0,0,0
+Bandwidth,bandwidth.com,high,yes,0,21,0
+Banza,eatbanza.com,high,yes,2,0,2
+Bazaarvoice,bazaarvoice.com,high,yes,0,9,0
+Bedrock Energy,bedrockenergy.com,high,yes,0,2,0
+Bombas,bombas.com,high,yes,0,0,7
+Brex,brex.com,high,yes,249,249,0
+Bright Machines,,unmatched,no,0,0,0
+Carta,carta.com,high,yes,0,80,0
+Clever,clever.com,high,yes,9,9,0
+Clover Health,,unmatched,no,0,0,0
+Cockroach Labs,cockroachlabs.com,high,yes,12,1,11
+Cohere Health,coherehealth.com,high,yes,0,64,0
+Collective Health,collectivehealth.com,high,yes,4,4,0
+Commonwealth Fusion Systems,,unmatched,no,0,0,0
+Dataiku,dataiku.com,high,yes,0,13,0
+DigitalOcean,digitalocean.com,high,yes,132,8,1
+Divergent Technologies,divergent3d.com,high,yes,0,3,0
+Dropbox,dropbox.com,high,yes,47,0,0
+Elation Health,elationhealth.com,high,yes,17,0,0
+Entrata,,unmatched,no,0,0,0
+Everlaw,everlaw.com,high,yes,0,37,0
+Everlywell,everlywell.com,high,yes,0,14,0
+Expel,expel.com,high,yes,4,0,0
+Fictiv,,unmatched,no,0,0,0
+Figma,figma.com,high,yes,0,147,0
+Filevine,filevine.com,high,yes,0,117,0
+Flatiron Health,flatiron.com,high,yes,23,17,0
+Formic,formic.co,high,yes,0,71,0
+FourKites,fourkites.com,high,yes,0,8,2
+Freedom Solar,,unmatched,no,0,0,0
+Glossier,glossier.com,high,yes,0,18,0
+GoodLeap,goodleap.com,high,yes,0,23,0
+Gopuff,,unmatched,no,0,0,0
+Grafana Labs,grafana.com,high,yes,0,140,0
+Gridware,gridware.io,high,yes,0,19,0
+Grove Collaborative,grove.com,high,yes,0,5,0
+Harry's,harrys.com,high,yes,0,13,0
+Headspace,headspace.com,high,yes,0,4,0
+HealthJoy,,unmatched,no,0,0,0
+Hermeus,,unmatched,no,0,0,0
+Hungryroot,,unmatched,no,0,0,0
+Huntress,huntresslabs.com,high,yes,0,0,47
+Included Health,includedhealth.com,high,yes,0,41,0
+Infinitum,goinfinitum.com,high,yes,0,2,4
+Jamf,jamf.com,high,yes,29,1,28
+Komodo Health,komodohealth.com,high,yes,0,20,0
+Lattice,lattice.com,high,yes,4,4,0
+LeanTaaS,leantaas.com,high,yes,0,0,2
+Lightmatter,,unmatched,no,0,0,0
+Liquid Death,liquiddeath.com,high,yes,0,2,0
+Loadsmart,loadsmart.com,medium,yes,0,0,1
+Lucid Software,,unmatched,no,0,0,0
+Lunar Energy,,unmatched,no,0,0,0
+Lyra Health,lyrahealth.com,high,yes,0,431,0
+Mainspring Energy,mainspringenergy.com,high,yes,0,80,0
+Manscaped,manscapedjobs.com,high,yes,0,0,4
+Maven Clinic,mavenclinic.com,high,yes,0,0,34
+Misfits Market,misfitsmarket.com,high,yes,0,53,0
+MongoDB,mongodb.com,high,yes,417,414,0
+Motive,gomotive.com,high,yes,0,188,0
+Nanit,nanit.com,high,yes,6,0,0
+Navan,navan.com,high,yes,237,237,0
+NetDocuments,netdocuments.com,high,yes,0,0,18
+Netradyne,netradyne.com,high,yes,39,6,33
+Netskope,netskope.com,high,yes,125,125,0
+New Relic,newrelic.com,high,yes,0,42,0
+Newsela,,unmatched,no,0,0,0
+Nexamp,nexamp.com,high,yes,41,0,1
+Nomi Health,,unmatched,no,0,0,0
+Nuro,nuro.ai,high,yes,105,0,0
+Olipop,drinkolipop.com,high,yes,0,0,10
+Olo,olo.com,high,yes,0,15,0
+Omada Health,omadahealth.com,high,yes,0,23,0
+Once Upon a Farm,,unmatched,no,0,0,0
+OneTrust,onetrust.com,high,yes,0,84,0
+OpenSpace,openspace.ai,high,yes,14,2,0
+Optimal Dynamics,optimaldynamics.com,high,yes,0,0,2
+Origis Energy,origisenergy.com,high,yes,0,13,0
+Oscar Health,oscarhealth.com,high,yes,180,180,0
+Outrider,outrider.ai,high,yes,0,8,1
+PagerDuty,pagerduty.com,high,yes,0,48,0
+Palmetto,,unmatched,no,0,0,0
+Paperless Parts,,unmatched,no,0,0,0
+Parachute Home,parachutehome.com,high,yes,0,0,2
+PathAI,pathai.com,high,yes,15,2,0
+Peloton,onepeloton.com,high,yes,42,42,0
+Pickle Robot,,unmatched,no,0,0,0
+Platform Science,platformscience.com,high,yes,0,9,0
+Podium,podium.com,high,yes,0,67,0
+Quantum Metric,quantummetric.com,high,yes,0,8,0
+Qventus,qventus.com,high,yes,16,0,0
+Re:Build Manufacturing,rebuildmanufacturing.com,high,yes,0,93,46
+Redwood Materials,redwoodmaterials.com,high,yes,0,0,107
+Relativity,relativityspace.com,high,yes,0,5,391
+Rent the Runway,renttherunway.com,high,yes,0,24,0
+Rondo Energy,,unmatched,no,0,0,0
+Rubrik,rubrik.com,high,yes,207,207,0
+Ruggable,ruggable.com,high,yes,0,10,0
+Saatva,,unmatched,no,0,0,0
+Sana Benefits,,unmatched,no,0,0,0
+Secureframe,secureframe.com,high,yes,0,14,0
+ShipMonk,,unmatched,no,0,0,0
+Sila Nanotechnologies,,unmatched,no,0,0,0
+Silicon Ranch,,unmatched,no,0,0,0
+Smartling,,unmatched,no,0,0,0
+Solar Landscape,solarlandscape.com,high,yes,0,0,17
+Sprout Social,sproutsocial.com,high,yes,20,20,0
+Squarespace,squarespace.com,high,yes,20,19,1
+Starburst,starburst.ai,high,yes,0,36,0
+StockX,stockx.com,high,yes,0,0,29
+Strive Health,strivehealth.com,high,yes,0,36,0
+Suki,suki.ai,high,yes,10,2,0
+Sumo Logic,sumologic.com,high,yes,0,22,1
+Supergoop,,unmatched,no,0,0,0
+Sweetgreen,sweetgreen.com,high,yes,72,0,0
+Talkspace,talkspace.com,high,yes,19,2,0
+Textio,textio.com,high,yes,2,1,0
+The Farmer's Dog,thefarmersdog.com,high,yes,0,0,19
+ThirdLove,,unmatched,no,0,0,0
+Truckstop,truckstop.com,high,yes,11,11,0
+Tulip Interfaces,tulip.co,high,yes,67,65,0
+Turvo,turvo.com,high,yes,0,7,0
+Twilio,twilio.org,high,yes,0,109,0
+Twingate,twingate.com,high,yes,0,3,0
+Upstart,upstart.com,high,yes,77,77,0
+Ursa Major,ursamajor.com,high,yes,135,0,0
+Verkada,verkada.com,high,yes,0,351,0
+Vital Farms,vitalfarms.com,high,yes,9,0,9
+Wasabi Technologies,,unmatched,no,0,0,0
+Watershed,,unmatched,no,0,0,0
+Weave,,unmatched,no,0,0,0
+Xometry,,unmatched,no,0,0,0
+ZenBusiness,zenbusiness.com,high,yes,0,2,0
+Zocdoc,zocdoc.com,high,yes,0,66,0
+project44,project44.com,high,yes,0,0,14

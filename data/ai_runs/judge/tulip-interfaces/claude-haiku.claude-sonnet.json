@@ -1,0 +1,61 @@
+{
+ "account": "Tulip Interfaces",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "54401f17e5517dd7",
+ "input_hash": "02d125c04a2c4c87",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:07:14+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 3755,
+    "input_tokens": 2,
+    "output_tokens": 430,
+    "cache_write_tokens": 18427,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.07809229999999999
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Both the Senior Revenue Operations Manager, Sales and GTM Systems Engineer postings are dated August 2026 (08-26 and 08-25) and carry the revenue operations signal in [1] and [2]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The title and 2026-08-26 date match [1], and the full text contains the phrase \"territory optimization, pipeline forecasting, and automated prospecting intelligence\" as quoted in [3]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The Post Sales posting is dated 2026-03-25 and its text includes \"Streamline renewals; build automated forecasting for renewals and contraction risks.\""
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The Sales RevOps posting names pipeline forecasting, territory optimization, and redesigning Salesforce data structures, so a sales revenue priority is a fair reading."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The August Sales posting with those quoted phrases and the March Post Sales posting with the renewals forecasting quote both match the cited sources [1][3][4]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.078092,
+ "ms": 3755
+}

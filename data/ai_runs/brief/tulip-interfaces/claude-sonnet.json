@@ -1,0 +1,392 @@
+{
+ "account": "Tulip Interfaces",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "54401f17e5517dd7",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:43:28+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Tulip Interfaces had 67 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Somerville, MA. The US held 78% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sd1d6c5bb5b",
+   "title": "Senior Revenue Operations Manager, Sales",
+   "excerpt": "Senior Revenue Operations Manager, Sales",
+   "posted": "2026-08-26",
+   "posting_id": "greenhouse:tulip:7978049003",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s5c8cac6ef7",
+   "title": "GTM Systems Engineer",
+   "excerpt": "GTM Systems Engineer",
+   "posted": "2026-08-25",
+   "posting_id": "greenhouse:tulip:7974885003",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sb43e4c6820",
+   "title": "Senior Revenue Operations Manager, Sales",
+   "excerpt": "You are deeply curious about the frontier of Revenue Operations, constantly evaluating how AI can be leveraged for territory optimization, pipeline forecasting, and automated prospecting intelligence.",
+   "posted": "2026-08-26",
+   "posting_id": "greenhouse:tulip:7978049003",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sfb96fba707",
+   "title": "Senior Revenue Operations Manager, Post Sales",
+   "excerpt": "Streamline renewals; build automated forecasting for renewals and contraction risks.",
+   "posted": "2026-03-25",
+   "posting_id": "greenhouse:tulip:7679282003",
+   "family": "forecasting"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s204a0bc373",
+   "title": "GTM Systems Engineer",
+   "excerpt": "Deep familiarity with Clay (or a comparable enrichment/automation platform) and the broader GTM tech stack: Salesforce, Gong, ZoomInfo, Looker, and similar.",
+   "posted": "2026-08-25",
+   "posting_id": "greenhouse:tulip:7974885003",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s42958f144a",
+   "title": "Senior Revenue Operations Manager, Sales",
+   "excerpt": "Proven track record of redesigning Salesforce data structures, lead routing logic, and attribution models to support high-growth teams.",
+   "posted": "2026-08-26",
+   "posting_id": "greenhouse:tulip:7978049003",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s43da41c50d",
+   "title": "GTM Systems Engineer",
+   "excerpt": "Familiarity with data warehouses or BI tools (Redshift, Sigma) is a plus.",
+   "posted": "2026-08-25",
+   "posting_id": "greenhouse:tulip:7974885003",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s0b6d3eab41",
+   "title": "Senior Product Marketing Manager",
+   "excerpt": "Senior Product Marketing Manager",
+   "posted": "2026-10-30",
+   "posting_id": "greenhouse:tulip:8106595003",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s9b7d6d7e0d",
+   "title": "Senior Enterprise Account Executive, General Manufacturing",
+   "excerpt": "Senior Enterprise Account Executive, General Manufacturing",
+   "posted": "2026-10-28",
+   "posting_id": "greenhouse:tulip:8047088003",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "se8cbf37c28",
+   "title": "Partner Manager, Business Development",
+   "excerpt": "Partner Manager, Business Development",
+   "posted": "2026-10-15",
+   "posting_id": "greenhouse:tulip:8034936003",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Tulip Interfaces published a \\\"Senior Revenue Operations Manager, Sales\\\" posting on 2026-08-26 and a \\\"GTM Systems Engineer\\\" posting on 2026-08-25. [1][2]\"}, {\"text\": \"The \\\"Senior Revenue Operations Manager, Sales\\\" posting mentions \\\"territory optimization, pipeline forecasting\\\" in its description of what the hire should be curious about. [3]\"}, {\"text\": \"A \\\"Senior Revenue Operations Manager, Post Sales\\\" posting from 2026-03-25 includes the phrase \\\"build automated forecasting for renewals and contraction risks\\\". [4]\"}], \"priority\": {\"text\": \"Their likely priority is revenue work on \\\"territory optimization, pipeline forecasting\\\" and \\\"build automated forecasting for renewals and contraction risks\\\". [3][4]\"}, \"questions\": [\"How do your sales and post sales teams build their forecasts today?\", \"What would you want the new revenue operations hire to take on first?\", \"How are territories set and reviewed across your sales team?\"], \"unknowns\": [\"Current forecasting process and owner\", \"Size of the revenue operations team\", \"Whether the roles are new or replacements\", \"Plans for the CRM beyond what the postings say\"], \"first_touch\": {\"subject\": \"Your revenue operations and GTM roles\", \"body\": \"Hi {first_name},\\n\\nI saw that Tulip Interfaces put up a \\\"Senior Revenue Operations Manager, Sales\\\" role and a \\\"GTM Systems Engineer\\\" role in August. The sales role mentions territory and pipeline forecasting work. A \\\"Senior Revenue Operations Manager, Post Sales\\\" role from March mentions renewal forecasting.\\n\\nI work with teams on pipeline reporting, forecasting, and territory planning. Who on your side is leading the forecasting work these roles touch?\\n\\n{sender_name}\", \"cites\": [1, 2, 3, 4]}}",
+   "meta": {
+    "ms": 16228,
+    "input_tokens": 2,
+    "output_tokens": 2415,
+    "cache_write_tokens": 5689,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0470646
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Tulip Interfaces published a \"Senior Revenue Operations Manager, Sales\" posting on 2026-08-26 and a \"GTM Systems Engineer\" posting on 2026-08-25. [1][2]"
+     },
+     {
+      "text": "The \"Senior Revenue Operations Manager, Sales\" posting mentions \"territory optimization, pipeline forecasting\" in its description of what the hire should be curious about. [3]"
+     },
+     {
+      "text": "A \"Senior Revenue Operations Manager, Post Sales\" posting from 2026-03-25 includes the phrase \"build automated forecasting for renewals and contraction risks\". [4]"
+     }
+    ],
+    "priority": {
+     "text": "Their likely priority is revenue work on \"territory optimization, pipeline forecasting\" and \"build automated forecasting for renewals and contraction risks\". [3][4]"
+    },
+    "questions": [
+     "How do your sales and post sales teams build their forecasts today?",
+     "What would you want the new revenue operations hire to take on first?",
+     "How are territories set and reviewed across your sales team?"
+    ],
+    "unknowns": [
+     "Current forecasting process and owner",
+     "Size of the revenue operations team",
+     "Whether the roles are new or replacements",
+     "Plans for the CRM beyond what the postings say"
+    ],
+    "first_touch": {
+     "subject": "Your revenue operations and GTM roles",
+     "body": "Hi {first_name},\n\nI saw that Tulip Interfaces put up a \"Senior Revenue Operations Manager, Sales\" role and a \"GTM Systems Engineer\" role in August. The sales role mentions territory and pipeline forecasting work. A \"Senior Revenue Operations Manager, Post Sales\" role from March mentions renewal forecasting.\n\nI work with teams on pipeline reporting, forecasting, and territory planning. Who on your side is leading the forecasting work these roles touch?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Tulip Interfaces published a \"Senior Revenue Operations Manager, Sales\" posting on 2026-08-26 and a \"GTM Systems Engineer\" posting on 2026-08-25. [1][2]",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Senior Revenue Operations Manager, Sales\" posting mentions \"territory optimization, pipeline forecasting\" in its description of what the hire should be curious about. [3]",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Senior Revenue Operations Manager, Post Sales\" posting from 2026-03-25 includes the phrase \"build automated forecasting for renewals and contraction risks\". [4]",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Their likely priority is revenue work on \"territory optimization, pipeline forecasting\" and \"build automated forecasting for renewals and contraction risks\". [3][4]",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do your sales and post sales teams build their forecasts today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What would you want the new revenue operations hire to take on first?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How are territories set and reviewed across your sales team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current forecasting process and owner",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the revenue operations team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the roles are new or replacements",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Plans for the CRM beyond what the postings say",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Tulip Interfaces put up a \"Senior Revenue Operations Manager, Sales\" role and a \"GTM Systems Engineer\" role in August. The sales role mentions territory and pipeline forecasting work. A \"Senior Revenue Operations Manager, Post Sales\" role from March mentions renewal forecasting.\n\nI work with teams on pipeline reporting, forecasting, and territory planning. Who on your side is leading the forecasting work these roles touch?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Tulip Interfaces published a \"Senior Revenue Operations Manager, Sales\" posting on 2026-08-26 and a \"GTM Systems Engineer\" posting on 2026-08-25. [1][2]"
+    },
+    {
+     "text": "The \"Senior Revenue Operations Manager, Sales\" posting mentions \"territory optimization, pipeline forecasting\" in its description of what the hire should be curious about. [3]"
+    },
+    {
+     "text": "A \"Senior Revenue Operations Manager, Post Sales\" posting from 2026-03-25 includes the phrase \"build automated forecasting for renewals and contraction risks\". [4]"
+    }
+   ],
+   "priority": {
+    "text": "Their likely priority is revenue work on \"territory optimization, pipeline forecasting\" and \"build automated forecasting for renewals and contraction risks\". [3][4]"
+   },
+   "questions": [
+    "How do your sales and post sales teams build their forecasts today?",
+    "What would you want the new revenue operations hire to take on first?",
+    "How are territories set and reviewed across your sales team?"
+   ],
+   "unknowns": [
+    "Current forecasting process and owner",
+    "Size of the revenue operations team",
+    "Whether the roles are new or replacements",
+    "Plans for the CRM beyond what the postings say"
+   ],
+   "first_touch": {
+    "subject": "Your revenue operations and GTM roles",
+    "body": "Hi {first_name},\n\nI saw that Tulip Interfaces put up a \"Senior Revenue Operations Manager, Sales\" role and a \"GTM Systems Engineer\" role in August. The sales role mentions territory and pipeline forecasting work. A \"Senior Revenue Operations Manager, Post Sales\" role from March mentions renewal forecasting.\n\nI work with teams on pipeline reporting, forecasting, and territory planning. Who on your side is leading the forecasting work these roles touch?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Tulip Interfaces published a \"Senior Revenue Operations Manager, Sales\" posting on 2026-08-26 and a \"GTM Systems Engineer\" posting on 2026-08-25. [1][2]",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Senior Revenue Operations Manager, Sales\" posting mentions \"territory optimization, pipeline forecasting\" in its description of what the hire should be curious about. [3]",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Senior Revenue Operations Manager, Post Sales\" posting from 2026-03-25 includes the phrase \"build automated forecasting for renewals and contraction risks\". [4]",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Their likely priority is revenue work on \"territory optimization, pipeline forecasting\" and \"build automated forecasting for renewals and contraction risks\". [3][4]",
+     "cites": [
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do your sales and post sales teams build their forecasts today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What would you want the new revenue operations hire to take on first?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How are territories set and reviewed across your sales team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current forecasting process and owner",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the revenue operations team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the roles are new or replacements",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Plans for the CRM beyond what the postings say",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that Tulip Interfaces put up a \"Senior Revenue Operations Manager, Sales\" role and a \"GTM Systems Engineer\" role in August. The sales role mentions territory and pipeline forecasting work. A \"Senior Revenue Operations Manager, Post Sales\" role from March mentions renewal forecasting.\n\nI work with teams on pipeline reporting, forecasting, and territory planning. Who on your side is leading the forecasting work these roles touch?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.047065,
+ "ms": 16228
+}

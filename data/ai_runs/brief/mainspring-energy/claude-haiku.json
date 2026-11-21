@@ -1,0 +1,447 @@
+{
+ "account": "Mainspring Energy",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "f110611ce97676f5",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:09:02+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Menlo Park, CA. The US held 95% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "se3acf60546",
+   "title": "Fleet Operations & Analytics Engineer",
+   "excerpt": "Fleet Operations & Analytics Engineer",
+   "posted": "2026-10-06",
+   "posting_id": "lever:mainspringenergy:5b7ff74e-c82a-4ec1-b52f-7d7a27edb672",
+   "family": "analytics"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s98d7c22ec4",
+   "title": "Senior Fleet Operations & Analytics Engineer",
+   "excerpt": "Senior Fleet Operations & Analytics Engineer",
+   "posted": "2026-06-17",
+   "posting_id": "lever:mainspringenergy:4ab4270a-2869-42f6-ac65-530f4a90e231",
+   "family": "analytics"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"The board listed 91 \\\"open roles\\\" on 2026-11-20 [0].\"}, {\"text\": \"Two of those roles are \\\"analytics engineering\\\" postings [1][2].\"}, {\"text\": \"The posting \\\"Fleet Operations & Analytics Engineer\\\" was created 45 days before the read date, and the posting \\\"Senior Fleet Operations & Analytics Engineer\\\" was created 156 days before it [1][2].\"}], \"priority\": {\"text\": \"The cited postings describe no revenue work and instead cover \\\"fleet operations\\\" and \\\"analytics engineering\\\" work through the titles \\\"Fleet Operations & Analytics Engineer\\\" and \\\"Senior Fleet Operations & Analytics Engineer\\\" [1][2].\"}, \"questions\": [\"Which team does the work in these roles report into?\", \"Are the \\\"Fleet Operations & Analytics Engineer\\\" and \\\"Senior Fleet Operations & Analytics Engineer\\\" roles on the same team?\", \"What does a typical week look like for someone in the \\\"Senior Fleet Operations & Analytics Engineer\\\" role?\"], \"unknowns\": [\"Whether either posting touches sales or revenue work\", \"Which team owns the fleet analytics work\", \"What the postings say beyond their titles\"], \"first_touch\": {\"subject\": \"Two analytics engineering roles on your board\", \"body\": \"Hi {first_name},\\n\\nYour public job board lists the \\\"Fleet Operations & Analytics Engineer\\\" role. That one was posted in October. The \\\"Senior Fleet Operations & Analytics Engineer\\\" role was posted in June.\\n\\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 40528,
+    "input_tokens": 2,
+    "output_tokens": 9762,
+    "cache_write_tokens": 5083,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00591326
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "The board listed 91 \"open roles\" on 2026-11-20 [0]."
+     },
+     {
+      "text": "Two of those roles are \"analytics engineering\" postings [1][2]."
+     },
+     {
+      "text": "The posting \"Fleet Operations & Analytics Engineer\" was created 45 days before the read date, and the posting \"Senior Fleet Operations & Analytics Engineer\" was created 156 days before it [1][2]."
+     }
+    ],
+    "priority": {
+     "text": "The cited postings describe no revenue work and instead cover \"fleet operations\" and \"analytics engineering\" work through the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2]."
+    },
+    "questions": [
+     "Which team does the work in these roles report into?",
+     "Are the \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" roles on the same team?",
+     "What does a typical week look like for someone in the \"Senior Fleet Operations & Analytics Engineer\" role?"
+    ],
+    "unknowns": [
+     "Whether either posting touches sales or revenue work",
+     "Which team owns the fleet analytics work",
+     "What the postings say beyond their titles"
+    ],
+    "first_touch": {
+     "subject": "Two analytics engineering roles on your board",
+     "body": "Hi {first_name},\n\nYour public job board lists the \"Fleet Operations & Analytics Engineer\" role. That one was posted in October. The \"Senior Fleet Operations & Analytics Engineer\" role was posted in June.\n\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "The board listed 91 \"open roles\" on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two of those roles are \"analytics engineering\" postings [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": [
+       "quote: \"analytics engineering\""
+      ]
+     },
+     {
+      "field": "why_now",
+      "text": "The posting \"Fleet Operations & Analytics Engineer\" was created 45 days before the read date, and the posting \"Senior Fleet Operations & Analytics Engineer\" was created 156 days before it [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": [
+       "number: 156"
+      ]
+     },
+     {
+      "field": "priority",
+      "text": "The cited postings describe no revenue work and instead cover \"fleet operations\" and \"analytics engineering\" work through the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": [
+       "quote: \"analytics engineering\""
+      ]
+     },
+     {
+      "field": "question",
+      "text": "Which team does the work in these roles report into?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Are the \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" roles on the same team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does a typical week look like for someone in the \"Senior Fleet Operations & Analytics Engineer\" role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether either posting touches sales or revenue work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which team owns the fleet analytics work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "What the postings say beyond their titles",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nYour public job board lists the \"Fleet Operations & Analytics Engineer\" role. That one was posted in October. The \"Senior Fleet Operations & Analytics Engineer\" role was posted in June.\n\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Two postings on the board carry the titles \\\"Fleet Operations & Analytics Engineer\\\" and \\\"Senior Fleet Operations & Analytics Engineer\\\" [1][2].\"}, {\"text\": \"The \\\"Fleet Operations & Analytics Engineer\\\" posting was created on 2026-10-06 [1], and the \\\"Senior Fleet Operations & Analytics Engineer\\\" posting was created on 2026-06-17 [2].\"}], \"priority\": {\"text\": \"The cited postings describe no revenue work and instead describe fleet operations and analytics engineering work under the titles \\\"Fleet Operations & Analytics Engineer\\\" and \\\"Senior Fleet Operations & Analytics Engineer\\\" [1][2].\"}, \"questions\": [\"Which team does the work in these roles report into?\", \"Are the \\\"Fleet Operations & Analytics Engineer\\\" and \\\"Senior Fleet Operations & Analytics Engineer\\\" roles on the same team?\", \"What does a typical week look like for someone in the \\\"Senior Fleet Operations & Analytics Engineer\\\" role?\"], \"unknowns\": [\"Whether either posting touches sales or revenue work\", \"Which team owns the fleet analytics work\", \"What the postings say beyond their titles\"], \"first_touch\": {\"subject\": \"Your Fleet Operations & Analytics Engineer roles\", \"body\": \"Hi {first_name},\\n\\nYour public job board lists the \\\"Fleet Operations & Analytics Engineer\\\" role. It went up in October. The \\\"Senior Fleet Operations & Analytics Engineer\\\" role was posted in June.\\n\\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\\n\\n{sender_name}\", \"cites\": [0, 1, 2]}}",
+   "meta": {
+    "ms": 21898,
+    "input_tokens": 2,
+    "output_tokens": 5277,
+    "cache_write_tokens": 5862,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00382656
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Two postings on the board carry the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2]."
+     },
+     {
+      "text": "The \"Fleet Operations & Analytics Engineer\" posting was created on 2026-10-06 [1], and the \"Senior Fleet Operations & Analytics Engineer\" posting was created on 2026-06-17 [2]."
+     }
+    ],
+    "priority": {
+     "text": "The cited postings describe no revenue work and instead describe fleet operations and analytics engineering work under the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2]."
+    },
+    "questions": [
+     "Which team does the work in these roles report into?",
+     "Are the \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" roles on the same team?",
+     "What does a typical week look like for someone in the \"Senior Fleet Operations & Analytics Engineer\" role?"
+    ],
+    "unknowns": [
+     "Whether either posting touches sales or revenue work",
+     "Which team owns the fleet analytics work",
+     "What the postings say beyond their titles"
+    ],
+    "first_touch": {
+     "subject": "Your Fleet Operations & Analytics Engineer roles",
+     "body": "Hi {first_name},\n\nYour public job board lists the \"Fleet Operations & Analytics Engineer\" role. It went up in October. The \"Senior Fleet Operations & Analytics Engineer\" role was posted in June.\n\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\n\n{sender_name}",
+     "cites": [
+      0,
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two postings on the board carry the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Fleet Operations & Analytics Engineer\" posting was created on 2026-10-06 [1], and the \"Senior Fleet Operations & Analytics Engineer\" posting was created on 2026-06-17 [2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The cited postings describe no revenue work and instead describe fleet operations and analytics engineering work under the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team does the work in these roles report into?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Are the \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" roles on the same team?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does a typical week look like for someone in the \"Senior Fleet Operations & Analytics Engineer\" role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether either posting touches sales or revenue work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which team owns the fleet analytics work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "What the postings say beyond their titles",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nYour public job board lists the \"Fleet Operations & Analytics Engineer\" role. It went up in October. The \"Senior Fleet Operations & Analytics Engineer\" role was posted in June.\n\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\n\n{sender_name}",
+      "cites": [
+       0,
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "Two postings on the board carry the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2]."
+    },
+    {
+     "text": "The \"Fleet Operations & Analytics Engineer\" posting was created on 2026-10-06 [1], and the \"Senior Fleet Operations & Analytics Engineer\" posting was created on 2026-06-17 [2]."
+    }
+   ],
+   "priority": {
+    "text": "The cited postings describe no revenue work and instead describe fleet operations and analytics engineering work under the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2]."
+   },
+   "questions": [
+    "Which team does the work in these roles report into?",
+    "Are the \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" roles on the same team?",
+    "What does a typical week look like for someone in the \"Senior Fleet Operations & Analytics Engineer\" role?"
+   ],
+   "unknowns": [
+    "Whether either posting touches sales or revenue work",
+    "Which team owns the fleet analytics work",
+    "What the postings say beyond their titles"
+   ],
+   "first_touch": {
+    "subject": "Your Fleet Operations & Analytics Engineer roles",
+    "body": "Hi {first_name},\n\nYour public job board lists the \"Fleet Operations & Analytics Engineer\" role. It went up in October. The \"Senior Fleet Operations & Analytics Engineer\" role was posted in June.\n\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\n\n{sender_name}",
+    "cites": [
+     0,
+     1,
+     2
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Mainspring Energy had 91 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Two postings on the board carry the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Fleet Operations & Analytics Engineer\" posting was created on 2026-10-06 [1], and the \"Senior Fleet Operations & Analytics Engineer\" posting was created on 2026-06-17 [2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The cited postings describe no revenue work and instead describe fleet operations and analytics engineering work under the titles \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team does the work in these roles report into?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Are the \"Fleet Operations & Analytics Engineer\" and \"Senior Fleet Operations & Analytics Engineer\" roles on the same team?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does a typical week look like for someone in the \"Senior Fleet Operations & Analytics Engineer\" role?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether either posting touches sales or revenue work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which team owns the fleet analytics work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "What the postings say beyond their titles",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nYour public job board lists the \"Fleet Operations & Analytics Engineer\" role. It went up in October. The \"Senior Fleet Operations & Analytics Engineer\" role was posted in June.\n\nI would like to hear how that work is organized on your team. Would you be open to a short call next week?\n\n{sender_name}",
+     "cites": [
+      0,
+      1,
+      2
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.00974,
+ "ms": 62426
+}

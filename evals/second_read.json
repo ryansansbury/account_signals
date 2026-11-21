@@ -1,0 +1,84 @@
+{
+ "judges": [
+  "claude-opus",
+  "claude-sonnet"
+ ],
+ "route": "claude-haiku",
+ "by_model": {
+  "claude-haiku": {
+   "briefs": 23,
+   "judged_by_both": 23,
+   "both_hold": 20,
+   "one_holds": 3,
+   "neither_holds": 0
+  },
+  "claude-opus": {
+   "briefs": 23,
+   "judged_by_both": 23,
+   "both_hold": 13,
+   "one_holds": 7,
+   "neither_holds": 3
+  },
+  "claude-sonnet": {
+   "briefs": 23,
+   "judged_by_both": 23,
+   "both_hold": 18,
+   "one_holds": 4,
+   "neither_holds": 1
+  }
+ },
+ "by_judge": {
+  "claude-opus": {
+   "holds up": 63,
+   "overreaches": 5,
+   "wrong": 1
+  },
+  "claude-sonnet": {
+   "holds up": 53,
+   "overreaches": 11,
+   "wrong": 5
+  }
+ },
+ "agreement": {
+  "briefs": 69,
+  "agree": 55
+ },
+ "planted": {
+  "by_judge": {
+   "claude-opus": {
+    "caught": 9,
+    "of": 9
+   },
+   "claude-sonnet": {
+    "caught": 9,
+    "of": 9
+   }
+  },
+  "by_the_gate": {
+   "caught": 9,
+   "of": 9
+  },
+  "as_written_holds_up": {
+   "claude-opus": {
+    "holds up": 5,
+    "of": 5
+   },
+   "claude-sonnet": {
+    "holds up": 4,
+    "of": 5
+   }
+  }
+ },
+ "gate": {
+  "model": "claude-haiku",
+  "held": 20,
+  "of": 23,
+  "need": 21,
+  "complete": true,
+  "planted_caught": 9,
+  "planted_of": 9,
+  "planted_need": 9,
+  "trusted": true,
+  "passes": false
+ }
+}

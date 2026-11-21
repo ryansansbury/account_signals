@@ -1,0 +1,48 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "dddd-4444",
+      "title": "GTM Systems Analyst",
+      "department": "Revenue",
+      "team": "RevOps",
+      "employmentType": "FullTime",
+      "location": "Austin",
+      "address": {"postalAddress": {"addressLocality": "Austin", "addressRegion": "Texas", "addressCountry": "United States"}},
+      "secondaryLocations": [
+        {"location": "Denver", "address": {"postalAddress": {"addressLocality": "Denver", "addressRegion": "CO", "addressCountry": "USA"}}}
+      ],
+      "isRemote": false,
+      "isListed": true,
+      "publishedAt": "2026-11-06T15:00:00.000+00:00",
+      "jobUrl": "https://jobs.ashbyhq.com/snorvel/dddd-4444",
+      "descriptionPlain": "Snorvel Energy builds solar for commercial roofs.\n- Partner with sales leadership on territory planning\n- Improve forecast accuracy across every region"
+    },
+    {
+      "id": "eeee-5555",
+      "title": "VP of Sales",
+      "department": "Sales",
+      "employmentType": "FullTime",
+      "location": "Remote",
+      "address": {"postalAddress": {"addressCountry": "United States"}},
+      "secondaryLocations": [],
+      "isRemote": true,
+      "isListed": true,
+      "publishedAt": "2026-10-01T15:00:00.000+00:00",
+      "jobUrl": "https://jobs.ashbyhq.com/snorvel/eeee-5555",
+      "descriptionPlain": "Build the sales team from scratch as we expand into the Midwest."
+    },
+    {
+      "id": "ffff-6666",
+      "title": "Unlisted Role",
+      "department": "Sales",
+      "employmentType": "FullTime",
+      "location": "Austin",
+      "isRemote": false,
+      "isListed": false,
+      "publishedAt": "2026-10-01T15:00:00.000+00:00",
+      "jobUrl": "https://jobs.ashbyhq.com/snorvel/ffff-6666",
+      "descriptionPlain": "Not shown."
+    }
+  ]
+}

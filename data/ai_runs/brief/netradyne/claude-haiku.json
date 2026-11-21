@@ -1,0 +1,384 @@
+{
+ "account": "Netradyne",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "0e2d5680f0334a1c",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:55:25+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Netradyne had 39 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was San Diego, CA. The US held 31% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "se909eb6151",
+   "title": "Manager, Deal Desk – Pricing, Deal Strategy & Analytics",
+   "excerpt": "Manager, Deal Desk – Pricing, Deal Strategy & Analytics",
+   "posted": "2026-11-09",
+   "posting_id": "greenhouse:netradyne:4752939005",
+   "family": "salesops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s70e2413762",
+   "title": "Assistant Manager Revenue Operations",
+   "excerpt": "Assistant Manager Revenue Operations",
+   "posted": "2026-10-09",
+   "posting_id": "greenhouse:netradyne:4742329005",
+   "family": "revops"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s8d32e190a7",
+   "title": "Head of Sales - UK & Ireland",
+   "excerpt": "Own forecasting and pipeline management, ensuring accurate visibility of performance, opportunities and risks.",
+   "posted": "2026-09-08",
+   "posting_id": "greenhouse:netradyne:4731685005",
+   "family": "forecasting"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "sc17aac968e",
+   "title": "Head of Sales - UK & Ireland",
+   "excerpt": "Head of Sales - UK & Ireland",
+   "posted": "2026-09-08",
+   "posting_id": "greenhouse:netradyne:4731685005",
+   "family": "leadership"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s025916d6cb",
+   "title": "Inventory & Logistics Operations Manager",
+   "excerpt": "· Working knowledge of inventory and order-management processes in an ERP system, preferably NetSuite, including item and location records, purchase orders, transfer orders, shipment records, receipts, and inventory adjustments.",
+   "posted": "2026-11-11",
+   "posting_id": "greenhouse:netradyne:4752828005",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s03132a6b4e",
+   "title": "Assistant Manager Revenue Operations",
+   "excerpt": "Develop scalable processes for continuously adding new accounts and contacts to Salesforce.",
+   "posted": "2026-10-09",
+   "posting_id": "greenhouse:netradyne:4742329005",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s0e4293f8a2",
+   "title": "Associate Director of Business Process & Operations",
+   "excerpt": "Experience implementing Salesforce CRM and/or NetSuite ERP in operational contexts .",
+   "posted": "2026-11-05",
+   "posting_id": "greenhouse:netradyne:4751487005",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sca20beed1c",
+   "title": "Customer Success Manager",
+   "excerpt": "Customer Success Manager",
+   "posted": "2026-11-12",
+   "posting_id": "greenhouse:netradyne:4749370005",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s2746441780",
+   "title": "Emerging Enterprise Account Executive",
+   "excerpt": "Emerging Enterprise Account Executive",
+   "posted": "2026-11-06",
+   "posting_id": "greenhouse:netradyne:4751745005",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "se74a5b3039",
+   "title": "Strategic Enterprise Sales Development Representative",
+   "excerpt": "Strategic Enterprise Sales Development Representative",
+   "posted": "2026-11-06",
+   "posting_id": "greenhouse:netradyne:4751747005",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Netradyne's public job board listed 39 open roles on 2026-11-20 [0].\"}, {\"text\": \"Six postings went up in the last 30 days [1][5][7][8][9][10].\"}, {\"text\": \"An \\\"Assistant Manager Revenue Operations\\\" posting went up 42 days before the read date [2].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work these postings describe in areas like pricing and deal strategy [1] and in building processes in Salesforce for new accounts and contacts [2][6].\"}, \"questions\": [\"Which team owns the \\\"Deal Desk\\\" work today?\", \"What is planned for adding new accounts and contacts in Salesforce this year?\", \"Does the \\\"Associate Director of Business Process & Operations\\\" role focus on Salesforce CRM or NetSuite ERP?\"], \"unknowns\": [\"Which team owns revenue operations\", \"Current Salesforce and NetSuite setup\", \"Whether these roles are new or backfills\"], \"first_touch\": {\"subject\": \"Quick question on Netradyne's revenue ops hiring\", \"body\": \"Hi {first_name},\\n\\nI saw that Netradyne has been hiring for revenue work lately. An \\\"Assistant Manager Revenue Operations\\\" role went up in October, and it asks for \\\"Develop scalable processes for continuously adding new accounts and contacts to Salesforce.\\\" A \\\"Deal Desk\\\" role also went up in November.\\n\\nWho would be the right person to ask about how that work is set up today?\\n\\n{sender_name}\", \"cites\": [2, 6, 1]}}",
+   "meta": {
+    "ms": 33872,
+    "input_tokens": 2,
+    "output_tokens": 7607,
+    "cache_write_tokens": 5626,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00494436
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Netradyne's public job board listed 39 open roles on 2026-11-20 [0]."
+     },
+     {
+      "text": "Six postings went up in the last 30 days [1][5][7][8][9][10]."
+     },
+     {
+      "text": "An \"Assistant Manager Revenue Operations\" posting went up 42 days before the read date [2]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work these postings describe in areas like pricing and deal strategy [1] and in building processes in Salesforce for new accounts and contacts [2][6]."
+    },
+    "questions": [
+     "Which team owns the \"Deal Desk\" work today?",
+     "What is planned for adding new accounts and contacts in Salesforce this year?",
+     "Does the \"Associate Director of Business Process & Operations\" role focus on Salesforce CRM or NetSuite ERP?"
+    ],
+    "unknowns": [
+     "Which team owns revenue operations",
+     "Current Salesforce and NetSuite setup",
+     "Whether these roles are new or backfills"
+    ],
+    "first_touch": {
+     "subject": "Quick question on Netradyne's revenue ops hiring",
+     "body": "Hi {first_name},\n\nI saw that Netradyne has been hiring for revenue work lately. An \"Assistant Manager Revenue Operations\" role went up in October, and it asks for \"Develop scalable processes for continuously adding new accounts and contacts to Salesforce.\" A \"Deal Desk\" role also went up in November.\n\nWho would be the right person to ask about how that work is set up today?\n\n{sender_name}",
+     "cites": [
+      2,
+      6,
+      1
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Netradyne's public job board listed 39 open roles on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Six postings went up in the last 30 days [1][5][7][8][9][10].",
+      "cites": [
+       1,
+       5,
+       7,
+       8,
+       9,
+       10
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "An \"Assistant Manager Revenue Operations\" posting went up 42 days before the read date [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work these postings describe in areas like pricing and deal strategy [1] and in building processes in Salesforce for new accounts and contacts [2][6].",
+      "cites": [
+       1,
+       2,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns the \"Deal Desk\" work today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What is planned for adding new accounts and contacts in Salesforce this year?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Does the \"Associate Director of Business Process & Operations\" role focus on Salesforce CRM or NetSuite ERP?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which team owns revenue operations",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current Salesforce and NetSuite setup",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether these roles are new or backfills",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Netradyne has been hiring for revenue work lately. An \"Assistant Manager Revenue Operations\" role went up in October, and it asks for \"Develop scalable processes for continuously adding new accounts and contacts to Salesforce.\" A \"Deal Desk\" role also went up in November.\n\nWho would be the right person to ask about how that work is set up today?\n\n{sender_name}",
+      "cites": [
+       2,
+       6,
+       1
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Netradyne's public job board listed 39 open roles on 2026-11-20 [0]."
+    },
+    {
+     "text": "Six postings went up in the last 30 days [1][5][7][8][9][10]."
+    },
+    {
+     "text": "An \"Assistant Manager Revenue Operations\" posting went up 42 days before the read date [2]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the revenue work these postings describe in areas like pricing and deal strategy [1] and in building processes in Salesforce for new accounts and contacts [2][6]."
+   },
+   "questions": [
+    "Which team owns the \"Deal Desk\" work today?",
+    "What is planned for adding new accounts and contacts in Salesforce this year?",
+    "Does the \"Associate Director of Business Process & Operations\" role focus on Salesforce CRM or NetSuite ERP?"
+   ],
+   "unknowns": [
+    "Which team owns revenue operations",
+    "Current Salesforce and NetSuite setup",
+    "Whether these roles are new or backfills"
+   ],
+   "first_touch": {
+    "subject": "Quick question on Netradyne's revenue ops hiring",
+    "body": "Hi {first_name},\n\nI saw that Netradyne has been hiring for revenue work lately. An \"Assistant Manager Revenue Operations\" role went up in October, and it asks for \"Develop scalable processes for continuously adding new accounts and contacts to Salesforce.\" A \"Deal Desk\" role also went up in November.\n\nWho would be the right person to ask about how that work is set up today?\n\n{sender_name}",
+    "cites": [
+     2,
+     6,
+     1
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Netradyne's public job board listed 39 open roles on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Six postings went up in the last 30 days [1][5][7][8][9][10].",
+     "cites": [
+      1,
+      5,
+      7,
+      8,
+      9,
+      10
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "An \"Assistant Manager Revenue Operations\" posting went up 42 days before the read date [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the revenue work these postings describe in areas like pricing and deal strategy [1] and in building processes in Salesforce for new accounts and contacts [2][6].",
+     "cites": [
+      1,
+      2,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team owns the \"Deal Desk\" work today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What is planned for adding new accounts and contacts in Salesforce this year?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Does the \"Associate Director of Business Process & Operations\" role focus on Salesforce CRM or NetSuite ERP?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which team owns revenue operations",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current Salesforce and NetSuite setup",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether these roles are new or backfills",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that Netradyne has been hiring for revenue work lately. An \"Assistant Manager Revenue Operations\" role went up in October, and it asks for \"Develop scalable processes for continuously adding new accounts and contacts to Salesforce.\" A \"Deal Desk\" role also went up in November.\n\nWho would be the right person to ask about how that work is set up today?\n\n{sender_name}",
+     "cites": [
+      2,
+      6,
+      1
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.004944,
+ "ms": 33872
+}

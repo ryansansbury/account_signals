@@ -1,0 +1,61 @@
+{
+ "account": "New Relic",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "60253b62eaa4723c",
+ "input_hash": "9fbbb1761d1d2a88",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:05:38+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 8672,
+    "input_tokens": 2,
+    "output_tokens": 569,
+    "cache_write_tokens": 19172,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.1649246
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Both revenue operations postings are dated 2026-11-16 and 2026-10-22, which fall within 30 days of the 2026-11-20 read date."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "Both titles and publish dates match sources [1] and [3]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Both titles and their dates of 2026-11-13 and 2026-10-30 match sources [7] and [8]."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The three quoted phrases appear in the cited quotes from [2] and [6], and reading them as a likely priority is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The November 16 posting date and the quoted phrases match the cited sources [1], [2] and [6]."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.164925,
+ "ms": 8672
+}

@@ -1,0 +1,31 @@
+{
+  "note": "The three job board providers the fetch may read, and whether their terms allow it. owner/fetch.py refuses a provider that isn't marked allowed, or whose terms were checked more than max_age_days before the run. Filled in from the terms check on 2026-11-09 (reader/NOTES_JOB_BOARD_TERMS_2026-11-09.md, recorded in DATA.md). Every verdict was 'unclear': the documents neither grant nor forbid a third party's read, and none binds a non-customer, so each is allowed with the conditions listed, which the fetcher and the page enforce.",
+  "max_age_days": 45,
+  "providers": {
+    "greenhouse": {
+      "host": "boards-api.greenhouse.io",
+      "allowed": true,
+      "checked": "2026-11-09",
+      "status": "allowed with conditions: the terms are silent on third-party reads",
+      "conditions": ["only /v1/boards/ paths, never /embed/", "link every posting to its absolute_url",
+                     "back off on 429", "date by first_published and label updated_at as an update",
+                     "no implied affiliation"]
+    },
+    "lever": {
+      "host": "api.lever.co",
+      "allowed": true,
+      "checked": "2026-11-09",
+      "status": "allowed with conditions: the terms are silent on third-party reads",
+      "conditions": ["at most one request a second (reported Crawl-delay 1)", "short excerpts linked to hostedUrl",
+                     "no model training on the content", "no implied endorsement"]
+    },
+    "ashby": {
+      "host": "api.ashbyhq.com",
+      "allowed": true,
+      "checked": "2026-11-09",
+      "status": "allowed with conditions: the terms are silent on third-party reads",
+      "conditions": ["drop every posting with isListed false", "treat a 404 as no board, never scrape the hosted page",
+                     "honor api.ashbyhq.com/robots.txt, read at the start of the run", "no implied license to its marks"]
+    }
+  }
+}

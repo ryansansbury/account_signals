@@ -1,0 +1,379 @@
+{
+ "account": "New Relic",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "60253b62eaa4723c",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:35:56+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "New Relic had 41 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Atlanta, GA. The US held 39% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s57e3ec6436",
+   "title": "Revenue Operations Manager",
+   "excerpt": "Revenue Operations Manager",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sc361e861bb",
+   "title": "Revenue Operations Manager",
+   "excerpt": "Obsesses over scalable design, territory strategy, and revenue forecasting.",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "forecasting"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "sc355664943",
+   "title": "Senior Revenue Operations Manager- Order To Cash",
+   "excerpt": "Senior Revenue Operations Manager- Order To Cash",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:newrelic:5430127008",
+   "family": "revops"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2992006c89",
+   "title": "Director, Field Marketing - Americas",
+   "excerpt": "You have rich experience in managing field marketing teams, in B2B enterprise Software as a Service (SaaS) and account based marketing (ABM) and solution led selling, as well as a good understanding of Salesforce CRM and Marketo Marketing Automation platforms.",
+   "posted": "2026-08-03",
+   "posting_id": "greenhouse:newrelic:5368778008",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s458f975649",
+   "title": "Revenue Operations Manager",
+   "excerpt": "You will transition from being the first line of support to the strategic visionary, guiding our field teams, defining our data governance, owning the roadmap for our tech stack (Salesforce, 6sense, LinkedIn Sales Navigator, Salesloft, etc.).",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s49d314bea1",
+   "title": "Revenue Operations Manager",
+   "excerpt": "You will transition from being the first line of support to the strategic visionary, guiding our field teams, defining our data governance, owning the roadmap for our tech stack (Salesforce, 6sense, LinkedIn Sales Navigator, Salesloft, etc.).",
+   "posted": "2026-11-16",
+   "posting_id": "greenhouse:newrelic:5469526008",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "sb76a7a1319",
+   "title": "Account Manager - Renewals (West)",
+   "excerpt": "Account Manager - Renewals (West)",
+   "posted": "2026-11-13",
+   "posting_id": "greenhouse:newrelic:5480591008",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s0609513a74",
+   "title": "Senior Sales Manager (Northern Europe) - Acquisition",
+   "excerpt": "Senior Sales Manager (Northern Europe) - Acquisition",
+   "posted": "2026-10-30",
+   "posting_id": "greenhouse:newrelic:5468037008",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s5712fece06",
+   "title": "Senior Account Executive - Enterprise Sales (Japan)(担当領域：製造・金融業界）",
+   "excerpt": "Senior Account Executive - Enterprise Sales (Japan)(担当領域：製造・金融業界）",
+   "posted": "2026-10-29",
+   "posting_id": "greenhouse:newrelic:5465612008",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"New Relic published a \\\"Revenue Operations Manager\\\" posting on 2026-11-16 [1].\"}, {\"text\": \"That posting mentions \\\"territory strategy\\\" and \\\"revenue forecasting\\\" and a tech stack that includes \\\"Salesforce\\\" and \\\"Salesloft\\\" [2][5].\"}, {\"text\": \"A \\\"Senior Revenue Operations Manager- Order To Cash\\\" posting went up on 2026-10-22 [3].\"}], \"priority\": {\"text\": \"The likely priority is revenue operations work on \\\"territory strategy\\\", \\\"revenue forecasting\\\", and the roadmap for the \\\"tech stack\\\" [2][5].\"}, \"questions\": [\"How is territory planning handled today across the field teams?\", \"What does the forecasting process look like now, and who relies on it?\", \"How do you expect the new revenue operations hire to work with the Salesforce setup?\"], \"unknowns\": [\"Whether the role is new or a backfill\", \"Current state of the CRM data\", \"Budget and timing for outside help\", \"Who owns forecasting today\"], \"first_touch\": {\"subject\": \"Your Revenue Operations Manager opening\", \"body\": \"Hi {first_name},\\n\\nI saw the \\\"Revenue Operations Manager\\\" posting that went up in November. It mentions \\\"territory strategy\\\" and \\\"revenue forecasting\\\" along with owning the roadmap for the tech stack.\\n\\nWe help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team would be the right person to talk with about that work?\\n\\n{sender_name}\", \"cites\": [1, 2, 5]}}",
+   "meta": {
+    "ms": 13117,
+    "input_tokens": 2,
+    "output_tokens": 1822,
+    "cache_write_tokens": 5697,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0411666
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "New Relic published a \"Revenue Operations Manager\" posting on 2026-11-16 [1]."
+     },
+     {
+      "text": "That posting mentions \"territory strategy\" and \"revenue forecasting\" and a tech stack that includes \"Salesforce\" and \"Salesloft\" [2][5]."
+     },
+     {
+      "text": "A \"Senior Revenue Operations Manager- Order To Cash\" posting went up on 2026-10-22 [3]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is revenue operations work on \"territory strategy\", \"revenue forecasting\", and the roadmap for the \"tech stack\" [2][5]."
+    },
+    "questions": [
+     "How is territory planning handled today across the field teams?",
+     "What does the forecasting process look like now, and who relies on it?",
+     "How do you expect the new revenue operations hire to work with the Salesforce setup?"
+    ],
+    "unknowns": [
+     "Whether the role is new or a backfill",
+     "Current state of the CRM data",
+     "Budget and timing for outside help",
+     "Who owns forecasting today"
+    ],
+    "first_touch": {
+     "subject": "Your Revenue Operations Manager opening",
+     "body": "Hi {first_name},\n\nI saw the \"Revenue Operations Manager\" posting that went up in November. It mentions \"territory strategy\" and \"revenue forecasting\" along with owning the roadmap for the tech stack.\n\nWe help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team would be the right person to talk with about that work?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      5
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "New Relic published a \"Revenue Operations Manager\" posting on 2026-11-16 [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "That posting mentions \"territory strategy\" and \"revenue forecasting\" and a tech stack that includes \"Salesforce\" and \"Salesloft\" [2][5].",
+      "cites": [
+       2,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Senior Revenue Operations Manager- Order To Cash\" posting went up on 2026-10-22 [3].",
+      "cites": [
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is revenue operations work on \"territory strategy\", \"revenue forecasting\", and the roadmap for the \"tech stack\" [2][5].",
+      "cites": [
+       2,
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How is territory planning handled today across the field teams?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What does the forecasting process look like now, and who relies on it?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do you expect the new revenue operations hire to work with the Salesforce setup?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the role is new or a backfill",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current state of the CRM data",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for outside help",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Who owns forecasting today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw the \"Revenue Operations Manager\" posting that went up in November. It mentions \"territory strategy\" and \"revenue forecasting\" along with owning the roadmap for the tech stack.\n\nWe help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team would be the right person to talk with about that work?\n\n{sender_name}",
+      "cites": [
+       1,
+       2,
+       5
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "New Relic published a \"Revenue Operations Manager\" posting on 2026-11-16 [1]."
+    },
+    {
+     "text": "That posting mentions \"territory strategy\" and \"revenue forecasting\" and a tech stack that includes \"Salesforce\" and \"Salesloft\" [2][5]."
+    },
+    {
+     "text": "A \"Senior Revenue Operations Manager- Order To Cash\" posting went up on 2026-10-22 [3]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is revenue operations work on \"territory strategy\", \"revenue forecasting\", and the roadmap for the \"tech stack\" [2][5]."
+   },
+   "questions": [
+    "How is territory planning handled today across the field teams?",
+    "What does the forecasting process look like now, and who relies on it?",
+    "How do you expect the new revenue operations hire to work with the Salesforce setup?"
+   ],
+   "unknowns": [
+    "Whether the role is new or a backfill",
+    "Current state of the CRM data",
+    "Budget and timing for outside help",
+    "Who owns forecasting today"
+   ],
+   "first_touch": {
+    "subject": "Your Revenue Operations Manager opening",
+    "body": "Hi {first_name},\n\nI saw the \"Revenue Operations Manager\" posting that went up in November. It mentions \"territory strategy\" and \"revenue forecasting\" along with owning the roadmap for the tech stack.\n\nWe help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team would be the right person to talk with about that work?\n\n{sender_name}",
+    "cites": [
+     1,
+     2,
+     5
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "New Relic published a \"Revenue Operations Manager\" posting on 2026-11-16 [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "That posting mentions \"territory strategy\" and \"revenue forecasting\" and a tech stack that includes \"Salesforce\" and \"Salesloft\" [2][5].",
+     "cites": [
+      2,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Senior Revenue Operations Manager- Order To Cash\" posting went up on 2026-10-22 [3].",
+     "cites": [
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is revenue operations work on \"territory strategy\", \"revenue forecasting\", and the roadmap for the \"tech stack\" [2][5].",
+     "cites": [
+      2,
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How is territory planning handled today across the field teams?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What does the forecasting process look like now, and who relies on it?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do you expect the new revenue operations hire to work with the Salesforce setup?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the role is new or a backfill",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current state of the CRM data",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for outside help",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Who owns forecasting today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw the \"Revenue Operations Manager\" posting that went up in November. It mentions \"territory strategy\" and \"revenue forecasting\" along with owning the roadmap for the tech stack.\n\nWe help teams with CRM cleanup, pipeline reporting, forecasting, and territory planning. Who on your team would be the right person to talk with about that work?\n\n{sender_name}",
+     "cites": [
+      1,
+      2,
+      5
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.041167,
+ "ms": 13117
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Brex",
+ "split": "briefs",
+ "brief_model": "claude-opus",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "9f9c54aaa2e94333",
+ "input_hash": "32597b8c65ecb811",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:02:43+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 4012,
+    "input_tokens": 2,
+    "output_tokens": 398,
+    "cache_write_tokens": 19787,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.08321229999999999
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The Director, Revenue Operations posting is dated 2026-10-02 and the quoted responsibilities line matches the full text of source [4]."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The quote 'Extensive experience with Salesforce and other GTM systems' appears in the Director, Revenue Operations requirements, and source [6] is that same posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "Account Manager I is dated 2026-11-20 in [8] and Startup & VC Partnerships Manager is dated 2026-11-06 in [1], both matching the source lines."
+   },
+   "P": {
+    "verdict": "overreaches",
+    "reason": "A single Director posting listing forecasting and planning cadences shows a hire is open but does not support calling revenue operations leadership Brex's likely priority."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October posting date, the two quotes and the Salesforce requirement all match sources [4] and [6], and the new-seat-or-backfill question is an inference the postings don't contradict."
+   }
+  },
+  "verdict": "overreaches",
+  "needs_review": false
+ },
+ "cost_usd": 0.083212,
+ "ms": 4012
+}

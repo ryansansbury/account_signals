@@ -1,0 +1,350 @@
+{
+ "account": "Divergent Technologies",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "aae922f0ef3a21e9",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T05:00:21+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Divergent Technologies had 149 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Torrance, CA. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "s1ba90a5c9a",
+   "title": "Senior Loads and Dynamics Engineer",
+   "excerpt": "Senior Loads and Dynamics Engineer",
+   "posted": "2026-11-19",
+   "posting_id": "greenhouse:divergent:5481180008",
+   "family": "crm"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s0a9eceefe1",
+   "title": "Staff Business Intelligence Analyst (Finance)",
+   "excerpt": "Staff Business Intelligence Analyst (Finance)",
+   "posted": "2026-08-07",
+   "posting_id": "greenhouse:divergent:5382633008",
+   "family": "analytics"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s3bdbd4dedc",
+   "title": "Program Management Operations Specialist",
+   "excerpt": "Experience with work on the Jira platform (managing user access, maintaining workflows, developing dashboards and reports, troubleshooting technical issues, and ensuring Jira is aligned with organizational processes and operational needs).",
+   "posted": "2026-11-03",
+   "posting_id": "greenhouse:divergent:5468853008",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s2a1213415a",
+   "title": "Operations Analyst",
+   "excerpt": "Microsoft Fabric or equivalent lakehouse platforms (Databricks, Snowflake): navigation and data extraction .",
+   "posted": "2026-10-22",
+   "posting_id": "greenhouse:divergent:5459805008",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s638418f28c",
+   "title": "Staff Business Intelligence Analyst (Finance)",
+   "excerpt": "Knowledge of cloud data platforms (Azure, Snowflake, Fabric, etc.) .",
+   "posted": "2026-08-07",
+   "posting_id": "greenhouse:divergent:5382633008",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "scbb0909adc",
+   "title": "Commercial Bid and Quote Manager",
+   "excerpt": "Commercial Bid and Quote Manager",
+   "posted": "2026-11-03",
+   "posting_id": "greenhouse:divergent:5468946008",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"On 2026-11-20 the board listed 149 open roles [0].\"}, {\"text\": \"The postings published in the last 30 days are \\\"Senior Loads and Dynamics Engineer\\\" [1], \\\"Program Management Operations Specialist\\\" [3], \\\"Operations Analyst\\\" [4], and \\\"Commercial Bid and Quote Manager\\\" [6].\"}, {\"text\": \"The posting \\\"Program Management Operations Specialist\\\" [3] asks for experience with work on the \\\"Jira platform\\\", and the posting \\\"Operations Analyst\\\" lists \\\"Snowflake\\\" [4].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work that \\\"Commercial Bid and Quote Manager\\\" [6] describes, and the other cited postings describe engineering, program operations, and analysis work [1][2][3][4].\"}, \"questions\": [\"Which team owns the \\\"Commercial Bid and Quote Manager\\\" role?\", \"What work sits behind the \\\"Operations Analyst\\\" role?\", \"How does the team use Jira and Snowflake day to day?\"], \"unknowns\": [\"Which system the sales and quoting teams use today\", \"Whether the bid and quote role is a new hire or a backfill\", \"Whether the posted roles all belong to one team\"], \"first_touch\": {\"subject\": \"Quick question about your open roles\", \"body\": \"Hi {first_name},\\n\\nI noticed a few postings on your job board recently. \\\"Commercial Bid and Quote Manager\\\" went up in November, and \\\"Program Management Operations Specialist\\\" asked for experience with work on the \\\"Jira platform\\\" in the same month. Your \\\"Operations Analyst\\\" posting mentions \\\"navigation and data extraction\\\" on platforms that include Snowflake, and it went up in October.\\n\\nIs the bid and quote work handled by your sales team or by a separate group?\\n\\n{sender_name}\", \"cites\": [3, 4, 6]}}",
+   "meta": {
+    "ms": 36993,
+    "input_tokens": 2,
+    "output_tokens": 8667,
+    "cache_write_tokens": 5423,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.005433759999999999
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "On 2026-11-20 the board listed 149 open roles [0]."
+     },
+     {
+      "text": "The postings published in the last 30 days are \"Senior Loads and Dynamics Engineer\" [1], \"Program Management Operations Specialist\" [3], \"Operations Analyst\" [4], and \"Commercial Bid and Quote Manager\" [6]."
+     },
+     {
+      "text": "The posting \"Program Management Operations Specialist\" [3] asks for experience with work on the \"Jira platform\", and the posting \"Operations Analyst\" lists \"Snowflake\" [4]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work that \"Commercial Bid and Quote Manager\" [6] describes, and the other cited postings describe engineering, program operations, and analysis work [1][2][3][4]."
+    },
+    "questions": [
+     "Which team owns the \"Commercial Bid and Quote Manager\" role?",
+     "What work sits behind the \"Operations Analyst\" role?",
+     "How does the team use Jira and Snowflake day to day?"
+    ],
+    "unknowns": [
+     "Which system the sales and quoting teams use today",
+     "Whether the bid and quote role is a new hire or a backfill",
+     "Whether the posted roles all belong to one team"
+    ],
+    "first_touch": {
+     "subject": "Quick question about your open roles",
+     "body": "Hi {first_name},\n\nI noticed a few postings on your job board recently. \"Commercial Bid and Quote Manager\" went up in November, and \"Program Management Operations Specialist\" asked for experience with work on the \"Jira platform\" in the same month. Your \"Operations Analyst\" posting mentions \"navigation and data extraction\" on platforms that include Snowflake, and it went up in October.\n\nIs the bid and quote work handled by your sales team or by a separate group?\n\n{sender_name}",
+     "cites": [
+      3,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "On 2026-11-20 the board listed 149 open roles [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The postings published in the last 30 days are \"Senior Loads and Dynamics Engineer\" [1], \"Program Management Operations Specialist\" [3], \"Operations Analyst\" [4], and \"Commercial Bid and Quote Manager\" [6].",
+      "cites": [
+       1,
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The posting \"Program Management Operations Specialist\" [3] asks for experience with work on the \"Jira platform\", and the posting \"Operations Analyst\" lists \"Snowflake\" [4].",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work that \"Commercial Bid and Quote Manager\" [6] describes, and the other cited postings describe engineering, program operations, and analysis work [1][2][3][4].",
+      "cites": [
+       6,
+       1,
+       2,
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns the \"Commercial Bid and Quote Manager\" role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "What work sits behind the \"Operations Analyst\" role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the team use Jira and Snowflake day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which system the sales and quoting teams use today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the bid and quote role is a new hire or a backfill",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the posted roles all belong to one team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed a few postings on your job board recently. \"Commercial Bid and Quote Manager\" went up in November, and \"Program Management Operations Specialist\" asked for experience with work on the \"Jira platform\" in the same month. Your \"Operations Analyst\" posting mentions \"navigation and data extraction\" on platforms that include Snowflake, and it went up in October.\n\nIs the bid and quote work handled by your sales team or by a separate group?\n\n{sender_name}",
+      "cites": [
+       3,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "On 2026-11-20 the board listed 149 open roles [0]."
+    },
+    {
+     "text": "The postings published in the last 30 days are \"Senior Loads and Dynamics Engineer\" [1], \"Program Management Operations Specialist\" [3], \"Operations Analyst\" [4], and \"Commercial Bid and Quote Manager\" [6]."
+    },
+    {
+     "text": "The posting \"Program Management Operations Specialist\" [3] asks for experience with work on the \"Jira platform\", and the posting \"Operations Analyst\" lists \"Snowflake\" [4]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the revenue work that \"Commercial Bid and Quote Manager\" [6] describes, and the other cited postings describe engineering, program operations, and analysis work [1][2][3][4]."
+   },
+   "questions": [
+    "Which team owns the \"Commercial Bid and Quote Manager\" role?",
+    "What work sits behind the \"Operations Analyst\" role?",
+    "How does the team use Jira and Snowflake day to day?"
+   ],
+   "unknowns": [
+    "Which system the sales and quoting teams use today",
+    "Whether the bid and quote role is a new hire or a backfill",
+    "Whether the posted roles all belong to one team"
+   ],
+   "first_touch": {
+    "subject": "Quick question about your open roles",
+    "body": "Hi {first_name},\n\nI noticed a few postings on your job board recently. \"Commercial Bid and Quote Manager\" went up in November, and \"Program Management Operations Specialist\" asked for experience with work on the \"Jira platform\" in the same month. Your \"Operations Analyst\" posting mentions \"navigation and data extraction\" on platforms that include Snowflake, and it went up in October.\n\nIs the bid and quote work handled by your sales team or by a separate group?\n\n{sender_name}",
+    "cites": [
+     3,
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "On 2026-11-20 the board listed 149 open roles [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The postings published in the last 30 days are \"Senior Loads and Dynamics Engineer\" [1], \"Program Management Operations Specialist\" [3], \"Operations Analyst\" [4], and \"Commercial Bid and Quote Manager\" [6].",
+     "cites": [
+      1,
+      3,
+      4,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The posting \"Program Management Operations Specialist\" [3] asks for experience with work on the \"Jira platform\", and the posting \"Operations Analyst\" lists \"Snowflake\" [4].",
+     "cites": [
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the revenue work that \"Commercial Bid and Quote Manager\" [6] describes, and the other cited postings describe engineering, program operations, and analysis work [1][2][3][4].",
+     "cites": [
+      6,
+      1,
+      2,
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team owns the \"Commercial Bid and Quote Manager\" role?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "What work sits behind the \"Operations Analyst\" role?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the team use Jira and Snowflake day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which system the sales and quoting teams use today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the bid and quote role is a new hire or a backfill",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the posted roles all belong to one team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed a few postings on your job board recently. \"Commercial Bid and Quote Manager\" went up in November, and \"Program Management Operations Specialist\" asked for experience with work on the \"Jira platform\" in the same month. Your \"Operations Analyst\" posting mentions \"navigation and data extraction\" on platforms that include Snowflake, and it went up in October.\n\nIs the bid and quote work handled by your sales team or by a separate group?\n\n{sender_name}",
+     "cites": [
+      3,
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.005434,
+ "ms": 36993
+}

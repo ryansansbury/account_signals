@@ -1,0 +1,61 @@
+{
+ "account": "New Relic",
+ "split": "briefs",
+ "brief_model": "claude-haiku",
+ "judge": "claude-sonnet",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "60253b62eaa4723c",
+ "input_hash": "9fbbb1761d1d2a88",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Sonnet 5.5",
+ "recorded_at": "2026-11-21T05:05:39+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 6920,
+    "input_tokens": 2,
+    "output_tokens": 1009,
+    "cache_write_tokens": 19175,
+    "cache_read_tokens": 803,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0868743
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "Both revenue operations postings are dated 2026-11-16 and 2026-10-22, which is 4 and 29 days before the 2026-11-20 read date, so both fall inside 30 days."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The titles and dates match the source lines for [1] and [3]."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The titles and dates for [7] (2026-11-13) and [8] (2026-10-30) match their source lines."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The quoted phrases \"revenue forecasting\", \"territory strategy\" and \"defining our data governance\" appear in the Revenue Operations Manager posting, and a priority on that work is a fair inference."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The posting was published 2026-11-16, and it names revenue forecasting, territory strategy and owning the tech stack roadmap, all in cited sources."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.086874,
+ "ms": 6920
+}

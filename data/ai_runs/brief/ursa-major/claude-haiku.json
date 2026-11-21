@@ -1,0 +1,457 @@
+{
+ "account": "Ursa Major",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "dev",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "86fb4bc2dbebeeb3",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:07:22+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was Berthoud, CO. The US held 100% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "se216ee8a41",
+   "title": "Loads and Dynamics Analyst, II",
+   "excerpt": "Loads and Dynamics Analyst, II",
+   "posted": "2026-10-07",
+   "posting_id": "greenhouse:ursamajor:4741621005",
+   "family": "crm"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "s64186e5785",
+   "title": "Staff Loads & Dynamics Analysis Engineer",
+   "excerpt": "Staff Loads & Dynamics Analysis Engineer",
+   "posted": "2026-08-05",
+   "posting_id": "greenhouse:ursamajor:4721764005",
+   "family": "crm"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s7e96daa0b8",
+   "title": "Director, Enterprise Systems & Software",
+   "excerpt": "Demonstrated experience overseeing enterprise platforms across PLM (PTC Windchill), ERP (Odoo, SAP, NetSuite), MES (Critical Manufacturing, Apriso), and domain-specific tools (HighQA, Jama, Ignition).",
+   "posted": "2026-10-23",
+   "posting_id": "greenhouse:ursamajor:4746840005",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s93d08ddc99",
+   "title": "Production Controller",
+   "excerpt": "Proficiency with spreadsheets (Excel or Google Sheets) for capacity, scheduling, and simple reporting.",
+   "posted": "2026-08-06",
+   "posting_id": "greenhouse:ursamajor:4722089005",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "sfe25591fff",
+   "title": "Production Controller",
+   "excerpt": "Proficiency with spreadsheets (Excel or Google Sheets) for capacity, scheduling, and simple reporting.",
+   "posted": "2026-08-06",
+   "posting_id": "greenhouse:ursamajor:4722089005",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s1d0bf044bb",
+   "title": "Business Development Specialist",
+   "excerpt": "Business Development Specialist",
+   "posted": "2026-10-20",
+   "posting_id": "greenhouse:ursamajor:4745710005",
+   "family": "pace"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "scbf4f2e02f",
+   "title": "Business Development Representative II",
+   "excerpt": "Business Development Representative II",
+   "posted": "2026-10-20",
+   "posting_id": "greenhouse:ursamajor:4745717005",
+   "family": "pace"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "sd70fee7065",
+   "title": "2027 Summer Marketing & Communications Intern",
+   "excerpt": "2027 Summer Marketing & Communications Intern",
+   "posted": "2026-10-19",
+   "posting_id": "greenhouse:ursamajor:4744833005",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Business development postings titled \\\"Business Development Specialist\\\" and \\\"Business Development Representative II\\\" were published 31 days before the read date [6][7].\"}], \"priority\": {\"text\": \"The business development postings point to selling as the likely priority, based on their titles alone [6][7].\"}, \"questions\": [\"Which team owns hiring for the two business development roles and what does each one sell?\", \"Are these business development roles new headcount or backfills?\", \"Which tools does the sales team use to track pipeline and forecasts today?\"], \"unknowns\": [\"What the two business development roles actually do day to day\", \"Whether the \\\"Loads and Dynamics Analyst\\\" roles touch any sales systems\", \"Which tools the sales team uses for pipeline and forecasts\"], \"first_touch\": {\"subject\": \"Quick question on your business development roles\", \"body\": \"Hi {first_name},\\n\\nI saw that Ursa Major posted two business development roles in October. The titles are \\\"Business Development Specialist\\\" and \\\"Business Development Representative II.\\\"\\n\\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\\n\\n{sender_name}\", \"cites\": [6, 7]}}",
+   "meta": {
+    "ms": 28955,
+    "input_tokens": 2,
+    "output_tokens": 6106,
+    "cache_write_tokens": 5503,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00416926
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Business development postings titled \"Business Development Specialist\" and \"Business Development Representative II\" were published 31 days before the read date [6][7]."
+     }
+    ],
+    "priority": {
+     "text": "The business development postings point to selling as the likely priority, based on their titles alone [6][7]."
+    },
+    "questions": [
+     "Which team owns hiring for the two business development roles and what does each one sell?",
+     "Are these business development roles new headcount or backfills?",
+     "Which tools does the sales team use to track pipeline and forecasts today?"
+    ],
+    "unknowns": [
+     "What the two business development roles actually do day to day",
+     "Whether the \"Loads and Dynamics Analyst\" roles touch any sales systems",
+     "Which tools the sales team uses for pipeline and forecasts"
+    ],
+    "first_touch": {
+     "subject": "Quick question on your business development roles",
+     "body": "Hi {first_name},\n\nI saw that Ursa Major posted two business development roles in October. The titles are \"Business Development Specialist\" and \"Business Development Representative II.\"\n\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\n\n{sender_name}",
+     "cites": [
+      6,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Business development postings titled \"Business Development Specialist\" and \"Business Development Representative II\" were published 31 days before the read date [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The business development postings point to selling as the likely priority, based on their titles alone [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": [
+       "writing: one comma that reads as a pause"
+      ]
+     },
+     {
+      "field": "question",
+      "text": "Which team owns hiring for the two business development roles and what does each one sell?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Are these business development roles new headcount or backfills?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which tools does the sales team use to track pipeline and forecasts today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "What the two business development roles actually do day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the \"Loads and Dynamics Analyst\" roles touch any sales systems",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools the sales team uses for pipeline and forecasts",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Ursa Major posted two business development roles in October. The titles are \"Business Development Specialist\" and \"Business Development Representative II.\"\n\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\n\n{sender_name}",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": false
+   }
+  },
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].\"}, {\"text\": \"Two business development postings were published 31 days before the read date [6][7].\"}], \"priority\": {\"text\": \"The two business development postings titled \\\"Business Development Specialist\\\" and \\\"Business Development Representative II\\\" point to selling as the likely priority [6][7].\"}, \"questions\": [\"Which team owns hiring for the two business development roles and what does each one sell?\", \"Are these business development roles new headcount or backfills?\", \"Which tools does the sales team use to track pipeline and forecasts today?\"], \"unknowns\": [\"What the two business development roles actually do day to day\", \"Whether the \\\"Loads and Dynamics Analyst, II\\\" role touches any sales systems\", \"Which tools the sales team uses for pipeline and forecasts\"], \"first_touch\": {\"subject\": \"Quick question on your business development roles\", \"body\": \"Hi {first_name},\\n\\nI saw that Ursa Major posted two business development roles in October. The titles are \\\"Business Development Specialist\\\" and \\\"Business Development Representative II.\\\"\\n\\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\\n\\n{sender_name}\", \"cites\": [6, 7]}}",
+   "meta": {
+    "ms": 12884,
+    "input_tokens": 2,
+    "output_tokens": 2844,
+    "cache_write_tokens": 6061,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00264986
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0]."
+     },
+     {
+      "text": "Two business development postings were published 31 days before the read date [6][7]."
+     }
+    ],
+    "priority": {
+     "text": "The two business development postings titled \"Business Development Specialist\" and \"Business Development Representative II\" point to selling as the likely priority [6][7]."
+    },
+    "questions": [
+     "Which team owns hiring for the two business development roles and what does each one sell?",
+     "Are these business development roles new headcount or backfills?",
+     "Which tools does the sales team use to track pipeline and forecasts today?"
+    ],
+    "unknowns": [
+     "What the two business development roles actually do day to day",
+     "Whether the \"Loads and Dynamics Analyst, II\" role touches any sales systems",
+     "Which tools the sales team uses for pipeline and forecasts"
+    ],
+    "first_touch": {
+     "subject": "Quick question on your business development roles",
+     "body": "Hi {first_name},\n\nI saw that Ursa Major posted two business development roles in October. The titles are \"Business Development Specialist\" and \"Business Development Representative II.\"\n\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\n\n{sender_name}",
+     "cites": [
+      6,
+      7
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].",
+      "cites": [
+       0
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "Two business development postings were published 31 days before the read date [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The two business development postings titled \"Business Development Specialist\" and \"Business Development Representative II\" point to selling as the likely priority [6][7].",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns hiring for the two business development roles and what does each one sell?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Are these business development roles new headcount or backfills?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which tools does the sales team use to track pipeline and forecasts today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "What the two business development roles actually do day to day",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the \"Loads and Dynamics Analyst, II\" role touches any sales systems",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which tools the sales team uses for pipeline and forecasts",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI saw that Ursa Major posted two business development roles in October. The titles are \"Business Development Specialist\" and \"Business Development Representative II.\"\n\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\n\n{sender_name}",
+      "cites": [
+       6,
+       7
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0]."
+    },
+    {
+     "text": "Two business development postings were published 31 days before the read date [6][7]."
+    }
+   ],
+   "priority": {
+    "text": "The two business development postings titled \"Business Development Specialist\" and \"Business Development Representative II\" point to selling as the likely priority [6][7]."
+   },
+   "questions": [
+    "Which team owns hiring for the two business development roles and what does each one sell?",
+    "Are these business development roles new headcount or backfills?",
+    "Which tools does the sales team use to track pipeline and forecasts today?"
+   ],
+   "unknowns": [
+    "What the two business development roles actually do day to day",
+    "Whether the \"Loads and Dynamics Analyst, II\" role touches any sales systems",
+    "Which tools the sales team uses for pipeline and forecasts"
+   ],
+   "first_touch": {
+    "subject": "Quick question on your business development roles",
+    "body": "Hi {first_name},\n\nI saw that Ursa Major posted two business development roles in October. The titles are \"Business Development Specialist\" and \"Business Development Representative II.\"\n\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\n\n{sender_name}",
+    "cites": [
+     6,
+     7
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Ursa Major had 134 open roles on its public job board on 2026-11-20 [0].",
+     "cites": [
+      0
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "Two business development postings were published 31 days before the read date [6][7].",
+     "cites": [
+      6,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The two business development postings titled \"Business Development Specialist\" and \"Business Development Representative II\" point to selling as the likely priority [6][7].",
+     "cites": [
+      6,
+      7
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team owns hiring for the two business development roles and what does each one sell?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Are these business development roles new headcount or backfills?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which tools does the sales team use to track pipeline and forecasts today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "What the two business development roles actually do day to day",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the \"Loads and Dynamics Analyst, II\" role touches any sales systems",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which tools the sales team uses for pipeline and forecasts",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI saw that Ursa Major posted two business development roles in October. The titles are \"Business Development Specialist\" and \"Business Development Representative II.\"\n\nOur team helps sales teams with pipeline reporting, forecasting, and territory planning. Who on your side would be the right person to ask about how new sales hires get set up?\n\n{sender_name}",
+     "cites": [
+      6,
+      7
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": true,
+  "needs_review": false
+ },
+ "cost_usd": 0.006819,
+ "ms": 41839
+}

@@ -1,0 +1,61 @@
+{
+ "account": "Netradyne",
+ "split": "briefs",
+ "brief_model": "claude-sonnet",
+ "judge": "claude-opus",
+ "kind": null,
+ "part": null,
+ "judge_prompt_hash": "aa532d4fc916d55e",
+ "brief_prompt_hash": "512983c0f5880795",
+ "brief_input_hash": "0e2d5680f0334a1c",
+ "input_hash": "5119c1806b0e3c88",
+ "read_on": "2026-11-20",
+ "judge_label": "Claude Opus 5.5",
+ "recorded_at": "2026-11-21T05:05:35+00:00",
+ "attempts": [
+  {
+   "meta": {
+    "ms": 8847,
+    "input_tokens": 2,
+    "output_tokens": 571,
+    "cache_write_tokens": 27383,
+    "cache_read_tokens": 803,
+    "model": "claude-opus-5-5",
+    "models": [
+     "claude-opus-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.2306526
+   },
+   "errors": []
+  }
+ ],
+ "final": {
+  "parts": {
+   "W1": {
+    "verdict": "holds up",
+    "reason": "The deal desk posting is dated 2026-11-09, which is 11 days before the 2026-11-20 read date."
+   },
+   "W2": {
+    "verdict": "holds up",
+    "reason": "The title, the 2026-10-09 date and the Salesforce quote all match the revenue operations posting."
+   },
+   "W3": {
+    "verdict": "holds up",
+    "reason": "The UK and Ireland head of sales posting is dated 2026-09-08 and contains the forecasting and pipeline quote."
+   },
+   "P": {
+    "verdict": "holds up",
+    "reason": "The forecasting ownership, scalable Salesforce account and contact processes, and deal desk hiring are each stated in the cited postings, so the priority is a fair reading."
+   },
+   "E": {
+    "verdict": "holds up",
+    "reason": "The October revenue operations role, the November deal desk role and the September UK and Ireland role's forecasting mention all match the cited postings."
+   }
+  },
+  "verdict": "holds up",
+  "needs_review": false
+ },
+ "cost_usd": 0.230653,
+ "ms": 8847
+}

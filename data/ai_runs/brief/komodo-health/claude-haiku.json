@@ -1,0 +1,340 @@
+{
+ "account": "Komodo Health",
+ "model": "claude-haiku",
+ "label": "Claude Haiku 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "83f81013c3dbf4af",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T05:01:02+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Komodo Health had 19 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 79% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "sdfbe1ae02e",
+   "title": "Web & GTM Engineer",
+   "excerpt": "Web & GTM Engineer",
+   "posted": "2026-11-06",
+   "posting_id": "greenhouse:komodohealth:8933245002",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sca88841a51",
+   "title": "Senior Salesforce Consultant (Patient Services)",
+   "excerpt": "Senior Salesforce Consultant (Patient Services)",
+   "posted": "2026-06-09",
+   "posting_id": "greenhouse:komodohealth:8570084002",
+   "family": "crm"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s224b871e7a",
+   "title": "Account Executive - AVP, Sales (Tech Partnerships)",
+   "excerpt": "Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy.",
+   "posted": "2026-02-13",
+   "posting_id": "greenhouse:komodohealth:8422588002",
+   "family": "stack"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s3c853cecf3",
+   "title": "Sales Development Representative",
+   "excerpt": "Experience with Salesforce, Salesloft, and/or Qualified.io..",
+   "posted": "2026-10-09",
+   "posting_id": "greenhouse:komodohealth:8880020002",
+   "family": "stack"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s6a4f536d1b",
+   "title": "Sales Development Representative",
+   "excerpt": "Experience with Salesforce, Salesloft, and/or Qualified.io..",
+   "posted": "2026-10-09",
+   "posting_id": "greenhouse:komodohealth:8880020002",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "sf656d046a3",
+   "title": "Business Operations Manager, Revenue",
+   "excerpt": "Business Operations Manager, Revenue",
+   "posted": "2026-11-20",
+   "posting_id": "greenhouse:komodohealth:8950363002",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Komodo Health had 19 open roles on its job board on 2026-11-20 [0], and it posted the \\\"Business Operations Manager, Revenue\\\" role on 2026-11-20 [6].\"}, {\"text\": \"A \\\"Sales Development Representative\\\" posting went up 42 days before the read date and asks for \\\"Experience with Salesforce, Salesloft, and/or Qualified.io\\\" [4].\"}, {\"text\": \"The \\\"Senior Salesforce Consultant (Patient Services)\\\" posting went up on 2026-06-09 [2], and the \\\"Account Executive - AVP, Sales (Tech Partnerships)\\\" posting went up on 2026-02-13 [3].\"}], \"priority\": {\"text\": \"The likely priority is the revenue work these postings describe through lines like \\\"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\\\" [3] and \\\"Experience with Salesforce, Salesloft, and/or Qualified.io\\\" [4].\"}, \"questions\": [\"Which team owns the revenue work that the \\\"Business Operations Manager, Revenue\\\" role would support?\", \"How does the sales development team use Salesforce day to day?\", \"Who handles Salesforce configuration work today?\"], \"unknowns\": [\"Team size and budget for revenue work\", \"Which sales tools the team uses today\", \"Whether the Patient Services Salesforce role sits in sales\"], \"first_touch\": {\"subject\": \"Quick question on your sales roles\", \"body\": \"Hi {first_name},\\n\\nI noticed Komodo Health is hiring for revenue roles. The \\\"Business Operations Manager, Revenue\\\" posting went up in November, and the \\\"Sales Development Representative\\\" posting asks for \\\"Experience with Salesforce, Salesloft, and/or Qualified.io\\\".\\n\\nIs that work handled by one team or spread across several?\\n\\n{sender_name}\", \"cites\": [0, 4, 6]}}",
+   "meta": {
+    "ms": 40234,
+    "input_tokens": 2,
+    "output_tokens": 9297,
+    "cache_write_tokens": 5356,
+    "cache_read_tokens": 1546,
+    "model": "claude-haiku-5-5",
+    "models": [
+     "claude-haiku-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.00573536
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Komodo Health had 19 open roles on its job board on 2026-11-20 [0], and it posted the \"Business Operations Manager, Revenue\" role on 2026-11-20 [6]."
+     },
+     {
+      "text": "A \"Sales Development Representative\" posting went up 42 days before the read date and asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4]."
+     },
+     {
+      "text": "The \"Senior Salesforce Consultant (Patient Services)\" posting went up on 2026-06-09 [2], and the \"Account Executive - AVP, Sales (Tech Partnerships)\" posting went up on 2026-02-13 [3]."
+     }
+    ],
+    "priority": {
+     "text": "The likely priority is the revenue work these postings describe through lines like \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3] and \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4]."
+    },
+    "questions": [
+     "Which team owns the revenue work that the \"Business Operations Manager, Revenue\" role would support?",
+     "How does the sales development team use Salesforce day to day?",
+     "Who handles Salesforce configuration work today?"
+    ],
+    "unknowns": [
+     "Team size and budget for revenue work",
+     "Which sales tools the team uses today",
+     "Whether the Patient Services Salesforce role sits in sales"
+    ],
+    "first_touch": {
+     "subject": "Quick question on your sales roles",
+     "body": "Hi {first_name},\n\nI noticed Komodo Health is hiring for revenue roles. The \"Business Operations Manager, Revenue\" posting went up in November, and the \"Sales Development Representative\" posting asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\".\n\nIs that work handled by one team or spread across several?\n\n{sender_name}",
+     "cites": [
+      0,
+      4,
+      6
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Komodo Health had 19 open roles on its job board on 2026-11-20 [0], and it posted the \"Business Operations Manager, Revenue\" role on 2026-11-20 [6].",
+      "cites": [
+       0,
+       6
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Sales Development Representative\" posting went up 42 days before the read date and asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4].",
+      "cites": [
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "The \"Senior Salesforce Consultant (Patient Services)\" posting went up on 2026-06-09 [2], and the \"Account Executive - AVP, Sales (Tech Partnerships)\" posting went up on 2026-02-13 [3].",
+      "cites": [
+       2,
+       3
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "The likely priority is the revenue work these postings describe through lines like \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3] and \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4].",
+      "cites": [
+       3,
+       4
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which team owns the revenue work that the \"Business Operations Manager, Revenue\" role would support?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How does the sales development team use Salesforce day to day?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who handles Salesforce configuration work today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Team size and budget for revenue work",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Which sales tools the team uses today",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether the Patient Services Salesforce role sits in sales",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI noticed Komodo Health is hiring for revenue roles. The \"Business Operations Manager, Revenue\" posting went up in November, and the \"Sales Development Representative\" posting asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\".\n\nIs that work handled by one team or spread across several?\n\n{sender_name}",
+      "cites": [
+       0,
+       4,
+       6
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Komodo Health had 19 open roles on its job board on 2026-11-20 [0], and it posted the \"Business Operations Manager, Revenue\" role on 2026-11-20 [6]."
+    },
+    {
+     "text": "A \"Sales Development Representative\" posting went up 42 days before the read date and asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4]."
+    },
+    {
+     "text": "The \"Senior Salesforce Consultant (Patient Services)\" posting went up on 2026-06-09 [2], and the \"Account Executive - AVP, Sales (Tech Partnerships)\" posting went up on 2026-02-13 [3]."
+    }
+   ],
+   "priority": {
+    "text": "The likely priority is the revenue work these postings describe through lines like \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3] and \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4]."
+   },
+   "questions": [
+    "Which team owns the revenue work that the \"Business Operations Manager, Revenue\" role would support?",
+    "How does the sales development team use Salesforce day to day?",
+    "Who handles Salesforce configuration work today?"
+   ],
+   "unknowns": [
+    "Team size and budget for revenue work",
+    "Which sales tools the team uses today",
+    "Whether the Patient Services Salesforce role sits in sales"
+   ],
+   "first_touch": {
+    "subject": "Quick question on your sales roles",
+    "body": "Hi {first_name},\n\nI noticed Komodo Health is hiring for revenue roles. The \"Business Operations Manager, Revenue\" posting went up in November, and the \"Sales Development Representative\" posting asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\".\n\nIs that work handled by one team or spread across several?\n\n{sender_name}",
+    "cites": [
+     0,
+     4,
+     6
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Komodo Health had 19 open roles on its job board on 2026-11-20 [0], and it posted the \"Business Operations Manager, Revenue\" role on 2026-11-20 [6].",
+     "cites": [
+      0,
+      6
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Sales Development Representative\" posting went up 42 days before the read date and asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4].",
+     "cites": [
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "The \"Senior Salesforce Consultant (Patient Services)\" posting went up on 2026-06-09 [2], and the \"Account Executive - AVP, Sales (Tech Partnerships)\" posting went up on 2026-02-13 [3].",
+     "cites": [
+      2,
+      3
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "The likely priority is the revenue work these postings describe through lines like \"Enter sales, pipeline, and deal activity/details into Salesforce on a timely manner with high accuracy\" [3] and \"Experience with Salesforce, Salesloft, and/or Qualified.io\" [4].",
+     "cites": [
+      3,
+      4
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which team owns the revenue work that the \"Business Operations Manager, Revenue\" role would support?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How does the sales development team use Salesforce day to day?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who handles Salesforce configuration work today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Team size and budget for revenue work",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Which sales tools the team uses today",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether the Patient Services Salesforce role sits in sales",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI noticed Komodo Health is hiring for revenue roles. The \"Business Operations Manager, Revenue\" posting went up in November, and the \"Sales Development Representative\" posting asks for \"Experience with Salesforce, Salesloft, and/or Qualified.io\".\n\nIs that work handled by one team or spread across several?\n\n{sender_name}",
+     "cites": [
+      0,
+      4,
+      6
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.005735,
+ "ms": 40234
+}

@@ -1,0 +1,382 @@
+{
+ "account": "Lyra Health",
+ "model": "claude-sonnet",
+ "label": "Claude Sonnet 5.5",
+ "split": "briefs",
+ "prompt_hash": "512983c0f5880795",
+ "input_hash": "329c1380684db07f",
+ "read_on": "2026-11-20",
+ "recorded_at": "2026-11-21T04:39:05+00:00",
+ "sources": {
+  "0": {
+   "kind": "board",
+   "text": "Lyra Health had 453 open roles on its public job board on 2026-11-20. The US city with the most of its open roles was New York, NY. The US held 87% of the roles that named a place.",
+   "posted": ""
+  },
+  "1": {
+   "kind": "signal",
+   "sid": "saa7cbc7749",
+   "title": "GTM Strategy and Operations Manager",
+   "excerpt": "GTM Strategy and Operations Manager",
+   "posted": "2026-11-13",
+   "posting_id": "lever:lyrahealth:6c499eef-4b2a-474e-b848-abeed767ded2",
+   "family": "revops"
+  },
+  "2": {
+   "kind": "signal",
+   "sid": "sac08e9761c",
+   "title": "GTM Strategy and Operations Manager",
+   "excerpt": "Collaborate with Systems teams to evaluate, test, and implement CRM (Salesforce) and tooling enhancements that improve pipeline tracking and operational visibility.",
+   "posted": "2026-11-13",
+   "posting_id": "lever:lyrahealth:6c499eef-4b2a-474e-b848-abeed767ded2",
+   "family": "crm_move"
+  },
+  "3": {
+   "kind": "signal",
+   "sid": "s47e68f3d8a",
+   "title": "Salesforce Developer",
+   "excerpt": "Salesforce Developer",
+   "posted": "2026-04-02",
+   "posting_id": "lever:lyrahealth:2263d6d2-3269-45b0-b18e-456db9bf4e60",
+   "family": "crm"
+  },
+  "4": {
+   "kind": "signal",
+   "sid": "s562b45e61f",
+   "title": "Analytics Engineer",
+   "excerpt": "Analytics Engineer",
+   "posted": "2026-04-23",
+   "posting_id": "lever:lyrahealth:d976452a-4242-41a7-b401-490ccc64a05e",
+   "family": "analytics"
+  },
+  "5": {
+   "kind": "signal",
+   "sid": "s023378f175",
+   "title": "Sr. Planning & Operations Associate (Employer Solutions)",
+   "excerpt": "Familiarity with leading sales and marketing tools and tech stack (including Salesforce, Outreach, Zoominfo, etc).",
+   "posted": "2026-09-15",
+   "posting_id": "lever:lyrahealth:e292ef0b-d056-4319-a865-0a42df815899",
+   "family": "stack"
+  },
+  "6": {
+   "kind": "signal",
+   "sid": "s0974ca762c",
+   "title": "Global Pricing Operations Senior Associate",
+   "excerpt": "Experience with forecasting, data analysis, and developing financial models to support business decisions, with advanced proficiency in Excel/Google Sheets.",
+   "posted": "2026-09-04",
+   "posting_id": "lever:lyrahealth:2030b0c1-5896-4347-b622-050c28aba5fd",
+   "family": "stack"
+  },
+  "7": {
+   "kind": "signal",
+   "sid": "s0ac8693318",
+   "title": "Sales Director - Mid-Market (South East)",
+   "excerpt": "Business Acumen: Strong pipeline management discipline and forecasting accuracy within Salesforce.",
+   "posted": "2026-11-21",
+   "posting_id": "lever:lyrahealth:401b3fff-8025-4884-8b64-6e25e3560d2e",
+   "family": "stack"
+  },
+  "8": {
+   "kind": "signal",
+   "sid": "s2253e7f254",
+   "title": "Commercial Manager - Europe",
+   "excerpt": "Commercial Manager - Europe",
+   "posted": "2026-11-16",
+   "posting_id": "lever:lyrahealth:698e0cf4-9472-4f10-beb0-fb5549409709",
+   "family": "pace"
+  },
+  "9": {
+   "kind": "signal",
+   "sid": "s899b9e0f38",
+   "title": "Channel Partnerships Manager",
+   "excerpt": "Channel Partnerships Manager",
+   "posted": "2026-11-03",
+   "posting_id": "lever:lyrahealth:818b2687-5d99-44f1-9d81-8bae8dc65c53",
+   "family": "pace"
+  },
+  "10": {
+   "kind": "signal",
+   "sid": "saf59c28859",
+   "title": "Engagement Marketing Lead",
+   "excerpt": "Engagement Marketing Lead",
+   "posted": "2026-11-03",
+   "posting_id": "lever:lyrahealth:87026dd3-68d6-4ad7-9857-5f13d9f6294a",
+   "family": "pace"
+  }
+ },
+ "attempts": [
+  {
+   "reply": "{\"why_now\": [{\"text\": \"Lyra Health published a \\\"GTM Strategy and Operations Manager\\\" posting on 2026-11-13 [1].\"}, {\"text\": \"That posting describes work to \\\"implement CRM (Salesforce) and tooling enhancements\\\" that \\\"improve pipeline tracking and operational visibility\\\" [2].\"}, {\"text\": \"A \\\"Sr. Planning & Operations Associate (Employer Solutions)\\\" posting from 2026-09-15 asks for familiarity with Salesforce, Outreach, and Zoominfo [5].\"}], \"priority\": {\"text\": \"Lyra Health's likely priority is CRM (Salesforce) and tooling work to \\\"improve pipeline tracking and operational visibility\\\" [1][2].\"}, \"questions\": [\"Who owns the Salesforce and tooling changes described in the \\\"GTM Strategy and Operations Manager\\\" role?\", \"How do the Systems teams and the go-to-market teams work together on CRM changes today?\", \"Which pipeline views would you most like leaders to see more clearly once those changes are in place?\"], \"unknowns\": [\"Size of the revenue operations team\", \"Budget and timing for the CRM changes\", \"Whether outside help is being considered\", \"Current Salesforce setup and reporting\"], \"first_touch\": {\"subject\": \"Salesforce work at Lyra Health\", \"body\": \"Hi {first_name},\\n\\nI read the \\\"GTM Strategy and Operations Manager\\\" posting that went up in November. It mentions working with Systems teams on CRM (Salesforce) and tooling enhancements for pipeline tracking and operational visibility.\\n\\nMy company helps with CRM cleanup, pipeline reporting, and forecasting. The posting caught my eye. Who would be the right person to talk with about that work?\\n\\n{sender_name}\", \"cites\": [1, 2]}}",
+   "meta": {
+    "ms": 22369,
+    "input_tokens": 2,
+    "output_tokens": 3039,
+    "cache_write_tokens": 5589,
+    "cache_read_tokens": 1546,
+    "model": "claude-sonnet-5-5",
+    "models": [
+     "claude-sonnet-5-5"
+    ],
+    "stop_reason": "end_turn",
+    "cost_usd": 0.0529046
+   },
+   "shape_errors": [],
+   "brief": {
+    "why_now": [
+     {
+      "text": "Lyra Health published a \"GTM Strategy and Operations Manager\" posting on 2026-11-13 [1]."
+     },
+     {
+      "text": "That posting describes work to \"implement CRM (Salesforce) and tooling enhancements\" that \"improve pipeline tracking and operational visibility\" [2]."
+     },
+     {
+      "text": "A \"Sr. Planning & Operations Associate (Employer Solutions)\" posting from 2026-09-15 asks for familiarity with Salesforce, Outreach, and Zoominfo [5]."
+     }
+    ],
+    "priority": {
+     "text": "Lyra Health's likely priority is CRM (Salesforce) and tooling work to \"improve pipeline tracking and operational visibility\" [1][2]."
+    },
+    "questions": [
+     "Who owns the Salesforce and tooling changes described in the \"GTM Strategy and Operations Manager\" role?",
+     "How do the Systems teams and the go-to-market teams work together on CRM changes today?",
+     "Which pipeline views would you most like leaders to see more clearly once those changes are in place?"
+    ],
+    "unknowns": [
+     "Size of the revenue operations team",
+     "Budget and timing for the CRM changes",
+     "Whether outside help is being considered",
+     "Current Salesforce setup and reporting"
+    ],
+    "first_touch": {
+     "subject": "Salesforce work at Lyra Health",
+     "body": "Hi {first_name},\n\nI read the \"GTM Strategy and Operations Manager\" posting that went up in November. It mentions working with Systems teams on CRM (Salesforce) and tooling enhancements for pipeline tracking and operational visibility.\n\nMy company helps with CRM cleanup, pipeline reporting, and forecasting. The posting caught my eye. Who would be the right person to talk with about that work?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ]
+    }
+   },
+   "check": {
+    "sentences": [
+     {
+      "field": "why_now",
+      "text": "Lyra Health published a \"GTM Strategy and Operations Manager\" posting on 2026-11-13 [1].",
+      "cites": [
+       1
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "That posting describes work to \"implement CRM (Salesforce) and tooling enhancements\" that \"improve pipeline tracking and operational visibility\" [2].",
+      "cites": [
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "why_now",
+      "text": "A \"Sr. Planning & Operations Associate (Employer Solutions)\" posting from 2026-09-15 asks for familiarity with Salesforce, Outreach, and Zoominfo [5].",
+      "cites": [
+       5
+      ],
+      "problems": []
+     },
+     {
+      "field": "priority",
+      "text": "Lyra Health's likely priority is CRM (Salesforce) and tooling work to \"improve pipeline tracking and operational visibility\" [1][2].",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Who owns the Salesforce and tooling changes described in the \"GTM Strategy and Operations Manager\" role?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "How do the Systems teams and the go-to-market teams work together on CRM changes today?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "question",
+      "text": "Which pipeline views would you most like leaders to see more clearly once those changes are in place?",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Size of the revenue operations team",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Budget and timing for the CRM changes",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Whether outside help is being considered",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "unknown",
+      "text": "Current Salesforce setup and reporting",
+      "cites": [],
+      "problems": []
+     },
+     {
+      "field": "first_touch",
+      "text": "Hi {first_name},\n\nI read the \"GTM Strategy and Operations Manager\" posting that went up in November. It mentions working with Systems teams on CRM (Salesforce) and tooling enhancements for pipeline tracking and operational visibility.\n\nMy company helps with CRM cleanup, pipeline reporting, and forecasting. The posting caught my eye. Who would be the right person to talk with about that work?\n\n{sender_name}",
+      "cites": [
+       1,
+       2
+      ],
+      "problems": []
+     }
+    ],
+    "problems": [],
+    "ok": true
+   }
+  }
+ ],
+ "final": {
+  "brief": {
+   "why_now": [
+    {
+     "text": "Lyra Health published a \"GTM Strategy and Operations Manager\" posting on 2026-11-13 [1]."
+    },
+    {
+     "text": "That posting describes work to \"implement CRM (Salesforce) and tooling enhancements\" that \"improve pipeline tracking and operational visibility\" [2]."
+    },
+    {
+     "text": "A \"Sr. Planning & Operations Associate (Employer Solutions)\" posting from 2026-09-15 asks for familiarity with Salesforce, Outreach, and Zoominfo [5]."
+    }
+   ],
+   "priority": {
+    "text": "Lyra Health's likely priority is CRM (Salesforce) and tooling work to \"improve pipeline tracking and operational visibility\" [1][2]."
+   },
+   "questions": [
+    "Who owns the Salesforce and tooling changes described in the \"GTM Strategy and Operations Manager\" role?",
+    "How do the Systems teams and the go-to-market teams work together on CRM changes today?",
+    "Which pipeline views would you most like leaders to see more clearly once those changes are in place?"
+   ],
+   "unknowns": [
+    "Size of the revenue operations team",
+    "Budget and timing for the CRM changes",
+    "Whether outside help is being considered",
+    "Current Salesforce setup and reporting"
+   ],
+   "first_touch": {
+    "subject": "Salesforce work at Lyra Health",
+    "body": "Hi {first_name},\n\nI read the \"GTM Strategy and Operations Manager\" posting that went up in November. It mentions working with Systems teams on CRM (Salesforce) and tooling enhancements for pipeline tracking and operational visibility.\n\nMy company helps with CRM cleanup, pipeline reporting, and forecasting. The posting caught my eye. Who would be the right person to talk with about that work?\n\n{sender_name}",
+    "cites": [
+     1,
+     2
+    ]
+   }
+  },
+  "check": {
+   "sentences": [
+    {
+     "field": "why_now",
+     "text": "Lyra Health published a \"GTM Strategy and Operations Manager\" posting on 2026-11-13 [1].",
+     "cites": [
+      1
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "That posting describes work to \"implement CRM (Salesforce) and tooling enhancements\" that \"improve pipeline tracking and operational visibility\" [2].",
+     "cites": [
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "why_now",
+     "text": "A \"Sr. Planning & Operations Associate (Employer Solutions)\" posting from 2026-09-15 asks for familiarity with Salesforce, Outreach, and Zoominfo [5].",
+     "cites": [
+      5
+     ],
+     "problems": []
+    },
+    {
+     "field": "priority",
+     "text": "Lyra Health's likely priority is CRM (Salesforce) and tooling work to \"improve pipeline tracking and operational visibility\" [1][2].",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Who owns the Salesforce and tooling changes described in the \"GTM Strategy and Operations Manager\" role?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "How do the Systems teams and the go-to-market teams work together on CRM changes today?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "question",
+     "text": "Which pipeline views would you most like leaders to see more clearly once those changes are in place?",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Size of the revenue operations team",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Budget and timing for the CRM changes",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Whether outside help is being considered",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "unknown",
+     "text": "Current Salesforce setup and reporting",
+     "cites": [],
+     "problems": []
+    },
+    {
+     "field": "first_touch",
+     "text": "Hi {first_name},\n\nI read the \"GTM Strategy and Operations Manager\" posting that went up in November. It mentions working with Systems teams on CRM (Salesforce) and tooling enhancements for pipeline tracking and operational visibility.\n\nMy company helps with CRM cleanup, pipeline reporting, and forecasting. The posting caught my eye. Who would be the right person to talk with about that work?\n\n{sender_name}",
+     "cites": [
+      1,
+      2
+     ],
+     "problems": []
+    }
+   ],
+   "problems": [],
+   "ok": true
+  },
+  "repaired": false,
+  "needs_review": false
+ },
+ "cost_usd": 0.052905,
+ "ms": 22369
+}
